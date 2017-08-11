@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2002 AMC 12B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2002 AMC 12B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The arithmetic mean of the nine numbers in the set \( \{9, 99, 999, 9999, \ldots, 999999999\} \) is a \( 9 \)-digit number \( M \), all of whose digits are distinct. The number \( M \) does not contain the digit </p><p>\( \mathrm{(A)}\ 0 \qquad\mathrm{(B)}\ 2 \qquad\mathrm{(C)}\ 4 \qquad\mathrm{(D)}\ 6 \qquad\mathrm{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_1" title="2002 AMC 12B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>What is the value of \[(3x - 2)(4x + 1) - (3x - 2)4x + 1\] </p><p>when \( x=4 \)? </p><p>\( \mathrm{(A)}\ 0 \qquad\mathrm{(B)}\ 1 \qquad\mathrm{(C)}\ 10 \qquad\mathrm{(D)}\ 11 \qquad\mathrm{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_2" title="2002 AMC 12B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>For how many positive integers \( n \) is \( n^2 - 3n + 2 \) a prime number? </p><p>\( \mathrm{(A)}\ \text{none} \qquad\mathrm{(B)}\ \text{one} \qquad\mathrm{(C)}\ \text{two} \qquad\mathrm{(D)}\ \text{more\ than\ two,\ but\ finitely\ many} \qquad\mathrm{(E)}\ \text{infinitely\ many} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_3" title="2002 AMC 12B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Let \( n \) be a positive integer such that \( \frac 12 + \frac 13 + \frac 17 + \frac 1n \) is an integer. Which of the following statements is <b>not</b> true: </p><p>\( \mathrm{(A)}\ 2\ \text{divides\ }n \qquad\mathrm{(B)}\ 3\ \text{divides\ }n \qquad\mathrm{(C)}\ 6\ \text{divides\ }n \qquad\mathrm{(D)}\ 7\ \text{divides\ }n \qquad\mathrm{(E)}\ {n &gt; 84} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_4" title="2002 AMC 12B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Let \( v, w, x, y, \) and \( z \) be the degree measures of the five angles of a pentagon. Suppose that \( v &lt; w &lt; x &lt; y &lt; z \) and \( v, w, x, y, \) and \( z \) form an arithmetic sequence. Find the value of \( x \). </p><p>\( \mathrm{(A)}\ 72 \qquad\mathrm{(B)}\ 84 \qquad\mathrm{(C)}\ 90 \qquad\mathrm{(D)}\ 108 \qquad\mathrm{(E)}\ 120 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_5" title="2002 AMC 12B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Suppose that \( a \) and \( b \) are nonzero real numbers, and that the equation \( x^2 + ax + b = 0 \) has solutions \( a \) and \( b \). Then the pair \( (a,b) \) is </p><p>\( \mathrm{(A)}\ (-2,1) \qquad\mathrm{(B)}\ (-1,2) \qquad\mathrm{(C)}\ (1,-2) \qquad\mathrm{(D)}\ (2,-1) \qquad\mathrm{(E)}\ (4,4) \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_6" title="2002 AMC 12B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The product of three consecutive positive integers is \( 8 \) times their sum. What is the sum of their squares? </p><p>\( \mathrm{(A)}\ 50 \qquad\mathrm{(B)}\ 77 \qquad\mathrm{(C)}\ 110 \qquad\mathrm{(D)}\ 149 \qquad\mathrm{(E)}\ 194 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_7" title="2002 AMC 12B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Suppose July of year \( N \) has five Mondays. Which of the following must occur five times in August of year \( N \)? (Note: Both months have 31 days.) </p><p>\( \mathrm{(A)}\ \text{Monday} \qquad\mathrm{(B)}\ \text{Tuesday} \qquad\mathrm{(C)}\ \text{Wednesday} \qquad\mathrm{(D)}\ \text{Thursday} \qquad\mathrm{(E)}\ \text{Friday} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_8" title="2002 AMC 12B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>If \( a,b,c,d \) are positive real numbers such that \( a,b,c,d \) form an increasing arithmetic sequence and \( a,b,d \) form a geometric sequence, then \( \frac ad \) is </p><p>\( \mathrm{(A)}\ \frac 1{12} \qquad\mathrm{(B)}\ \frac 16 \qquad\mathrm{(C)}\ \frac 14 \qquad\mathrm{(D)}\ \frac 13 \qquad\mathrm{(E)}\ \frac 12 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_9" title="2002 AMC 12B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>How many different integers can be expressed as the sum of three distinct members of the set \( \{1,4,7,10,13,16,19\} \)? </p><p>\( \mathrm{(A)}\ 13 \qquad\mathrm{(B)}\ 16 \qquad\mathrm{(C)}\ 24 \qquad\mathrm{(D)}\ 30 \qquad\mathrm{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_10" title="2002 AMC 12B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The positive integers \( A, B, A-B, \) and \( A+B \) are all prime numbers. The sum of these four primes is </p><p>\( \mathrm{(A)}\ \mathrm{even} \qquad\mathrm{(B)}\ \mathrm{divisible\ by\ }3 \qquad\mathrm{(C)}\ \mathrm{divisible\ by\ }5 \qquad\mathrm{(D)}\ \mathrm{divisible\ by\ }7 \qquad\mathrm{(E)}\ \mathrm{prime} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_11" title="2002 AMC 12B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>For how many integers \( n \) is \( \dfrac n{20-n} \) the square of an integer? </p><p>\( \mathrm{(A)}\ 1 \qquad\mathrm{(B)}\ 2 \qquad\mathrm{(C)}\ 3 \qquad\mathrm{(D)}\ 4 \qquad\mathrm{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_12" title="2002 AMC 12B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The sum of \( 18 \) consecutive positive integers is a perfect square. The smallest possible value of this sum is </p><p>\( \mathrm{(A)}\ 169 \qquad\mathrm{(B)}\ 225 \qquad\mathrm{(C)}\ 289 \qquad\mathrm{(D)}\ 361 \qquad\mathrm{(E)}\ 441 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_13" title="2002 AMC 12B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Four distinct circles are drawn in a plane. What is the maximum number of points where at least two of the circles intersect? </p><p>\( \mathrm{(A)}\ 8 \qquad\mathrm{(B)}\ 9 \qquad\mathrm{(C)}\ 10 \qquad\mathrm{(D)}\ 12 \qquad\mathrm{(E)}\ 16 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_14" title="2002 AMC 12B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>How many four-digit numbers \( N \) have the property that the three-digit number obtained by removing the leftmost digit is one ninth of \( N \)? </p><p>\( \mathrm{(A)}\ 4 \qquad\mathrm{(B)}\ 5 \qquad\mathrm{(C)}\ 6 \qquad\mathrm{(D)}\ 7 \qquad\mathrm{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_15" title="2002 AMC 12B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Juan rolls a fair regular octahedral die marked with the numbers \( 1 \) through \( 8 \). Then Amal rolls a fair six-sided die. What is the probability that the product of the two rolls is a multiple of 3? </p><p>\( \mathrm{(A)}\ \frac1{12} \qquad\mathrm{(B)}\ \frac 13 \qquad\mathrm{(C)}\ \frac 12 \qquad\mathrm{(D)}\ \frac 7{12} \qquad\mathrm{(E)}\ \frac 23 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_16" title="2002 AMC 12B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Andy’s lawn has twice as much area as Beth’s lawn and three times as much area as Carlos’ lawn. Carlos’ lawn mower cuts half as fast as Beth’s mower and one third as fast as Andy’s mower. If they all start to mow their lawns at the same time, who will finish first? </p><p>\( \mathrm{(A)}\ \text{Andy} \qquad\mathrm{(B)}\ \text{Beth} \qquad\mathrm{(C)}\ \text{Carlos} \qquad\mathrm{(D)}\ \text{Andy\ and \ Carlos\ tie\ for\ first.} \qquad\mathrm{(E)}\ \text{All\ three\ tie.} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_17" title="2002 AMC 12B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A point \( P \) is randomly selected from the rectangular region with vertices \( (0,0),(2,0),(2,1),(0,1) \). What is the probability that \( P \) is closer to the origin than it is to the point \( (3,1) \)? </p><p><br> \( \mathrm{(A)}\ \frac 12 \qquad\mathrm{(B)}\ \frac 23 \qquad\mathrm{(C)}\ \frac 34 \qquad\mathrm{(D)}\ \frac 45 \qquad\mathrm{(E)}\ 1 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_18" title="2002 AMC 12B Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>If \( a,b, \) and \( c \) are positive real numbers such that \( a(b+c) = 152, b(c+a) = 162, \) and \( c(a+b) = 170 \), then \( abc \) is </p><p>\( \mathrm{(A)}\ 672 \qquad\mathrm{(B)}\ 688 \qquad\mathrm{(C)}\ 704 \qquad\mathrm{(D)}\ 720 \qquad\mathrm{(E)}\ 750 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_19" title="2002 AMC 12B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Let \( \triangle XOY \) be a right-angled triangle with \( m\angle XOY = 90^{\circ} \). Let \( M \) and \( N \) be the midpoints of legs \( OX \) and \( OY \), respectively. Given that \( XN = 19 \) and \( YM = 22 \), find \( XY \). </p><p>\( \mathrm{(A)}\ 24 \qquad\mathrm{(B)}\ 26 \qquad\mathrm{(C)}\ 28 \qquad\mathrm{(D)}\ 30 \qquad\mathrm{(E)}\ 32 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_20" title="2002 AMC 12B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>For all positive integers \( n \) less than \( 2002 \), let </p><p>\begin{eqnarray*} a_n =\left\{ \begin{array}{lr} 11, &amp; \text{if\ }n\ \text{is\ divisible\ by\ }13\ \text{and\ }14;\\ 13, &amp; \text{if\ }n\ \text{is\ divisible\ by\ }14\ \text{and\ }11;\\ 14, &amp; \text{if\ }n\ \text{is\ divisible\ by\ }11\ \text{and\ }13;\\ 0, &amp; \text{otherwise}. \end{array} \right. \end{eqnarray*} </p><p>Calculate \( \sum_{n=1}^{2001} a_n \). </p><p>\( \mathrm{(A)}\ 448 \qquad\mathrm{(B)}\ 486 \qquad\mathrm{(C)}\ 1560 \qquad\mathrm{(D)}\ 2001 \qquad\mathrm{(E)}\ 2002 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_21" title="2002 AMC 12B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>For all integers \( n \) greater than \( 1 \), define \( a_n = \frac{1}{\log_n 2002} \). Let \( b = a_2 + a_3 + a_4 + a_5 \) and \( c = a_{10} + a_{11} + a_{12} + a_{13} + a_{14} \). Then \( b- c \) equals </p><p>\( \mathrm{(A)}\ -2 \qquad\mathrm{(B)}\ -1 \qquad\mathrm{(C)}\ \frac{1}{2002} \qquad\mathrm{(D)}\ \frac{1}{1001} \qquad\mathrm{(E)}\ \frac 12 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_22" title="2002 AMC 12B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>In \( \triangle ABC \), we have \( AB = 1 \) and \( AC = 2 \). Side \( \overline{BC} \) and the median from \( A \) to \( \overline{BC} \) have the same length. What is \( BC \)? </p><p>\( \mathrm{(A)}\ \frac{1+\sqrt{2}}{2} \qquad\mathrm{(B)}\ \frac{1+\sqrt{3}}2 \qquad\mathrm{(C)}\ \sqrt{2} \qquad\mathrm{(D)}\ \frac 32 \qquad\mathrm{(E)}\ \sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_23" title="2002 AMC 12B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A convex quadrilateral \( ABCD \) with area \( 2002 \) contains a point \( P \) in its interior such that \( PA = 24, PB = 32, PC = 28, PD = 45 \). Find the perimeter of \( ABCD \). </p><p>\( \mathrm{(A)}\ 4\sqrt{2002} \qquad\mathrm{(B)}\ 2\sqrt{8465} \qquad\mathrm{(C)}\ 2(48+ \) \( \sqrt{2002}) \qquad\mathrm{(D)}\ 2\sqrt{8633} \qquad\mathrm{(E)}\ 4(36 + \sqrt{113}) \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_24" title="2002 AMC 12B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Let \( f(x) = x^2 + 6x + 1 \), and let \( R \) denote the set of points \( (x,y) \) in the coordinate plane such that \[f(x) + f(y) \le 0 \qquad \text{and} \qquad f(x)-f(y) \le 0\] The area of \( R \) is closest to \( \mathrm{(A)}\ 21 \qquad\mathrm{(B)}\ 22 \qquad\mathrm{(C)}\ 23 \qquad\mathrm{(D)}\ 24 \qquad\mathrm{(E)}\ 25 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems/Problem_25" title="2002 AMC 12B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2002_AMC_12B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["A","D","B","E","D","C","B","D","C","A","E","D","B","D","D","C","B","C","D","B","A","B","C","E","E"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

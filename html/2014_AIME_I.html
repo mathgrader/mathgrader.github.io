@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2014 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2014 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The 8 eyelets for the lace of a sneaker all lie on a rectangle, four equally spaced on each of the longer sides. The rectangle has a width of 50 mm and a length of 80 mm. There is one eyelet at each vertex of the rectangle. The lace itself must pass between the vertex eyelets along a width side of the rectangle and then crisscross between successive eyelets until it reaches the two eyelets at the other width side of the rectangle as shown. After passing through these final eyelets, each of the ends of the lace must extend at least 200 mm farther to allow a knot to be tied. Find the minimum length of the lace in millimeters. </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><img src="https://latex.artofproblemsolving.com/a/6/1/a61b1059117868ce9afa4391360bfa9424211553.png" width="335" height="178"> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_1" title="2014 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>An urn contains \( 4 \) green balls and \( 6 \) blue balls. A second urn contains \( 16 \) green balls and \( N \) blue balls. A single ball is drawn at random from each urn. The probability that both balls are of the same color is \( 0.58 \). Find \( N \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_2" title="2014 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Find the number of rational numbers \( r \), \( 0&lt;r&lt;1, \) such that when \( r \) is written as a fraction in lowest terms, the numerator and the denominator have a sum of \( 1000 \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_3" title="2014 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Jon and Steve ride their bicycles along a path that parallels two side-by-side train tracks running the east/west direction. Jon rides east at \( 20 \) miles per hour, and Steve rides west at \( 20 \) miles per hour. Two trains of equal length, traveling in opposite directions at constant but different speeds each pass the two riders. Each train takes exactly \( 1 \) minute to go past Jon. The westbound train takes \( 10 \) times as long as the eastbound train to go past Steve. The length of each train is \( \tfrac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_4" title="2014 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Let the set \( S = \{P_1, P_2, \dots, P_{12}\} \) consist of the twelve vertices of a regular \( 12 \)-gon. A subset \( Q \) of \( S \) is called communal if there is a circle such that all points of \( Q \) are inside the circle, and all points of \( S \) not in \( Q \) are outside of the circle. How many communal subsets are there? (Note that the empty set is a communal subset.) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_5" title="2014 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The graphs \( y = 3(x-h)^2 + j \) and \( y = 2(x-h)^2 + k \) have y-intercepts of \( 2013 \) and \( 2014 \), respectively, and each graph has two positive integer x-intercepts. Find \( h \). </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_6" title="2014 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Let \( w \) and \( z \) be complex numbers such that \( |w| = 1 \) and \( |z| = 10 \). Let \( \theta = \arg \left(\tfrac{w-z}{z}\right) \). The maximum possible value of \( \tan^2 \theta \) can be written as \( \tfrac{p}{q} \), where \( p \) and \( q \) are relatively prime positive integers. Find \( p+q \). (Note that \( \arg(w) \), for w \( \neq 0 \), denotes the measure of the angle that the ray from \( 0 \) to \( w \) makes with the positive real axis in the complex plane. </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_7" title="2014 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The positive integers \( N \) and \( N^2 \) both end in the same sequence of four digits \( abcd \) when written in base 10, where digit \( a \) is not zero. Find the three-digit number \( abc \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_8" title="2014 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Let \( x_1&lt; x_2 &lt; x_3 \) be the three real roots of the equation \( \sqrt{2014} x^3 - 4029x^2 + 2 = 0 \). Find \( x_2(x_1+x_3) \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_9" title="2014 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A disk with radius \( 1 \) is externally tangent to a disk with radius \( 5 \). Let \( A \) be the point where the disks are tangent, \( C \) be the center of the smaller disk, and \( E \) be the center of the larger disk. While the larger disk remains fixed, the smaller disk is allowed to roll along the outside of the larger disk until the smaller disk has turned through an angle of \( 360^\circ \). That is, if the center of the smaller disk has moved to the point \( D \), and the point on the smaller disk that began at \( A \) has now moved to point \( B \), then \( \overline{AC} \) is parallel to \( \overline{BD} \). Then \( \sin^2(\angle BEA)=\tfrac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_10" title="2014 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>A token starts at the point \( (0,0) \) of an \( xy \)-coordinate grid and then makes a sequence of six moves. Each move is 1 unit in a direction parallel to one of the coordinate axes. Each move is selected randomly from the four possible directions and independently of the other moves. The probability the token ends at a point on the graph of \( |y|=|x| \) is \( \tfrac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_11" title="2014 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( A=\{1,2,3,4\} \), and \( f \) and \( g \) be randomly chosen (not necessarily distinct) functions from \( A \) to \( A \). The probability that the range of \( f \) and the range of \( g \) are disjoint is \( \tfrac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_12" title="2014 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>On square \( ABCD \), points \( E,F,G \), and \( H \) lie on sides \( \overline{AB},\overline{BC},\overline{CD}, \) and \( \overline{DA}, \) respectively, so that \( \overline{EG} \perp \overline{FH} \) and \( EG=FH = 34 \). Segments \( \overline{EG} \) and \( \overline{FH} \) intersect at a point \( P \), and the areas of the quadrilaterals \( AEPH, BFPE, CGPF, \) and \( DHPG \) are in the ratio \( 269:275:405:411. \) Find the area of square \( ABCD \). </p><p><img src="https://latex.artofproblemsolving.com/e/1/1/e1175984ad8a8e7468972e727cc95e27117b7d92.png" width="252" height="248"> </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_13" title="2014 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( m \) be the largest real solution to the equation </p><p>\[\dfrac{3}{x-3} + \dfrac{5}{x-5} + \dfrac{17}{x-17} + \dfrac{19}{x-19} = x^2 - 11x - 4\] </p><p>There are positive integers \( a, b, \) and \( c \) such that \( m = a + \sqrt{b + \sqrt{c}} \). Find \( a+b+c \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_14" title="2014 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>In \( \triangle ABC, AB = 3, BC = 4, \) and \( CA = 5 \). Circle \( \omega \) intersects \( \overline{AB} \) at \( E \) and \( B, \overline{BC} \) at \( B \) and \( D, \) and \( \overline{AC} \) at \( F \) and \( G \). Given that \( EF=DF \) and \( \frac{DG}{EG} = \frac{3}{4}, \) length \( DE=\frac{a\sqrt{b}}{c}, \) where \( a \) and \( c \) are relatively prime positive integers, and \( b \) is a positive integer not divisible by the square of any prime. Find \( a+b+c \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_15" title="2014 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["790","144","200","049","134","036","100","937","002","058","391","453","850","263","041"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

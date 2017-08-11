@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2011 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2011 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Gary purchased a large beverage, but only drank \( m/n \) of it, where \( m \) and \( n \) are relatively prime positive integers. If he had purchased half as much and drunk twice as much, he would have wasted only \( 2/9 \) as much beverage. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_1" title="2011 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>On square \( ABCD \), point \( E \) lies on side \( AD \) and point \( F \) lies on side \( BC \), so that \( BE=EF=FD=30 \). Find the area of the square \( ABCD \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_2" title="2011 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The degree measures of the angles in a convex 18-sided polygon form an increasing arithmetic sequence with integer values. Find the degree measure of the smallest angle. </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_3" title="2011 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In triangle \( ABC \), \( AB=\frac{20}{11}AC \). The angle bisector of angle \( A \) intersects \( BC \) at point \( D \), and point \( M \) is the midpoint of \( AD \). Let \( P \) be the point of intersection of \( AC \) and the line \( BM \). The ratio of \( CP \) to \( PA \) can be expressed in the form \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_4" title="2011 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The sum of the first \( 2011 \) terms of a geometric sequence is \( 200 \). The sum of the first \( 4022 \) terms is \( 380 \). Find the sum of the first \( 6033 \) terms. </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_5" title="2011 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Define an ordered quadruple of integers \( (a, b, c, d) \) as <i>interesting</i> if \( 1 \le a&lt;b&lt;c&lt;d \le 10 \), and \( a+d&gt;b+c \). How many interesting ordered quadruples are there? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_6" title="2011 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Ed has five identical green marbles, and a large supply of identical red marbles. He arranges the green marbles and some of the red ones in a row and finds that the number of marbles whose right hand neighbor is the same color as themselves is equal to the number of marbles whose right hand neighbor is the other color. An example of such an arrangement is GGRRRGGRG. Let \( m \) be the maximum number of red marbles for which such an arrangement is possible, and let \( N \) be the number of ways he can arrange the \( m+5 \) marbles to satisfy the requirement. Find the remainder when \( N \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_7" title="2011 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Let \( z_1 \), \( z_2 \), \( z_3 \), \( \dots \), \( z_{12} \) be the 12 zeroes of the polynomial \( z^{12} - 2^{36} \). For each \( j \), let \( w_j \) be one of \( z_j \) or \( iz_j \). Then the maximum possible value of the real part of \( \sum_{j = 1}^{12} w_j \) can be written as \( m + \sqrt{n}, \) where \( m \) and \( n \) are positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_8" title="2011 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Let \( x_1 \), \( x_2 \), \( \dots \), \( x_6 \) be nonnegative real numbers such that \( x_1 + x_2 + x_3 + x_4 + x_5 + x_6 = 1 \), and \( x_1x_3x_5 + x_2x_4x_6 \ge {\scriptstyle\frac{1}{540}} \). Let \( p \) and \( q \) be positive relatively prime integers such that \( \frac{p}{q} \) is the maximum possible value of \( x_1x_2x_3 + x_2x_3x_4 + x_3x_4x_5 + x_4x_5x_6 + x_5x_6x_1 + x_6x_1x_2 \). Find \( p + q \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_9" title="2011 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A circle with center \( O \) has radius 25. Chord \( \overline{AB} \) of length 30 and chord \( \overline{CD} \) of length 14 intersect at point \( P \). The distance between the midpoints of the two chords is 12. The quantity \( OP^2 \) can be represented as \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find the remainder when \( m + n \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_10" title="2011 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( M_n \) be the \( n \times n \) matrix with entries as follows: for \( 1 \le i \le n \), \( m_{i,i} = 10 \); for \( 1 \le i \le n - 1 \), \( m_{i+1,i} = m_{i,i+1} = 3 \); all other entries in \( M_n \) are zero. Let \( D_n \) be the determinant of matrix \( M_n \). Then \( \sum_{n=1}^{\infty} \frac{1}{8D_n+1} \) can be represented as \( \frac{p}{q} \), where \( p \) and \( q \) are relatively prime positive integers. Find \( p + q \). Note: The determinant of the \( 1 \times 1 \) matrix \( [a] \) is \( a \), and the determinant of the \( 2 \times 2 \) matrix \( \left[ {\begin{array}{cc} a &amp; b \\ c &amp; d \\ \end{array} } \right] = ad - bc \); for \( n \ge 2 \), the determinant of an \( n \times n \) matrix with first row or first column \( a_1 \) \( a_2 \) \( a_3 \) \( \dots \) \( a_n \) is equal to \( a_1C_1 - a_2C_2 + a_3C_3 - \dots + (-1)^{n+1}a_nC_n \), where \( C_i \) is the determinant of the \( (n - 1) \times (n - 1) \) matrix formed by eliminating the row and column containing \( a_i \). </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_11" title="2011 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Nine delegates, three each from three different countries, randomly select chairs at a round table that seats nine people. Let the probability that each delegate sits next to at least one delegate from another country be \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_12" title="2011 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Point \( P \) lies on the diagonal \( AC \) of square \( ABCD \) with \( AP &gt; CP \). Let \( O_1 \) and \( O_2 \) be the circumcenters of triangles \( ABP \) and \( CDP \), respectively. Given that \( AB = 12 \) and \( \angle O_1PO_2 = 120 ^{\circ} \), then \( AP = \sqrt{a} + \sqrt{b} \), where \( a \) and \( b \) are positive integers. Find \( a + b \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_13" title="2011 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>There are \( N \) permutations \( (a_1, a_2, \dots, a_{30}) \) of \( 1, 2, \dots, 30 \) such that for \( m \in \{2,3,5\} \), \( m \) divides \( a_{n+m} - a_n \) for all integers \( n \) with \( 1 \le n &lt; n+m \le 30 \). Find the remainder when \( N \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_14" title="2011 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( P(x) = x^2 - 3x - 9 \). A real number \( x \) is chosen at random from the interval \( 5 \le x \le 15 \). The probability that \( \lfloor\sqrt{P(x)}\rfloor = \sqrt{P(\lfloor x \rfloor)} \) is equal to \( \frac{\sqrt{a} + \sqrt{b} + \sqrt{c} - d}{e} \) , where \( a \), \( b \), \( c \), \( d \), and \( e \) are positive integers. Find \( a + b + c + d + e \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_15" title="2011 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["037","810","143","051","542","080","003","784","559","057","073","097","096","440","850"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

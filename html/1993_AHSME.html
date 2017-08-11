@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1993 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1993 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>For integers \( a, b \) and \( c \), define \( \boxed{a,b,c} \) to mean \( a^b-b^c+c^a \). Then \( \boxed{1,-1,2} \) equals </p><p>\( \text{(A)} \ -4 \qquad \text{(B)} \ -2 \qquad \text{(C)} \ 0 \qquad \text{(D)} \ 2 \qquad \text{(E)} \ 4 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_1" title="1993 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>In \( \triangle ABC \), \( \angle A=55^\circ \), \( \angle C=75^\circ \), \( D \) is on side \( \overline{AB} \) and \( E \) is on side \( \overline{BC} \) If \( DB=BE \), then \( \angle BED= \) </p><p>\( \text{(A)}\ 50^\circ \qquad \text{(B)}\ 55^\circ \qquad \text{(C)}\ 60^\circ \qquad \text{(D)}\ 65^\circ \qquad \text{(E)}\ 70^\circ \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_2" title="1993 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>\( \frac{15^{30}}{45^{15}} = \) </p><p>\( \text{(A) } \left(\frac{1}{3}\right)^{15}\quad \text{(B) } \left(\frac{1}{3}\right)^{2}\quad \text{(C) } 1\quad \text{(D) } 3^{15}\quad \text{(E) } 5^{15} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_3" title="1993 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Define the operation "\( \circ \)" by \( x\circ y=4x-3y+xy \), for all real numbers \( x \) and \( y \). For how many real numbers \( y \) does \( 3\circ y=12 \)? </p><p>\( \text{(A) } 0\quad \text{(B) } 1\quad \text{(C) } 3\quad \text{(D) } 4\quad \text{(E) more than 4} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_4" title="1993 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Last year a bicycle cost $160 and a cycling helmet $40. This year the cost of the bicycle increased by \( 5\% \), and the cost of the helmet increased by \( 10\% \). The percent increase in the combined cost of the bicycle and the helmet is: </p><p>\( \text{(A) } 6\%\quad \text{(B) } 7\%\quad \text{(C) } 7.5\%\quad \text{(D) } 8\%\quad \text{(E) } 15\% \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_5" title="1993 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>\( \sqrt{\frac{8^{10}+4^{10}}{8^4+4^{11}}}= \) </p><p>\( \text{(A) } \sqrt{2}\quad \text{(B) } 16\quad \text{(C) } 32\quad \text{(D) } (12)^{\tfrac{2}{3}}\quad \text{(E) } 512.5 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_6" title="1993 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The symbol \( R_k \) stands for an integer whose base-ten representation is a sequence of \( k \) ones. For example, \( R_3=111,R_5=1111 \), etc. When \( R_{24} \) is divided by \( R_4 \), the quotient \( Q=R_{24}/R_4 \) is an integer whose base-ten representation is a sequence containing only ones and zeroes. The number of zeros in \( Q \) is: </p><p>\( \text{(A) } 10\quad \text{(B) } 11\quad \text{(C) } 12\quad \text{(D) } 13\quad \text{(E) } 15 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_7" title="1993 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Let \( C_1 \) and \( C_2 \) be circles of radius 1 that are in the same plane and tangent to each other. How many circles of radius 3 are in this plane and tangent to both \( C_1 \) and \( C_2 \)? </p><p>\( \text{(A) } 2\quad \text{(B) } 4\quad \text{(C) } 5\quad \text{(D) } 6\quad \text{(E) } 8 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_8" title="1993 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Country \( A \) has \( c\% \) of the world's population and \( d\% \) of the worlds wealth. Country \( B \) has \( e\% \) of the world's population and \( f\% \) of its wealth. Assume that the citizens of \( A \) share the wealth of \( A \) equally,and assume that those of \( B \) share the wealth of \( B \) equally. Find the ratio of the wealth of a citizen of \( A \) to the wealth of a citizen of \( B \). </p><p>\( \text{(A) } \frac{cd}{ef}\quad \text{(B) } \frac{ce}{ef}\quad \text{(C) } \frac{cf}{de}\quad \text{(D) } \frac{de}{cf}\quad \text{(E) } \frac{df}{ce} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_9" title="1993 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( r \) be the number that results when both the base and the exponent of \( a^b \) are tripled, where \( a,b&gt;0 \). If \( r \) equals the product of \( a^b \) and \( x^b \) where \( x&gt;0 \), then \( x= \) </p><p>\( \text{(A) } 3\quad \text{(B) } 3a^2\quad \text{(C) } 27a^2\quad \text{(D) } 2a^{3b}\quad \text{(E) } 3a^{2b} \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_10" title="1993 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>If \( \log_2(\log_2(\log_2(x)))=2 \), then how many digits are in the base-ten representation for \( x \)? </p><p>\( \text{(A) } 5\quad \text{(B) } 7\quad \text{(C) } 9\quad \text{(D) } 11\quad \text{(E) } 13 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_11" title="1993 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>If \( f(2x)=\frac{2}{2+x} \) for all \( x&gt;0 \), then \( 2f(x)= \) </p><p>\( \text{(A) } \frac{2}{1+x}\quad \text{(B) } \frac{2}{2+x}\quad \text{(C) } \frac{4}{1+x}\quad \text{(D) } \frac{4}{2+x}\quad \text{(E) } \frac{8}{4+x} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_12" title="1993 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A square of perimeter 20 is inscribed in a square of perimeter 28. What is the greatest distance between a vertex of the inner square and a vertex of the outer square? </p><p>\( \text{(A) } \sqrt{58}\quad \text{(B) } \frac{7\sqrt{5}}{2}\quad \text{(C) } 8\quad \text{(D) } \sqrt{65}\quad \text{(E) } 5\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_13" title="1993 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p><img src="https://latex.artofproblemsolving.com/c/d/3/cd3b8e5167cdf49b523a1d212b5346cb9cd8257b.png" width="252" height="235"> </p><p>The convex pentagon \( ABCDE \) has \( \angle{A}=\angle{B}=120^\circ,EA=AB=BC=2 \) and \( CD=DE=4 \). What is the area of ABCDE? </p><p>\( \text{(A) } 10\quad \text{(B) } 7\sqrt{3}\quad \text{(C) } 15\quad \text{(D) } 9\sqrt{3}\quad \text{(E) } 12\sqrt{5} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_14" title="1993 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>For how many values of \( n \) will an \( n \)-sided regular polygon have interior angles with integral measures? </p><p>\( \text{(A) } 16\quad \text{(B) } 18\quad \text{(C) } 20\quad \text{(D) } 22\quad \text{(E) } 24 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_15" title="1993 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Consider the non-decreasing sequence of positive integers \[1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,\cdots\] in which the \( n^{th} \) positive integer appears \( n \) times. The remainder when the \( 1993^{rd} \) term is divided by \( 5 \) is </p><p>\( \text{(A) } 0\quad \text{(B) } 1\quad \text{(C) } 2\quad \text{(D) } 3\quad \text{(E) } 4 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_16" title="1993 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p><img src="https://latex.artofproblemsolving.com/b/a/6/ba646966f2f2a41a55ba82a65b59d08dcf4e8076.png" width="252" height="252"> </p><p>Amy painted a dartboard over a square clock face using the "hour positions" as boundaries.[See figure.] If \( t \) is the area of one of the eight triangular regions such as that between 12 o'clock and 1 o'clock, and \( q \) is the area of one of the four corner quadrilaterals such as that between 1 o'clock and 2 o'clock, then \( \frac{q}{t}= \) </p><p>\( \text{(A) } 2\sqrt{3}-2\quad \text{(B) } \frac{3}{2}\quad \text{(C) } \frac{\sqrt{5}+1}{2}\quad \text{(D) } \sqrt{3}\quad \text{(E) } 2 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_17" title="1993 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Al and Barb start their new jobs on the same day. Al's schedule is 3 work-days followed by 1 rest-day. Barb's schedule is 7 work-days followed by 3 rest-days. On how many of their first 1000 days do both have rest-days on the same day? </p><p>\( \text{(A) } 48\quad \text{(B) } 50\quad \text{(C) } 72\quad \text{(D) } 75\quad \text{(E) } 100 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_18" title="1993 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>How many ordered pairs \( (m,n) \) of positive integers are solutions to \[\frac{4}{m}+\frac{2}{n}=1?\] </p><p>\( \text{(A) } 1\quad \text{(B) } 2\quad \text{(C) } 3\quad \text{(D) } 4\quad \text{(E) } \text{more than }6 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_19" title="1993 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Consider the equation \( 10z^2-3iz-k=0 \), where \( z \) is a complex variable and \( i^2=-1 \). Which of the following statements is true? </p><p>\( \text{(A) For all positive real numbers k, both roots are pure imaginary} \quad\\ \text{(B) For all negative real numbers k, both roots are pure imaginary} \quad\\ \text{(C) For all pure imaginary numbers k, both roots are real and rational} \quad\\ \text{(D) For all pure imaginary numbers k, both roots are real and irrational} \quad\\ \text{(E) For all complex numbers k, neither root is real} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_20" title="1993 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Let \( a_1,a_2,\cdots,a_k \) be a finite arithmetic sequence with \( a_4 +a_7+a_{10} = 17 \) and \( a_4+a_5+\cdots+a_{13} +a_{14} = 77 \). </p><p>If \( a_k = 13 \), then \( k = \) </p><p>\( \text{(A) } 16\quad \text{(B) } 18\quad \text{(C) } 20\quad \text{(D) } 22\quad \text{(E) } 24 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_21" title="1993 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p><img src="https://latex.artofproblemsolving.com/4/e/e/4eeb01d448703caabc0702c2a2d796c8513572c5.png" width="252" height="128"> </p><p>Twenty cubical blocks are arranged as shown. First, 10 are arranged in a triangular pattern; then a layer of 6, arranged in a triangular patter, is centered on the 10; then a layer of 3, arranged in a triangular pattern, is centered on the 6; and finally one block is centered on top of the third layer. The blocks in the bottom layer are numbered 1 through 10 in some order. Each block in layers 2,3 and 4 is assigned the number which is the sum of numbers assigned to the three blocks on which it rests. Find the smallest possible number which could be assigned to the top block. </p><p>\( \text{(A) } 55\quad \text{(B) } 83\quad \text{(C) } 114\quad \text{(D) } 137\quad \text{(E) } 144 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_22" title="1993 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p><img src="https://latex.artofproblemsolving.com/d/c/0/dc09e15e56911108f1091460e8e7091fb9a55e14.png" width="252" height="208"> </p><p>Points \( A,B,C \) and \( D \) are on a circle of diameter \( 1 \), and \( X \) is on diameter \( \overline{AD}. \) </p><p>If \( BX=CX \) and \( 3\angle{BAC}=\angle{BXC}=36^\circ \), then \( AX= \) </p><p><br> \( \text{(A) } cos(6^\circ)cos(12^\circ)sec(18^\circ)\quad\\ \text{(B) } cos(6^\circ)sin(12^\circ)csc(18^\circ)\quad\\ \text{(C) } cos(6^\circ)sin(12^\circ)sec(18^\circ)\quad\\ \text{(D) } sin(6^\circ)sin(12^\circ)csc(18^\circ)\quad\\ \text{(E) } sin(6^\circ)sin(12^\circ)sec(18^\circ) \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_23" title="1993 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A box contains \( 3 \) shiny pennies and \( 4 \) dull pennies. One by one, pennies are drawn at random from the box and not replaced. If the probability is \( a/b \) that it will take more than four draws until the third shiny penny appears and \( a/b \) is in lowest terms, then \( a+b= \) </p><p>\( \text{(A) } 11\quad \text{(B) } 20\quad \text{(C) } 35\quad \text{(D) } 58\quad \text{(E) } 66 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_24" title="1993 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p><img src="https://latex.artofproblemsolving.com/2/2/4/2245ad48a9140cd87641bc1cc671f81e0d1b6803.png" width="95" height="252"> </p><p>Let \( S \) be the set of points on the rays forming the sides of a \( 120^{\circ} \) angle, and let \( P \) be a fixed point inside the angle on the angle bisector. Consider all distinct equilateral triangles \( PQR \) with \( Q \) and \( R \) in \( S \). (Points \( Q \) and \( R \) may be on the same ray, and switching the names of \( Q \) and \( R \) does not create a distinct triangle.) There are </p><p>\( \text{(A) exactly 2 such triangles} \quad\\ \text{(B) exactly 3 such triangles} \quad\\ \text{(C) exactly 7 such triangles} \quad\\ \text{(D) exactly 15 such triangles} \quad\\ \text{(E) more than 15 such triangles} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_25" title="1993 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>Find the largest positive value attained by the function \[f(x)=\sqrt{8x-x^2}-\sqrt{14x-x^2-48} ,\quad x \text{ a real number}\] </p><p>\( \text{(A) } \sqrt{7}-1\quad \text{(B) } 3\quad \text{(C) } 2\sqrt{3}\quad \text{(D) } 4\quad \text{(E) } \sqrt{55}-\sqrt{5} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_26" title="1993 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p><img src="https://latex.artofproblemsolving.com/9/4/7/94789fe243e37a1fab2e0a2d7f372008946209a4.png" width="252" height="198"> The sides of \( \triangle ABC \) have lengths \( 6,8, \) and \( 10 \). A circle with center \( P \) and radius \( 1 \) rolls around the inside of \( \triangle ABC \), always remaining tangent to at least one side of the triangle. When \( P \) first returns to its original position, through what distance has \( P \) traveled? </p><p>\( \text{(A) } 10\quad \text{(B) } 12\quad \text{(C) } 14\quad \text{(D) } 15\quad \text{(E) } 17 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_27" title="1993 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>How many triangles with positive area are there whose vertices are points in the \( xy \)-plane whose coordinates are integers \( (x,y) \) satisfying \( 1\le x\le 4 \) and \( 1\le y\le 4 \)? </p><p>\( \text{(A) } 496\quad \text{(B) } 500\quad \text{(C) } 512\quad \text{(D) } 516\quad \text{(E) } 560 \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_28" title="1993 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Which of the following could NOT be the lengths of the external diagonals of a right regular prism [a "box"]? (An \( \textit{external diagonal} \) is a diagonal of one of the rectangular faces of the box.) </p><p>\( \text{(A) }\{4,5,6\} \quad \text{(B) } \{4,5,7\} \quad \text{(C) } \{4,6,7\} \quad \text{(D) } \{5,6,7\} \quad \text{(E) } \{5,7,8\} \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_29" title="1993 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Given \( 0\le x_0&lt;1 \), let \[x_n=\left\{ \begin{array}{ll} 2x_{n-1} &amp;\text{ if }2x_{n-1}&lt;1 \\ 2x_{n-1}-1 &amp;\text{ if }2x_{n-1}\ge 1 \end{array}\right.\] for all integers \( n&gt;0 \). For how many \( x_0 \) is it true that \( x_0=x_5 \)? </p><p>\( \text{(A) 0} \quad \text{(B) 1} \quad \text{(C) 5} \quad \text{(D) 31} \quad \text{(E) }\infty \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems/Problem_30" title="1993 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1993_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","D","E","E","A","B","E","D","D","C","A","E","D","B","D","D","A","E","D","B","B","C","B","E","E","C","B","D","B","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

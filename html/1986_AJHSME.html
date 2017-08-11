@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1986 AJHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1986 AJHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>In July 1861, \( 366 \) inches of rain fell in Cherrapunji, India. What was the average rainfall in inches per hour during that month? </p><p>\( \text{(A)}\ \frac{366}{31\times 24} \qquad \text{(B)}\ \frac{366\times 31}{24}\qquad \text{(C)}\ \frac{366\times 24}{31}\qquad \text{(D)}\ \frac{31\times 24}{366}\qquad \text{(E)}\ 366\times 31\times 24 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_1" title="1986 AJHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Which of the following numbers has the largest reciprocal? </p><p>\( \text{(A)}\ \frac{1}{3} \qquad \text{(B)}\ \frac{2}{5} \qquad \text{(C)}\ 1 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ 1986 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_2" title="1986 AJHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The smallest sum one could get by adding three different numbers from the set \( \{ 7,25,-1,12,-3 \} \) is </p><p>\( \text{(A)}\ -3 \qquad \text{(B)}\ -1 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ 21 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_3" title="1986 AJHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The product \( (1.8)(40.3+.07) \) is closest to </p><p>\( \text{(A)}\ 7 \qquad \text{(B)}\ 42 \qquad \text{(C)}\ 74 \qquad \text{(D)}\ 84 \qquad \text{(E)}\ 737 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_4" title="1986 AJHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A contest began at noon one day and ended \( 1000 \) minutes later. At what time did the contest end? </p><p>\( \text{(A)}\ \text{10:00 p.m.} \qquad \text{(B)}\ \text{midnight} \qquad \text{(C)}\ \text{2:30 a.m.} \qquad \text{(D)}\ \text{4:40 a.m.} \qquad \text{(E)}\ \text{6:40 a.m.} \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_5" title="1986 AJHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>\( \frac{2}{1-\frac{2}{3}}= \) </p><p>\( \text{(A)}\ -3 \qquad \text{(B)}\ -\frac{4}{3} \qquad \text{(C)}\ \frac{2}{3} \qquad \text{(D)}\ 2 \qquad \text{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_6" title="1986 AJHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>How many whole numbers are between \( \sqrt{8} \) and \( \sqrt{80} \)? </p><p>\( \text{(A)}\ 5 \qquad \text{(B)}\ 6 \qquad \text{(C)}\ 7 \qquad \text{(D)}\ 8 \qquad \text{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_7" title="1986 AJHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>In the product shown, \( \text{B} \) is a digit. The value of \( \text{B} \) is </p><p>\[\begin{array}{rr} &amp;\text{B}2 \\ \times &amp;7\text{B} \\ \hline &amp;6396 \\ \end{array}\] </p><p>\( \text{(A)}\ 3 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_8" title="1986 AJHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Using only the paths and the directions shown, how many different routes are there from \( \text{M} \) to \( \text{N} \)? </p><p><img src="https://latex.artofproblemsolving.com/d/7/b/d7b6d3b20583aeac57d4bae5e7e0367f8b123720.png" width="252" height="225"> </p><p>\( \text{(A)}\ 2 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_9" title="1986 AJHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A picture \( 3 \) feet across is hung in the center of a wall that is \( 19 \) feet wide. How many feet from the end of the wall is the nearest edge of the picture? </p><p>\( \text{(A)}\ 1\frac{1}{2} \qquad \text{(B)}\ 8 \qquad \text{(C)}\ 9\frac{1}{2} \qquad \text{(D)}\ 16 \qquad \text{(E)}\ 22 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_10" title="1986 AJHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>If \( \text{A}*\text{B} \) means \( \frac{\text{A}+\text{B}}{2} \), then \( (3*5)*8 \) is </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 8 \qquad \text{(C)}\ 12 \qquad \text{(D)}\ 16\qquad \text{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_11" title="1986 AJHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The table below displays the grade distribution of the \( 30 \) students in a mathematics class on the last two tests. For example, exactly one student received a 'D' on Test 1 and a 'C' on Test 2 (see circled entry). What percent of the students received the same grade on both tests? </p><p><img src="https://latex.artofproblemsolving.com/4/5/6/456c4e5a5c3b5f6db20d14b617ecd66f31f0ad66.png" width="252" height="202"> </p><p>\( \text{(A)}\ 12\% \qquad \text{(B)}\ 25\% \qquad \text{(C)}\ 33\frac{1}{3}\% \qquad \text{(D)}\ 40\% \qquad \text{(E)}\ 50\% \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_12" title="1986 AJHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The perimeter of the polygon shown is </p><center> 
+ <p><img src="//latex.artofproblemsolving.com/f/1/9/f19e2361261c1f97b4b8c8b6958ec7f30d342c8e.png" class="latexcenter" alt="[asy] draw((0,0)--(0,6)--(8,6)--(8,3)--(2.7,3)--(2.7,0)--cycle); label(&quot;$6$&quot;,(0,3),W); label(&quot;$8$&quot;,(4,6),N); draw((0.5,0)--(0.5,0.5)--(0,0.5)); draw((0.5,6)--(0.5,5.5)--(0,5.5)); draw((7.5,6)--(7.5,5.5)--(8,5.5)); draw((7.5,3)--(7.5,3.5)--(8,3.5)); draw((2.2,0)--(2.2,0.5)--(2.7,0.5)); draw((2.7,2.5)--(3.2,2.5)--(3.2,3)); [/asy]" width="252" height="198"> </p> 
+</center><p>\( \text{(A)}\ 14 \qquad \text{(B)}\ 20 \qquad \text{(C)}\ 28 \qquad \text{(D)}\ 48 \) </p><p>\( \text{(E)}\ \text{cannot be determined from the information given} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_13" title="1986 AJHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>If \( 200\leq a \leq 400 \) and \( 600\leq b\leq 1200 \), then the largest value of the quotient \( \frac{b}{a} \) is </p><p>\( \text{(A)}\ \frac{3}{2} \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 300 \qquad \text{(E)}\ 600 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_14" title="1986 AJHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Sale prices at the Ajax Outlet Store are \( 50\% \) below original prices. On Saturdays an additional discount of \( 20\% \) off the sale price is given. What is the Saturday price of a coat whose original price is $\( 180 \)? </p><p>\( \text{(A)} \) $\( 54 \) </p><p>\( \text{(B)} \) $\( 72 \) </p><p>\( \text{(C)} \) $\( 90 \) </p><p>\( \text{(D)} \) $\( 108 \) </p><p>\( \text{(D)} \) $\( 110 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_15" title="1986 AJHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A bar graph shows the number of hamburgers sold by a fast food chain each season. However, the bar indicating the number sold during the winter is covered by a smudge. If exactly \( 25\% \) of the chain's hamburgers are sold in the fall, how many million hamburgers are sold in the winter? </p><p><img src="https://latex.artofproblemsolving.com/d/c/5/dc539dcb21d5e32b5308de73865c080db86be764.png" width="418" height="268"> </p><p>\( \text{(A)}\ 2.5 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 3.5 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 4.5 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_16" title="1986 AJHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Let \( \text{o} \) be an odd whole number and let \( \text{n} \) be any whole number. Which of the following statements about the whole number \( (\text{o}^2+\text{no}) \) is always true? </p><p>\( \text{(A)}\ \text{it is always odd} \qquad \text{(B)}\ \text{it is always even} \) </p><p>\( \text{(C)}\ \text{it is even only if n is even} \qquad \text{(D)}\ \text{it is odd only if n is odd} \) </p><p>\( \text{(E)}\ \text{it is odd only if n is even} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_17" title="1986 AJHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A rectangular grazing area is to be fenced off on three sides using part of a \( 100 \) meter rock wall as the fourth side. Fence posts are to be placed every \( 12 \) meters along the fence including the two posts where the fence meets the rock wall. What is the fewest number of posts required to fence an area \( 36 \) m by \( 60 \) m? </p><p><img src="https://latex.artofproblemsolving.com/9/f/6/9f677c812f97fa0da5dfc92a4b9904087f4d189f.png" width="252" height="212"> </p><p>\( \text{(A)}\ 11 \qquad \text{(B)}\ 12 \qquad \text{(C)}\ 13 \qquad \text{(D)}\ 14 \qquad \text{(E)}\ 16 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_18" title="1986 AJHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>At the beginning of a trip, the mileage odometer read \( 56,200 \) miles. The driver filled the gas tank with \( 6 \) gallons of gasoline. During the trip, the driver filled his tank again with \( 12 \) gallons of gasoline when the odometer read \( 56,560 \). At the end of the trip, the driver filled his tank again with \( 20 \) gallons of gasoline. The odometer read \( 57,060 \). To the nearest tenth, what was the car's average miles-per-gallon for the entire trip? </p><p>\( \text{(A)}\ 22.5 \qquad \text{(B)}\ 22.6 \qquad \text{(C)}\ 24.0 \qquad \text{(D)}\ 26.9 \qquad \text{(E)}\ 27.5 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_19" title="1986 AJHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The value of the expression \( \frac{(304)^5}{(29.7)(399)^4} \) is closest to </p><p>\( \text{(A)}\ .003 \qquad \text{(B)}\ .03 \qquad \text{(C)}\ .3 \qquad \text{(D)}\ 3 \qquad \text{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_20" title="1986 AJHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Suppose one of the eight lettered identical squares is included with the four squares in the T-shaped figure outlined. How many of the resulting figures can be folded into a topless cubical box? </p><p><img src="https://latex.artofproblemsolving.com/6/7/1/67134bb9b0212e848104c55d85c7f5ca54c0d107.png" width="202" height="252"> </p><p>\( \text{(A)}\ 2 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_21" title="1986 AJHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Alan, Beth, Carlos, and Diana were discussing their possible grades in mathematics class this grading period. Alan said, "If I get an A, then Beth will get an A." Beth said, "If I get an A, then Carlos will get an A." Carlos said, "If I get an A, then Diana will get an A." All of these statements were true, but only two of the students received an A. Which two received A's? </p><p>\( \text{(A)}\ \text{Alan, Beth} \qquad \text{(B)}\ \text{Beth, Carlos} \qquad \text{(C)}\ \text{Carlos, Diana} \) </p><p>\( \text{(D)}\ \text{Alan, Diana} \qquad \text{(E)}\ \text{Beth, Diana} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_22" title="1986 AJHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The large circle has diameter \( \text{AC} \). The two small circles have their centers on \( \text{AC} \) and just touch at \( \text{O} \), the center of the large circle. If each small circle has radius \( 1 \), what is the value of the ratio of the area of the shaded region to the area of one of the small circles? </p><p><img src="https://latex.artofproblemsolving.com/7/4/f/74f7ba33bdc6fad777668c3830583aad49e61377.png" width="252" height="208"> </p><p>\( \text{(A)}\ \text{between }\frac{1}{2}\text{ and 1} \qquad \text{(B)}\ 1 \qquad \text{(C)}\ \text{between 1 and }\frac{3}{2} \) </p><p>\( \text{(D)}\ \text{between }\frac{3}{2}\text{ and 2} \qquad \text{(E)}\ \text{cannot be determined from the information given} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_23" title="1986 AJHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>The \( 600 \) students at King Middle School are divided into three groups of equal size for lunch. Each group has lunch at a different time. A computer randomly assigns each student to one of three lunch groups. The probability that three friends, Al, Bob, and Carol, will be assigned to the same lunch group is approximately </p><p>\( \text{(A)}\ \frac{1}{27} \qquad \text{(B)}\ \frac{1}{9} \qquad \text{(C)}\ \frac{1}{8} \qquad \text{(D)}\ \frac{1}{6} \qquad \text{(E)}\ \frac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_24" title="1986 AJHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Which of the following sets of whole numbers has the largest average? </p><p>\( \text{(A)}\ \text{multiples of 2 between 1 and 101} \qquad \text{(B)}\ \text{multiples of 3 between 1 and 101} \) </p><p>\( \text{(C)}\ \text{multiples of 4 between 1 and 101} \qquad \text{(D)}\ \text{multiples of 5 between 1 and 101} \) </p><p>\( \text{(E)}\ \text{multiples of 6 between 1 and 101} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems/Problem_25" title="1986 AJHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1986_AJHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["A","A","C","C","D","E","B","E","E","B","A","D","C","C","B","A","E","B","D","D","E","C","B","B","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

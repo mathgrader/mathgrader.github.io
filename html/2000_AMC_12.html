@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2000 AMC 12</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2000 AMC 12</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>In the year \( 2001 \), the United States will host the International Mathematical Olympiad. Let \( I,M, \) and \( O \) be distinct positive integers such that the product \( I \cdot M \cdot O = 2001 \). What is the largest possible value of the sum \( I + M + O \)? </p><p>\( \textbf{(A)}\ 23 \qquad \textbf{(B)}\ 55 \qquad \textbf{(C)}\ 99 \qquad \textbf{(D)}\ 111 \qquad \textbf{(E)}\ 671 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_1" title="2000 AMC 12 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>\( 2000(2000^{2000}) = \) </p><p>\( \textbf{(A)}\ 2000^{2001} \qquad \textbf{(B)}\ 4000^{2000} \qquad \textbf{(C)}\ 2000^{4000} \qquad \textbf{(D)}\ 4,000,000^{2000} \qquad \textbf{(E)}\ 2000^{4,000,000} \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_2" title="2000 AMC 12 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Each day, Jenny ate \( 20\% \) of the jellybeans that were in her jar at the beginning of that day. At the end of the second day, \( 32 \) remained. How many jellybeans were in the jar originally? </p><p>\( \textbf{(A)}\ 40 \qquad \textbf{(B)}\ 50 \qquad \textbf{(C)}\ 55 \qquad \textbf{(D)}\ 60 \qquad \textbf{(E)}\ 75 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_3" title="2000 AMC 12 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The Fibonacci sequence \( 1,1,2,3,5,8,13,21,\ldots \) starts with two \( 1 \)'s, and each term afterwards is the sum of its two predecessors. Which one of the ten digits is the last to appear in the units position of a number in the Fibonacci sequence? </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 4 \qquad \textbf{(C)}\ 6 \qquad \textbf{(D)}\ 7 \qquad \textbf{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_4" title="2000 AMC 12 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>If \( |x - 2| = p, \) where \( x &lt; 2, \) then \( x - p = \) </p><p>\( \textbf{(A)}\ -2 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 2-2p \qquad \textbf{(D)}\ 2p-2 \qquad \textbf{(E)}\ |2p-2| \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_5" title="2000 AMC 12 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Two different prime numbers between \( 4 \) and \( 18 \) are chosen. When their sum is subtracted from their product, which of the following numbers could be obtained? </p><p>\( \textbf{(A)}\ 21 \qquad \textbf{(B)}\ 60 \qquad \textbf{(C)}\ 119 \qquad \textbf{(D)}\ 180 \qquad \textbf{(E)}\ 231 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_6" title="2000 AMC 12 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>How many positive integers \( b \) have the property that \( \log_{b} 729 \) is a positive integer? </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ 3 \qquad \textbf{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_7" title="2000 AMC 12 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Figures \( 0 \), \( 1 \), \( 2 \), and \( 3 \) consist of \( 1 \), \( 5 \), \( 13 \), and \( 25 \) nonoverlapping unit squares, respectively. If the pattern were continued, how many nonoverlapping unit squares would there be in figure 100? </p><p><img src="https://latex.artofproblemsolving.com/a/3/0/a3059e62f90ea366f648ad6fc7511221a4977855.png" width="505" height="152"> </p><p>\( \textbf{(A)}\ 10401 \qquad\textbf{(B)}\ 19801 \qquad\textbf{(C)}\ 20201 \qquad\textbf{(D)}\ 39801 \qquad\textbf{(E)}\ 40801 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_8" title="2000 AMC 12 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Mrs. Walter gave an exam in a mathematics class of five students. She entered the scores in random order into a spreadsheet, which recalculated the class average after each score was entered. Mrs. Walter noticed that after each score was entered, the average was always an integer. The scores (listed in ascending order) were \( 71,76,80,82, \) and \( 91 \). What was the last score Mrs. Walters entered? </p><p>\( \textbf{(A)} \ 71 \qquad \textbf{(B)} \ 76 \qquad \textbf{(C)} \ 80 \qquad \textbf{(D)} \ 82 \qquad \textbf{(E)} \ 91 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_9" title="2000 AMC 12 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The point \( P = (1,2,3) \) is reflected in the \( xy \)-plane, then its image \( Q \) is rotated \( 180^\circ \) about the \( x \)-axis to produce \( R \), and finally, \( R \) is translated \( 5 \) units in the positive-\( y \) direction to produce \( S \). What are the coordinates of \( S \)? </p><p>\( \textbf {(A) } (1,7, - 3) \qquad \textbf {(B) } ( - 1,7, - 3) \qquad \textbf {(C) } ( - 1, - 2,8) \qquad \textbf {(D) } ( - 1,3,3) \qquad \textbf {(E) } (1,3,3) \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_10" title="2000 AMC 12 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Two non-zero real numbers, \( a \) and \( b, \) satisfy \( ab = a - b \). Which of the following is a possible value of \( \frac {a}{b} + \frac {b}{a} - ab \)? </p><p>\( \textbf{(A)} \ - 2 \qquad \textbf{(B)} \ \frac { - 1}{2} \qquad \textbf{(C)} \ \frac {1}{3} \qquad \textbf{(D)} \ \frac {1}{2} \qquad \textbf{(E)} \ 2 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_11" title="2000 AMC 12 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( A, M, \) and \( C \) be nonnegative integers such that \( A + M + C=12 \). What is the maximum value of \( A \cdot M \cdot C + A \cdot M + M \cdot C + A \cdot C \)? </p><p>\( \textbf{(A)}\ 62 \qquad \textbf{(B)}\ 72 \qquad \textbf{(C)}\ 92 \qquad \textbf{(D)}\ 102 \qquad \textbf{(E)}\ 112 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_12" title="2000 AMC 12 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>One morning each member of Angela’s family drank an \( 8 \)-ounce mixture of coffee with milk. The amounts of coffee and milk varied from cup to cup, but were never zero. Angela drank a quarter of the total amount of milk and a sixth of the total amount of coffee. How many people are in the family? </p><p>\( \textbf {(A)}\ 3 \qquad \textbf {(B)}\ 4 \qquad \textbf {(C)}\ 5 \qquad \textbf {(D)}\ 6 \qquad \textbf {(E)}\ 7 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_13" title="2000 AMC 12 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>When the <a href="/wiki/index.php/Mean" title="Mean">mean</a>, <a href="/wiki/index.php/Median" title="Median">median</a>, and <a href="/wiki/index.php/Mode" title="Mode">mode</a> of the list </p><p>\[10,2,5,2,4,2,x\] </p><p>are arranged in increasing order, they form a non-constant <a href="/wiki/index.php/Arithmetic_progression" title="Arithmetic progression" class="mw-redirect">arithmetic progression</a>. What is the sum of all possible real values of \( x \)? </p><p>\( \textbf {(A)}\ 3 \qquad \textbf {(B)}\ 6 \qquad \textbf{(C)}\ 9 \qquad \textbf {(D)}\ 17 \qquad \textbf {(E)}\ 20 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_14" title="2000 AMC 12 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( f \) be a <a href="/wiki/index.php/Function" title="Function">function</a> for which \( f(x/3) = x^2 + x + 1 \). Find the sum of all values of \( z \) for which \( f(3z) = 7 \). </p><p>\( \textbf {(A)}\ -1/3 \qquad \textbf {(B)}\ -1/9 \qquad \textbf {(C)}\ 0 \qquad \textbf {(D)}\ 5/9 \qquad \textbf {(E)}\ 5/3 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_15" title="2000 AMC 12 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A checkerboard of \( 13 \) rows and \( 17 \) columns has a number written in each square, beginning in the upper left corner, so that the first row is numbered \( 1,2,\ldots,17 \), the second row \( 18,19,\ldots,34 \), and so on down the board. If the board is renumbered so that the left column, top to bottom, is \( 1,2,\ldots,13 \), the second column \( 14,15,\ldots,26 \) and so on across the board, some squares have the same numbers in both numbering systems. Find the sum of the numbers in these squares (under either system). </p><p>\( \textbf {(A)}\ 222 \qquad \textbf {(B)}\ 333\qquad \textbf {(C)}\ 444 \qquad \textbf {(D)}\ 555 \qquad \textbf {(E)}\ 666 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_16" title="2000 AMC 12 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><div class="floatright"> 
+ <a href="/wiki/index.php/File:2000_12_AMC-17.png" class="image"><img alt="2000 12 AMC-17.png" src="//wiki-images.artofproblemsolving.com/5/5e/2000_12_AMC-17.png" width="160" height="217"></a> 
+</div><p>A <a href="/wiki/index.php/Circle" title="Circle">circle</a> centered at \( O \) has <a href="/wiki/index.php/Radius" title="Radius">radius</a> \( 1 \) and contains the point \( A \). The segment \( AB \) is <a href="/wiki/index.php/Tangent_(geometry)" title="Tangent (geometry)">tangent</a> to the circle at \( A \) and \( \angle AOB = \theta \). If point \( C \) lies on \( \overline{OA} \) and \( \overline{BC} \) bisects \( \angle ABO \), then \( OC = \) </p><p>\( \textbf {(A)}\ \sec^2 \theta - \tan \theta \qquad \textbf {(B)}\ \frac 12 \qquad \textbf {(C)}\ \frac{\cos^2 \theta}{1 + \sin \theta}\qquad \textbf {(D)}\ \frac{1}{1+\sin\theta} \qquad \textbf {(E)}\ \frac{\sin \theta}{\cos^2 \theta} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_17" title="2000 AMC 12 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>In year \( N \), the \( 300 \)th day of the year is a Tuesday. In year \( N+1 \), the \( 200 \)th day is also a Tuesday. On what day of the week did the \( 100 \)th day of year \( N-1 \) occur? </p><p>\( \textbf {(A)}\ \text{Thursday} \qquad \textbf {(B)}\ \text{Friday}\qquad \textbf {(C)}\ \text{Saturday}\qquad \textbf {(D)}\ \text{Sunday}\qquad \textbf {(E)}\ \text{Monday} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_18" title="2000 AMC 12 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>In <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> \( ABC \), \( AB = 13 \), \( BC = 14 \), \( AC = 15 \). Let \( D \) denote the <a href="/wiki/index.php/Midpoint" title="Midpoint">midpoint</a> of \( \overline{BC} \) and let \( E \) denote the intersection of \( \overline{BC} \) with the <a href="/wiki/index.php/Angle_bisector" title="Angle bisector">bisector</a> of angle \( BAC \). Which of the following is closest to the area of the triangle \( ADE \)? </p><p>\( \textbf {(A)}\ 2 \qquad \textbf {(B)}\ 2.5 \qquad \textbf {(C)}\ 3 \qquad \textbf {(D)}\ 3.5 \qquad \textbf {(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_19" title="2000 AMC 12 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>If \( x,y, \) and \( z \) are positive numbers satisfying \( x + \frac{1}{y} = 4, y + \frac{1}{z} = 1, \) and \( z + \frac{1}{x} = \frac73, \) then what is the value of \( xyz \)&nbsp;? </p><p>\( \textbf {(A)}\ 2/3 \qquad \textbf {(B)}\ 1 \qquad \textbf {(C)}\ 4/3 \qquad \textbf {(D)}\ 2 \qquad \textbf {(E)}\ 7/3 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_20" title="2000 AMC 12 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Through a point on the <a href="/wiki/index.php/Hypotenuse" title="Hypotenuse">hypotenuse</a> of a <a href="/wiki/index.php/Right_triangle" title="Right triangle">right triangle</a>, lines are drawn <a href="/wiki/index.php/Parallel" title="Parallel">parallel</a> to the legs of the triangle so that the triangle is divided into a <a href="/wiki/index.php/Square" title="Square">square</a> and two smaller right triangles. The area of one of the two small right triangles is \( m \) times the area of the square. The <a href="/wiki/index.php/Ratio" title="Ratio">ratio</a> of the area of the other small right triangle to the area of the square is </p><p>\( \textbf {(A)}\ \frac{1}{2m+1} \qquad \textbf {(B)}\ m \qquad \textbf {(C)}\ 1-m \qquad \textbf {(D)}\ \frac{1}{4m} \qquad \textbf {(E)}\ \frac{1}{8m^2} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_21" title="2000 AMC 12 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The <a href="/wiki/index.php/Graph" title="Graph">graph</a> below shows a portion of the <a href="/wiki/index.php?title=Curve&amp;action=edit&amp;redlink=1" class="new" title="Curve (page does not exist)">curve</a> defined by the quartic <a href="/wiki/index.php/Polynomial" title="Polynomial">polynomial</a> \( P(x) = x^4 + ax^3 + bx^2 + cx + d \). Which of the following is the smallest? </p><p>\( \textbf{(A)}\ P(-1)\\ \textbf{(B)}\ \text{The\ product\ of\ the\ zeros\ of\ } P\\ \textbf{(C)}\ \text{The\ product\ of\ the\ non-real\ zeros\ of\ } P \\ \textbf{(D)}\ \text{The\ sum\ of\ the\ coefficients\ of\ } P \\ \textbf{(E)}\ \text{The\ sum\ of\ the\ real\ zeros\ of\ } P \) </p><div class="center"> 
+ <div class="floatnone"> 
+  <a href="/wiki/index.php/File:2000_12_AMC-22.png" class="image"><img alt="2000 12 AMC-22.png" src="//wiki-images.artofproblemsolving.com/5/5e/2000_12_AMC-22.png" width="419" height="322"></a> 
+ </div> 
+</div>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_22" title="2000 AMC 12 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Professor Gamble buys a lottery ticket, which requires that he pick six different integers from \( 1 \) through \( 46 \), inclusive. He chooses his numbers so that the sum of the base-ten logarithms of his six numbers is an integer. It so happens that the integers on the winning ticket have the same property— the sum of the base-ten logarithms is an integer. What is the probability that Professor Gamble holds the winning ticket? </p><p>\( \textbf {(A)}\ 1/5 \qquad \textbf {(B)}\ 1/4 \qquad \textbf {(C)}\ 1/3 \qquad \textbf {(D)}\ 1/2 \qquad \textbf {(E)}\ 1 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_23" title="2000 AMC 12 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><div class="floatright"> 
+ <a href="/wiki/index.php/File:2000_12_AMC-24.png" class="image"><img alt="2000 12 AMC-24.png" src="//wiki-images.artofproblemsolving.com/4/4a/2000_12_AMC-24.png" width="145" height="129"></a> 
+</div><p>If circular <a href="/wiki/index.php/Arc" title="Arc">arcs</a> \( AC \) and \( BC \) have <a href="/wiki/index.php/Center" title="Center">centers</a> at \( B \) and \( A \), respectively, then there exists a <a href="/wiki/index.php/Circle" title="Circle">circle</a> <a href="/wiki/index.php/Tangent_(geometry)" title="Tangent (geometry)">tangent</a> to both \( \stackrel{\frown}{AC} \) and \( \stackrel{\frown}{BC} \), and to \( \overline{AB} \). If the length of \( \stackrel{\frown}{BC} \) is \( 12 \), then the <a href="/wiki/index.php/Circumference" title="Circumference">circumference</a> of the circle is </p><p>\( \textbf {(A)}\ 24 \qquad \textbf {(B)}\ 25 \qquad \textbf {(C)}\ 26 \qquad \textbf {(D)}\ 27 \qquad \textbf {(E)}\ 28 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_24" title="2000 AMC 12 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Eight congruent <a href="/wiki/index.php/Equilateral_triangle" title="Equilateral triangle">equilateral triangles</a>, each of a different color, are used to construct a regular <a href="/wiki/index.php/Octahedron" title="Octahedron">octahedron</a>. How many distinguishable ways are there to construct the octahedron? (Two colored octahedrons are distinguishable if neither can be rotated to look just like the other.) </p><p>\( \textbf {(A)}\ 210 \qquad \textbf {(B)}\ 560 \qquad \textbf {(C)}\ 840 \qquad \textbf {(D)}\ 1260 \qquad \textbf {(E)}\ 1680 \) </p><center> 
+ <img src="https://latex.artofproblemsolving.com/7/d/1/7d13f21ea69c61ec44e671434db41a0bdedb8189.png" width="578" height="668"> 
+</center>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems/Problem_25" title="2000 AMC 12 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2000_AMC_12_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","A","B","C","C","C","E","C","C","E","E","E","C","E","B","D","D","A","C","B","D","C","B","D","E"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

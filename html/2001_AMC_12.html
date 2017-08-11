@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2001 AMC 12</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2001 AMC 12</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The sum of two numbers is \( S \). Suppose \( 3 \) is added to each number and then each of the resulting numbers is doubled. What is the sum of the final two numbers? </p><p>\( \text{(A)}\ 2S + 3\qquad \text{(B)}\ 3S + 2\qquad \text{(C)}\ 3S + 6 \qquad\text{(D)} 2S + 6 \qquad \text{(E)}\ 2S + 12 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_1" title="2001 AMC 12 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Let \( P(n) \) and \( S(n) \) denote the product and the sum, respectively, of the digits of the integer \( n \). For example, \( P(23) = 6 \) and \( S(23) = 5 \). Suppose \( N \) is a two-digit number such that \( N = P(N)+S(N) \). What is the units digit of \( N \)? </p><p>\( \text{(A)}\ 2\qquad \text{(B)}\ 3\qquad \text{(C)}\ 6\qquad \text{(D)}\ 8\qquad \text{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_2" title="2001 AMC 12 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The state income tax where Kristin lives is levied at the rate of \( p\% \) of the first \( \$ 28000 \) of annual income plus \( (p + 2)\% \) of any amount above \( \$ 28000 \). Kristin noticed that the state income tax she paid amounted to \( (p + 0.25)\% \) of her annual income. What was her annual income? </p><p>\( \text{(A)}\ $28000\qquad \text{(B)}\ $32000\qquad \text{(C)}\ $35000\qquad \text{(D)}\ $42000\qquad \text{(E)}\ $56000 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_3" title="2001 AMC 12 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The mean of three numbers is \( 10 \) more than the least of the numbers and \( 15 \) less than the greatest. The median of the three numbers is \( 5 \). What is their sum? </p><p>\( \text{(A)}\ 5\qquad \text{(B)}\ 20\qquad \text{(C)}\ 25\qquad \text{(D)}\ 30\qquad \text{(E)}\ 36 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_4" title="2001 AMC 12 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>What is the product of all positive odd integers less than 10000? </p><p>\( \text{(A)}\ \dfrac{10000!}{(5000!)^2}\qquad \text{(B)}\ \dfrac{10000!}{2^{5000}}\qquad \text{(C)}\ \dfrac{9999!}{2^{5000}}\qquad \text{(D)}\ \dfrac{10000!}{2^{5000} \cdot 5000!}\qquad \text{(E)}\ \dfrac{5000!}{2^{5000}} \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_5" title="2001 AMC 12 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>A telephone number has the form \( \text{ABC-DEF-GHIJ} \), where each letter represents a different digit. The digits in each part of the number are in decreasing order; that is, \( A &gt; B &gt; C \), \( D &gt; E &gt; F \), and \( G &gt; H &gt; I &gt; J \). Furthermore, \( D \), \( E \), and \( F \) are consecutive even digits; \( G \), \( H \), \( I \), and \( J \) are consecutive odd digits; and \( A + B + C = 9 \). Find \( A \). </p><p>\( \text{(A)}\ 4\qquad \text{(B)}\ 5\qquad \text{(C)}\ 6\qquad \text{(D)}\ 7\qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_6" title="2001 AMC 12 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>A charity sells \( 140 \) benefit tickets for a total of \( \$ 2001 \). Some tickets sell for full price (a whole dollar amount), and the rest sells for half price. How much money is raised by the full-price tickets? </p><p>\( \text{(A) }$782\qquad \text{(B) }$986\qquad \text{(C) }$1158\qquad \text{(D) }$1219\qquad \text{(E) }$1449 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_7" title="2001 AMC 12 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Which of the cones listed below can be formed from a \( 252^\circ \) sector of a circle of radius \( 10 \) by aligning the two straight sides? </p><p><img src="https://latex.artofproblemsolving.com/b/b/8/bb8af0c17ff35be1e553d36477a23ce3f026bded.png" width="145" height="142"> </p><p>\( \text{(A) A cone with slant height of } 10 \text{ and radius } 6 \) </p><p>\( \text{(B) A cone with height of } 10 \text{ and radius } 6 \) </p><p>\( \text{(C) A cone with slant height of } 10 \text{ and radius } 7 \) </p><p>\( \text{(D) A cone with height of } 10 \text{ and radius } 7 \) </p><p>\( \text{(E) A cone with slant height of } 10 \text{ and radius } 8 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_8" title="2001 AMC 12 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Let \( f \) be a function satisfying \( f(xy) = \frac{f(x)}y \) for all positive real numbers \( x \) and \( y \). If \( f(500) =3 \), what is the value of \( f(600) \)? </p><p>\( (\mathrm{A})\ 1 \qquad (\mathrm{B})\ 2 \qquad (\mathrm{C})\ \frac52 \qquad (\mathrm{D})\ 3 \qquad (\mathrm{E})\ \frac{18}5 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_9" title="2001 AMC 12 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The plane is tiled by congruent squares and congruent pentagons as indicated. The percent of the plane that is enclosed by the pentagons is closest to </p><p>\( \text{(A) }50 \qquad \text{(B) }52 \qquad \text{(C) }54 \qquad \text{(D) }56 \qquad \text{(E) }58 \) </p><p><img src="https://latex.artofproblemsolving.com/2/c/8/2c8743395e4a086d2ae9a30a2d161157e7dc3077.png" width="132" height="132"> </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_10" title="2001 AMC 12 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>A box contains exactly five chips, three red and two white. Chips are randomly removed one at a time without replacement until all the red chips are drawn or all the white chips are drawn. What is the probability that the last chip drawn is white? </p><p>\( \text{(A) }\frac {3}{10} \qquad \text{(B) }\frac {2}{5} \qquad \text{(C) }\frac {1}{2} \qquad \text{(D) }\frac {3}{5} \qquad \text{(E) }\frac {7}{10} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_11" title="2001 AMC 12 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>How many positive integers not exceeding \( 2001 \) are multiples of \( 3 \) or \( 4 \) but not \( 5 \)? </p><p>\( \text{(A) }768 \qquad \text{(B) }801 \qquad \text{(C) }934 \qquad \text{(D) }1067 \qquad \text{(E) }1167 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_12" title="2001 AMC 12 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The parabola with equation \( y=ax^2+bx+c \) and vertex \( (h,k) \) is reflected about the line \( y=k \). This results in the parabola with equation \( y=dx^2+ex+f \). Which of the following equals \( a+b+c+d+e+f \)? </p><p>\( \text{(A) }2b \qquad \text{(B) }2c \qquad \text{(C) }2a+2b \qquad \text{(D) }2h \qquad \text{(E) }2k \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_13" title="2001 AMC 12 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Given the nine-sided regular polygon \( A_1 A_2 A_3 A_4 A_5 A_6 A_7 A_8 A_9 \), how many distinct equilateral triangles in the plane of the polygon have at least two vertices in the set \( \{A_1,A_2,\dots,A_9\} \)? </p><p>\( \text{(A) }30 \qquad \text{(B) }36 \qquad \text{(C) }63 \qquad \text{(D) }66 \qquad \text{(E) }72 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_14" title="2001 AMC 12 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>An insect lives on the surface of a regular tetrahedron with edges of length 1. It wishes to travel on the surface of the tetrahedron from the midpoint of one edge to the midpoint of the opposite edge. What is the length of the shortest such trip? (Note: Two edges of a tetrahedron are opposite if they have no common endpoint.) </p><p>\( \text{(A) }\frac {1}{2} \sqrt {3} \qquad \text{(B) }1 \qquad \text{(C) }\sqrt {2} \qquad \text{(D) }\frac {3}{2} \qquad \text{(E) }2 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_15" title="2001 AMC 12 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A spider has one sock and one shoe for each of its eight legs. In how many different orders can the spider put on its socks and shoes, assuming that, on each leg, the sock must be put on before the shoe? </p><p>\( \text{(A) }8! \qquad \text{(B) }2^8 \cdot 8! \qquad \text{(C) }(8!)^2 \qquad \text{(D) }\frac {16!}{2^8} \qquad \text{(E) }16! \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_16" title="2001 AMC 12 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A point \( P \) is selected at random from the interior of the pentagon with vertices \( A = (0,2) \), \( B = (4,0) \), \( C = (2 \pi + 1, 0) \), \( D = (2 \pi + 1,4) \), and \( E=(0,4) \). What is the probability that \( \angle APB \) is obtuse? </p><p>\( \text{(A) }\frac {1}{5} \qquad \text{(B) }\frac {1}{4} \qquad \text{(C) }\frac {5}{16} \qquad \text{(D) }\frac {3}{8} \qquad \text{(E) }\frac {1}{2} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_17" title="2001 AMC 12 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A circle centered at \( A \) with a radius of 1 and a circle centered at \( B \) with a radius of 4 are externally tangent. A third circle is tangent to the first two and to one of their common external tangents as shown. The radius of the third circle is </p><p><img src="https://latex.artofproblemsolving.com/e/0/3/e0340e3581aab9d635bcf2dca6b71152f8fa5290.png" width="358" height="285"> </p><p>\( \text{(A) }\frac {1}{3} \qquad \text{(B) }\frac {2}{5} \qquad \text{(C) }\frac {5}{12} \qquad \text{(D) }\frac {4}{9} \qquad \text{(E) }\frac {1}{2} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_18" title="2001 AMC 12 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The polynomial \( P(x)=x^3+ax^2+bx+c \) has the property that the mean of its zeros, the product of its zeros, and the sum of its coefficients are all equal. If the \( y \)-intercept of the graph of \( y=P(x) \) is 2, what is \( b \)? </p><p>\( \text{(A) }-11 \qquad \text{(B) }-10 \qquad \text{(C) }-9 \qquad \text{(D) }1 \qquad \text{(E) }5 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_19" title="2001 AMC 12 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Points \( A = (3,9) \), \( B = (1,1) \), \( C = (5,3) \), and \( D=(a,b) \) lie in the first quadrant and are the vertices of quadrilateral \( ABCD \). The quadrilateral formed by joining the midpoints of \( \overline{AB} \), \( \overline{BC} \), \( \overline{CD} \), and \( \overline{DA} \) is a square. What is the sum of the coordinates of point \( D \)? </p><p>\( \text{(A) }7 \qquad \text{(B) }9 \qquad \text{(C) }10 \qquad \text{(D) }12 \qquad \text{(E) }16 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_20" title="2001 AMC 12 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Four positive integers \( a \), \( b \), \( c \), and \( d \) have a product of \( 8! \) and satisfy: </p><p>\begin{align*} ab + a + b &amp; = 524 \\ bc + b + c &amp; = 146 \\ cd + c + d &amp; = 104 \end{align*} </p><p>What is \( a-d \)? </p><p>\( \text{(A) }4 \qquad \text{(B) }6 \qquad \text{(C) }8 \qquad \text{(D) }10 \qquad \text{(E) }12 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_21" title="2001 AMC 12 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>In rectangle \( ABCD \), points \( F \) and \( G \) lie on \( AB \) so that \( AF=FG=GB \) and \( E \) is the midpoint of \( \overline{DC} \). Also, \( \overline{AC} \) intersects \( \overline{EF} \) at \( H \) and \( \overline{EG} \) at \( J \). The area of the rectangle \( ABCD \) is \( 70 \). Find the area of triangle \( EHJ \). </p><p>\( \text{(A) }\frac {5}{2} \qquad \text{(B) }\frac {35}{12} \qquad \text{(C) }3 \qquad \text{(D) }\frac {7}{2} \qquad \text{(E) }\frac {35}{8} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_22" title="2001 AMC 12 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>A polynomial of degree four with leading coefficient 1 and integer coefficients has two zeros, both of which are integers. Which of the following can also be a zero of the polynomial? </p><p>\( \text{(A) }\frac {1 + i \sqrt {11}}{2} \qquad \text{(B) }\frac {1 + i}{2} \qquad \text{(C) }\frac {1}{2} + i \qquad \text{(D) }1 + \frac {i}{2} \qquad \text{(E) }\frac {1 + i \sqrt {13}}{2} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_23" title="2001 AMC 12 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>In \( \triangle ABC \), \( \angle ABC=45^\circ \). Point \( D \) is on \( \overline{BC} \) so that \( 2\cdot BD=CD \) and \( \angle DAB=15^\circ \). Find \( \angle ACB \). </p><p>\( \text{(A) }54^\circ \qquad \text{(B) }60^\circ \qquad \text{(C) }72^\circ \qquad \text{(D) }75^\circ \qquad \text{(E) }90^\circ \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_24" title="2001 AMC 12 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Consider sequences of positive real numbers of the form \( x, 2000, y, \dots \) in which every term after the first is 1 less than the product of its two immediate neighbors. For how many different values of \( x \) does the term 2001 appear somewhere in the sequence? </p><p>\( \text{(A) }1 \qquad \text{(B) }2 \qquad \text{(C) }3 \qquad \text{(D) }4 \qquad \text{(E) more than }4 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems/Problem_25" title="2001 AMC 12 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2001_AMC_12_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","E","B","D","D","E","A","C","C","D","D","B","E","D","B","D","C","D","A","C","D","C","A","D","D"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

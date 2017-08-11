@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2006 AMC 10A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2006 AMC 10A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Sandwiches at Joe's Fast Food cost \( \$ 3 \) each and sodas cost \( \$ 2 \) each. How many dollars will it cost to purchase 5 sandwiches and 8 sodas? </p><p>\( \mathrm{(A)}\ 31\qquad\mathrm{(B)}\ 32\qquad\mathrm{(C)}\ 33\qquad\mathrm{(D)}\ 34\qquad\mathrm{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_1" title="2006 AMC 10A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Define \( x\otimes y=x^3-y \). What is \( h\otimes (h\otimes h) \)? </p><p>\( \mathrm{(A)}\ -h\qquad \mathrm{(B)}\ 0\qquad \mathrm{(C)}\ h\qquad \mathrm{(D)}\ 2h\qquad\mathrm{(E)}\ h^3 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_2" title="2006 AMC 10A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The ratio of Mary's age to Alice's age is \( 3:5 \). Alice is \( 30 \) years old. How many years old is Mary? </p><p>\( \mathrm{(A)}\ 15\qquad\mathrm{(B)}\ 18\qquad\mathrm{(C)}\ 20\qquad\mathrm{(D)}\ 24\qquad\mathrm{(E)}\ 50 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_3" title="2006 AMC 10A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>A digital watch displays hours and minutes with AM and PM. What is the largest possible sum of the digits in the display? </p><p>\( \mathrm{(A)}\ 17\qquad\mathrm{(B)}\ 19\qquad\mathrm{(C)}\ 21\qquad\mathrm{(D)}\ 22\qquad\mathrm{(E)}\ 23 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_4" title="2006 AMC 10A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Doug and Dave shared a pizza with 8 equally-sized slices. Doug wanted a plain pizza, but Dave wanted anchovies on half of the pizza. The cost of a plain pizza was 8 dollars, and there was an additional cost of 2 dollars for putting anchovies on one half. Dave ate all of the slices of anchovy pizza and one plain slice. Doug ate the remainder. Each then paid for what he had eaten. How many more dollars did Dave pay than Doug? </p><p>\( \mathrm{(A)}\ 1\qquad\mathrm{(B)}\ 2\qquad\mathrm{(C)}\ 3\qquad\mathrm{(D)}\ 4\qquad\mathrm{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_5" title="2006 AMC 10A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>What non-zero real value for \( x \) satisfies \( (7x)^{14}=(14x)^7 \)? </p><p>\( \mathrm{(A)}\ \frac17\qquad\mathrm{(B)}\ \frac27\qquad\mathrm{(C)}\ 1\qquad\mathrm{(D)}\ 7\qquad\mathrm{(E)}\ 14 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_6" title="2006 AMC 10A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p><a href="/wiki/index.php/File:2006_AMC_12A_Problem_6.png" class="image"><img alt="2006 AMC 12A Problem 6.png" src="//wiki-images.artofproblemsolving.com/e/e9/2006_AMC_12A_Problem_6.png" width="400" height="203"></a> </p><p>The \( 8 \times 18 \) rectangle \( ABCD \) is cut into two congruent hexagons, as shown, in such a way that the two hexagons can be repositioned without overlap to form a square. What is \( y \)? </p><p>\( \mathrm{(A)}\ 6\qquad\mathrm{(B)}\ 7\qquad\mathrm{(C)}\ 8\qquad\mathrm{(D)}\ 9\qquad\mathrm{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_7" title="2006 AMC 10A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A parabola with equation \( y=x^2+bx+c \) passes through the points \( (2,3) \) and \( (4,3) \). What is \( c \)? </p><p>\( \mathrm{(A)}\ 2\qquad\mathrm{(B)}\ 5\qquad\mathrm{(C)}\ 7\qquad\mathrm{(D)}\ 10\qquad\mathrm{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_8" title="2006 AMC 10A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>How many sets of two or more consecutive positive integers have a sum of 15? </p><p>\( \mathrm{(A)}\ 1\qquad\mathrm{(B)}\ 2\qquad\mathrm{(C)}\ 3\qquad\mathrm{(D)}\ 4\qquad\mathrm{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_9" title="2006 AMC 10A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>For how many real values of \( x \) is \( \sqrt{120-\sqrt{x}} \) an integer? </p><p>\( \mathrm{(A)}\ 3\qquad\mathrm{(B)}\ 6\qquad\mathrm{(C)}\ 9\qquad\mathrm{(D)}\ 10\qquad\mathrm{(E)}\ 11\qquad \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_10" title="2006 AMC 10A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Which of the following describes the graph of the equation \( (x+y)^2=x^2+y^2 \)? </p><p>\( \mathrm{(A)}\ \text{the empty set}\qquad\mathrm{(B)}\ \text{one point}\qquad\mathrm{(C)}\ \text{two lines}\qquad\mathrm{(D)}\ \text{a circle}\qquad\mathrm{(E)}\ \text{the entire plane} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_11" title="2006 AMC 10A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p><a href="/wiki/index.php/File:2006_AMC_10A-12.GIF" class="image"><img alt="2006 AMC 10A-12.GIF" src="//wiki-images.artofproblemsolving.com/b/bc/2006_AMC_10A-12.GIF" width="283" height="318"></a> </p><p>Rolly wishes to secure his dog with an 8-foot rope to a square shed that is 16 feet on each side. His preliminary drawings are shown. </p><p>Which of these arrangements give the dog the greater area to roam, and by how many square feet? </p><p>\( \mathrm{(A)}\ \text{I, by}\ 8\pi\qquad\mathrm{(B)}\ \text{I, by}\ 6\pi\qquad\mathrm{(C)}\ \text{II, by}\ 4\pi\qquad\mathrm{(D)} \text{II, by}\ 8\pi\qquad\mathrm{(E)}\ \text{II, by}\ 10\pi \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_12" title="2006 AMC 10A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A player pays \( \$ 5 \) to play a game. A die is rolled. If the number on the die is odd, the game is lost. If the number on the die is even, the die is rolled again. In this case the player wins if the second number matches the first and loses otherwise. How much should the player win if the game is fair? (In a fair game the probability of winning times the amount won is what the player should pay.) </p><p>\( \mathrm{(A)}\ 12\qquad\mathrm{(B)}\ 30\qquad\mathrm{(C)}\ 50\qquad\mathrm{(D)}\ 60\qquad\mathrm{(E)}\ 100 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_13" title="2006 AMC 10A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p><a href="/wiki/index.php/File:2006_AMC10A-14.png" class="image"><img alt="2006 AMC10A-14.png" src="//wiki-images.artofproblemsolving.com/e/e2/2006_AMC10A-14.png" width="270" height="673"></a> </p><p>A number of linked rings, each 1 cm thick, are hanging on a peg. The top ring has an outside diameter of 20 cm. The outside diameter of each of the other rings is 1 cm less than that of the ring above it. The bottom ring has an outside diameter of 3 cm. What is the distance, in cm, from the top of the top ring to the bottom of the bottom ring? </p><p>\( \mathrm{(A)}\ 171\qquad\mathrm{(B)}\ 173\qquad\mathrm{(C)}\ 182\qquad\mathrm{(D)}\ 188\qquad\mathrm{(E)}\ 210 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_14" title="2006 AMC 10A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Odell and Kershaw run for 30 minutes on a circular track. Odell runs clockwise at 250 m/min and uses the inner lane with a radius of 50 meters. Kershaw runs counterclockwise at 300 m/min and uses the outer lane with a radius of 60 meters, starting on the same radial line as Odell. How many times after the start do they pass each other? </p><p>\( \mathrm{(A)}\ 29\qquad\mathrm{(B)}\ 42\qquad\mathrm{(C)}\ 45\qquad\mathrm{(D)}\ 47\qquad\mathrm{(E)}\ 50 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_15" title="2006 AMC 10A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><center> 
+ <a href="/wiki/index.php/File:2006_AMC10A-16.png" class="image"><img alt="2006 AMC10A-16.png" src="//wiki-images.artofproblemsolving.com/6/6e/2006_AMC10A-16.png" width="349" height="486"></a> 
+</center><p>A circle of radius 1 is tangent to a circle of radius 2. The sides of \( \triangle ABC \) are tangent to the circles as shown, and the sides \( \overline{AB} \) and \( \overline{AC} \) are congruent. What is the area of \( \triangle ABC \)? </p><p>\( \mathrm{(A)}\ \frac{35}{2}\qquad\mathrm{(B)}\ 15\sqrt{2}\qquad\mathrm{(C)}\ \frac{64}{3}\qquad\mathrm{(D)}\ 16\sqrt{2}\qquad\mathrm{(E)}\ 24 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_16" title="2006 AMC 10A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><center> 
+ <a href="/wiki/index.php/File:2006_AMC10A-17.png" class="image"><img alt="2006 AMC10A-17.png" src="//wiki-images.artofproblemsolving.com/9/95/2006_AMC10A-17.png" width="359" height="258"></a> 
+</center><p>In rectangle \( ADEH \), points \( B \) and \( C \) trisect \( \overline{AD} \), and points \( G \) and \( F \) trisect \( \overline{HE} \). In addition, \( AH=AC=2 \). What is the area of quadrilateral \( WXYZ \) shown in the figure? </p><p>\( \mathrm{(A)}\ \frac{1}{2}\qquad\mathrm{(B)}\ \frac{\sqrt{2}}{2}\qquad\mathrm{(C)}\ \frac{\sqrt{3}}{2}\qquad\mathrm{(D)}\ \frac{2\sqrt{2}}{2}\qquad\mathrm{(E)}\ \frac{2\sqrt{3}}{3} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_17" title="2006 AMC 10A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A license plate in a certain state consists of 4 digits, not necessarily distinct, and 2 letters, also not necessarily distinct. These six characters may appear in any order, except that the two letters must appear next to each other. How many distinct license plates are possible? </p><p>\( \mathrm{(A)}\ 10^4\times26^2\qquad\mathrm{(B)}\ 10^3\times26^3\qquad\mathrm{(C)}\ 5\times10^4\times26^2\qquad\mathrm{(D)}\ 10^2\times26^4\qquad\mathrm{(E)}\ 5\times10^3\times26^3 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_18" title="2006 AMC 10A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>How many non-similar triangles have angles whose degree measures are distinct positive integers in arithmetic progression? </p><p>\( \mathrm{(A)}\ 0\qquad\mathrm{(B)}\ 1\qquad\mathrm{(C)}\ 59\qquad\mathrm{(D)}\ 89\qquad\mathrm{(E)}\ 178 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_19" title="2006 AMC 10A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Six distinct positive integers are randomly chosen between 1 and 2006, inclusive. What is the probability that some pair of these integers has a difference that is a multiple of 5? </p><p>\( \mathrm{(A)}\ \frac{1}{2}\qquad\mathrm{(B)}\ \frac{3}{5}\qquad\mathrm{(C)}\ \frac{2}{3}\qquad\mathrm{(D)}\ \frac{4}{5}\qquad\mathrm{(E)}\ 1 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_20" title="2006 AMC 10A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>How many four-digit positive integers have at least one digit that is a 2 or a 3? </p><p>\( \mathrm{(A)}\ 2439\qquad\mathrm{(B)}\ 4096\qquad\mathrm{(C)}\ 4903\qquad\mathrm{(D)}\ 4904\qquad\mathrm{(E)}\ 5416 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_21" title="2006 AMC 10A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Two farmers agree that pigs are worth $300 and that goats are worth $210. When one farmer owes the other money, he pays the debt in pigs or goats, with "change" received in the form of goats or pigs as necessary. (For example, a $390 debt could be paid with two pigs, with one goat received in change.) What is the amount of the smallest positive debt that can be resolved in this way? </p><p>\( \mathrm{(A)}\ 5\qquad\mathrm{(B)}\ 10\qquad\mathrm{(C)}\ 30\qquad\mathrm{(D)}\ 90\qquad\mathrm{(E)}\ 210 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_22" title="2006 AMC 10A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Circles with centers \( A \) and \( B \) have radii \( 3 \) and \( 8 \), respectively. A common internal tangent intersects the circles at \( C \) and \( D \), respectively. Lines \( AB \) and \( CD \) intersect at \( E \), and \( AE=5 \). What is \( CD \)? </p><div class="center"> 
+ <div class="floatnone"> 
+  <a href="/wiki/index.php/File:2006_AMC12A-16.png" class="image"><img alt="2006 AMC12A-16.png" src="//wiki-images.artofproblemsolving.com/0/0a/2006_AMC12A-16.png" width="557" height="312"></a> 
+ </div> 
+</div><p>\( \mathrm{(A)}\ 13\qquad\mathrm{(B)}\ \frac{44}{3}\qquad\mathrm{(C)}\ \sqrt{221}\qquad\mathrm{(D)}\ \sqrt{255}\qquad\mathrm{(E)}\ \frac{55}{3} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_23" title="2006 AMC 10A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Centers of adjacent faces of a unit cube are joined to form a regular octahedron. What is the volume of this octahedron? </p><p>\( \mathrm{(A)}\ \frac{1}{8}\qquad\mathrm{(B)}\ \frac{1}{6}\qquad\mathrm{(C)}\ \frac{1}{4}\qquad\mathrm{(D)}\ \frac{1}{3}\qquad\mathrm{(E)}\ \frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_24" title="2006 AMC 10A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A bug starts at one vertex of a cube and moves along the edges of the cube according to the following rule. At each vertex the bug will choose to travel along one of the three edges emanating from that vertex. Each edge has equal probability of being chosen, and all choices are independent. What is the probability that after seven moves the bug will have visited every vertex exactly once? </p><p>\( \mathrm{(A)}\ \frac{1}{2187}\qquad\mathrm{(B)}\ \frac{1}{729}\qquad\mathrm{(C)}\ \frac{2}{243}\qquad\mathrm{(D)}\ \frac{1}{81}\qquad\mathrm{(E)}\ \frac{5}{243} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_25" title="2006 AMC 10A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["A","C","B","E","D","B","A","E","C","E","C","C","D","B","D","D","A","C","C","E","E","C","B","B","C"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

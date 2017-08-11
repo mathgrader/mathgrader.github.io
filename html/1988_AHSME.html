@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1988 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1988 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>\( \sqrt{8}+\sqrt{18}= \) </p><p>\( \text{(A)}\ \sqrt{20} \qquad \text{(B)}\ 2(\sqrt{2}+\sqrt{3}) \qquad \text{(C)}\ 7 \qquad \text{(D)}\ 5\sqrt{2}\qquad \text{(E)}\ 2\sqrt{13} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_1" title="1988 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Triangles \( ABC \) and \( XYZ \) are similar, with \( A \) corresponding to \( X \) and \( B \) to \( Y \). If \( AB=3, BC=4 \), and \( XY=5 \), then \( YZ \) is: </p><p>\( \text{(A)}\ 3\frac{3}{4} \qquad \text{(B)}\ 6 \qquad \text{(C)}\ 6\frac{1}{4} \qquad \text{(D)}\ 6\frac{2}{3} \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_2" title="1988 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p><img src="https://latex.artofproblemsolving.com/9/3/5/9353c907a64b80423cb6b7575208cbf994ae0429.png" width="252" height="252"> </p><p>Four rectangular paper strips of length \( 10 \) and width \( 1 \) are put flat on a table and overlap perpendicularly as shown. How much area of the table is covered? </p><p>\( \text{(A)}\ 36 \qquad \text{(B)}\ 40 \qquad \text{(C)}\ 44 \qquad \text{(D)}\ 98 \qquad \text{(E)}\ 100 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_3" title="1988 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The slope of the line \( \frac{x}{3} + \frac{y}{2} = 1 \) is </p><p>\( \textbf{(A)}\ -\frac{3}{2}\qquad \textbf{(B)}\ -\frac{2}{3}\qquad \textbf{(C)}\ \frac{1}{3}\qquad \textbf{(D)}\ \frac{2}{3}\qquad \textbf{(E)}\ \frac{3}{2} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_4" title="1988 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>If \( b \) and \( c \) are constants and \( (x + 2)(x + b) = x^2 + cx + 6 \), then \( c \) is </p><p>\( \textbf{(A)}\ -5\qquad \textbf{(B)}\ -3\qquad \textbf{(C)}\ -1\qquad \textbf{(D)}\ 3\qquad \textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_5" title="1988 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>A figure is an equiangular parallelogram if and only if it is a </p><p>\( \textbf{(A)}\ \text{rectangle}\qquad \textbf{(B)}\ \text{regular polygon}\qquad \textbf{(C)}\ \text{rhombus}\qquad \textbf{(D)}\ \text{square}\qquad \textbf{(E)}\ \text{trapezoid} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_6" title="1988 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Estimate the time it takes to send \( 60 \) blocks of data over a communications channel if each block consists of \( 512 \) "chunks" and the channel can transmit \( 120 \) chunks per second. </p><p>\( \textbf{(A)}\ 0.04 \text{ seconds}\qquad \textbf{(B)}\ 0.4 \text{ seconds}\qquad \textbf{(C)}\ 4 \text{ seconds}\qquad \textbf{(D)}\ 4\text{ minutes}\qquad \textbf{(E)}\ 4\text{ hours} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_7" title="1988 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>If \( \frac{b}{a} = 2 \) and \( \frac{c}{b} = 3 \), what is the ratio of \( a + b \) to \( b + c \)? </p><p>\( \textbf{(A)}\ \frac{1}{3}\qquad \textbf{(B)}\ \frac{3}{8}\qquad \textbf{(C)}\ \frac{3}{5}\qquad \textbf{(D)}\ \frac{2}{3}\qquad \textbf{(E)}\ \frac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_8" title="1988 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p><img src="https://latex.artofproblemsolving.com/7/d/4/7d458178df921f05192259392a80c9bb253f674f.png" width="668" height="235"> </p><p>An \( 8' \times 10' \) table sits in the corner of a square room, as in Figure \( 1 \) below. The owners desire to move the table to the position shown in Figure \( 2 \). The side of the room is \( S \) feet. What is the smallest integer value of \( S \) for which the table can be moved as desired without tilting it or taking it apart? </p><p>\( \textbf{(A)}\ 11\qquad \textbf{(B)}\ 12\qquad \textbf{(C)}\ 13\qquad \textbf{(D)}\ 14\qquad \textbf{(E)}\ 15 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_9" title="1988 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>In an experiment, a scientific constant \( C \) is determined to be \( 2.43865 \) with an error of at most \( \pm 0.00312 \). The experimenter wishes to announce a value for \( C \) in which every digit is significant. That is, whatever \( C \) is, the announced value must be the correct result when \( C \) is rounded to that number of digits. The most accurate value the experimenter can announce for \( C \) is </p><p>\( \textbf{(A)}\ 2\qquad \textbf{(B)}\ 2.4\qquad \textbf{(C)}\ 2.43\qquad \textbf{(D)}\ 2.44\qquad \textbf{(E)}\ 2.439 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_10" title="1988 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p><img src="https://latex.artofproblemsolving.com/3/e/7/3e74f88b7e27fbc4ebf856f9b6a0866d8e64c6be.png" width="668" height="238"> </p><p>On each horizontal line in the figure below, the five large dots indicate the populations of cities \( A, B, C, D \) and \( E \) in the year indicated. Which city had the greatest percentage increase in population from \( 1970 \) to \( 1980 \)? </p><p>\( \textbf{(A)}\ A\qquad \textbf{(B)}\ B\qquad \textbf{(C)}\ C\qquad \textbf{(D)}\ D\qquad \textbf{(E)}\ E \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_11" title="1988 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Each integer \( 1 \) through \( 9 \) is written on a separate slip of paper and all nine slips are put into a hat. Jack picks one of these slips at random and puts it back. Then Jill picks a slip at random. Which digit is most likely to be the units digit of the sum of Jack's integer and Jill's integer? </p><p>\( \textbf{(A)}\ 0\qquad \textbf{(B)}\ 1\qquad \textbf{(C)}\ 8\qquad \textbf{(D)}\ 9\qquad \textbf{(E)}\ \text{each digit is equally likely} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_12" title="1988 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>If \( \sin(x)= 3\cos(x) \) then what is \( \sin(x) \cdot \cos(x) \)? </p><p>\( \textbf{(A)}\ \frac{1}{6}\qquad \textbf{(B)}\ \frac{1}{5}\qquad \textbf{(C)}\ \frac{2}{9}\qquad \textbf{(D)}\ \frac{1}{4}\qquad \textbf{(E)}\ \frac{3}{10} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_13" title="1988 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>For any real number a and positive integer k, define </p><p>\( {a \choose k} = \frac{a(a-1)(a-2)\cdots(a-(k-1))}{k(k-1)(k-2)\cdots(2)(1)} \) </p><p>What is </p><p>\( {-\frac{1}{2} \choose 100} \div {\frac{1}{2} \choose 100} \)? </p><p>\( \textbf{(A)}\ -199\qquad \textbf{(B)}\ -197\qquad \textbf{(C)}\ -1\qquad \textbf{(D)}\ 197\qquad \textbf{(E)}\ 199 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_14" title="1988 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>If \( a \) and \( b \) are integers such that \( x^2 - x - 1 \) is a factor of \( ax^3 + bx^2 + 1 \), then \( b \) is </p><p>\( \textbf{(A)}\ -2\qquad \textbf{(B)}\ -1\qquad \textbf{(C)}\ 0\qquad \textbf{(D)}\ 1\qquad \textbf{(E)}\ 2 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_15" title="1988 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p><img src="https://latex.artofproblemsolving.com/9/9/d/99d677e49262bbd174ccaccf2dc6b15986c0de3d.png" width="668" height="558"> </p><p>\( ABC \) and \( A'B'C' \) are equilateral triangles with parallel sides and the same center, as in the figure. The distance between side \( BC \) and side \( B'C' \) is \( \frac{1}{6} \) the altitude of \( \triangle ABC \). The ratio of the area of \( \triangle A'B'C' \) to the area of \( \triangle ABC \) is </p><p>\( \textbf{(A)}\ \frac{1}{36}\qquad \textbf{(B)}\ \frac{1}{6}\qquad \textbf{(C)}\ \frac{1}{4}\qquad \textbf{(D)}\ \frac{\sqrt{3}}{4}\qquad \textbf{(E)}\ \frac{9+8\sqrt{3}}{36} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_16" title="1988 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>If \( |x| + x + y = 10 \) and \( x + |y| - y = 12 \), find \( x + y \) </p><p>\( \textbf{(A)}\ -2\qquad \textbf{(B)}\ 2\qquad \textbf{(C)}\ \frac{18}{5}\qquad \textbf{(D)}\ \frac{22}{3}\qquad \textbf{(E)}\ 22 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_17" title="1988 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>At the end of a professional bowling tournament, the top 5 bowlers have a playoff. First #5 bowls #4. The loser receives \( 5 \)th prize and the winner bowls #3 in another game. The loser of this game receives \( 4 \)th prize and the winner bowls #2. The loser of this game receives \( 3 \)rd prize and the winner bowls #1. The winner of this game gets 1st prize and the loser gets 2nd prize. In how many orders can bowlers #1 through #5 receive the prizes? </p><p>\( \textbf{(A)}\ 10\qquad \textbf{(B)}\ 16\qquad \textbf{(C)}\ 24\qquad \textbf{(D)}\ 120\qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_18" title="1988 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Simplify </p><p>\( \frac{bx(a^2x^2 + 2a^2y^2 + b^2y^2) + ay(a^2x^2 + 2b^2x^2 + b^2y^2)}{bx + ay} \) </p><p>\( \textbf{(A)}\ a^2x^2 + b^2y^2\qquad \textbf{(B)}\ (ax + by)^2\qquad \textbf{(C)}\ (ax + by)(bx + ay)\qquad\\ \textbf{(D)}\ 2(a^2x^2+b^2y^2)\qquad \textbf{(E)}\ (bx+ay)^2 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_19" title="1988 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>In one of the adjoining figures a square of side \( 2 \) is dissected into four pieces so that \( E \) and \( F \) are the midpoints of opposite sides and \( AG \) is perpendicular to \( BF \). These four pieces can then be reassembled into a rectangle as shown in the second figure. The ratio of height to base, \( XY / YZ \), in this rectangle is </p><p><img src="https://latex.artofproblemsolving.com/b/a/9/ba97279261a01408420684879845a8987e0a013b.png" width="668" height="608"> </p><p>\( \textbf{(A)}\ 4\qquad \textbf{(B)}\ 1+2\sqrt{3}\qquad \textbf{(C)}\ 2\sqrt{5}\qquad \textbf{(D)}\ \frac{8+4\sqrt{3}}{3}\qquad \textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_20" title="1988 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>The complex number \( z \) satisfies \( z + |z| = 2 + 8i \). What is \( |z|^{2} \)? Note: if \( z = a + bi \), then \( |z| = \sqrt{a^{2} + b^{2}} \). </p><p>\( \textbf{(A)}\ 68\qquad \textbf{(B)}\ 100\qquad \textbf{(C)}\ 169\qquad \textbf{(D)}\ 208\qquad \textbf{(E)}\ 289 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_21" title="1988 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>For how many integers \( x \) does a triangle with side lengths \( 10, 24 \) and \( x \) have all its angles acute? </p><p>\( \textbf{(A)}\ 4\qquad \textbf{(B)}\ 5\qquad \textbf{(C)}\ 6\qquad \textbf{(D)}\ 7\qquad \textbf{(E)}\ \text{more than } 7 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_22" title="1988 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The six edges of a tetrahedron \( ABCD \) measure \( 7, 13, 18, 27, 36 \) and \( 41 \) units. If the length of edge \( AB \) is \( 41 \), then the length of edge \( CD \) is </p><p>\( \textbf{(A)}\ 7\qquad \textbf{(B)}\ 13\qquad \textbf{(C)}\ 18\qquad \textbf{(D)}\ 27\qquad \textbf{(E)}\ 36 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_23" title="1988 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>An isosceles trapezoid is circumscribed around a circle. The longer base of the trapezoid is \( 16 \), and one of the base angles is \( \arcsin(.8) \). Find the area of the trapezoid. </p><p>\( \textbf{(A)}\ 72\qquad \textbf{(B)}\ 75\qquad \textbf{(C)}\ 80\qquad \textbf{(D)}\ 90\qquad \textbf{(E)}\ \text{not uniquely determined} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_24" title="1988 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>\( X, Y \) and \( Z \) are pairwise disjoint sets of people. The average ages of people in the sets \( X, Y, Z, X \cup Y, X \cup Z \) and \( Y \cup Z \) are \( 37, 23, 41, 29, 39.5 \) and \( 33 \) respectively. Find the average age of the people in set \( X \cup Y \cup Z \). </p><p>\( \textbf{(A)}\ 33\qquad \textbf{(B)}\ 33.5\qquad \textbf{(C)}\ 33.6\overline{6}\qquad \textbf{(D)}\ 33.83\overline{3}\qquad \textbf{(E)}\ 34 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_25" title="1988 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>Suppose that \( p \) and \( q \) are positive numbers for which </p><p>\( \log_{9}(p) = \log_{12}(q) = \log_{16}(p+q) \) </p><p>What is the value of \( \frac{q}{p} \)? </p><p>\( \textbf{(A)}\ \frac{4}{3}\qquad \textbf{(B)}\ \frac{1+\sqrt{3}}{2}\qquad \textbf{(C)}\ \frac{8}{5}\qquad \textbf{(D)}\ \frac{1+\sqrt{5}}{2}\qquad \textbf{(E)}\ \frac{16}{9} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_26" title="1988 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>In the figure, \( AB \perp BC, BC \perp CD \), and \( BC \) is tangent to the circle with center \( O \) and diameter \( AD \). In which one of the following cases is the area of \( ABCD \) an integer? </p><p><img src="https://latex.artofproblemsolving.com/d/8/d/d8d58321572892427739e31ba1afdfbaaf71f9de.png" width="652" height="668"> </p><p>\( \textbf{(A)}\ AB=3, CD=1\qquad \textbf{(B)}\ AB=5, CD=2\qquad \textbf{(C)}\ AB=7, CD=3\qquad\\ \textbf{(D)}\ AB=9, CD=4\qquad \textbf{(E)}\ AB=11, CD=5 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_27" title="1988 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>An unfair coin has probability \( p \) of coming up heads on a single toss. Let \( w \) be the probability that, in \( 5 \) independent toss of this coin, heads come up exactly \( 3 \) times. If \( w = 144 / 625 \), then </p><p>\( \textbf{(A)}\ p\text{ must be }\tfrac{2}{5}\qquad \textbf{(B)}\ p\text{ must be }\tfrac{3}{5}\qquad\\ \textbf{(C)}\ p\text{ must be greater than }\tfrac{3}{5}\qquad \textbf{(D)}\ p\text{ is not uniquely determined}\qquad\\ \textbf{(E)}\ \text{there is no value of } p \text{ for which }w =\tfrac{144}{625} \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_28" title="1988 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>You plot weight \( (y) \) against height \( (x) \) for three of your friends and obtain the points \( (x_{1},y_{1}), (x_{2},y_{2}), (x_{3},y_{3}) \). If \( x_{1} &lt; x_{2} &lt; x_{3} \) and \( x_{3} - x_{2} = x_{2} - x_{1} \), which of the following is necessarily the slope of the line which best fits the data? "Best fits" means that the sum of the squares of the vertical distances from the data points to the line is smaller than for any other line. </p><p>\( \textbf{(A)}\ \frac{y_{3}-y_{1}}{x_{3}-x_{1}}\qquad \textbf{(B)}\ \frac{(y_{2}-y_{1})-(y_{3}-y_{2})}{x_{3}-x_{1}}\qquad\\ \textbf{(C)}\ \frac{2y_{3}-y_{1}-y_{2}}{2x_{3}-x_{1}-x_{2}}\qquad \textbf{(D)}\ \frac{y_{2}-y_{1}}{x_{2}-x_{1}}+\frac{y_{3}-y_{2}}{x_{3}-x_{2}}\qquad\\ \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_29" title="1988 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Let \( f(x) = 4x - x^{2} \). Give \( x_{0} \), consider the sequence defined by \( x_{n} = f(x_{n-1}) \) for all \( n \ge 1 \). For how many real numbers \( x_{0} \) will the sequence \( x_{0}, x_{1}, x_{2}, \ldots \) take on only a finite number of different values? </p><p>\( \textbf{(A)}\ \text{0}\qquad \textbf{(B)}\ \text{1 or 2}\qquad \textbf{(C)}\ \text{3, 4, 5 or 6}\qquad\\ \textbf{(D)}\ \text{more than 6 but finitely many}\qquad\\ \textbf{(E) }\infty \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems/Problem_30" title="1988 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1988_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","D","A","B","E","A","D","B","C","D","C","A","E","A","A","C","C","B","B","E","E","A","B","C","E","D","D","D","A","E"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1976 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1976 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>If one minus the reciprocal of \( (1-x) \) equals the reciprocal of \( (1-x) \), then \( x \) equals </p><p>\( \textbf{(A) }-2\qquad \textbf{(B) }-1\qquad \textbf{(C) }1/2\qquad \textbf{(D) }2\qquad \textbf{(E) }3 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_1&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 1 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>For how many real numbers \( x \) is \( \sqrt{-(x+1)^2} \) a real number? </p><p>\( \textbf{(A) }\text{none}\qquad \textbf{(B) }\text{one}\qquad \textbf{(C) }\text{two}\qquad\\ \textbf{(D) }\text{a finite number greater than two}\qquad \textbf{(E) }\infty \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_2&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 2 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The sum of the distances from one vertex of a square with sides of length \( 2 \) to the midpoints of each of the sides of the square is </p><p>\( \textbf{(A) }2\sqrt{5}\qquad \textbf{(B) }2+\sqrt{3}\qquad \textbf{(C) }2+2\sqrt{3}\qquad \textbf{(D) }2+\sqrt{5}\qquad \textbf{(E) }2+2\sqrt{5} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_3&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 3 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Let a geometric progression with n terms have first term one, common ratio \( r \) and sum \( s \), where \( r \) and \( s \) are not zero. The sum of the geometric progression formed by replacing each term of the original progression by its reciprocal is </p><p>\( \textbf{(A) }\frac{1}{s}\qquad \textbf{(B) }\frac{1}{r^ns}\qquad \textbf{(C) }\frac{s}{r^{n-1}}\qquad \textbf{(D) }\frac{r^n}{s}\qquad \textbf{(E) } \frac{r^{n-1}}{s} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_4&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 4 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>How many integers greater than \( 10 \) and less than \( 100 \), written in base-\( 10 \) notation, are increased by \( 9 \) when their digits are reversed? </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 8 \qquad \textbf{(D)}\ 9 \qquad \textbf{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_5&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 5 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>If \( c \) is a real number and the negative of one of the solutions of \( x^2-3x+c=0 \) is a solution of \( x^2+3x-c=0 \), then the solutions of \( x^2-3x+c=0 \) are </p><p>\( \textbf{(A) }1,~2\qquad \textbf{(B) }-1,~-2\qquad \textbf{(C) }0,~3\qquad \textbf{(D) }0,~-3\qquad \textbf{(E) }\frac{3}{2},~\frac{3}{2} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_6&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 6 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If \( x \) is a real number, then the quantity \( (1-|x|)(1+x) \) is positive if and only if </p><p>\( \textbf{(A) }|x|&lt;1\qquad \textbf{(B) }|x|&gt;1\qquad \textbf{(C) }x&lt;-1\text{ or }-1&lt;x&lt;1\qquad\\ \textbf{(D) }x&lt;1\qquad \textbf{(E) }x&lt;-1 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_7&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 7 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A point in the plane, both of whose rectangular coordinates are integers with absolute values less than or equal to four, is chosen at random, with all such points having an equal probability of being chosen. What is the probability that the distance from the point to the origin is at most two units? </p><p>\( \textbf{(A) }\frac{13}{81}\qquad \textbf{(B) }\frac{15}{81}\qquad \textbf{(C) }\frac{13}{64}\qquad \textbf{(D) }\frac{\pi}{16}\qquad \textbf{(E) }\text{the square of a rational number} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_8&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 8 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>In triangle \( ABC \), \( D \) is the midpoint of \( AB \); \( E \) is the midpoint of \( DB \); and \( F \) is the midpoint of \( BC \). If the area of \( \triangle ABC \) is \( 96 \), then the area of \( \triangle AEF \) is </p><p>\( \textbf{(A) }16\qquad \textbf{(B) }24\qquad \textbf{(C) }32\qquad \textbf{(D) }36\qquad \textbf{(E) }48 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_9&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 9 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>If \( m,~n,~p \), and \( q \) are real numbers and \( f(x)=mx+n \) and \( g(x)=px+q \), then the equation \( f(g(x))=g(f(x)) \) has a solution </p><p>\( \textbf{(A) }\text{for all choices of }m,~n,~p, \text{ and } q\qquad\\ \textbf{(B) }\text{if and only if }m=p\text{ and }n=q\qquad\\ \textbf{(C) }\text{if and only if }mq-np=0\qquad\\ \textbf{(D) }\text{if and only if }n(1-p)-q(1-m)=0\qquad\\ \textbf{(E) }\text{if and only if }(1-n)(1-p)-(1-q)(1-m)=0 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_10&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 10 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Which of the following statements is (are) equivalent to the statement "If the pink elephant on planet alpha has purple eyes, then the wild pig on planet beta does not have a long nose"? </p><p>\( \begin{array}{l}\textbf{I. }\text{"If the wild pig on planet beta has a long nose, then the pink elephant on planet alpha has purple eyes."}\\ \textbf{II. }\text{"If the pink elephant on planet alpha does not have purple eyes, then the wild pig on planet beta does not have a long nose."}\\ \textbf{III. }\text{"If the wild pig on planet beta has a long nose, then the pink elephant on planet alpha does not have purple eyes."}\\ \textbf{IV. }\text{"The pink elephant on planet alpha does not have purple eyes, or the wild pig on planet beta does not have a long nose."}\end{array} \) </p><p>\( \textbf{(A) }\textbf{I. }\text{and }\textbf{II. }\text{only}\qquad \textbf{(B) }\textbf{III. }\text{and }\textbf{IV. }\text{only}\qquad \textbf{(C) }\textbf{II. }\text{and }\textbf{IV. }\text{only}\qquad \textbf{(D) }\textbf{II. }\text{and }\textbf{III. }\text{only}\qquad \textbf{(E) }\textbf{III. }\text{only} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_11&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 11 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A supermarket has \( 128 \) crates of apples. Each crate contains at least \( 120 \) apples and at most \( 144 \) apples. What is the largest integer \( n \) such that there must be at least \( n \) crates containing the same number of apples? </p><p>\( \textbf{(A) }4\qquad \textbf{(B) }5\qquad \textbf{(C) }6\qquad \textbf{(D) }24\qquad \textbf{(E) }25 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_12&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 12 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>If \( x \) cows give \( x+1 \) cans of milk in \( x+2 \) days, how many days will it take \( x+3 \) cows to give \( x+5 \) cans of milk? </p><p>\( \textbf{(A) }\frac{x(x+2)(x+5)}{(x+1)(x+3)}\qquad \textbf{(B) }\frac{x(x+1)(x+5)}{(x+2)(x+3)}\qquad\\ \textbf{(C) }\frac{(x+1)(x+3)(x+5)}{x(x+2)}\qquad \textbf{(D) }\frac{(x+1)(x+3)}{x(x+2)(x+5)}\qquad \\ \textbf{(E) }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_13&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 13 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>The measures of the interior angles of a convex polygon are in arithmetic progression. If the smallest angle is \( 100^\circ \), and the largest is \( 140^\circ \), then the number of sides the polygon has is </p><p>\( \textbf{(A) }6\qquad \textbf{(B) }8\qquad \textbf{(C) }10\qquad \textbf{(D) }11\qquad \textbf{(E) }12 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_14&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 14 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>If \( r \) is the remainder when each of the numbers \( 1059,~1417 \), and \( 2312 \) is divided by \( d \), where \( d \) is an integer greater than \( 1 \), then \( d-r \) equals </p><p>\( \textbf{(A) }1\qquad \textbf{(B) }15\qquad \textbf{(C) }179\qquad \textbf{(D) }d-15\qquad \textbf{(E) }d-1 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_15&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 15 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>In triangles \( ABC \) and \( DEF \), lengths \( AC,~BC,~DF \), and \( EF \) are all equal. Length \( AB \) is twice the length of the altitude of \( \triangle DEF \) from \( F \) to \( DE \). Which of the following statements is (are) true? </p><p>\( \begin{array}{l}\textbf{I. }\angle ACB \text{ and }\angle DFE\text{ must be complementary.}\\ \textbf{II. }\angle ACB \text{ and }\angle DFE\text{ must be supplementary.}\\ \textbf{III. }\text{The area of }\triangle ABC\text{ must equal the area of }\triangle DEF.\\ \textbf{IV. }\text{The area of }\triangle ABC\text{ must equal twice the area of }\triangle DEF.\end{array} \) </p><p>\( \textbf{(A) }\textbf{II. }\text{only}\qquad \textbf{(B) }\textbf{III. }\text{only}\qquad \textbf{(C) }\textbf{IV. }\text{only}\qquad \textbf{(D) }\text{I. }\text{and }\textbf{III. }\text{only}\qquad \textbf{(E) }\textbf{II. }\text{and }\textbf{III. }\text{only} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_16&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 16 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>If \( \theta \) is an acute angle, and \( \sin 2\theta=a \), then \( \sin\theta+\cos\theta \) equals </p><p>\( \textbf{(A) }\sqrt{a+1}\qquad \textbf{(B) }(\sqrt{2}-1)a+1\qquad \textbf{(C) }\sqrt{a+1}-\sqrt{a^2-a}\qquad\\ \textbf{(D) }\sqrt{a+1}+\sqrt{a^2-a}\qquad \textbf{(E) }\sqrt{a+1}+a^2-a \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_17&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 17 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p><img src="https://latex.artofproblemsolving.com/5/7/2/572d140ec9576ead334e4778ce65273cd4f47d73.png" width="335" height="238"> </p><p>In the adjoining figure, \( AB \) is tangent at \( A \) to the circle with center \( O \); point \( D \) is interior to the circle; and \( DB \) intersects the circle at \( C \). If \( BC=DC=3 \), \( OD=2 \), and \( AB=6 \), then the radius of the circle is </p><p>\( \textbf{(A) }3+\sqrt{3}\qquad \textbf{(B) }15/\pi\qquad \textbf{(C) }9/2\qquad \textbf{(D) }2\sqrt{6}\qquad \textbf{(E) }\sqrt{22} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1976_AHSME_Problems/Problem_18" title="1976 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A polynomial \( p(x) \) has remainder three when divided by \( x-1 \) and remainder five when divided by \( x-3 \). The remainder when \( p(x) \) is divided by \( (x-1)(x-3) \) is </p><p>\( \textbf{(A) }x-2\qquad \textbf{(B) }x+2\qquad \textbf{(C) }2\qquad \textbf{(D) }8\qquad \textbf{(E) }15 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1976_AHSME_Problems/Problem_19" title="1976 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Let \( a,~b \), and \( x \) be positive real numbers distinct from one. Then \( 4(\log_ax)^2+3(\log_bx)^2=8(\log_ax)(\log_bx) \) </p><p>\( \textbf{(A) }\text{for all values of }a,~b,\text{ and }x\qquad\\ \textbf{(B) }\text{if and only if }a=b^2\qquad\\ \textbf{(C) }\text{if and only if }b=a^2\qquad\\ \textbf{(D) }\text{if and only if }x=ab\qquad\\ \textbf{(E) }\text{for none of these} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1976_AHSME_Problems/Problem_20" title="1976 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>What is the smallest positive odd integer \( n \) such that the product \( 2^{1/7}2^{3/7}\cdots2^{(2n+1)/7} \) is greater than \( 1000 \)? (In the product the denominators of the exponents are all sevens, and the numerators are the successive odd integers from \( 1 \) to \( 2n+1 \).) </p><p>\( \textbf{(A) }7\qquad \textbf{(B) }9\qquad \textbf{(C) }11\qquad \textbf{(D) }17\qquad \textbf{(E) }19 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_21&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 21 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Given an equilateral triangle with side of length \( s \), consider the locus of all points \( \mathit{P} \) in the plane of the triangle such that the sum of the squares of the distances from \( \mathit{P} \) to the vertices of the triangle is a fixed number \( a \). This locus </p><p>\( \textbf{(A) }\text{is a circle if }a&gt;s^2\qquad\\ \textbf{(B) }\text{contains only three points if }a=2s^2\text{ and is a circle if }a&gt;2s^2\qquad\\ \textbf{(C) }\text{is a circle with positive radius only if }s^2&lt;a&lt;2s^2\qquad\\ \textbf{(D) }\text{contains only a finite number of points for any value of }a\qquad\\ \textbf{(E) }\text{is none of these} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_22&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 22 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>For integers \( k \) and \( n \) such that \( 1\le k&lt;n \), let \( C^n_k=\frac{n!}{k!(n-k)!} \). Then \( \left(\frac{n-2k-1}{k+1}\right)C^n_k \) is an integer </p><p>\( \textbf{(A) }\text{for all }k\text{ and }n\qquad \\ \textbf{(B) }\text{for all even values of }k\text{ and }n,\text{ but not for all }k\text{ and }n\qquad \\ \textbf{(C) }\text{for all odd values of }k\text{ and }n,\text{ but not for all }k\text{ and }n\qquad \\ \textbf{(D) }\text{if }k=1\text{ or }n-1,\text{ but not for all odd values }k\text{ and }n\qquad \\ \textbf{(E) }\text{if }n\text{ is divisible by }k,\text{ but not for all even values }k\text{ and }n \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_23&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 23 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p><img src="https://latex.artofproblemsolving.com/4/4/3/443412145f5422011045e3759a487eb076e918c7.png" width="252" height="205"> </p><p>In the adjoining figure, circle \( \mathit{K} \) has diameter \( \mathit{AB} \); circle \( \mathit{L} \) is tangent to circle \( \mathit{K} \) and to \( \mathit{AB} \) at the center of circle \( \mathit{K} \); and circle \( \mathit{M} \) tangent to circle \( \mathit{K} \), to circle \( \mathit{L} \) and \( \mathit{AB} \). The ratio of the area of circle \( \mathit{K} \) to the area of circle \( \mathit{M} \) is </p><p>\( \textbf{(A) }12\qquad \textbf{(B) }14\qquad \textbf{(C) }16\qquad \textbf{(D) }18\qquad \textbf{(E) }\text{not an integer} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_24&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 24 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>For a sequence \( u_1,u_2\dots \), define \( \Delta^1(u_n)=u_{n+1}-u_n \) and, for all integer \( k&gt;1, \Delta^k(u_n)=\Delta^1(\Delta^{k-1}(u_n)) \). If \( u_n=n^3+n \), then \( \Delta^k(u_n)=0 \) for all \( n \) </p><p>\( \textbf{(A) }\text{if }k=1\qquad \\ \textbf{(B) }\text{if }k=2,\text{ but not if }k=1\qquad \\ \textbf{(C) }\text{if }k=3,\text{ but not if }k=2\qquad \\ \textbf{(D) }\text{if }k=4,\text{ but not if }k=3\qquad\\ \textbf{(E) }\text{for no value of }k \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_25&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 25 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p><img src="https://latex.artofproblemsolving.com/f/f/d/ffd1f841c3846e112b2c7af0734ad79f20281416.png" width="252" height="192"> </p><p>In the adjoining figure, every point of circle \( \mathit{O'} \) is exterior to circle \( \mathit{O} \). Let \( \mathit{P} \) and \( \mathit{Q} \) be the points of intersection of an internal common tangent with the two external common tangents. Then the length of \( PQ \) is </p><p>\( \textbf{(A) }\text{the average of the lengths of the internal and external common tangents}\qquad\\ \textbf{(B) }\text{equal to the length of an external common tangent if and only if circles }\mathit{O}\text{ and }\mathit{O'} \text{have equal radii}\\ \textbf{(C) }\text{always equal to the length of an external common tangent}\qquad\\ \textbf{(D) }\text{greater than the length of an external common tangent}\qquad\\ \textbf{(E) }\text{the geometric mean of the lengths of the internal and external common tangents} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_26&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 26 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>If \( N=\frac{\sqrt{\sqrt{5}+2}+\sqrt{\sqrt{5}-2}}{\sqrt{\sqrt{5}+1}}-\sqrt{3-2\sqrt{2}} \), then \( N \) equals </p><p>\( \textbf{(A) }1\qquad \textbf{(B) }2\sqrt{2}-1\qquad \textbf{(C) }\frac{\sqrt{5}}{2}\qquad \textbf{(D) }\sqrt{\frac{5}{2}}\qquad \textbf{(E) }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_27&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 27 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Lines \( \mathit{L}_1,\mathit{L}_2,\dots,\mathit{L}_{100} \) are distinct. All lines \( \mathit{L}_{4n}, n \) a positive integer, are parallel to each other. All lines \( \mathit{L}_{4n-3} \), \( n \) a positive integer, pass through a given point \( \mathit{A} \). The maximum number of points of intersection of pairs of lines from the complete set \( \{\mathit{L}_1,\mathit{L}_2,\dots,\mathit{L}_{100}\} \) is </p><p>\( \textbf{(A) }4350\qquad \textbf{(B) }4351\qquad \textbf{(C) }4900\qquad \textbf{(D) }4901\qquad \textbf{(E) }9851 \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_28&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 28 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Ann and Barbara were comparing their ages and found that Barbara is as old as Ann was when Barbara was as old as Ann had been when Barbara was half as old as Ann is. If the sum of their present ages is \( 44 \) years, then Ann's age is </p><p>\( \textbf{(A) }22\qquad \textbf{(B) }24\qquad \textbf{(C) }25\qquad \textbf{(D) }26\qquad \textbf{(E) }28 \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_29&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 29 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>How many distinct ordered triples \( (x,y,z) \) satisfy the equations \[x+2y+4z=12 \\ xy+4yz+2xz=22 \\ xyz=6\] </p><p>\( \textbf{(A) }\text{none}\qquad \textbf{(B) }1\qquad \textbf{(C) }2\qquad \textbf{(D) }4\qquad \textbf{(E) }6 \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1976_AHSME_Problems/Problem_30&amp;action=edit&amp;redlink=1" class="solutionLink" title="1976 AHSME Problems/Problem 30 (page does not exist)" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1976_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1976_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","B","E","C","C","C","C","A","D","D","B","C","A","A","B","E","A","E","B","E","B","A","A","C","D","C","A","B","B","E"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1987 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1987 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>\( (1+x^2)(1-x^3) \) equals </p><p>\( \text{(A)}\ 1 - x^5\qquad \text{(B)}\ 1 - x^6\qquad \text{(C)}\ 1+ x^2 -x^3\qquad \\ \text{(D)}\ 1+x^2-x^3-x^5\qquad \text{(E)}\ 1+x^2-x^3-x^6 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_1" title="1987 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A triangular corner with side lengths \( DB=EB=1 \) is cut from equilateral triangle ABC of side length \( 3 \). The perimeter of the remaining quadrilateral is </p><p><img src="https://latex.artofproblemsolving.com/7/6/a/76a745ea106ed38564b062962b8548574d1399c5.png" width="252" height="235"> </p><p>\( \text{(A)} \ 6 \qquad \text{(B)} \ 6\frac{1}{2} \qquad \text{(C)} \ 7 \qquad \text{(D)} \ 7\frac{1}{2} \qquad \text{(E)} \ 8 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_2" title="1987 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>How many primes less than \( 100 \) have \( 7 \) as the ones digit? (Assume the usual base ten representation) </p><p>\( \text{(A)} \ 4 \qquad \text{(B)} \ 5 \qquad \text{(C)} \ 6 \qquad \text{(D)} \ 7 \qquad \text{(E)} \ 8 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_3" title="1987 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>\( \frac{2^1+2^0+2^{-1}}{2^{-2}+2^{-3}+2^{-4}} \) equals </p><p>\( \text{(A)} \ 6 \qquad \text{(B)} \ 8 \qquad \text{(C)} \ \frac{31}{2} \qquad \text{(D)} \ 24 \qquad \text{(E)} \ 512 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_4" title="1987 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A student recorded the exact percentage frequency distribution for a set of measurements, as shown below. However, the student neglected to indicate \( N \), the total number of measurements. What is the smallest possible value of \( N \)? </p><p>\[\begin{tabular}{c c}\text{measured value}&amp;\text{percent frequency}\\ \hline 0 &amp; 12.5\\ 1 &amp; 0\\ 2 &amp; 50\\ 3 &amp; 25\\ 4 &amp; 12.5\\ \hline\ &amp; 100\\ \end{tabular}\] </p><p>\( \textbf{(A)}\ 5 \qquad \textbf{(B)}\ 8 \qquad \textbf{(C)}\ 16 \qquad \textbf{(D)}\ 25 \qquad \textbf{(E)}\ 50 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_5" title="1987 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>In the \( \triangle ABC \) shown, \( D \) is some interior point, and \( x, y, z, w \) are the measures of angles in degrees. Solve for \( x \) in terms of \( y, z \) and \( w \). </p><p><img src="https://latex.artofproblemsolving.com/e/1/6/e1688d1ee2f9bff0ead0aadf616017e2414c63d9.png" width="252" height="178"> </p><p>\( \textbf{(A)}\ w-y-z \qquad \textbf{(B)}\ w-2y-2z \qquad \textbf{(C)}\ 180-w-y-z \qquad \\ \textbf{(D)}\ 2w-y-z\qquad \textbf{(E)}\ 180-w+y+z \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_6" title="1987 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If \( a-1=b+2=c-3=d+4 \), which of the four quantities \( a,b,c,d \) is the largest? </p><p>\( \textbf{(A)}\ a \qquad \textbf{(B)}\ b \qquad \textbf{(C)}\ c \qquad \textbf{(D)}\ d \qquad \textbf{(E)}\ \text{no one is always largest} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_7" title="1987 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>In the figure the sum of the distances \( AD \) and \( BD \) is </p><p><img src="https://latex.artofproblemsolving.com/4/c/e/4ce9a7a0c12f6c25c3e45ee1fec44f1d4c3039a8.png" width="252" height="115"> </p><p>\( \textbf{(A)}\ \text{between 10 and 11} \qquad \textbf{(B)}\ 12 \qquad \textbf{(C)}\ \text{between 15 and 16}\qquad\\ \textbf{(D)}\ \text{between 16 and 17}\qquad \textbf{(E)}\ 17 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_8" title="1987 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The first four terms of an arithmetic sequence are \( a, x, b, 2x \). The ratio of \( a \) to \( b \) is </p><p>\( \textbf{(A)}\ \frac{1}{4} \qquad \textbf{(B)}\ \frac{1}{3} \qquad \textbf{(C)}\ \frac{1}{2} \qquad \textbf{(D)}\ \frac{2}{3}\qquad \textbf{(E)}\ 2 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_9" title="1987 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>How many ordered triples \( (a, b, c) \) of non-zero real numbers have the property that each number is the product of the other two? </p><p>\( \textbf{(A)}\ 1 \qquad \textbf{(B)}\ 2 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 4 \qquad \textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_10" title="1987 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( c \) be a constant. The simultaneous equations \begin{align*}x-y = &amp;\ 2 \\cx+y = &amp;\ 3 \\\end{align*} have a solution \( (x, y) \) inside Quadrant I if and only if </p><p>\( \textbf{(A)}\ c=-1 \qquad \textbf{(B)}\ c&gt;-1 \qquad \textbf{(C)}\ c&lt;\frac{3}{2} \qquad \textbf{(D)}\ 0&lt;c&lt;\frac{3}{2}\\ \qquad \textbf{(E)}\ -1&lt;c&lt;\frac{3}{2} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_11" title="1987 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>In an office, at various times during the day the boss gives the secretary a letter to type, each time putting the letter on top of the pile in the secretary's in-box. When there is time, the secretary takes the top letter off the pile and types it. If there are five letters in all, and the boss delivers them in the order \( 1\ 2\ 3\ 4\ 5 \), which of the following could not be the order in which the secretary types them? </p><p>\( \textbf{(A)}\ 1\ 2\ 3\ 4\ 5 \qquad \textbf{(B)}\ 2\ 4\ 3\ 5\ 1 \qquad \textbf{(C)}\ 3\ 2\ 4\ 1\ 5 \qquad \textbf{(D)}\ 4\ 5\ 2\ 3\ 1 \qquad \textbf{(E)}\ 5\ 4\ 3\ 2\ 1 \qquad \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_12" title="1987 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A long piece of paper \( 5 \) cm wide is made into a roll for cash registers by wrapping it \( 600 \) times around a cardboard tube of diameter \( 2 \) cm, forming a roll \( 10 \) cm in diameter. Approximate the length of the paper in meters. (Pretend the paper forms \( 600 \) concentric circles with diameters evenly spaced from \( 2 \) cm to \( 10 \) cm.) </p><p>\( \textbf{(A)}\ 36\pi \qquad \textbf{(B)}\ 45\pi \qquad \textbf{(C)}\ 60\pi \qquad \textbf{(D)}\ 72\pi \qquad \textbf{(E)}\ 90\pi \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_13" title="1987 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>\( ABCD \) is a square and \( M \) and \( N \) are the midpoints of \( BC \) and \( CD \) respectively. Then \( \sin \theta= \) </p><p><img src="https://latex.artofproblemsolving.com/5/4/9/5492ba158043d653ed4090a75df79115e58fdb4f.png" width="252" height="248"> </p><p>\( \textbf{(A)}\ \frac{\sqrt{5}}{5} \qquad \textbf{(B)}\ \frac{3}{5} \qquad \textbf{(C)}\ \frac{\sqrt{10}}{5} \qquad \textbf{(D)}\ \frac{4}{5}\qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_14" title="1987 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>If \( (x, y) \) is a solution to the system \( xy=6 \qquad \text{and} \qquad x^2y+xy^2+x+y=63 \), find \( x^2+y^2 \). </p><p>\( \textbf{(A)}\ 13 \qquad \textbf{(B)}\ \frac{1173}{32} \qquad \textbf{(C)}\ 55 \qquad \textbf{(D)}\ 69 \qquad \textbf{(E)}\ 81 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_15" title="1987 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A cryptographer devises the following method for encoding positive integers. First, the integer is expressed in base \( 5 \). Second, a 1-to-1 correspondence is established between the digits that appear in the expressions in base \( 5 \) and the elements of the set \( \{V, W, X, Y, Z\} \). Using this correspondence, the cryptographer finds that three consecutive integers in increasing order are coded as \( VYZ, VYX, VVW \), respectively. What is the base-\( 10 \) expression for the integer coded as \( XYZ \)? </p><p>\( \textbf{(A)}\ 48 \qquad \textbf{(B)}\ 71 \qquad \textbf{(C)}\ 82 \qquad \textbf{(D)}\ 108 \qquad \textbf{(E)}\ 113 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_16" title="1987 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>In a mathematics competition, the sum of the scores of Bill and Dick equalled the sum of the scores of Ann and Carol. If the scores of Bill and Carol had been interchanged, then the sum of the scores of Ann and Carol would have exceeded the sum of the scores of the other two. Also, Dick's score exceeded the sum of the scores of Bill and Carol. Determine the order in which the four contestants finished, from highest to lowest. Assume all scores were nonnegative. </p><p>\( \textbf{(A)}\ \text{Dick, Ann, Carol, Bill} \qquad \textbf{(B)}\ \text{Dick, Ann, Bill, Carol} \qquad \textbf{(C)}\ \text{Dick, Carol, Bill, Ann}\\ \qquad \textbf{(D)}\ \text{Ann, Dick, Carol, Bill}\qquad \textbf{(E)}\ \text{Ann, Dick, Bill, Carol} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_17" title="1987 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>It takes \( A \) algebra books (all the same thickness) and \( H \) geometry books (all the same thickness, which is greater than that of an algebra book) to completely fill a certain shelf. Also, \( S \) of the algebra books and \( M \) of the geometry books would fill the same shelf. Finally, \( E \) of the algebra books alone would fill this shelf. Given that \( A, H, S, M, E \) are distinct positive integers, it follows that \( E \) is </p><p>\( \textbf{(A)}\ \frac{AM+SH}{M+H} \qquad \textbf{(B)}\ \frac{AM^2+SH^2}{M^2+H^2} \qquad \textbf{(C)}\ \frac{AH-SM}{M-H}\qquad \textbf{(D)}\ \frac{AM-SH}{M-H}\qquad \textbf{(E)}\ \frac{AM^2-SH^2}{M^2-H^2} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_18" title="1987 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Which of the following is closest to \( \sqrt{65}-\sqrt{63} \)? </p><p>\( \textbf{(A)}\ .12 \qquad \textbf{(B)}\ .13 \qquad \textbf{(C)}\ .14 \qquad \textbf{(D)}\ .15 \qquad \textbf{(E)}\ .16 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_19" title="1987 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Evaluate \( \log_{10}(\tan 1^{\circ})+\log_{10}(\tan 2^{\circ})+\log_{10}(\tan 3^{\circ})+\cdots+\log_{10}(\tan 88^{\circ})+\log_{10}(\tan 89^{\circ}). \) </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ \frac{1}{2}\log_{10}(\frac{\sqrt{3}}{2}) \qquad \textbf{(C)}\ \frac{1}{2}\log_{10}2\qquad \textbf{(D)}\ 1\qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_20" title="1987 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>There are two natural ways to inscribe a square in a given isosceles right triangle. If it is done as in Figure 1 below, then one finds that the area of the square is \( 441 \text{cm}^2 \). What is the area (in \( \text{cm}^2 \)) of the square inscribed in the same \( \triangle ABC \) as shown in Figure 2 below? </p><p><img src="https://latex.artofproblemsolving.com/8/2/5/825096769321cfddcd66a46c0c5098b3b9822722.png" width="252" height="108"> </p><p>\( \textbf{(A)}\ 378 \qquad \textbf{(B)}\ 392 \qquad \textbf{(C)}\ 400 \qquad \textbf{(D)}\ 441 \qquad \textbf{(E)}\ 484 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_21" title="1987 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A ball was floating in a lake when the lake froze. The ball was removed (without breaking the ice), leaving a hole \( 24 \) cm across as the top and \( 8 \) cm deep. What was the radius of the ball (in centimeters)? </p><p>\( \textbf{(A)}\ 8 \qquad \textbf{(B)}\ 12 \qquad \textbf{(C)}\ 13 \qquad \textbf{(D)}\ 8\sqrt{3} \qquad \textbf{(E)}\ 6\sqrt{6} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_22" title="1987 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>If \( p \) is a prime and both roots of \( x^2+px-444p=0 \) are integers, then </p><p>\( \textbf{(A)}\ 1&lt;p\le 11 \qquad \textbf{(B)}\ 11&lt;p \le 21 \qquad \textbf{(C)}\ 21&lt; p \le 31 \\ \qquad \textbf{(D)}\ 31&lt; p\le 41\qquad \textbf{(E)}\ 41&lt; p\le 51 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_23" title="1987 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>How many polynomial functions \( f \) of degree \( \ge 1 \) satisfy \( f(x^2)=[f(x)]^2=f(f(x)) \) &nbsp;? </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ \text{finitely many but more than 2}\\ \qquad \textbf{(E)}\ \infty \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_24" title="1987 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>\( ABC \) is a triangle: \( A=(0,0), B=(36,15) \) and both the coordinates of \( C \) are integers. What is the minimum area \( \triangle ABC \) can have? </p><p>\( \textbf{(A)}\ \frac{1}{2} \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ \frac{3}{2} \qquad \textbf{(D)}\ \frac{13}{2}\qquad \textbf{(E)}\ \text{there is no minimum} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_25" title="1987 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>The amount \( 2.5 \) is split into two nonnegative real numbers uniformly at random, for instance, into \( 2.143 \) and \( .357 \), or into \( \sqrt{3} \) and \( 2.5-\sqrt{3} \). Then each number is rounded to its nearest integer, for instance, \( 2 \) and \( 0 \) in the first case above, \( 2 \) and \( 1 \) in the second. What is the probability that the two integers sum to \( 3 \)? </p><p>\( \textbf{(A)}\ \frac{1}{4} \qquad \textbf{(B)}\ \frac{2}{5} \qquad \textbf{(C)}\ \frac{1}{2} \qquad \textbf{(D)}\ \frac{3}{5}\qquad \textbf{(E)}\ \frac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_26" title="1987 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>A cube of cheese \( C=\{(x, y, z)| 0 \le x, y, z \le 1\} \) is cut along the planes \( x=y, y=z \) and \( z=x \). How many pieces are there? (No cheese is moved until all three cuts are made.) </p><p>\( \textbf{(A)}\ 5 \qquad \textbf{(B)}\ 6 \qquad \textbf{(C)}\ 7 \qquad \textbf{(D)}\ 8 \qquad \textbf{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_27" title="1987 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Let \( a, b, c, d \) be real numbers. Suppose that all the roots of \( z^4+az^3+bz^2+cz+d=0 \) are complex numbers lying on a circle in the complex plane centered at \( 0+0i \) and having radius \( 1 \). The sum of the reciprocals of the roots is necessarily </p><p>\( \textbf{(A)}\ a \qquad \textbf{(B)}\ b \qquad \textbf{(C)}\ c \qquad \textbf{(D)}\ -a \qquad \textbf{(E)}\ -b \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_28" title="1987 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Consider the sequence of numbers defined recursively by \( t_1=1 \) and for \( n&gt;1 \) by \( t_n=1+t_{(n/2)} \) when \( n \) is even and by \( t_n=\frac{1}{t_{(n-1)}} \) when \( n \) is odd. Given that \( t_n=\frac{19}{87} \), the sum of the digits of \( n \) is </p><p>\( \textbf{(A)}\ 15 \qquad \textbf{(B)}\ 17 \qquad \textbf{(C)}\ 19 \qquad \textbf{(D)}\ 21 \qquad \textbf{(E)}\ 23 \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_29" title="1987 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>In the figure, \( \triangle ABC \) has \( \angle A =45^{\circ} \) and \( \angle B =30^{\circ} \). A line \( DE \), with \( D \) on \( AB \) and \( \angle ADE =60^{\circ} \), divides \( \triangle ABC \) into two pieces of equal area. (Note: the figure may not be accurate; perhaps \( E \) is on \( CB \) instead of \( AC \).) The ratio \( \frac{AD}{AB} \) is </p><p><img src="https://latex.artofproblemsolving.com/1/3/5/135a648963b48464cdd989019e3de4847a416079.png" width="368" height="145"> </p><p>\( \textbf{(A)}\ \frac{1}{\sqrt{2}} \qquad \textbf{(B)}\ \frac{2}{2+\sqrt{2}} \qquad \textbf{(C)}\ \frac{1}{\sqrt{3}} \qquad \textbf{(D)}\ \frac{1}{\sqrt[3]{6}}\qquad \textbf{(E)}\ \frac{1}{\sqrt[4]{12}} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems/Problem_30" title="1987 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1987_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","E","C","B","B","A","C","C","B","D","E","D","A","B","D","D","E","D","B","A","B","C","D","B","C","B","B","D","A","E"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

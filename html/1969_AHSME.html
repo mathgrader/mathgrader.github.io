@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1969 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1969 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>When \( x \) is added to both the numerator and denominator of the fraction \( \frac{a}{b},a \ne b,b \ne 0 \), the value of the fraction is changed to \( \frac{c}{d} \). Then \( x \) equals: </p><p>\( \text{(A) } \frac{1}{c-d}\quad \text{(B) } \frac{ad-bc}{c-d}\quad \text{(C) } \frac{ad-bc}{c+d}\quad \text{(D) }\frac{bc-ad}{c-d} \quad \text{(E) } \frac{bc+ad}{c-d} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_1" title="1969 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>If an item is sold for \( x \) dollars, there is a loss of \( 15\% \) based on the cost. If, however, the same item is sold for \( y \) dollars, there is a profit of \( 15\% \) based on the cost. The ratio of \( y:x \) is: </p><p>\( \text{(A) } 23:17\quad \text{(B) } 17y:23\quad \text{(C) } 23x:17\quad \\ \text{(D) dependent upon the cost} \quad \text{(E) none of these.} \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_2" title="1969 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>If \( N \), written in base \( 2 \), is \( 11000 \), the integer immediately preceding \( N \), written in base \( 2 \), is: </p><p>\( \text{(A) } 10001\quad \text{(B) } 10010\quad \text{(C) } 10011\quad \text{(D) } 10110\quad \text{(E) } 10111 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_3" title="1969 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Let a binary operation \( \star \) on ordered pairs of integers be defined by \( (a,b)\star (c,d)=(a-c,b+d) \). Then, if \( (3,3)\star (0,0) \) and \( (x,y)\star (3,2) \) represent identical pairs, \( x \) equals: </p><p>\( \text{(A) } -3\quad \text{(B) } 0\quad \text{(C) } 2\quad \text{(D) } 3\quad \text{(E) } 6 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_4" title="1969 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>If a number \( N,N \ne 0 \), diminished by four times its reciprocal, equals a given real constant \( R \), then, for this given \( R \), the sum of all such possible values of \( N \) is </p><p>\( \text{(A) } \frac{1}{R}\quad \text{(B) } R\quad \text{(C) } 4\quad \text{(D) } \frac{1}{4}\quad \text{(E) } -R \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_5" title="1969 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The area of the ring between two concentric circles is \( 12\tfrac{1}{2}\pi \) square inches. The length of a chord of the larger circle tangent to the smaller circle, in inches, is: </p><p>\( \text{(A) } \frac{5}{\sqrt{2}}\quad \text{(B) } 5\quad \text{(C) } 5\sqrt{2}\quad \text{(D) } 10\quad \text{(E) } 10\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_6" title="1969 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If the points \( (1,y_1) \) and \( (-1,y_2) \) lie on the graph of \( y=ax^2+bx+c \), and \( y_1-y_2=-6 \), then \( b \) equals: </p><p>\( \text{(A) } -3\quad \text{(B) } 0\quad \text{(C) } 3\quad \text{(D) } \sqrt{ac}\quad \text{(E) } \frac{a+c}{2} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_7" title="1969 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Triangle \( ABC \) is inscribed in a circle. The measure of the non-overlapping minor arcs \( AB \), \( BC \) and \( CA \) are, respectively, \( x+75^{\circ} , 2x+25^{\circ},3x-22^{\circ} \). Then one interior angle of the triangle is: </p><p>\( \text{(A) } 57\tfrac{1}{2}^{\circ}\quad \text{(B) } 59^{\circ}\quad \text{(C) } 60^{\circ}\quad \text{(D) } 61^{\circ}\quad \text{(E) } 122^{\circ} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_8" title="1969 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The arithmetic mean (ordinary average) of the fifty-two successive positive integers beginning at 2 is: </p><p>\( \text{(A) } 27\quad \text{(B) } 27\tfrac{1}{4}\quad \text{(C) } 27\tfrac{1}{2}\quad \text{(D) } 28\quad \text{(E) } 27\tfrac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_9" title="1969 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The number of points equidistant from a circle and two parallel tangents to the circle is: </p><p>\( \text{(A) } 0\quad \text{(B) } 2\quad \text{(C) } 3\quad \text{(D) } 4\quad \text{(E) } \infty \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_10" title="1969 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Given points \( P(-1,-2) \) and \( Q(4,2) \) in the \( xy \)-plane; point \( R(1,m) \) is taken so that \( PR+RQ \) is a minimum. Then \( m \) equals: </p><p>\( \text{(A) } -\tfrac{3}{5}\quad \text{(B) } -\tfrac{2}{5}\quad \text{(C) } -\tfrac{1}{5}\quad \text{(D) } \tfrac{1}{5}\quad \text{(E) either }-\tfrac{1}{5}\text{ or} \tfrac{1}{5}. \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_11" title="1969 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( F=\frac{6x^2+16x+3m}{6} \) be the square of an expression which is linear in \( x \). Then \( m \) has a particular value between: </p><p>\( \text{(A) } 3 \text{ and } 4\quad \text{(B) } 4 \text{ and } 5\quad \text{(C) } 5 \text{ and } 6\quad \text{(D) } -4 \text{ and } -3\quad \text{(E) } -6 \text{ and } -5 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_12" title="1969 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A circle with radius \( r \) is contained within the region bounded by a circle with radius \( R \). The area bounded by the larger circle is \( \frac{a}{b} \) times the area of the region outside the smaller circle and inside the larger circle. Then \( R:r \) equals: </p><p>\( \text{(A) }\sqrt{a}:\sqrt{b} \quad \text{(B) } \sqrt{a}:\sqrt{a-b}\quad \text{(C) } \sqrt{b}:\sqrt{a-b}\quad \text{(D) } a:\sqrt{a-b}\quad \text{(E) } b:\sqrt{a-b} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_13" title="1969 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>The complete set of \( x \)-values satisfying the inequality \( \frac{x^2-4}{x^2-1}&gt;0 \) is the set of all \( x \) such that: </p><p>\( \text{(A) } x&gt;2 \text{ or } x&lt;-2 \text{ or} -1&lt;x&lt;1\quad \text{(B) } x&gt;2 \text{ or } x&lt;-2\quad \\ \text{(C) } x&gt;1 \text{ or } x&lt;-2\qquad\qquad\qquad\quad \text{(D) } x&gt;1 \text{ or } x&lt;-1\quad \\ \text{(E) } x \text{ is any real number except 1 or -1} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_14" title="1969 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>In a circle with center \( O \) and radius \( r \), chord \( AB \) is drawn with length equal to \( r \) (units). From \( O \), a perpendicular to \( AB \) meets \( AB \) at \( M \). From \( M \) a perpendicular to \( OA \) meets \( OA \) at \( D \). In terms of \( r \) the area of triangle \( MDA \), in appropriate square units, is: </p><p>\( \text{(A) } \frac{3r^2}{16}\quad \text{(B) } \frac{\pi r^2}{16}\quad \text{(C) } \frac{\pi r^2\sqrt{2}}{8}\quad \text{(D) } \frac{r^2\sqrt{3}}{32}\quad \text{(E) } \frac{r^2\sqrt{6}}{48} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_15" title="1969 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>When \( (a-b)^n,n\ge2,ab\ne0 \), is expanded by the binomial theorem, it is found that when \( a=kb \), where \( k \) is a positive integer, the sum of the second and third terms is zero. Then \( n \) equals: </p><p>\( \text{(A) } \tfrac{1}{2}k(k-1)\quad \text{(B) } \tfrac{1}{2}k(k+1)\quad \text{(C) } 2k-1\quad \text{(D) } 2k\quad \text{(E) } 2k+1 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_16" title="1969 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>The equation \( 2^{2x}-8\cdot 2^x+12=0 \) is satisfied by: </p><p>\( \text{(A) } log(3)\quad \text{(B) } \tfrac{1}{2}log(6)\quad \text{(C) } 1+log(\tfrac{3}{2})\quad \text{(D) } 1+\frac{log(3)}{log(2)}\quad \text{(E) none of these} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_17" title="1969 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The number of points common to the graphs of \( (x-y+2)(3x+y-4)=0 \text{ and } (x+y-2)(2x-5y+7)=0 \) is: </p><p>\( \text{(A) } 2\quad \text{(B) } 4\quad \text{(C) } 6\quad \text{(D) } 16\quad \text{(E) } \infty \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_18" title="1969 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The number of distinct ordered pairs \( (x,y) \) where \( x \) and \( y \) have positive integral values satisfying the equation \( x^4y^4-10x^2y^2+9=0 \) is: </p><p>\( \text{(A) } 0\quad \text{(B) } 3\quad \text{(C) } 4\quad \text{(D) } 12\quad \text{(E) } \infty \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_19" title="1969 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Let \( P \) equal the product of 3,659,893,456,789,325,678 and 342,973,489,379,256. The number of digits in \( P \) is: </p><p>\( \text{(A) } 36\quad \text{(B) } 35\quad \text{(C) } 34\quad \text{(D) } 33\quad \text{(E) } 32 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_20" title="1969 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>If the graph of \( x^2+y^2=m \) is tangent to that of \( x+y=\sqrt{2m} \), then: </p><p>\( \text{(A) m must equal } \tfrac{1}{2}\quad \text{(B) m must equal } \frac{1}{\sqrt{2}}\quad\\ \text{(C) m must equal } \sqrt{2}\quad \text{(D) m must equal } 2\quad\\ \text{(E) m may be an non-negative real number} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_21" title="1969 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Let \( K \) be the measure of the area bounded by the \( x \)-axis, the line \( x=8 \), and the curve defined by </p><p>\[f={(x,y)\quad |\quad y=x \text{ when } 0 \le x \le 5, y=2x-5 \text{ when } 5 \le x \le 8}.\] </p><p>Then \( K \) is: </p><p>\( \text{(A) } 21.5\quad \text{(B) } 36.4\quad \text{(C) } 36.5\quad \text{(D) } 44\quad \text{(E) less than 44 but arbitrarily close to it} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_22" title="1969 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>For any integer \( n&gt;1 \), the number of prime numbers greater than \( n!+1 \) and less than \( n!+n \) is: </p><p>\( \text{(A) } 0\quad\qquad \text{(B) } 1\quad\\ \text{(C) } \frac{n}{2} \text{ for n even, } \frac{n+1}{2} \text{ for n odd}\quad\\ \text{(D) } n-1\quad \text{(E) } n \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_23" title="1969 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>When the natural numbers \( P \) and \( P' \), with \( P&gt;P' \), are divided by the natural number \( D \), the remainders are \( R \) and \( R' \), respectively. When \( PP' \) and \( RR' \) are divided by \( D \), the remainders are \( r \) and \( r' \), respectively. Then: </p><p>\( \text{(A) } r&gt;r' \text{ always}\quad \text{(B) } r&lt;r' \text{ always}\quad\\ \text{(C) } r&gt;r' \text{ sometimes and } r&lt;r' \text{ sometimes}\quad\\ \text{(D) } r&gt;r' \text{ sometimes and } r=r' \text{ sometimes}\quad\\ \text{(E) } r=r' \text{ always} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_24" title="1969 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>If it is known that \( log_2(a)+log_2(b) \ge 6 \), then the least value that can be taken on by \( a+b \) is: </p><p>\( \text{(A) } 2\sqrt{6}\quad \text{(B) } 6\quad \text{(C) } 8\sqrt{2}\quad \text{(D) } 16\quad \text{(E) none of these} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_25" title="1969 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p><img src="https://latex.artofproblemsolving.com/f/b/1/fb1e7567daf504db9ed16914050e267f81e4902c.png" width="252" height="102"> </p><p>A parabolic arch has a height of \( 16 \) inches and a span of \( 40 \) inches. The height, in inches, of the arch at the point \( 5 \) inches from the center \( M \) is: </p><p>\( \text{(A) } 1\quad \text{(B) } 15\quad \text{(C) } 15\tfrac{1}{3}\quad \text{(D) } 15\tfrac{1}{2}\quad \text{(E) } 15\tfrac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_26" title="1969 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>A particle moves so that its speed for the second and subsequent miles varies inversely as the integral number of miles already traveled. For each subsequent mile the speed is constant. If the second mile is traversed in \( 2 \) hours, then the time, in hours, needed to traverse the \( n \)th mile is: </p><p>\( \text{(A) } \frac{2}{n-1}\quad \text{(B) } \frac{n-1}{2}\quad \text{(C) } \frac{2}{n}\quad \text{(D) } 2n\quad \text{(E) } 2(n-1) \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_27" title="1969 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Let \( n \) be the number of points \( P \) interior to the region bounded by a circle with radius \( 1 \), such that the sum of squares of the distances from \( P \) to the endpoints of a given diameter is \( 3 \). Then \( n \) is: </p><p>\( \text{(A) } 0\quad \text{(B) } 1\quad \text{(C) } 2\quad \text{(D) } 4\quad \text{(E) } \infty \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_28" title="1969 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>If \( x=t^{1/(t-1)} \) and \( y=t^{t/(t-1)},t&gt;0,t \ne 1 \), a relation between \( x \) and \( y \) is: </p><p>\( \text{(A) } y^x=x^{1/y}\quad \text{(B) } y^{1/x}=x^{y}\quad \text{(C) } y^x=x^y\quad \text{(D) } x^x=y^y\quad \text{(E) none of these} \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_29" title="1969 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Let \( P \) be a point of hypotenuse \( AB \) (or its extension) of isosceles right triangle \( ABC \). Let \( s=AP^2+PB^2 \). Then: </p><p>\( \text{(A) } s&lt;2CP^2 \text{ for a finite number of positions of P}\quad\\ \text{(B) } s&lt;2CP^2 \text{ for an infinite number of positions of P}\quad\\ \text{(C) } s=2CP^2 \text{ only if P is the midpoint or an endpoint of AB}\quad\\ \text{(D) } s=2CP^2 \text{ always}\quad\\ \text{(E) } s&gt;2CP^2 \text{ if P is a trisection point of AB} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_30" title="1969 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 31</h2><p>Let \( OABC \) be a unit square in the \( xy \)-plane with \( O(0,0),A(1,0),B(1,1) \) and \( C(0,1) \). Let \( u=x^2-y^2 \), and \( v=xy \) be a transformation of the \( xy \)-plane into the \( uv \)-plane. The transform (or image) of the square is: </p><p><img src="https://latex.artofproblemsolving.com/c/e/c/cecfb02cfee22de6e499dcc97763543afbfc9c14.png" width="252" height="218"> </p><p><img src="https://latex.artofproblemsolving.com/9/f/7/9f7db9c85e711b0ebc0990081c6b315e65783590.png" width="252" height="218"> </p><p><br> <img src="https://latex.artofproblemsolving.com/9/5/8/958be5aac7fe743672089ae597a6c074a25d5fc9.png" width="252" height="218"> </p><p><br> <img src="https://latex.artofproblemsolving.com/2/1/f/21fa6a2cfee859cf851135a9d54dbecfc7e5a93c.png" width="252" height="215"> </p><p><br> <img src="https://latex.artofproblemsolving.com/8/b/2/8b22249c033bee7452780fec1b02d0a66614e126.png" width="252" height="218"> </p>
+
+<p>Response: <input type="text" id="31" name="q31" maxlength="1 "size="3"><a id="response31"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_31" title="1969 AHSME Problems/Problem 31" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 32</h2><p>Let a sequence \( \{u_n\} \) be defined by \( u_1=5 \) and the relationship \( u_{n+1}-u_n=3+4(n-1), n=1,2,3\cdots. \)If \( u_n \) is expressed as a polynomial in \( n \), the algebraic sum of its coefficients is: </p><p>\( \text{(A) 3} \quad \text{(B) 4} \quad \text{(C) 5} \quad \text{(D) 6} \quad \text{(E) 11} \) </p>
+
+<p>Response: <input type="text" id="32" name="q32" maxlength="1 "size="3"><a id="response32"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_32" title="1969 AHSME Problems/Problem 32" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 33</h2><p>Let \( S_n \) and \( T_n \) be the respective sums of the first \( n \) terms of two arithmetic series. If \( S_n:T_n=(7n+1):(4n+27) \) for all \( n \), the ratio of the eleventh term of the first series to the eleventh term of the second series is: </p><p>\( \text{(A) } 4:3\quad \text{(B) } 3:2\quad \text{(C) } 7:4\quad \text{(D) } 78:71\quad \text{(E) undetermined} \) </p>
+
+<p>Response: <input type="text" id="33" name="q33" maxlength="1 "size="3"><a id="response33"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_33" title="1969 AHSME Problems/Problem 33" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 34</h2><p>The remainder \( R \) obtained by dividing \( x^{100} \) by \( x^2-3x+2 \) is a polynomial of degree less than \( 2 \). Then \( R \) may be written as: </p><p><br> \( \text{(A) }2^{100}-1 \quad \text{(B) } 2^{100}(x-1)-(x-2)\quad \text{(C) } 2^{200}(x-3)\quad\\ \text{(D) } x(2^{100}-1)+2(2^{99}-1)\quad \text{(E) } 2^{100}(x+1)-(x+2) \) </p>
+
+<p>Response: <input type="text" id="34" name="q34" maxlength="1 "size="3"><a id="response34"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_34" title="1969 AHSME Problems/Problem 34" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 35</h2><p>Let \( L(m) \) be the \( x \) coordinate of the left end point of the intersection of the graphs of \( y=x^2-6 \) and \( y=m \), where \( -6&lt;m&lt;6 \). Let \( r=[L(-m)-L(m)]/m \). Then, as \( m \) is made arbitrarily close to zero, the value of \( r \) is: </p><p>\( \text{(A) arbitrarily close to } 0\quad\\ \text{(B) arbitrarily close to }\frac{1}{\sqrt{6}}\quad \text{(C) arbitrarily close to }\frac{2}{\sqrt{6}} \quad \text{(D) arbitrarily large} \quad \text{(E) undetermined} \) </p>
+
+<p>Response: <input type="text" id="35" name="q35" maxlength="1 "size="3"><a id="response35"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems/Problem_35" title="1969 AHSME Problems/Problem 35" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1969_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","A","E","E","B","C","A","D","C","C","B","A","B","A","D","E","D","B","B","C","E","C","A","E","D","B","E","E","C","D","D","C","A","B","B"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

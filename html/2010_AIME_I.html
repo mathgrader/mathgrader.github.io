@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2010 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2010 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Maya lists all the positive divisors of \( 2010^2 \). She then randomly selects two distinct divisors from this list. Let \( p \) be the probability that exactly one of the selected divisors is a perfect square. The probability \( p \) can be expressed in the form \( \frac {m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_1" title="2010 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Find the remainder when \( 9 \times 99 \times 999 \times \cdots \times \underbrace{99\cdots9}_{\text{999 9's}} \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_2" title="2010 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Suppose that \( y = \frac34x \) and \( x^y = y^x \). The quantity \( x + y \) can be expressed as a rational number \( \frac {r}{s} \), where \( r \) and \( s \) are relatively prime positive integers. Find \( r + s \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_3" title="2010 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Jackie and Phil have two fair coins and a third coin that comes up heads with probability \( \frac47 \). Jackie flips the three coins, and then Phil flips the three coins. Let \( \frac {m}{n} \) be the probability that Jackie gets the same number of heads as Phil, where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_4" title="2010 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Positive integers \( a \), \( b \), \( c \), and \( d \) satisfy \( a &gt; b &gt; c &gt; d \), \( a + b + c + d = 2010 \), and \( a^2 - b^2 + c^2 - d^2 = 2010 \). Find the number of possible values of \( a \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_5" title="2010 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Let \( P(x) \) be a quadratic polynomial with real coefficients satisfying \( x^2 - 2x + 2 \le P(x) \le 2x^2 - 4x + 3 \) for all real numbers \( x \), and suppose \( P(11) = 181 \). Find \( P(16) \). </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_6" title="2010 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Define an ordered triple \( (A, B, C) \) of sets to be \( \textit{minimally intersecting} \) if \( |A \cap B| = |B \cap C| = |C \cap A| = 1 \) and \( A \cap B \cap C = \emptyset \). For example, \( (\{1,2\},\{2,3\},\{1,3,4\}) \) is a minimally intersecting triple. Let \( N \) be the number of minimally intersecting ordered triples of sets for which each set is a subset of \( \{1,2,3,4,5,6,7\} \). Find the remainder when \( N \) is divided by \( 1000 \). </p><p><b>Note</b>: \( |S| \) represents the number of elements in the set \( S \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_7" title="2010 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>For a real number \( a \), let \( \lfloor a \rfloor \) denote the greatest integer less than or equal to \( a \). Let \( \mathcal{R} \) denote the region in the coordinate plane consisting of points \( (x,y) \) such that \( \lfloor x \rfloor ^2 + \lfloor y \rfloor ^2 = 25 \). The region \( \mathcal{R} \) is completely contained in a disk of radius \( r \) (a disk is the union of a circle and its interior). The minimum value of \( r \) can be written as \( \frac {\sqrt {m}}{n} \), where \( m \) and \( n \) are integers and \( m \) is not divisible by the square of any prime. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_8" title="2010 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Let \( (a,b,c) \) be a real solution of the system of equations \( x^3 - xyz = 2 \), \( y^3 - xyz = 6 \), \( z^3 - xyz = 20 \). The greatest possible value of \( a^3 + b^3 + c^3 \) can be written in the form \( \frac {m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_9" title="2010 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( N \) be the number of ways to write \( 2010 \) in the form \( 2010 = a_3 \cdot 10^3 + a_2 \cdot 10^2 + a_1 \cdot 10 + a_0 \), where the \( a_i \)'s are integers, and \( 0 \le a_i \le 99 \). An example of such a representation is \( 1\cdot 10^3 + 3\cdot 10^2 + 67\cdot 10^1 + 40\cdot 10^0 \). Find \( N \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_10" title="2010 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( \mathcal{R} \) be the region consisting of the set of points in the coordinate plane that satisfy both \( |8 - x| + y \le 10 \) and \( 3y - x \ge 15 \). When \( \mathcal{R} \) is revolved around the line whose equation is \( 3y - x = 15 \), the volume of the resulting solid is \( \frac {m\pi}{n\sqrt {p}} \), where \( m \), \( n \), and \( p \) are positive integers, \( m \) and \( n \) are relatively prime, and \( p \) is not divisible by the square of any prime. Find \( m + n + p \). </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_11" title="2010 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( m \ge 3 \) be an integer and let \( S = \{3,4,5,\ldots,m\} \). Find the smallest value of \( m \) such that for every partition of \( S \) into two subsets, at least one of the subsets contains integers \( a \), \( b \), and \( c \) (not necessarily distinct) such that \( ab = c \). </p><p><b>Note</b>: a partition of \( S \) is a pair of sets \( A \), \( B \) such that \( A \cap B = \emptyset \), \( A \cup B = S \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_12" title="2010 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Rectangle \( ABCD \) and a semicircle with diameter \( AB \) are coplanar and have nonoverlapping interiors. Let \( \mathcal{R} \) denote the region enclosed by the semicircle and the rectangle. Line \( \ell \) meets the semicircle, segment \( AB \), and segment \( CD \) at distinct points \( N \), \( U \), and \( T \), respectively. Line \( \ell \) divides region \( \mathcal{R} \) into two regions with areas in the ratio \( 1: 2 \). Suppose that \( AU = 84 \), \( AN = 126 \), and \( UB = 168 \). Then \( DA \) can be represented as \( m\sqrt {n} \), where \( m \) and \( n \) are positive integers and \( n \) is not divisible by the square of any prime. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_13" title="2010 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>For each positive integer n, let \( f(n) = \sum_{k = 1}^{100} \lfloor \log_{10} (kn) \rfloor \). Find the largest value of n for which \( f(n) \le 300 \). </p><p><b>Note:</b> \( \lfloor x \rfloor \) is the greatest integer less than or equal to \( x \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_14" title="2010 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>In \( \triangle{ABC} \) with \( AB = 12 \), \( BC = 13 \), and \( AC = 15 \), let \( M \) be a point on \( \overline{AC} \) such that the incircles of \( \triangle{ABM} \) and \( \triangle{BCM} \) have equal radii. Let \( p \) and \( q \) be positive relatively prime integers such that \( \frac {AM}{CM} = \frac {p}{q} \). Find \( p + q \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_15" title="2010 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["107","109","529","515","501","406","760","132","158","202","365","243","069","109","045"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

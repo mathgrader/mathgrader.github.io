@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2013 AMC 12A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2013 AMC 12A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Square \( ABCD \) has side length \( 10 \). Point \( E \) is on \( \overline{BC} \), and the area of \( \bigtriangleup ABE \) is \( 40 \). What is \( BE \)? </p><p>\( \textbf{(A)} \ 4 \qquad \textbf{(B)} \ 5 \qquad \textbf{(C)} \ 6 \qquad \textbf{(D)} \ 7 \qquad \textbf{(E)} \ 8 \qquad \) </p><p><img src="https://latex.artofproblemsolving.com/d/9/a/d9ad7d16a15397560a5daa045621239464589d6e.png" width="252" height="252"> </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_1" title="2013 AMC 12A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A softball team played ten games, scoring \( 1,2,3,4,5,6,7,8,9 \), and \( 10 \) runs. They lost by one run in exactly five games. In each of the other games, they scored twice as many runs as their opponent. How many total runs did their opponents score? </p><p>\( \textbf {(A) } 35 \qquad \textbf {(B) } 40 \qquad \textbf {(C) } 45 \qquad \textbf {(D) } 50 \qquad \textbf {(E) } 55 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_2" title="2013 AMC 12A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A flower bouquet contains pink roses, red roses, pink carnations, and red carnations. One third of the pink flowers are roses, three fourths of the red flowers are carnations, and six tenths of the flowers are pink. What percent of the flowers are carnations? </p><p>\( \textbf{(A)}\ 15\qquad\textbf{(B)}\ 30\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 60\qquad\textbf{(E)}\ 70 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_3" title="2013 AMC 12A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>What is the value of \[\frac{2^{2014}+2^{2012}}{2^{2014}-2^{2012}}?\] </p><p>\( \textbf{(A)}\ -1\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ \frac{5}{3}\qquad\textbf{(D)}\ 2013\qquad\textbf{(E)}\ 2^{4024} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_4" title="2013 AMC 12A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Tom, Dorothy, and Sammy went on a vacation and agreed to split the costs evenly. During their trip Tom paid $\( 105 \), Dorothy paid $\( 125 \), and Sammy paid $\( 175 \). In order to share the costs equally, Tom gave Sammy \( t \) dollars, and Dorothy gave Sammy \( d \) dollars. What is \( t-d \)? </p><p>\( \textbf{(A)}\ 15\qquad\textbf{(B)}\ 20\qquad\textbf{(C)}\ 25\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_5" title="2013 AMC 12A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>In a recent basketball game, Shenille attempted only three-point shots and two-point shots. She was successful on \( 20\% \) of her three-point shots and \( 30\% \) of her two-point shots. Shenille attempted \( 30 \) shots. How many points did she score? </p><p>\( \textbf{(A)}\ 12\qquad\textbf{(B)}\ 18\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 36 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_6" title="2013 AMC 12A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The sequence \( S_1, S_2, S_3, \cdots, S_{10} \) has the property that every term beginning with the third is the sum of the previous two. That is, \[S_n = S_{n-2} + S_{n-1} \text{ for } n \ge 3.\] Suppose that \( S_9 = 110 \) and \( S_7 = 42 \). What is \( S_4 \)? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 10\qquad\textbf{(D)}\ 12\qquad\textbf{(E)}\ 16\qquad \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_7" title="2013 AMC 12A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Given that \( x \) and \( y \) are distinct nonzero real numbers such that \( x+\tfrac{2}{x} = y + \tfrac{2}{y} \), what is \( xy \)? </p><p>\( \textbf{(A)}\ \frac{1}{4}\qquad\textbf{(B)}\ \frac{1}{2}\qquad\textbf{(C)}\ 1\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ 4\qquad \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_8" title="2013 AMC 12A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>In \( \triangle ABC \), \( AB=AC=28 \) and \( BC=20 \). Points \( D,E, \) and \( F \) are on sides \( \overline{AB} \), \( \overline{BC} \), and \( \overline{AC} \), respectively, such that \( \overline{DE} \) and \( \overline{EF} \) are parallel to \( \overline{AC} \) and \( \overline{AB} \), respectively. What is the perimeter of parallelogram \( ADEF \)? </p><p><img src="https://latex.artofproblemsolving.com/e/c/4/ec45f0635e288a5e5da73a19319f4eb7045b5eab.png" width="242" height="302"> </p><p>\( \textbf{(A) }48\qquad \textbf{(B) }52\qquad \textbf{(C) }56\qquad \textbf{(D) }60\qquad \textbf{(E) }72\qquad \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_9" title="2013 AMC 12A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( S \) be the set of positive integers \( n \) for which \( \tfrac{1}{n} \) has the repeating decimal representation \( 0.\overline{ab} = 0.ababab\cdots, \) with \( a \) and \( b \) different digits. What is the sum of the elements of \( S \)? </p><p>\( \textbf{(A)}\ 11\qquad\textbf{(B)}\ 44\qquad\textbf{(C)}\ 110\qquad\textbf{(D)}\ 143\qquad\textbf{(E)}\ 155\qquad \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_10" title="2013 AMC 12A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Triangle \( ABC \) is equilateral with \( AB=1 \). Points \( E \) and \( G \) are on \( \overline{AC} \) and points \( D \) and \( F \) are on \( \overline{AB} \) such that both \( \overline{DE} \) and \( \overline{FG} \) are parallel to \( \overline{BC} \). Furthermore, triangle \( ADE \) and trapezoids \( DFGE \) and \( FBCG \) all have the same perimeter. What is \( DE+FG \)? </p><p><img src="https://latex.artofproblemsolving.com/d/2/e/d2eb992c9eae1b2af8bec0d92f03bde1e1e8b647.png" width="302" height="265"> </p><p>\( \textbf{(A) }1\qquad \textbf{(B) }\dfrac{3}{2}\qquad \textbf{(C) }\dfrac{21}{13}\qquad \textbf{(D) }\dfrac{13}{8}\qquad \textbf{(E) }\dfrac{5}{3}\qquad \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_11" title="2013 AMC 12A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The angles in a particular triangle are in arithmetic progression, and the side lengths are \( 4,5,x \). The sum of the possible values of x equals \( a+\sqrt{b}+\sqrt{c} \) where \( a, b \), and \( c \) are positive integers. What is \( a+b+c \)? </p><p>\( \textbf{(A)}\ 36\qquad\textbf{(B)}\ 38\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 42\qquad\textbf{(E)}\ 44 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_12" title="2013 AMC 12A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Let points \( A = (0,0) , \ B = (1,2), \ C = (3,3), \) and \( D = (4,0) \). Quadrilateral \( ABCD \) is cut into equal area pieces by a line passing through \( A \). This line intersects \( \overline{CD} \) at point \( \left (\frac{p}{q}, \frac{r}{s} \right ) \), where these fractions are in lowest terms. What is \( p + q + r + s \)? </p><p>\( \textbf{(A)} \ 54 \qquad \textbf{(B)} \ 58 \qquad \textbf{(C)} \ 62 \qquad \textbf{(D)} \ 70 \qquad \textbf{(E)} \ 75 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_13" title="2013 AMC 12A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>The sequence </p><p>\( \log_{12}{162} \), \( \log_{12}{x} \), \( \log_{12}{y} \), \( \log_{12}{z} \), \( \log_{12}{1250} \) </p><p>is an arithmetic progression. What is \( x \)? </p><p>\( \textbf{(A)} \ 125\sqrt{3} \qquad \textbf{(B)} \ 270 \qquad \textbf{(C)} \ 162\sqrt{5} \qquad \textbf{(D)} \ 434 \qquad \textbf{(E)} \ 225\sqrt{6} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_14" title="2013 AMC 12A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Rabbits Peter and Pauline have three offspring—Flopsie, Mopsie, and Cotton-tail. These five rabbits are to be distributed to four different pet stores so that no store gets both a parent and a child. It is not required that every store gets a rabbit. In how many different ways can this be done? </p><p>\( \textbf{(A)} \ 96 \qquad \textbf{(B)} \ 108 \qquad \textbf{(C)} \ 156 \qquad \textbf{(D)} \ 204 \qquad \textbf{(E)} \ 372 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_15" title="2013 AMC 12A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>\( A \), \( B \), \( C \) are three piles of rocks. The mean weight of the rocks in \( A \) is \( 40 \) pounds, the mean weight of the rocks in \( B \) is \( 50 \) pounds, the mean weight of the rocks in the combined piles \( A \) and \( B \) is \( 43 \) pounds, and the mean weight of the rocks in the combined piles \( A \) and \( C \) is \( 44 \) pounds. What is the greatest possible integer value for the mean in pounds of the rocks in the combined piles \( B \) and \( C \)? </p><p>\( \textbf{(A)} \ 55 \qquad \textbf{(B)} \ 56 \qquad \textbf{(C)} \ 57 \qquad \textbf{(D)} \ 58 \qquad \textbf{(E)} \ 59 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_16" title="2013 AMC 12A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A group of \( 12 \) pirates agree to divide a treasure chest of gold coins among themselves as follows. The \( k^\text{th} \) pirate to take a share takes \( \frac{k}{12} \) of the coins that remain in the chest. The number of coins initially in the chest is the smallest number for which this arrangement will allow each pirate to receive a positive whole number of coins. How many coins does the \( 12^{\text{th}} \) pirate receive? </p><p>\( \textbf{(A)} \ 720 \qquad \textbf{(B)} \ 1296 \qquad \textbf{(C)} \ 1728 \qquad \textbf{(D)} \ 1925 \qquad \textbf{(E)} \ 3850 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_17" title="2013 AMC 12A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Six spheres of radius \( 1 \) are positioned so that their centers are at the vertices of a regular hexagon of side length \( 2 \). The six spheres are internally tangent to a larger sphere whose center is the center of the hexagon. An eighth sphere is externally tangent to the six smaller spheres and internally tangent to the larger sphere. What is the radius of this eighth sphere? </p><p>\( \textbf{(A)} \ \sqrt{2} \qquad \textbf{(B)} \ \frac{3}{2} \qquad \textbf{(C)} \ \frac{5}{3} \qquad \textbf{(D)} \ \sqrt{3} \qquad \textbf{(E)} \ 2 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_18" title="2013 AMC 12A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>In \( \bigtriangleup ABC \), \( AB = 86 \), and \( AC = 97 \). A circle with center \( A \) and radius \( AB \) intersects \( \overline{BC} \) at points \( B \) and \( X \). Moreover \( \overline{BX} \) and \( \overline{CX} \) have integer lengths. What is \( BC \)? </p><p>\( \textbf{(A)} \ 11 \qquad \textbf{(B)} \ 28 \qquad \textbf{(C)} \ 33 \qquad \textbf{(D)} \ 61 \qquad \textbf{(E)} \ 72 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_19" title="2013 AMC 12A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Let \( S \) be the set \( \{1,2,3,...,19\} \). For \( a,b \in S \), define \( a \succ b \) to mean that either \( 0 &lt; a - b \le 9 \) or \( b - a &gt; 9 \). How many ordered triples \( (x,y,z) \) of elements of \( S \) have the property that \( x \succ y \), \( y \succ z \), and \( z \succ x \)? </p><p>\( \textbf{(A)} \ 810 \qquad \textbf{(B)} \ 855 \qquad \textbf{(C)} \ 900 \qquad \textbf{(D)} \ 950 \qquad \textbf{(E)} \ 988 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_20" title="2013 AMC 12A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Consider \( A = \log (2013 + \log (2012 + \log (2011 + \log (\cdots + \log (3 + \log 2) \cdots )))) \). Which of the following intervals contains \( A \)? </p><p>\( \textbf{(A)} \ (\log 2016, \log 2017) \) \( \textbf{(B)} \ (\log 2017, \log 2018) \) \( \textbf{(C)} \ (\log 2018, \log 2019) \) \( \textbf{(D)} \ (\log 2019, \log 2020) \) \( \textbf{(E)} \ (\log 2020, \log 2021) \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_21" title="2013 AMC 12A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A palindrome is a nonnegative integer number that reads the same forwards and backwards when written in base 10 with no leading zeros. A 6-digit palindrome \( n \) is chosen uniformly at random. What is the probability that \( \frac{n}{11} \) is also a palindrome? </p><p>\( \textbf{(A)} \ \frac{8}{25} \qquad \textbf{(B)} \ \frac{33}{100} \qquad \textbf{(C)} \ \frac{7}{20} \qquad \textbf{(D)} \ \frac{9}{25} \qquad \textbf{(E)} \ \frac{11}{30} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_22" title="2013 AMC 12A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>\( ABCD \) is a square of side length \( \sqrt{3} + 1 \). Point \( P \) is on \( \overline{AC} \) such that \( AP = \sqrt{2} \). The square region bounded by \( ABCD \) is rotated \( 90^{\circ} \) counterclockwise with center \( P \), sweeping out a region whose area is \( \frac{1}{c} (a \pi + b) \), where \( a \), \( b \), and \( c \) are positive integers and \( \text{gcd}(a,b,c) = 1 \). What is \( a + b + c \)? </p><p>\( \textbf{(A)} \ 15 \qquad \textbf{(B)} \ 17 \qquad \textbf{(C)} \ 19 \qquad \textbf{(D)} \ 21 \qquad \textbf{(E)} \ 23 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_23" title="2013 AMC 12A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Three distinct segments are chosen at random among the segments whose end-points are the vertices of a regular 12-gon. What is the probability that the lengths of these three segments are the three side lengths of a triangle with positive area? </p><p>\( \textbf{(A)} \ \frac{553}{715} \qquad \textbf{(B)} \ \frac{443}{572} \qquad \textbf{(C)} \ \frac{111}{143} \qquad \textbf{(D)} \ \frac{81}{104} \qquad \textbf{(E)} \ \frac{223}{286} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_24" title="2013 AMC 12A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Let \( f&nbsp;: \mathbb{C} \to \mathbb{C} \) be defined by \( f(z) = z^2 + iz + 1 \). How many complex numbers \( z \) are there such that \( \text{Im}(z) &gt; 0 \) and both the real and the imaginary parts of \( f(z) \) are integers with absolute value at most \( 10 \)? </p><p>\( \textbf{(A)} \ 399 \qquad \textbf{(B)} \ 401 \qquad \textbf{(C)} \ 413 \qquad \textbf{(D)} \ 431 \qquad \textbf{(E)} \ 441 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems/Problem_25" title="2013 AMC 12A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2013_AMC_12A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","C","E","C","B","B","C","D","C","D","C","A","B","B","D","E","D","B","D","B","A","E","C","E","A"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2010 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2010 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Let \( N \) be the greatest integer multiple of \( 36 \) all of whose digits are even and no two of whose digits are the same. Find the remainder when \( N \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_1" title="2010 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A point \( P \) is chosen at random in the interior of a unit square \( S \). Let \( d(P) \) denote the distance from \( P \) to the closest side of \( S \). The probability that \( \frac{1}{5}\le d(P)\le\frac{1}{3} \) is equal to \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_2" title="2010 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Let \( K \) be the product of all factors \( (b-a) \) (not necessarily distinct) where \( a \) and \( b \) are integers satisfying \( 1\le a &lt; b \le 20 \). Find the greatest positive integer \( n \) such that \( 2^n \) divides \( K \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_3" title="2010 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Dave arrives at an airport which has twelve gates arranged in a straight line with exactly \( 100 \) feet between adjacent gates. His departure gate is assigned at random. After waiting at that gate, Dave is told the departure gate has been changed to a different gate, again at random. Let the probability that Dave walks \( 400 \) feet or less to the new gate be a fraction \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_4" title="2010 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Positive numbers \( x \), \( y \), and \( z \) satisfy \( xyz = 10^{81} \) and \( (\log_{10}x)(\log_{10} yz) + (\log_{10}y) (\log_{10}z) = 468 \). Find \( \sqrt {(\log_{10}x)^2 + (\log_{10}y)^2 + (\log_{10}z)^2} \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_5" title="2010 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Find the smallest positive integer \( n \) with the property that the polynomial \( x^4 - nx + 63 \) can be written as a product of two nonconstant polynomials with integer coefficients. </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_6" title="2010 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Let \( P(z)=z^3+az^2+bz+c \), where \( a \), \( b \), and \( c \) are real. There exists a complex number \( w \) such that the three roots of \( P(z) \) are \( w+3i \), \( w+9i \), and \( 2w-4 \), where \( i^2=-1 \). Find \( |a+b+c| \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_7" title="2010 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Let \( N \) be the number of ordered pairs of nonempty sets \( \mathcal{A} \) and \( \mathcal{B} \) that have the following properties: </p><ul> 
+ <li> <img src="//latex.artofproblemsolving.com/d/c/c/dcc284c55872fe62171d17576f673ab9789c54c7.png" class="latex" alt="$\mathcal{A} \cup \mathcal{B} = \{1,2,3,4,5,6,7,8,9,10,11,12\}$" style="vertical-align: -4px" width="313" height="18">,</li> 
+ <li> <img src="//latex.artofproblemsolving.com/4/7/b/47b394a5f279256062f5b60a3213b58fa56af0ec.png" class="latex" alt="$\mathcal{A} \cap \mathcal{B} = \emptyset$" style="vertical-align: -1px" width="80" height="16">, </li> 
+ <li> The number of elements of <img src="//latex.artofproblemsolving.com/0/b/7/0b7bf42db84e4d2dbb7bf55476c12bf9f6233bc5.png" class="latex" alt="$\mathcal{A}$" style="vertical-align: -1px" width="15" height="14"> is not an element of <img src="//latex.artofproblemsolving.com/0/b/7/0b7bf42db84e4d2dbb7bf55476c12bf9f6233bc5.png" class="latex" alt="$\mathcal{A}$" style="vertical-align: -1px" width="15" height="14">,</li> 
+ <li> The number of elements of <img src="//latex.artofproblemsolving.com/3/8/2/382cea990fadd43376cf42e8e0597a5eb13a67c0.png" class="latex" alt="$\mathcal{B}$" style="vertical-align: 0px" width="12" height="13"> is not an element of <img src="//latex.artofproblemsolving.com/3/8/2/382cea990fadd43376cf42e8e0597a5eb13a67c0.png" class="latex" alt="$\mathcal{B}$" style="vertical-align: 0px" width="12" height="13">. </li> 
+</ul><p>Find \( N \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_8" title="2010 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Let \( ABCDEF \) be a regular hexagon. Let \( G \), \( H \), \( I \), \( J \), \( K \), and \( L \) be the midpoints of sides \( AB \), \( BC \), \( CD \), \( DE \), \( EF \), and \( AF \), respectively. The segments \( \overline{AH} \), \( \overline{BI} \), \( \overline{CJ} \), \( \overline{DK} \), \( \overline{EL} \), and \( \overline{FG} \) bound a smaller regular hexagon. Let the ratio of the area of the smaller hexagon to the area of \( ABCDEF \) be expressed as a fraction \( \frac {m}{n} \) where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_9" title="2010 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Find the number of second-degree polynomials \( f(x) \) with integer coefficients and integer zeros for which \( f(0)=2010 \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_10" title="2010 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Define a <i>T-grid</i> to be a \( 3\times3 \) matrix which satisfies the following two properties: </p><ol> 
+ <li>Exactly five of the entries are <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12">'s, and the remaining four entries are <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12">'s.</li> 
+ <li>Among the eight rows, columns, and long diagonals (the long diagonals are <img src="//latex.artofproblemsolving.com/1/e/e/1ee2be3d47ea4319887abcb546012080896a5400.png" class="latex" alt="$\{a_{13},a_{22},a_{31}\}$" style="vertical-align: -4px" width="104" height="18"> and <img src="//latex.artofproblemsolving.com/d/1/a/d1a7c9f90d42cef1a001d49d91026204c3cbd474.png" class="latex" alt="$\{a_{11},a_{22},a_{33}\}$" style="vertical-align: -4px" width="104" height="18">, no more than one of the eight has all three entries equal.</li> 
+</ol><p>Find the number of distinct <i>T-grids</i>. </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_11" title="2010 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Two noncongruent integer-sided isosceles triangles have the same perimeter and the same area. The ratio of the lengths of the bases of the two triangles is \( 8: 7 \). Find the minimum possible value of their common perimeter. </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_12" title="2010 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The \( 52 \) cards in a deck are numbered \( 1, 2, \cdots, 52 \). Alex, Blair, Corey, and Dylan each pick a card from the deck randomly and without replacement. The two people with lower numbered cards form a team, and the two people with higher numbered cards form another team. Let \( p(a) \) be the probability that Alex and Dylan are on the same team, given that Alex picks one of the cards \( a \) and \( a+9 \), and Dylan picks the other of these two cards. The minimum value of \( p(a) \) for which \( p(a)\ge\frac{1}{2} \) can be written as \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_13" title="2010 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Triangle \( ABC \) with right angle at \( C \), \( \angle BAC &lt; 45^\circ \) and \( AB = 4 \). Point \( P \) on \( \overline{AB} \) is chosen such that \( \angle APC = 2\angle ACP \) and \( CP = 1 \). The ratio \( \frac{AP}{BP} \) can be represented in the form \( p + q\sqrt{r} \), where \( p \), \( q \), \( r \) are positive integers and \( r \) is not divisible by the square of any prime. Find \( p+q+r \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_14" title="2010 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>In triangle \( ABC \), \( AC=13 \), \( BC=14 \), and \( AB=15 \). Points \( M \) and \( D \) lie on \( AC \) with \( AM=MC \) and \( \angle ABD = \angle DBC \). Points \( N \) and \( E \) lie on \( AB \) with \( AN=NB \) and \( \angle ACE = \angle ECB \). Let \( P \) be the point, other than \( A \), of intersection of the circumcircles of \( \triangle AMN \) and \( \triangle ADE \). Ray \( AP \) meets \( BC \) at \( Q \). The ratio \( \frac{BQ}{CQ} \) can be written in the form \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m-n \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_15" title="2010 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["640","281","150","052","075","008","136","772","011","163","068","676","263","007","218"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

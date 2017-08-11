@@ -1,0 +1,36 @@
+body {
+	background-color: #04162A;
+}
+div#content{
+	background-color: #2A4F6E;
+	color: black;
+	text-align: center;
+	margin: auto;
+	padding: 0px;
+	width: 1000px;
+	font-family: Arial;
+	color: white;
+}
+div#title{
+	font-size: 1.6em;
+	text-align: center;
+	padding: 13px;
+	margin: 0px;
+	background-color: #042143;
+	color: white;
+	display: block;
+}
+div#main{
+	vertical-align: top;
+	background-color: #08438A;
+	height: 300px;
+	padding: 50px;
+}
+div#footer{
+	background-color: #092040;
+}
+div#footer p{
+	padding:5px;
+	margin:0px;
+}
+

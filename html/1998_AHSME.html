@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1998 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1998 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Each of the sides of five congruent rectangles is labeled with an integer. In rectangle A, \( w = 4, x = 1, y = 6, z = 9 \). In rectangle B, \( w = 1, x = 0, y = 3, z = 6 \). In rectangle C, \( w = 3, x = 8, y = 5, z = 2 \). In rectangle D, \( w = 7, x = 5, y = 4, z = 8 \). In rectangle E, \( w = 9, x = 2, y = 7, z = 0 \). These five rectangles are placed, without rotating or reflecting, in position as below. Which of the rectangle is the top leftmost one? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/f/d/4/fd4ce8e9f69eccb7bc297cde34a60f44244789af.png" width="252" height="195"> 
+</center><p>\( \mathrm{(A)\ } A \qquad \mathrm{(B) \ }B \qquad \mathrm{(C) \ } C \qquad \mathrm{(D) \ } D \qquad \mathrm{(E) \ }E \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_1" title="1998 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Letters \( A,B,C, \) and \( D \) represent four different digits selected from \( 0,1,2,\ldots ,9. \) If \( (A+B)/(C+D) \) is an integer that is as large as possible, what is the value of \( A+B \)? </p><p>\( \mathrm{(A) \ }13 \qquad \mathrm{(B) \ }14 \qquad \mathrm{(C) \ } 15\qquad \mathrm{(D) \ }16 \qquad \mathrm{(E) \ } 17 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_2" title="1998 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>If \( \texttt{a,b,} \) and \( \texttt{c} \) are digits for which </p><p>\[\begin{array}{rccc}&amp;\ \texttt{7}&amp; \texttt{a}&amp;\texttt{2}\\ -&amp;\ \texttt{4}&amp;\texttt{8}&amp;\texttt{b} \\ \hline &amp;\ \texttt{c}&amp;\texttt{7}&amp; \texttt{3} \end{array}\] </p><p>then \( \texttt{a+b+c =} \) </p><p>\( \mathrm{(A) \ }14 \qquad \mathrm{(B) \ }15 \qquad \mathrm{(C) \ }16 \qquad \mathrm{(D) \ }17 \qquad \mathrm{(E) \ }18 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_3" title="1998 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Define \( [a,b,c] \) to mean \( \frac {a+b}c \), where \( c \neq 0 \). What is the value of </p><center> \( \left[[60,30,90],[2,1,3],[10,5,15]\right]? \) 
+</center><p>\( \mathrm{(A) \ }0 \qquad \mathrm{(B) \ }0.5 \qquad \mathrm{(C) \ }1 \qquad \mathrm{(D) \ }1.5 \qquad \mathrm{(E) \ }2 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_4" title="1998 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>If \( 2^{1998}-2^{1997}-2^{1996}+2^{1995} = k \cdot 2^{1995}, \) what is the value of \( k \)? </p><p>\( \mathrm{(A) \ } 1 \qquad \mathrm{(B) \ } 2 \qquad \mathrm{(C) \ } 3 \qquad \mathrm{(D) \ } 4 \qquad \mathrm{(E) \ } 5 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_5" title="1998 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>If \( 1998 \) is written as a product of two positive integers whose difference is as small as possible, then the difference is </p><p>\( \mathrm{(A) \ }8 \qquad \mathrm{(B) \ }15 \qquad \mathrm{(C) \ }17 \qquad \mathrm{(D) \ }47 \qquad \mathrm{(E) \ } 93 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_6" title="1998 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If \( N &gt; 1 \), then \( \sqrt[3]{N\sqrt[3]{N\sqrt[3]{N}}} = \) </p><p>\( \mathrm{(A) \ } N^{\frac 1{27}} \qquad \mathrm{(B) \ } N^{\frac 1{9}} \qquad \mathrm{(C) \ } N^{\frac 1{3}} \qquad \mathrm{(D) \ } N^{\frac {13}{27}} \qquad \mathrm{(E) \ } N \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_7" title="1998 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A square with sides of length \( 1 \) is divided into two congruent trapezoids and a pentagon, which have equal areas, by joining the center of the square with points on three of the sides, as shown. Find \( x \), the length of the longer parallel side of each trapezoid. </p><center> 
+ <img src="https://latex.artofproblemsolving.com/c/d/3/cd377f61d1a4292ea7abca47018c6113286b61ae.png" width="232" height="252"> 
+</center><p>\( \mathrm{(A) \ } \frac 35 \qquad \mathrm{(B) \ } \frac 23 \qquad \mathrm{(C) \ } \frac 34 \qquad \mathrm{(D) \ } \frac 56 \qquad \mathrm{(E) \ } \frac 78 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_8" title="1998 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>A speaker talked for sixty minutes to a full auditorium. Twenty percent of the audience heard the entire talk and ten percent slept through the entire talk. Half of the remainder heard one third of the talk and the other half heard two thirds of the talk. What was the average number of minutes of the talk heard by members of the audience? </p><p>\( \mathrm{(A) \ } 24 \qquad \mathrm{(B) \ } 27\qquad \mathrm{(C) \ }30 \qquad \mathrm{(D) \ }33 \qquad \mathrm{(E) \ }36 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_9" title="1998 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A large square is divided into a small square surrounded by four congruent rectangles as shown. The perimter of each of the congruent rectangles is \( 14 \). What is the area of the large square? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/3/5/1/351dd6615f83399259278b9bb833588e02536bc0.png" width="252" height="252"> 
+</center><p>\( \mathrm{(A) \ }49 \qquad \mathrm{(B) \ }64 \qquad \mathrm{(C) \ }100 \qquad \mathrm{(D) \ }121 \qquad \mathrm{(E) \ }196 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_10" title="1998 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( R \) be a rectangle. How many circles in the plane of \( R \) have a diameter both of whose endpoints are vertices of \( R \)? </p><p>\( \mathrm{(A) \ }1 \qquad \mathrm{(B) \ }2 \qquad \mathrm{(C) \ }4 \qquad \mathrm{(D) \ }5 \qquad \mathrm{(E) \ }6 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_11" title="1998 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>How many different prime numbers are factors of \( N \) if </p><center> \( \log_2 ( \log_3 ( \log_5 (\log_ 7 N))) = 11? \) 
+</center><p>\( \mathrm{(A) \ }1 \qquad \mathrm{(B) \ }2 \qquad \mathrm{(C) \ }3 \qquad \mathrm{(D) \ } 4\qquad \mathrm{(E) \ }7 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_12" title="1998 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Walter rolls four standard six-sided dice and finds that the product of the numbers of the upper faces is \( 144 \). Which of he following could <b>not </b> be the sum of the upper four faces? </p><p>\( \mathrm{(A) \ }14 \qquad \mathrm{(B) \ }15 \qquad \mathrm{(C) \ }16 \qquad \mathrm{(D) \ }17 \qquad \mathrm{(E) \ }18 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_13" title="1998 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A parabola has vertex of \( (4,-5) \) and has two \( x- \)intercepts, one positive, and one negative. If this parabola is the graph of \( y = ax^2 + bx + c, \) which of \( a,b, \) and \( c \) must be positive? </p><p>\( \mathrm{(A) \ } \text{only}\ a \qquad \mathrm{(B) \ } \text{only}\ b \qquad \mathrm{(C) \ } \text{only}\ c \qquad \mathrm{(D) \ } a\ \text{and}\ b\ \text{only} \qquad \mathrm{(E) \ } \text{none} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_14" title="1998 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>A regular hexagon and an equilateral triangle have equal areas. What is the ratio of the length of a side of the triangle to the length of a side of the hexagon? </p><p>\( \mathrm{(A) \ }\sqrt{3} \qquad \mathrm{(B) \ }2 \qquad \mathrm{(C) \ }\sqrt{6} \qquad \mathrm{(D) \ }3 \qquad \mathrm{(E) \ }6 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_15" title="1998 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>The figure shown is the union of a circle and two semicircles of diameters \( a \) and \( b \), all of whose centers are collinear. The ratio of the area, of the shaded region to that of the unshaded region is </p><div class="center"> 
+ <div class="floatnone"> 
+  <a href="/wiki/index.php/File:Problem_16.png" class="image" title="###px"><img alt="###px" src="//wiki-images.artofproblemsolving.com/4/46/Problem_16.png" width="248" height="248"></a> 
+ </div> 
+</div><p>\( \mathrm{(A) \ } \sqrt{\frac ab} \qquad \mathrm{(B) \ }\frac ab \qquad \mathrm{(C) \ } \frac{a^2}{b^2} \qquad \mathrm{(D) \ }\frac{a+b}{2b} \qquad \mathrm{(E) \ } \frac{a^2 + 2ab}{b^2 + 2ab} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_16" title="1998 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Let \( f(x) \) be a function with the two properties: </p><dl> 
+ <dd>
+   (a) for any two real numbers 
+  <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8"> and 
+  <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11">, 
+  <img src="//latex.artofproblemsolving.com/3/d/8/3d862492b295f02fdfa8c2947d1a2c89c2977857.png" class="latex" alt="$f(x+y) = x + f(y)$" style="vertical-align: -4px" width="157" height="18">, and 
+ </dd> 
+ <dd>
+   (b) 
+  <img src="//latex.artofproblemsolving.com/9/6/7/96731ee4ce64a514ab41b9e8de05876a3dd8d0ae.png" class="latex" alt="$f(0) = 2.$" style="vertical-align: -4px" width="71" height="18"> 
+ </dd> 
+</dl><p>What is the value of \( f(1998)? \) </p><p>\( \mathrm{(A)}\ 0 \qquad\mathrm{(B)}\ 2 \qquad\mathrm{(C)}\ 1996 \qquad\mathrm{(D)}\ 1998 \qquad\mathrm{(E)}\ 2000 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_17" title="1998 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A right circular cone of volume \( A \), a right circular cylinder of volume \( M \), and a sphere of volume \( C \) all have the same radius, and the common height of the cone and the cylinder is equal to the diameter of the sphere. Then </p><p>\( \mathrm{(A) \ } A-M+C = 0 \qquad \mathrm{(B) \ } A+M=C \qquad \mathrm{(C) \ } 2A = M+C \qquad \mathrm{(D) \ }A^2 - M^2 + C^2 = 0 \qquad \mathrm{(E) \ } 2A + 2M = 3C \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_18" title="1998 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>How many triangles have area \( 10 \) and vertices at \( (-5,0),(5,0) \) and \( (5\cos \theta, 5\sin \theta) \) for some angle \( \theta \)? </p><p>\( \mathrm{(A) \ }0 \qquad \mathrm{(B) \ }2 \qquad \mathrm{(C) \ }4 \qquad \mathrm{(D) \ }6 \qquad \mathrm{(E) \ } 8 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_19" title="1998 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Three cards, each with a positive integer written on it, are lying face-down on a table. Casey, Stacy, and Tracy are told that </p><dl> 
+ <dd>
+   (a) the numbers are all different, 
+ </dd> 
+ <dd>
+   (b) they sum to 
+  <img src="//latex.artofproblemsolving.com/0/3/0/030e19e4e2f1c074127cb50581e8496470c5419f.png" class="latex" alt="$13$" style="vertical-align: 0px" width="17" height="13">, and 
+ </dd> 
+ <dd>
+   (c) they are in increasing order, left to right. 
+ </dd> 
+</dl><p>First, Casey looks at the number on the leftmost card and says, "I don't have enough information to determine the other two numbers." Then Tracy looks at the number on the rightmost card and says, "I don't have enough information to determine the other two numbers." Finally, Stacy looks at the number on the middle card and says, "I don't have enough information to determine the other two numbers." Assume that each person knows that the other two reason perfectly and hears their comments. What number is on the middle card? </p><p>\( \textrm{(A)}\ 2 \qquad \textrm{(B)}\ 3 \qquad \textrm{(C)}\ 4 \qquad \textrm{(D)}\ 5 \qquad \textrm{(E)}\ \text{There is not enough information to determine the number.} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_20" title="1998 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>In an \( h \)-meter race, Sunny is exactly \( d \) meters ahead of Windy when Sunny finishes the race. The next time they race, Sunny sportingly starts \( d \) meters behind Windy, who is at the starting line. Both runners run at the same constant speed as they did in the first race. How many meters ahead is Sunny when Sunny finishes the second race? </p><p>\( \mathrm{(A) \ } \frac dh \qquad \mathrm{(B) \ } 0 \qquad \mathrm{(C) \ } \frac {d^2}h \qquad \mathrm{(D) \ } \frac {h^2}d \qquad \mathrm{(E) \ } \frac{d^2}{h-d} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_21" title="1998 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>What is the value of the expression </p><center> \( \frac {1}{\log_{2}100!} + \frac {1}{\log_{3}100!} + \frac {1}{\log_{4}100!} + \cdots + \frac {1}{\log_{100}100!} \) 
+</center><p>\( \mathrm{(A) \ }0.01 \qquad \mathrm{(B) \ }0.1 \qquad \mathrm{(C) \ }1 \qquad \mathrm{(D) \ }2 \qquad \mathrm{(E) \ } 10 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_22" title="1998 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The graphs of \( x^2 + y^2 = 4 + 12x + 6y \) and \( x^2 + y^2 = k + 4x + 12y \) intersect when \( k \) satisfies \( a \le k \le b \), and for no other values of \( k \). Find \( b-a \). </p><p>\( \mathrm{(A) \ }5 \qquad \mathrm{(B) \ }68 \qquad \mathrm{(C) \ }104 \qquad \mathrm{(D) \ }140 \qquad \mathrm{(E) \ }144 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_23" title="1998 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Call a \( 7 \)-digit telephone number \( d_1d_2d_3-d_4d_5d_6d_7 \) <i>memorable</i> if the prefix sequence \( d_1d_2d_3 \) is exactly the same as either of the sequences \( d_4d_5d_6 \) or \( d_5d_6d_7 \) (possibly both). Assuming that each \( d_i \) can be any of the ten decimal digits \( 0,1,2, \ldots 9 \), the number of difference memorable telephone numbers is </p><p>\( \mathrm{(A) \ } 19,810 \qquad \mathrm{(B) \ } 19,910 \qquad \mathrm{(C) \ } 19,990 \qquad \mathrm{(D) \ } 20,000 \qquad \mathrm{(E) \ } 20,100 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_24" title="1998 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A piece of graph paper is folded once so that \( (0,2) \) is matched with \( (4,0) \), and \( (7,3) \) is matched with \( (m,n) \). Find \( m+n \). </p><p>\( \mathrm{(A) \ }6.7 \qquad \mathrm{(B) \ }6.8 \qquad \mathrm{(C) \ }6.9 \qquad \mathrm{(D) \ }7.0 \qquad \mathrm{(E) \ }8.0 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_25" title="1998 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>In quadrilateral \( ABCD \), it is given that \( \angle A = 120^{\circ} \), angles \( B \) and \( D \) are right angles, \( AB = 13 \), and \( AD = 46 \). Then \( AC= \) </p><p>\( \mathrm{(A) \ } 60 \qquad \mathrm{(B) \ }62 \qquad \mathrm{(C) \ }64 \qquad \mathrm{(D) \ }65 \qquad \mathrm{(E) \ } 72 \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_26" title="1998 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>A \( 9 \times 9 \times 9 \) cube is composed of twenty-seven \( 3 \times 3 \times 3 \) cubes. The big cube is ‘tunneled’ as follows: First the six \( 3 \times 3 \times 3 \) cubes which make up the center of each face as well as the center \( 3 \times 3 \times 3 \) cube are removed as shown. Second, each of the twenty remaining \( 3 \times 3 \times 3 \) cubes is diminished in the same way. That is, the center facial unit cubes as well as each center cube are removed. The surface area of the final figure is </p><div class="floatright"> 
+ <a href="/wiki/index.php/File:1998_AHSME_num._27.png" class="image"><img alt="1998 AHSME num. 27.png" src="//wiki-images.artofproblemsolving.com/7/72/1998_AHSME_num._27.png" width="132" height="129"></a> 
+</div><p>\( \mathrm{(A) \ } 384 \qquad \mathrm{(B) \ } 729 \qquad \mathrm{(C) \ } 864 \qquad \mathrm{(D) \ } 1024 \qquad \mathrm{(E) \ } 1056 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_27" title="1998 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>In triangle \( ABC \), angle \( C \) is a right angle and \( CB &gt; CA \). Point \( D \) is located on \( \overline{BC} \) so that angle \( CAD \) is twice angle \( DAB \). If \( AC/AD = 2/3 \), then \( CD/BD = m/n \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p><p>\( \mathrm{(A) \ }10 \qquad \mathrm{(B) \ }14 \qquad \mathrm{(C) \ }18 \qquad \mathrm{(D) \ }22 \qquad \mathrm{(E) \ } 26 \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_28" title="1998 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>A point \( (x,y) \) in the plane is called a lattice point if both \( x \) and \( y \) are integers. The area of the largest square that contains exactly three lattice points in its interior is closest to </p><p>\( \mathrm{(A) \ } 4.0 \qquad \mathrm{(B) \ } 4.2 \qquad \mathrm{(C) \ } 4.5 \qquad \mathrm{(D) \ } 5.0 \qquad \mathrm{(E) \ } 5.6 \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_29" title="1998 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>For each positive integer \( n \), let </p><center> \( a_n = \frac{(n+9)!}{(n-1)!} \) 
+</center><p>Let \( k \) denote the smallest positive integer for which the rightmost nonzero digit of \( a_k \) is odd. The rightmost nonzero digit of \( a_k \) is </p><p>\( \mathrm{(A) \ }1 \qquad \mathrm{(B) \ }3 \qquad \mathrm{(C) \ }5 \qquad \mathrm{(D) \ } 7 \qquad \mathrm{(E) \ } 9 \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems/Problem_30" title="1998 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1998_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","E","D","E","C","C","D","D","D","A","D","A","E","A","C","B","E","A","C","C","C","C","D","C","B","B","E","B","D","E"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

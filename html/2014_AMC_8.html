@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2014 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2014 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Harry and Terry are each told to calculate \( 8-(2+5) \). Harry gets the correct answer. Terry ignores the parentheses and calculates \( 8-2+5 \). If Harry's answer is \( H \) and Terry's answer is \( T \), what is \( H-T \)? </p><p>\( \textbf{(A) }-10\qquad\textbf{(B) }-6\qquad\textbf{(C) }0\qquad\textbf{(D) }6\qquad \textbf{(E) }10 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_1" title="2014 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Paul owes Paula 35 cents and has a pocket full of 5-cent coins, 10-cent coins, and 25-cent coins that he can use to pay her. What is the difference between the largest and the smallest number of coins he can use to pay her? </p><p>\( \textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }4\qquad \textbf{(E) }5 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_2" title="2014 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Isabella had a week to read a book for a school assignment. She read an average of 36 pages per day for the first three days and an average of 44 pages per day for the next three days. She then finished the book by reading 10 pages on the last day. How many pages were in the book? </p><p>\( \textbf{(A) }240\qquad\textbf{(B) }250\qquad\textbf{(C) }260\qquad\textbf{(D) }270\qquad \textbf{(E) }280 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_3" title="2014 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The sum of two prime numbers is 85. What is the product of these two prime numbers? </p><p>\( \textbf{(A) }85\qquad\textbf{(B) }91\qquad\textbf{(C) }115\qquad\textbf{(D) }133\qquad \textbf{(E) }166 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_4" title="2014 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Margie's car can go 32 miles on a gallon of gas, and gas currently costs $4 per gallon. How many miles can Margie drive on $20 worth of gas? </p><p>\( \textbf{(A) }64\qquad\textbf{(B) }128\qquad\textbf{(C) }160\qquad\textbf{(D) }320\qquad\textbf{(E) }640 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_5" title="2014 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Six rectangles each with a common base width of 2 have lengths of 1, 4, 9, 16, 25, and 36. What is the sum of the areas of the six rectangles? </p><p>\( \textbf{(A) }91\qquad\textbf{(B) }93\qquad\textbf{(C) }162\qquad\textbf{(D) }182\qquad\textbf{(E) }202 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_6" title="2014 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>There are four more girls than boys in Ms. Raub's class of 28 students. What is the ratio of number of girls to the number of boys in her class? </p><p>\( \textbf{(A) }3&nbsp;: 4\qquad\textbf{(B) }4&nbsp;: 3\qquad\textbf{(C) }3&nbsp;: 2\qquad\textbf{(D) }7&nbsp;: 4\qquad\textbf{(E) }2&nbsp;: 1 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_7" title="2014 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Eleven members of the Middle School Math Club each paid the same amount for a guest speaker to talk about problem solving at their math club meeting. They paid their guest speaker \( \$\underline{1}\underline{A}\underline{2} \). What is the missing digit A of this 3-digit number? </p><p>\( \textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }4 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_8" title="2014 AMC 8 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>In \( \bigtriangleup ABC \), \( D \) is a point on side \( \overline{AC} \) such that \( BD=DC \) and \( \angle BCD \) measures \( 70^\circ \). What is the degree measure of \( \angle ADB \)? </p><p><img src="https://latex.artofproblemsolving.com/9/4/7/94770df9a0e1d5a71f602bfb3b45022dcca9dec4.png" width="502" height="192"> </p><p>\( \textbf{(A) }100\qquad\textbf{(B) }120\qquad\textbf{(C) }135\qquad\textbf{(D) }140\qquad \textbf{(E) }150 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_9" title="2014 AMC 8 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The first AMC 8 was given in 1985 and it has been given annually since that time. Samantha turned 12 years old the year that she took the seventh AMC 8. In what year was Samantha born? </p><p>\( \textbf{(A) }1979\qquad\textbf{(B) }1980\qquad\textbf{(C) }1981\qquad\textbf{(D) }1982\qquad \textbf{(E) }1983 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_10" title="2014 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Jack wants to bike from his house to Jill's house, which is located three blocks east and two blocks north of Jack's house. After biking each block, Jack can continue either east or north, but he needs to avoid a dangerous intersection one block east and one block north of his house. In how many ways can he reach Jill's house by biking a total of five blocks? </p><p>\( \textbf{(A) }4\qquad\textbf{(B) }5\qquad\textbf{(C) }6\qquad\textbf{(D) }8\qquad\textbf{(E) }10 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_11" title="2014 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A magazine printed photos of three celebrities along with three photos of the celebrities as babies. The baby pictures did not identify the celebrities. Readers were asked to match each celebrity with the correct baby pictures. What is the probability that a reader guessing at random will match all three correctly? </p><p>\( \textbf{(A) }\frac{1}{9}\qquad\textbf{(B) }\frac{1}{6}\qquad\textbf{(C) }\frac{1}{4}\qquad\textbf{(D) }\frac{1}{3}\qquad\textbf{(E) }\frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_12" title="2014 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>If \( n \) and \( m \) are integers and \( n^2+m^2 \) is even, which of the following is impossible? </p><p>\( \textbf{(A) }n \) and \( m \) are even \( \qquad\textbf{(B) }n \) and \( m \) are odd \( \qquad\textbf{(C) }n+m \) is even \( \qquad\textbf{(D) }n+m \) is odd \( \qquad \textbf{(E) } \) none of these are impossible </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_13" title="2014 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Rectangle ABCD and right triangle DCE have the same area. They are joined to form a trapezoid, as shown. What is DE? <img src="https://latex.artofproblemsolving.com/c/3/5/c358884777664e69762bbb69b74c260349626ff4.png" width="418" height="152"> </p><p>\( \textbf{(A) }12\qquad\textbf{(B) }13\qquad\textbf{(C) }14\qquad\textbf{(D) }15\qquad\textbf{(E) }16 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_14" title="2014 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>The circumference of the circle with center \( O \) is divided into 12 equal arcs, marked the letters \( A \) through \( L \) as seen below. What is the number of degrees in the sum of the angles \( x \) and \( y \)? <img src="https://latex.artofproblemsolving.com/f/0/e/f0e953697ad3937a071ae08f39fe3a6cb0648811.png" width="385" height="378"> </p><p>\( \textbf{(A) }75\qquad\textbf{(B) }80\qquad\textbf{(C) }90\qquad\textbf{(D) }120\qquad\textbf{(E) }150 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_15" title="2014 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>The "Middle School Eight" basketball conference has 8 teams. Every season, each team plays every other conference team twice (home and away), and each team also plays 4 games against non-conference opponents. What is the total number of games in a season involving the "Middle School Eight" teams? </p><p>\( \textbf{(A) }60\qquad\textbf{(B) }88\qquad\textbf{(C) }96\qquad\textbf{(D) }144\qquad\textbf{(E) }160 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_16" title="2014 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>George walks \( 1 \) mile to school. He leaves home at the same time each day, walks at a steady speed of \( 3 \) miles per hour, and arrives just as school begins. Today he was distracted by the pleasant weather and walked the first \( \frac{1}{2} \) mile at a speed of only \( 2 \) miles per hour. At how many miles per hour must George run the last \( \frac{1}{2} \) mile in order to arrive just as school begins today? </p><p>\( \textbf{(A) }4\qquad\textbf{(B) }6\qquad\textbf{(C) }8\qquad\textbf{(D) }10\qquad\textbf{(E) }12 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_17" title="2014 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Four children were born at City Hospital yesterday. Assume each child is equally likely to be a boy or a girl. Which of the following outcomes is most likely? </p><p>\( \textbf{(A) } \) all 4 are boys \( \textbf{(B) } \) all 4 are girls \( \textbf{(C) } \) 2 are girls and 2 are boys \( \textbf{(D) } \) 3 are of one gender and 1 is of the other gender \( \textbf{(E) } \) all of these outcomes are equally likely </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_18" title="2014 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A cube with 3-inch edges is to be constructed from 27 smaller cubes with 1-inch edges. Twenty-one of the cubes are colored red and 6 are colored white. If the 3-inch cube is constructed to have the smallest possible white surface area showing, what fraction of the surface area is white? </p><p>\( \textbf{(A) }\frac{5}{54}\qquad\textbf{(B) }\frac{1}{9}\qquad\textbf{(C) }\frac{5}{27}\qquad\textbf{(D) }\frac{2}{9}\qquad\textbf{(E) }\frac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_19" title="2014 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Rectangle ABCD has sides CD=3 and DA=5. A circle of radius 1 is centered at A, a circle of radius 2 is centered at B, and a circle of radius 3 is centered at C. Which of the following is closest to the area of the region inside the rectangle but outside all three circles? <img src="https://latex.artofproblemsolving.com/0/a/5/0a5cf23036c6f8baa2e09775cc716c2ef6913400.png" width="252" height="178"> </p><p>\( \textbf{(A) }3.5\qquad\textbf{(B) }4.0\qquad\textbf{(C) }4.5\qquad\textbf{(D) }5.0\qquad\textbf{(E) }5.5 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_20" title="2014 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>The 7-digit numbers \( \underline{7} \underline{4} \underline{A} \underline{5} \underline{2} \underline{B} \underline{1} \) and \( \underline{3} \underline{2} \underline{6} \underline{A} \underline{B} \underline{4} \underline{C} \) are each multiples of 3. Which of the following could be the value of \( C \)? </p><p>\( \textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }5\qquad\textbf{(E) }8 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_21" title="2014 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A 2-digit number is such that the product of the digits plus the sum of the digits is equal to the number. What is the units digit of the number? </p><p>\( \textbf{(A) }1\qquad\textbf{(B) }3\qquad\textbf{(C) }5\qquad\textbf{(D) }7\qquad\textbf{(E) }9 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_22" title="2014 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Three members of the Euclid Middle School girls' softball team had the following conversation. </p><p>Ashley: I just realized that our uniform numbers are all 2-digit primes. </p><p>Bethany: And the sum of your two uniform numbers is the date of my birthday earlier this month. </p><p>Caitlin: That's funny. The sum of your two uniform numbers is the date of my birthday later this month. </p><p>Ashley: And the sum of your two uniform numbers is today's date. </p><p>What number does Caitlin wear? </p><p>\( \textbf{(A) }11\qquad\textbf{(B) }13\qquad\textbf{(C) }17\qquad\textbf{(D) }19\qquad\textbf{(E) }23 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_23" title="2014 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>One day the Beverage Barn sold 252 cans of soda to 100 customers, and every customer bought at least one can of soda. What is the maximum possible median number of cans of soda bought per customer on that day? </p><p>\( \textbf{(A) }2.5\qquad\textbf{(B) }3.0\qquad\textbf{(C) }3.5\qquad\textbf{(D) }4.0\qquad\textbf{(E) }4.5 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_24" title="2014 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A straight one-mile stretch of highway, 40 feet wide, is closed. Robert rides his bike on a path composed of semicircles as shown. If he rides at 5 miles per hour, how many hours will it take to cover the one-mile stretch? </p><p>Note: 1 mile= 5280 feet <img src="https://latex.artofproblemsolving.com/9/f/e/9fe047064f6733205a7724bdd34ebf4ca8bd719c.png" width="475" height="138"> </p><p>\( \textbf{(A) }\frac{\pi}{11}\qquad\textbf{(B) }\frac{\pi}{10}\qquad\textbf{(C) }\frac{\pi}{5}\qquad\textbf{(D) }\frac{2\pi}{5}\qquad\textbf{(E) }\frac{2\pi}{3} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_25" title="2014 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["A","E","B","E","C","D","B","D","D","A","A","B","D","B","C","B","B","D","A","B","A","E","A","C","B"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

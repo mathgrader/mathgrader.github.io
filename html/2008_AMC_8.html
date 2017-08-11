@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2008 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2008 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Susan had 50 dollars to spend at the carnival. She spent 12 dollars on food and twice as much on rides. How many dollars did she have left to spend? </p><p>\( \textbf{(A)}\ \text{12} \qquad \textbf{(B)}\ \text{14} \qquad \textbf{(C)}\ \text{26} \qquad \textbf{(D)}\ \text{38}\qquad \textbf{(E)}\ \text{50} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_1" title="2008 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>The ten-letter code \( \text{BEST OF LUCK} \) represents the ten digits \( 0-9 \), in order. What 4-digit number is represented by the code word \( \text{CLUE} \)? </p><p>\( \textbf{(A)}\ 8671 \qquad \textbf{(B)}\ 8672 \qquad \textbf{(C)}\ 9781 \qquad \textbf{(D)}\ 9782 \qquad \textbf{(E)}\ 9872 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_2" title="2008 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>If February is a month that contains Friday the \( 13^{\text{th}} \), what day of the week is February 1? </p><p>\( \textbf{(A)}\ \text{Sunday} \qquad \textbf{(B)}\ \text{Monday} \qquad \textbf{(C)}\ \text{Wednesday} \qquad \textbf{(D)}\ \text{Thursday}\qquad \textbf{(E)}\ \text{Saturday} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_3" title="2008 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In the figure, the outer equilateral triangle has area \( 16 \), the inner equilateral triangle has area \( 1 \), and the three trapezoids are congruent. What is the area of one of the trapezoids? <img src="https://latex.artofproblemsolving.com/e/3/4/e34c3dede3f2bef33570072537b95ad87b3894f5.png" width="118" height="102"> \( \textbf{(A)}\ 3 \qquad \textbf{(B)}\ 4 \qquad \textbf{(C)}\ 5 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 7 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_4" title="2008 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Barney Schwinn notices that the odometer on his bicycle reads \( 1441 \), a palindrome, because it reads the same forward and backward. After riding \( 4 \) more hours that day and \( 6 \) the next, he notices that the odometer shows another palindrome, \( 1661 \). What was his average speed in miles per hour? </p><p>\( \textbf{(A)}\ 15\qquad \textbf{(B)}\ 16\qquad \textbf{(C)}\ 18\qquad \textbf{(D)}\ 20\qquad \textbf{(E)}\ 22 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_5" title="2008 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>In the figure, what is the ratio of the area of the gray squares to the area of the white squares? <img src="https://latex.artofproblemsolving.com/3/c/4/3c4476181cee26306aeb555b3e4b864d592dca35.png" width="118" height="118"> \( \textbf{(A)}\ 3:10 \qquad\textbf{(B)}\ 3:8 \qquad\textbf{(C)}\ 3:7 \qquad\textbf{(D)}\ 3:5 \qquad\textbf{(E)}\ 1:1 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_6" title="2008 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If \( \frac{3}{5}=\frac{M}{45}=\frac{60}{N} \), what is \( M+N \)? </p><p>\( \textbf{(A)}\ 27\qquad \textbf{(B)}\ 29 \qquad \textbf{(C)}\ 45 \qquad \textbf{(D)}\ 105\qquad \textbf{(E)}\ 127 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_7" title="2008 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Candy sales from the Boosters Club from January through April are shown. What were the average sales per month in dollars? <img src="https://latex.artofproblemsolving.com/7/8/3/7833d1c265ea4e848ac19e6fa5ae48a10ce9e85d.png" width="252" height="172"> \( \textbf{(A)}\ 60\qquad\textbf{(B)}\ 70\qquad\textbf{(C)}\ 75\qquad\textbf{(D)}\ 80\qquad\textbf{(E)}\ 85 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_8" title="2008 AMC 8 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>In \( 2005 \) Tycoon Tammy invested \( 100 \) dollars for two years. During the the first year her investment suffered a \( 15\% \) loss, but during the second year the remaining investment showed a \( 20\% \) gain. Over the two-year period, what was the change in Tammy's investment? </p><p>\( \textbf{(A)}\ 5\%\text{ loss}\qquad \textbf{(B)}\ 2\%\text{ loss}\qquad \textbf{(C)}\ 1\%\text{ gain}\qquad \textbf{(D)}\ 2\% \text{ gain} \qquad \textbf{(E)}\ 5\%\text{ gain} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_9" title="2008 AMC 8 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The average age of the \( 6 \) people in Room A is \( 40 \). The average age of the \( 4 \) people in Room B is \( 25 \). If the two groups are combined, what is the average age of all the people? </p><p>\( \textbf{(A)}\ 32.5 \qquad \textbf{(B)}\ 33 \qquad \textbf{(C)}\ 33.5 \qquad \textbf{(D)}\ 34\qquad \textbf{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_10" title="2008 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Each of the \( 39 \) students in the eighth grade at Lincoln Middle School has one dog or one cat or both a dog and a cat. Twenty students have a dog and \( 26 \) students have a cat. How many students have both a dog and a cat? </p><p>\( \textbf{(A)}\ 7\qquad \textbf{(B)}\ 13\qquad \textbf{(C)}\ 19\qquad \textbf{(D)}\ 39\qquad \textbf{(E)}\ 46 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_11" title="2008 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A ball is dropped from a height of \( 3 \) meters. On its first bounce it rises to a height of \( 2 \) meters. It keeps falling and bouncing to \( \frac{2}{3} \) of the height it reached in the previous bounce. On which bounce will it rise to a height less than \( 0.5 \) meters? </p><p>\( \textbf{(A)}\ 3 \qquad \textbf{(B)}\ 4 \qquad \textbf{(C)}\ 5 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 7 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_12" title="2008 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Mr. Harman needs to know the combined weight in pounds of three boxes he wants to mail. However, the only available scale is not accurate for weights less than \( 100 \) pounds or more than \( 150 \) pounds. So the boxes are weighed in pairs in every possible way. The results are \( 122 \), \( 125 \) and \( 127 \) pounds. What is the combined weight in pounds of the three boxes? </p><p>\( \textbf{(A)}\ 160\qquad \textbf{(B)}\ 170\qquad \textbf{(C)}\ 187\qquad \textbf{(D)}\ 195\qquad \textbf{(E)}\ 354 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_13" title="2008 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Three \( \text{A's} \), three \( \text{B's} \), and three \( \text{C's} \) are placed in the nine spaces so that each row and column contain one of each letter. If \( \text{A} \) is placed in the upper left corner, how many arrangements are possible? <img src="https://latex.artofproblemsolving.com/a/8/b/a8bdf881057552dc4d90a565dcc73fef0f5ccf5f.png" width="135" height="135"> \( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_14" title="2008 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>In Theresa's first \( 8 \) basketball games, she scored \( 7, 4, 3, 6, 8, 3, 1 \) and \( 5 \) points. In her ninth game, she scored fewer than \( 10 \) points and her points-per-game average for the nine games was an integer. Similarly in her tenth game, she scored fewer than \( 10 \) points and her points-per-game average for the \( 10 \) games was also an integer. What is the product of the number of points she scored in the ninth and tenth games? </p><p>\( \textbf{(A)}\ 35\qquad \textbf{(B)}\ 40\qquad \textbf{(C)}\ 48\qquad \textbf{(D)}\ 56\qquad \textbf{(E)}\ 72 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_15" title="2008 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A shape is created by joining seven unit cubes, as shown. What is the ratio of the volume in cubic units to the surface area in square units? </p><p><img src="https://latex.artofproblemsolving.com/5/6/0/560b1370f7552768e471e84d48e042295acbc628.png" width="245" height="252"> </p><p>\( \textbf{(A)} \:1&nbsp;: 6 \qquad\textbf{ (B)}\: 7&nbsp;: 36 \qquad\textbf{(C)}\: 1&nbsp;: 5 \qquad\textbf{(D)}\: 7&nbsp;: 30\qquad\textbf{ (E)}\: 6&nbsp;: 25 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_16" title="2008 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Ms.Osborne asks each student in her class to draw a rectangle with integer side lengths and a perimeter of \( 50 \) units. All of her students calculate the area of the rectangle they draw. What is the difference between the largest and smallest possible areas of the rectangles? </p><p>\( \textbf{(A)}\ 76\qquad \textbf{(B)}\ 120\qquad \textbf{(C)}\ 128\qquad \textbf{(D)}\ 132\qquad \textbf{(E)}\ 136 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_17" title="2008 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Two circles that share the same center have radii \( 10 \) meters and \( 20 \) meters. An aardvark runs along the path shown, starting at \( A \) and ending at \( K \). How many meters does the aardvark run? <img src="https://latex.artofproblemsolving.com/2/1/0/210387e06e9467a3ab329cbdf9e43ff63316fb45.png" width="252" height="235"> \( \textbf{(A)}\ 10\pi+20\qquad\textbf{(B)}\ 10\pi+30\qquad\textbf{(C)}\ 10\pi+40\qquad\textbf{(D)}\ 20\pi+20\qquad \\ \textbf{(E)}\ 20\pi+40 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_18" title="2008 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Eight points are spaced around at intervals of one unit around a \( 2 \times 2 \) square, as shown. Two of the \( 8 \) points are chosen at random. What is the probability that the two points are one unit apart? <img src="https://latex.artofproblemsolving.com/7/b/4/7b4e4d5204c427f5ab2b242c550558317658b12d.png" width="85" height="85"> \( \textbf{(A)}\ \frac{1}{4}\qquad\textbf{(B)}\ \frac{2}{7}\qquad\textbf{(C)}\ \frac{4}{11}\qquad\textbf{(D)}\ \frac{1}{2}\qquad\textbf{(E)}\ \frac{4}{7} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_19" title="2008 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The students in Mr. Neatkin's class took a penmanship test. Two-thirds of the boys and \( \frac{3}{4} \) of the girls passed the test, and an equal number of boys and girls passed the test. What is the minimum possible number of students in the class? </p><p>\( \textbf{(A)}\ 12\qquad \textbf{(B)}\ 17\qquad \textbf{(C)}\ 24\qquad \textbf{(D)}\ 27\qquad \textbf{(E)}\ 36 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_20" title="2008 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Jerry cuts a wedge from a \( 6 \)-cm cylinder of bologna as shown by the dashed curve. Which answer choice is closest to the volume of his wedge in cubic centimeters? <img src="https://latex.artofproblemsolving.com/0/d/b/0db552e969b4c23a74bc8bb14087a79249bd36a1.png" width="252" height="218"> </p><p>\( \textbf{(A)} 48 \qquad \textbf{(B)} 75 \qquad \textbf{(C)}151\qquad \textbf{(D)}192 \qquad \textbf{(E)}603 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_21" title="2008 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>For how many positive integer values of \( n \) are both \( \frac{n}{3} \) and \( 3n \) three-digit whole numbers? </p><p>\( \textbf{(A)}\ 12\qquad \textbf{(B)}\ 21\qquad \textbf{(C)}\ 27\qquad \textbf{(D)}\ 33\qquad \textbf{(E)}\ 34 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_22" title="2008 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>In square \( ABCE \), \( AF=2FE \) and \( CD=2DE \). What is the ratio of the area of \( \triangle BFD \) to the area of square \( ABCE \)? <img src="https://latex.artofproblemsolving.com/6/c/d/6cd0313c1b06e23b6ae03cfe53c292b0ac2371db.png" width="168" height="165"> \( \textbf{(A)}\ \frac{1}{6}\qquad\textbf{(B)}\ \frac{2}{9}\qquad\textbf{(C)}\ \frac{5}{18}\qquad\textbf{(D)}\ \frac{1}{3}\qquad\textbf{(E)}\ \frac{7}{20} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_23" title="2008 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Ten tiles numbered \( 1 \) through \( 10 \) are turned face down. One tile is turned up at random, and a die is rolled. What is the probability that the product of the numbers on the tile and the die will be a square? </p><p>\( \textbf{(A)}\ \frac{1}{10}\qquad \textbf{(B)}\ \frac{1}{6}\qquad \textbf{(C)}\ \frac{11}{60}\qquad \textbf{(D)}\ \frac{1}{5}\qquad \textbf{(E)}\ \frac{7}{30} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_24" title="2008 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Mary's winning art design is shown. The smallest circle has radius 2 inches, with each successive circle's radius increasing by 2 inches. Approximately what percent of the design is black? </p><p><img src="https://latex.artofproblemsolving.com/3/4/4/34420ee5e67e87663563a3047fde204ba36cff7f.png" width="252" height="252"> \( \textbf{(A)}\ 42\qquad \textbf{(B)}\ 44\qquad \textbf{(C)}\ 45\qquad \textbf{(D)}\ 46\qquad \textbf{(E)}\ 48\qquad \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_25" title="2008 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","A","A","C","E","D","E","D","D","D","A","C","C","C","B","D","D","E","B","B","C","A","C","C","A"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

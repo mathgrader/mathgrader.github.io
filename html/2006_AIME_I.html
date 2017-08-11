@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2006 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2006 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>In quadrilateral \( ABCD , \angle B \) is a right angle, diagonal \( \overline{AC} \) is perpendicular to \( \overline{CD}, AB=18, BC=21, \) and \( CD=14. \) Find the perimeter of \( ABCD. \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_1" title="2006 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Let set \( \mathcal{A} \) be a 90-element subset of \( \{1,2,3,\ldots,100\}, \) and let \( S \) be the sum of the elements of \( \mathcal{A}. \) Find the number of possible values of \( S. \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_2" title="2006 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Find the least positive integer such that when its leftmost digit is deleted, the resulting integer is \( 1/29 \) of the original integer. </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_3" title="2006 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Let \( N \) be the number of consecutive 0's at the right end of the decimal representation of the product \( 1!2!3!4!\cdots99!100!. \) Find the remainder when \( N \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_4" title="2006 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The number \( \sqrt{104\sqrt{6}+468\sqrt{10}+144\sqrt{15}+2006} \) can be written as \( a\sqrt{2}+b\sqrt{3}+c\sqrt{5}, \) where \( a, b, \) and \( c \) are positive integers. Find \( a\cdot b\cdot c. \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_5" title="2006 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Let \( \mathcal{S} \) be the set of real numbers that can be represented as repeating decimals of the form \( 0.\overline{abc} \) where \( a, b, c \) are distinct digits. Find the sum of the elements of \( \mathcal{S}. \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_6" title="2006 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>An angle is drawn on a set of equally spaced parallel lines as shown. The ratio of the area of shaded region \( \mathcal{C} \) to the area of shaded region \( \mathcal{B} \) is 11/5. Find the ratio of shaded region \( \mathcal{D} \) to the area of shaded region \( \mathcal{A}. \) </p><p><a href="/wiki/index.php/File:2006AimeA7.PNG" class="image"><img alt="2006AimeA7.PNG" src="//wiki-images.artofproblemsolving.com/1/11/2006AimeA7.PNG" width="297" height="149"></a> </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_7" title="2006 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Hexagon \( ABCDEF \) is divided into five rhombuses, \( \mathcal{P, Q, R, S,} \) and \( \mathcal{T,} \) as shown. Rhombuses \( \mathcal{P, Q, R,} \) and \( \mathcal{S} \) are congruent, and each has area \( \sqrt{2006}. \) Let \( K \) be the area of rhombus \( \mathcal{T}. \) Given that \( K \) is a positive integer, find the number of possible values for \( K. \) </p><p><a href="/wiki/index.php/File:2006AimeA8.PNG" class="image"><img alt="2006AimeA8.PNG" src="//wiki-images.artofproblemsolving.com/3/36/2006AimeA8.PNG" width="281" height="126"></a> </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_8" title="2006 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The sequence \( a_1, a_2, \ldots \) is geometric with \( a_1=a \) and common ratio \( r, \) where \( a \) and \( r \) are positive integers. Given that \( \log_8 a_1+\log_8 a_2+\cdots+\log_8 a_{12} = 2006, \) find the number of possible ordered pairs \( (a,r). \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_9" title="2006 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Eight circles of diameter 1 are packed in the first quadrant of the coordinate plane as shown. Let region \( \mathcal{R} \) be the union of the eight circular regions. Line \( l, \) with slope 3, divides \( \mathcal{R} \) into two regions of equal area. Line \( l \)'s equation can be expressed in the form \( ax=by+c, \) where \( a, b, \) and \( c \) are positive integers whose greatest common divisor is 1. Find \( a^2+b^2+c^2. \) </p><p><img src="https://latex.artofproblemsolving.com/4/2/0/420456ae501936e7d4f9073b71122dd6cea147d6.png" width="168" height="168"> </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_10" title="2006 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>A collection of 8 cubes consists of one cube with edge-length \( k \) for each integer \( k, 1 \le k \le 8. \) A tower is to be built using all 8 cubes according to the rules: </p><ul> 
+ <li> Any cube may be the bottom cube in the tower.</li> 
+ <li> The cube immediately on top of a cube with edge-length <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12"> must have edge-length at most <img src="//latex.artofproblemsolving.com/a/a/7/aa7721c181a37ea48cefc667d003c9dfdb97a896.png" class="latex" alt="$k+2.$" style="vertical-align: -1px" width="45" height="14"> </li> 
+</ul><p>Let \( T \) be the number of different towers than can be constructed. What is the remainder when \( T \) is divided by 1000? </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_11" title="2006 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Find the sum of the values of \( x \) such that \( \cos^3 3x+ \cos^3 5x = 8 \cos^3 4x \cos^3 x, \) where \( x \) is measured in degrees and \( 100&lt; x&lt; 200. \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_12" title="2006 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>For each even positive integer \( x, \) let \( g(x) \) denote the greatest power of 2 that divides \( x. \) For example, \( g(20)=4 \) and \( g(16)=16. \) For each positive integer \( n, \) let \( S_n=\sum_{k=1}^{2^{n-1}}g(2k). \) Find the greatest integer \( n \) less than 1000 such that \( S_n \) is a perfect square. </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_13" title="2006 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A tripod has three legs each of length 5 feet. When the tripod is set up, the angle between any pair of legs is equal to the angle between any other pair, and the top of the tripod is 4 feet from the ground In setting up the tripod, the lower 1 foot of one leg breaks off. Let \( h \) be the height in feet of the top of the tripod from the ground when the broken tripod is set up. Then \( h \) can be written in the form \( \frac m{\sqrt{n}}, \) where \( m \) and \( n \) are positive integers and \( n \) is not divisible by the square of any prime. Find \( \lfloor m+\sqrt{n}\rfloor. \) (The notation \( \lfloor x\rfloor \) denotes the greatest integer that is less than or equal to \( x. \)) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_14" title="2006 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Given that a sequence satisfies \( x_0=0 \) and \( |x_k|=|x_{k-1}+3| \) for all integers \( k\ge 1, \) find the minimum possible value of \( |x_1+x_2+\cdots+x_{2006}|. \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_15" title="2006 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["084","901","725","124","936","360","408","089","046","065","458","906","899","183","027"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

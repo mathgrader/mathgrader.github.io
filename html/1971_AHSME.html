@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1971 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1971 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The number of digits in the number \( N=2^{12}\times 5^8 \) is </p><p>\( \textbf{(A) }9\qquad \textbf{(B) }10\qquad \textbf{(C) }11\qquad \textbf{(D) }12\qquad \textbf{(E) }20 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1971_AHSME_Problems/Problem_1" title="1971 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>If \( b \) men take \( c \) days to lay \( f \) bricks, then the number of days it will take \( c \) men working at the same rate to lay \( b \) bricks, is </p><p>\( \textbf{(A) }fb^2\qquad \textbf{(B) }b/f^2\qquad \textbf{(C) }f^2/b\qquad \textbf{(D) }b^2/f\qquad \textbf{(E) }f/b^2 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_2&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 2 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>If the point \( (x,-4) \) lies on the straight line joining the points \( (0,8) \) and \( (-4,0) \) in the \( xy \)-plane, then \( x \) is equal to </p><p>\( \textbf{(A) }-2\qquad \textbf{(B) }2\qquad \textbf{(C) }-8\qquad \textbf{(D) }6\qquad \textbf{(E) }-6 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1971_AHSME_Problems/Problem_3" title="1971 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>After simple interest for two months at \( 5 \)% per annum was credited, a Boy Scout Troop had a total of \( \$ 255.31 \) in the Council Treasury. The interest credited was a number of dollars plus the following number of cents </p><p>\( \textbf{(A) }11\qquad \textbf{(B) }12\qquad \textbf{(C) }13\qquad \textbf{(D) }21\qquad \textbf{(E) }31 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_4&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 4 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Points \( A,B,Q,D \), and \( C \) lie on the circle shown and the measures of arcs \( \widehat{BQ} \) and \( \widehat{QD} \) are \( 42^\circ \) and \( 38^\circ \) respectively. The sum of the measures of angles \( P \) and \( Q \) is </p><p>\( \textbf{(A) }80^\circ\qquad \textbf{(B) }62^\circ\qquad \textbf{(C) }40^\circ\qquad \textbf{(D) }46^\circ\qquad \textbf{(E) }\text{None of these} \) </p><p><img src="https://latex.artofproblemsolving.com/d/a/6/da659fad352c8f4d45d842f13305f3d716bd162b.png" width="362" height="158"> </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_5&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 5 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Let \( \ast \) be the symbol denoting the binary operation on the set \( S \) of all non-zero real numbers as follows: For any two numbers \( a \) and \( b \) of \( S \), \( a\ast b=2ab \). Then the one of the following statements which is not true, is </p><p>\( \textbf{(A) }\ast\text{ is commutative over }S \qquad \textbf{(B) }\ast\text{ is associative over }S\qquad \\ \textbf{(C) }\frac{1}{2}\text{ is an identity element for }\ast\text{ in }S\qquad \textbf{(D) }\text{Every element of }S\text{ has an inverse for }\ast\qquad \textbf{(E) }\dfrac{1}{2a}\text{ is an inverse for }\ast\text{ of the element }a\text{ of }S \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_6&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 6 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>\( 2^{-(2k+1)}-2^{-(2k-1)}+2^{-2k} \) is equal to </p><p>\( \textbf{(A) }2^{-2k}\qquad \textbf{(B) }2^{-(2k-1)}\qquad \textbf{(C) }-2^{-(2k+1)}\qquad \textbf{(D) }0\qquad \textbf{(E) }2 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_7&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 7 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The solution set of \( 6x^2+5x&lt;4 \) is the set of all values of \( x \) such that </p><p>\( \textbf{(A) }\textstyle -2&lt;x&lt;1\qquad \textbf{(B) }-\frac{4}{3}&lt;x&lt;\frac{1}{2}\qquad \textbf{(C) }-\frac{1}{2}&lt;x&lt;\frac{4}{3}\qquad \\ \textbf{(D) }x&lt;\textstyle\frac{1}{2}\text{ or }x&gt;-\frac{4}{3}\qquad \textbf{(E) }x&lt;-\frac{4}{3}\text{ or }x&gt;\frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_8&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 8 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>An uncrossed belt is fitted without slack around two circular pulleys with radii of \( 14 \) inches and \( 4 \) inches. If the distance between the points of contact of the belt with the pulleys is \( 24 \) inches, then the distance between the centers of the pulleys in inches is </p><p>\( \textbf{(A) }24\qquad \textbf{(B) }2\sqrt{119}\qquad \textbf{(C) }25\qquad \textbf{(D) }26\qquad \textbf{(E) }4\sqrt{35} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_9&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 9 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Each of a group of \( 50 \) girls is blonde or brunette and is blue eyed of brown eyed. If \( 14 \) are blue-eyed blondes, \( 31 \) are brunettes, and \( 18 \) are brown-eyed, then the number of brown-eyed brunettes is </p><p>\( \textbf{(A) }5\qquad \textbf{(B) }7\qquad \textbf{(C) }9\qquad \textbf{(D) }11\qquad \textbf{(E) }13 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_10&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 10 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The numeral \( 47 \) in base a represents the same number as \( 74 \) in base \( b \). Assuming that both bases are positive integers, the least possible value of \( a+b \) written as a Roman numeral, is </p><p>\( \textbf{(A) }\mathrm{XIII}\qquad \textbf{(B) }\mathrm{XV}\qquad \textbf{(C) }\mathrm{XXI}\qquad \textbf{(D) }\mathrm{XXIV}\qquad \textbf{(E) }\mathrm{XVI} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1971_AHSME_Problems/Problem_11" title="1971 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>For each integer \( N&gt;1 \), there is a mathematical system in which two or more positive integers are defined to be congruent if they leave the same non-negative remainder when divided by N. If \( 69,90 \), and \( 125 \) are congruent in one such system, then in that same system, 8\( 1 \) is congruent to </p><p>\( \textbf{(A) }3\qquad \textbf{(B) }4\qquad \textbf{(C) }5\qquad \textbf{(D) }7\qquad \textbf{(E) }8 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_12&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 12 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>If \( (1.0025)^{10} \) is evaluated correct to \( 5 \) decimal places, then the digit in the fifth decimal place is </p><p>\( \textbf{(A) }0\qquad \textbf{(B) }1\qquad \textbf{(C) }2\qquad \textbf{(D) }5\qquad \textbf{(E) }8 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_13&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 13 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>The number \( (2^{48}-1) \) is exactly divisible by two numbers between \( 60 \) and \( 70 \). These numbers are </p><p>\( \textbf{(A) }61,63\qquad \textbf{(B) }61,65\qquad \textbf{(C) }63,65\qquad \textbf{(D) }63,67\qquad \textbf{(E) }67,69 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_14&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 14 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>An aquarium on a level table has rectangular faces and is \( 10 \) inches wide and \( 8 \) inches high. When it was tilted, the water in it covered an \( 8\times 10 \) end but only \( \tfrac{3}{4} \) of the rectangular room. The depth of the water when the bottom was again made level, was </p><p>\( \textbf{(A) }2\textstyle{\frac{1}{2}}"\qquad \textbf{(B) }3"\qquad \textbf{(C) }3\textstyle{\frac{1}{4}}"\qquad \textbf{(D) }3\textstyle{\frac{1}{2}}"\qquad \textbf{(E) }4" \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_15&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 15 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>After finding the average of \( 35 \) scores, a student carelessly included the average with the \( 35 \) scores and found the average of these \( 36 \) numbers. The ratio of the second average to the true average was </p><p>\( \textbf{(A) }1:1\qquad \textbf{(B) }35:36\qquad \textbf{(C) }36:35\qquad \textbf{(D) }2:1\qquad \textbf{(E) }\text{None of these} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_16&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 16 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A circular disk is divided by \( 2n \) equally spaced radii(\( n&gt;0 \)) and one secant line. The maximum number of non-overlapping areas into which the disk can be divided is </p><p>\( \textbf{(A) }2n+1\qquad \textbf{(B) }2n+2\qquad \textbf{(C) }3n-1\qquad \textbf{(D) }3n\qquad \textbf{(E) }3n+1 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_17&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 17 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The current in a river is flowing steadily at \( 3 \) miles per hour. A motor boat which travels at a constant rate in still water goes downstream \( 4 \) miles and then returns to its starting point. The trip takes one hour, excluding the time spent in turning the boat around. The ratio of the downstream to the upstream rate is </p><p>\( \textbf{(A) }4:3\qquad \textbf{(B) }3:2\qquad \textbf{(C) }5:3\qquad \textbf{(D) }2:1\qquad \textbf{(E) }5:2 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_18&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 18 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>If the line \( y=mx+1 \) intersects the ellipse \( x^2+4y^2=1 \) exactly once, then the value of \( m^2 \) is </p><p>\( \textbf{(A) }\textstyle\frac{1}{2}\qquad \textbf{(B) }\frac{2}{3}\qquad \textbf{(C) }\frac{3}{4}\qquad \textbf{(D) }\frac{4}{5}\qquad \textbf{(E) }\frac{5}{6} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_19&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 19 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The sum of the squares of the roots of the equation \( x^2+2hx=3 \) is \( 10 \). The absolute value of \( h \) is equal to </p><p>\( \textbf{(A) }-1\qquad \textbf{(B) }\textstyle\frac{1}{2}\qquad \textbf{(C) }\textstyle\frac{3}{2}\qquad \textbf{(D) }2\qquad \textbf{(E) }\text{None of these} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_20&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 20 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>If \( \log_2(\log_3(\log_4 x))=\log_3(\log_4(\log_2 y))=\log_4(\log_2(\log_3 z))=0 \), then the sum \( x+y+z \) is equal to </p><p>\( \textbf{(A) }50\qquad \textbf{(B) }58\qquad \textbf{(C) }89\qquad \textbf{(D) }111\qquad \textbf{(E) }1296 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_21&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 21 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>If \( w \) is one of the imaginary roots of the equation \( x^3=1 \), then the product \( (1-w+w^2)(1+w-w^2) \) is equal to </p><p>\( \textbf{(A) }4\qquad \textbf{(B) }w\qquad \textbf{(C) }2\qquad \textbf{(D) }w^2\qquad \textbf{(E) }1 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_22&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 22 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Teams \( A \) and \( B \) are playing a series of games. If the odds for either to win any game are even and Team \( A \) must win two or Team \( B \) three games to win the series, then the odds favoring Team \( A \) to win the series are </p><p>\( \textbf{(A) }11\text{ to }5\qquad \textbf{(B) }5\text{ to }2\qquad \textbf{(C) }8\text{ to }3\qquad \textbf{(D) }3\text{ to }2\qquad \textbf{(E) }13\text{ to }6 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_23&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 23 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p><img src="https://latex.artofproblemsolving.com/1/f/c/1fc51e50e61eb8688c43afd1ab4d435ad0409ba7.png" width="252" height="165"> </p><p>Pascal's triangle is an array of positive integers(See figure), in which the first row is \( 1 \), the second row is two \( 1 \)'s, each row begins and ends with \( 1 \), and the \( k^\text{th} \) number in any row when it is not \( 1 \), is the sum of the \( k^\text{th} \) and \( (k-1)^\text{th} \) numbers in the immediately preceding row. The quotient of the number of numbers in the first \( n \) rows which are not \( 1 \)'s and the number of \( 1 \)'s is </p><p>\( \textbf{(A) }\dfrac{n^2-n}{2n-1}\qquad \textbf{(B) }\dfrac{n^2-n}{4n-2}\qquad \textbf{(C) }\dfrac{n^2-2n}{2n-1}\qquad \textbf{(D) }\frac{n^2-3n+2}{4n-2}\qquad \textbf{(E) }\text{None of these} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_24&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 24 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A teen age boy wrote his own age after his father's. From this new four place number, he subtracted the absolute value of the difference of their ages to get \( 4,289 \). The sum of their ages was </p><p>\( \textbf{(A) }48\qquad \textbf{(B) }52\qquad \textbf{(C) }56\qquad \textbf{(D) }59\qquad \textbf{(E) }64 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_25&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 25 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p><img src="https://latex.artofproblemsolving.com/6/b/2/6b2871ac00649198cedeac28106b8ab04545fd3d.png" width="302" height="235"> </p><p>In \( \triangle ABC \), point \( F \) divides side \( AC \) in the ratio \( 1:2 \). Let \( E \) be the point of intersection of side \( BC \) and \( AG \) where \( G \) is the midpoints of \( BF \). The point \( E \) divides side \( BC \) in the ratio </p><p>\( \textbf{(A) }1:4\qquad \textbf{(B) }1:3\qquad \textbf{(C) }2:5\qquad \textbf{(D) }4:11\qquad \textbf{(E) }3:8 \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_26&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 26 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>A box contains chips, each of which is red, white, or blue. The number of blue chips is at least half the number of white chips, and at most one third the number of red chips. The number which are white or blue is at least \( 55 \). The minimum number of red chips is </p><p>\( \textbf{(A) }24\qquad \textbf{(B) }33\qquad \textbf{(C) }45\qquad \textbf{(D) }54\qquad \textbf{(E) }57 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_27&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 27 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Nine lines parallel to the base of a triangle divide the other sides each into \( 10 \) equal segments and the area into \( 10 \) distinct parts. If the area of the largest of these parts is \( 38 \), then the area of the original triangle is </p><p>\( \textbf{(A) }180\qquad \textbf{(B) }190\qquad \textbf{(C) }200\qquad \textbf{(D) }210\qquad \textbf{(E) }240 \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_28&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 28 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Given the progression \( 10^{\dfrac{1}{11}}, 10^{\dfrac{2}{11}}, 10^{\dfrac{3}{11}}, 10^{\dfrac{4}{11}},\dots , 10^{\dfrac{n}{11}} \). The least positive integer \( n \) such that the product of the first \( n \) terms of the progression exceeds \( 100,000 \) is </p><p>\( \textbf{(A) }7\qquad \textbf{(B) }8\qquad \textbf{(C) }9\qquad \textbf{(D) }10\qquad \textbf{(E) }11 \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_29&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 29 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Given the linear fractional transformation of \( x \) into \( f_1(x)=\dfrac{2x-1}{x+1} \). Define \( f_{n+1}(x)=f_1(f_n(x)) \) for \( n=1,2,3,\cdots \). Assuming that \( f_{35}(x)=f_5(x) \), it follows that \( f_{28}(x) \) is equal to </p><p>\( \textbf{(A) }x\qquad \textbf{(B) }\frac{1}{x}\qquad \textbf{(C) }\frac{x-1}{x}\qquad \textbf{(D) }\frac{1}{1-x}\qquad \textbf{(E) }\text{None of these} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_30&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 30 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 31</h2><p><img src="https://latex.artofproblemsolving.com/2/3/f/23f9d4352df55f722a212cc274b8942934ad6fb4.png" width="302" height="155"> </p><p>Quadrilateral \( ABCD \) is inscribed in a circle with side \( AD \), a diameter of length \( 4 \). If sides \( AB \) and \( BC \) each have length \( 1 \), then side \( CD \) has length </p><p>\( \textbf{(A) }\frac{7}{2}\qquad \textbf{(B) }\frac{5\sqrt{2}}{2}\qquad \textbf{(C) }\sqrt{11}\qquad \textbf{(D) }\sqrt{13}\qquad \textbf{(E) }2\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="31" name="q31" maxlength="1 "size="3"><a id="response31"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_31&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 31 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 32</h2><p>If \( s=(1+2^{-\frac{1}{32}})(1+2^{-\frac{1}{16}})(1+2^{-\frac{1}{8}})(1+2^{-\frac{1}{4}})(1+2^{-\frac{1}{2}}) \), then \( s \) is equal to </p><p>\( \textbf{(A) }\textstyle{\frac{1}{2}}(1-2^{-\frac{1}{32}})^{-1}\qquad \textbf{(B) }(1-2^{-\frac{1}{32}})^{-1}\qquad \textbf{(C) }1-2^{-\frac{1}{32}}\qquad \\ \textbf{(D) }\textstyle{\frac{1}{2}}(1-2^{-\frac{1}{32}})\qquad \textbf{(E) }\frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="32" name="q32" maxlength="1 "size="3"><a id="response32"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_32&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 32 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 33</h2><p>If \( P \) is the product of \( n \) quantities in Geometric Progression, \( S \) their sum, and \( S' \) the sum of their reciprocals, then \( P \) in terms of \( S, S' \), and \( n \) is </p><p>\( \textbf{(A) }(SS')^{\frac{1}{2}n}\qquad \textbf{(B) }(S/S')^{\frac{1}{2}n}\qquad \textbf{(C) }(SS')^{n-2}\qquad \textbf{(D) }(S/S')^n\qquad \textbf{(E) }(S/S')^{\frac{1}{2}(n-1)} \) </p>
+
+<p>Response: <input type="text" id="33" name="q33" maxlength="1 "size="3"><a id="response33"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_33&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 33 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 34</h2><p>An ordinary clock in a factory is running slow so that the minute hand passes the hour hand at the usual dial position(\( 12 \) o'clock, etc.) but only every \( 69 \) minutes. At time and one-half for overtime, the extra pay to which a \( \$ 4.00 \) per hour worker should be entitled after working a normal \( 8 \) hour day by that slow running clock, is </p><p>\( \textbf{(A) }\$ 2.30\qquad \textbf{(B) }\$ 2.60\qquad \textbf{(C) }\$ 2.80\qquad \textbf{(D) }\$ 3.00\qquad \textbf{(E) }\$ 3.30 \) </p>
+
+<p>Response: <input type="text" id="34" name="q34" maxlength="1 "size="3"><a id="response34"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_34&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 34 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 35</h2><p>Each circle in an infinite sequence with decreasing radii is tangent externally to the one following it and to both sides of a given right angle. The ratio of the area of the first circle to the sum of areas of all other circles in the sequence, is </p><p>\( \textbf{(A) }(4+3\sqrt{2}):4\qquad \textbf{(B) }9\sqrt{2}:2\qquad \textbf{(C) }(16+12\sqrt{2}):1\qquad \\ \textbf{(D) }(2+2\sqrt{2}):1\qquad \textbf{(E) }3+2\sqrt{2}):1 \) </p>
+
+<p>Response: <input type="text" id="35" name="q35" maxlength="1 "size="3"><a id="response35"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1971_AHSME_Problems/Problem_35&amp;action=edit&amp;redlink=1" class="solutionLink" title="1971 AHSME Problems/Problem 35 (page does not exist)" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1971_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1971_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","D","E","A","C","E","C","B","D","E","D","B","E","C","B","A","E","D","C","E","C","A","A","D","D","B","E","C","E","D","A","A","B","B","C"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

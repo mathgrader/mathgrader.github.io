@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2015 AMC 10A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2015 AMC 10A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is the value of \( (2^0-1+5^2+0)^{-1}\times5? \) </p><p>\( \textbf{(A)}\ -125\qquad\textbf{(B)}\ -120\qquad\textbf{(C)}\ \frac{1}{5}\qquad\textbf{(D)}\ \frac{5}{24}\qquad\textbf{(E)}\ 25 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_1" title="2015 AMC 10A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A box contains a collection of triangular and square tiles. There are \( 25 \) tiles in the box, containing \( 84 \) edges total. How many square tiles are there in the box? </p><p>\( \textbf{(A)}\ 3\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 7\qquad\textbf{(D)}\ 9\qquad\textbf{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_2" title="2015 AMC 10A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Ann made a 3-step staircase using 18 toothpicks as shown in the figure. How many toothpicks does she need to add to complete a 5-step staircase? </p><p><img src="https://latex.artofproblemsolving.com/c/c/9/cc93f173d9f7b3e02e12eaf4294e7d668ec2f18e.png" width="202" height="202"> </p><p>\( \textbf{(A)}\ 9\qquad\textbf{(B)}\ 18\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 22\qquad\textbf{(E)}\ 24 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_3" title="2015 AMC 10A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Pablo, Sofia, and Mia got some candy eggs at a party. Pablo had three times as many eggs as Sofia, and Sofia had twice as many eggs as Mia. Pablo decides to give some of his eggs to Sofia and Mia so that all three will have the same number of eggs. What fraction of his eggs should Pablo give to Sofia? </p><p>\( \textbf{(A)}\ \frac{1}{12}\qquad\textbf{(B)}\ \frac{1}{6}\qquad\textbf{(C)}\ \frac{1}{4}\qquad\textbf{(D)}\ \frac{1}{3}\qquad\textbf{(E)}\ \frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_4" title="2015 AMC 10A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Mr. Patrick teaches math to \( 15 \) students. He was grading tests and found that when he graded everyone's test except Payton's, the average grade for the class was \( 80 \). After he graded Payton's test, the test average became \( 81 \). What was Payton's score on the test? </p><p>\( \textbf{(A)}\ 81\qquad\textbf{(B)}\ 85\qquad\textbf{(C)}\ 91\qquad\textbf{(D)}\ 94\qquad\textbf{(E)}\ 95 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_5" title="2015 AMC 10A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The sum of two positive numbers is \( 5 \) times their difference. What is the ratio of the larger number to the smaller number? </p><p>\( \textbf{(A)}\ \frac{5}{4}\qquad\textbf{(B)}\ \frac{3}{2}\qquad\textbf{(C)}\ \frac{9}{5}\qquad\textbf{(D)}\ 2 \qquad\textbf{(E)}\ \frac{5}{2} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_6" title="2015 AMC 10A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>How many terms are there in the arithmetic sequence \( 13 \), \( 16 \), \( 19 \), . . ., \( 70 \), \( 73 \)? </p><p>\( \textbf{(A)}\ 20\qquad\textbf{(B)}\ 21\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 60\qquad\textbf{(E)}\ 61 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_7" title="2015 AMC 10A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Two years ago Pete was three times as old as his cousin Claire. Two years before that, Pete was four times as old as Claire. In how many years will the ratio of their ages be \( 2 \)&nbsp;: \( 1 \)? </p><p>\( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 5\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_8" title="2015 AMC 10A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Two right circular cylinders have the same volume. The radius of the second cylinder is \( 10\% \) more than the radius of the first. What is the relationship between the heights of the two cylinders? </p><p>\( \textbf{(A)}\ \text{The second height is } 10\% \text{ less than the first.} \\ \textbf{(B)}\ \text{The first height is } 10\% \text{ more than the second.}\\ \textbf{(C)}\ \text{The second height is } 21\% \text{ less than the first.} \\ \textbf{(D)}\ \text{The first height is } 21\% \text{ more than the second.}\\ \textbf{(E)}\ \text{The second height is } 80\% \text{ of the first.} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_9" title="2015 AMC 10A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>How many rearrangements of \( abcd \) are there in which no two adjacent letters are also adjacent letters in the alphabet? For example, no such rearrangements could include either \( ab \) or \( ba \). </p><p>\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 3\qquad\textbf{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_10" title="2015 AMC 10A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The ratio of the length to the width of a rectangle is \( 4 \)&nbsp;: \( 3 \). If the rectangle has diagonal of length \( d \), then the area may be expressed as \( kd^2 \) for some constant \( k \). What is \( k \)? </p><p>\( \textbf{(A)}\ \frac{2}{7}\qquad\textbf{(B)}\ \frac{3}{7}\qquad\textbf{(C)}\ \frac{12}{25}\qquad\textbf{(D)}\ \frac{16}{25}\qquad\textbf{(E)}\ \frac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_11" title="2015 AMC 10A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Points \( (\sqrt{\pi}, a) \) and \( (\sqrt{\pi}, b) \) are distinct points on the graph of \( y^2+x^4=2x^2y+1 \). What is \( |a-b| \)? </p><p>\( \textbf{(A) }1\qquad\textbf{(B) }\dfrac{\pi}{2}\qquad\textbf{(C) }2\qquad\textbf{(D) }\sqrt{1+\pi}\qquad\textbf{(E) }1+\sqrt{\pi} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_12" title="2015 AMC 10A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Claudia has 12 coins, each of which is a 5-cent coin or a 10-cent coin. There are exactly 17 different values that can be obtained as combinations of one or more of her coins. How many 10-cent coins does Claudia have? </p><p>\( \textbf{(A) }3\qquad\textbf{(B) }4\qquad\textbf{(C) }5\qquad\textbf{(D) }6\qquad\textbf{(E) }7 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_13" title="2015 AMC 10A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>The diagram below shows the circular face of a clock with radius \( 20 \) cm and a circular disk with radius \( 10 \) cm externally tangent to the clock face at \( 12 \) o'clock. The disk has an arrow painted on it, initially pointing in the upward vertical direction. Let the disk roll clockwise around the clock face. At what point on the clock face will the disk be tangent when the arrow is next pointing in the upward vertical direction? </p><p><img src="https://latex.artofproblemsolving.com/1/a/0/1a0357714d7d41aaa5b649c49b5ad0a3505baf5d.png" width="218" height="285"> </p><p>\( \textbf{(A) }\mathrm{2 o'clock} \qquad\textbf{(B) }\mathrm{3 o'clock} \qquad\textbf{(C) }\mathrm{4 o'clock} \qquad\textbf{(D) }\mathrm{6 o'clock} \qquad\textbf{(E) }\mathrm{8 o'clock} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_14" title="2015 AMC 10A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Consider the set of all fractions \( \tfrac{x}{y}, \) where \( x \) and \( y \) are relatively prime positive integers. How many of these fractions have the property that if both numerator and denominator are increased by \( 1 \), the value of the fraction is increased by \( 10\% \)? </p><p>\( \textbf{(A) }0\qquad\textbf{(B) }1\qquad\textbf{(C) }2\qquad\textbf{(D) }3\qquad\textbf{(E) }\text{infinitely many} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_15" title="2015 AMC 10A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>If \( y+4 = (x-2)^2, x+4 = (y-2)^2 \), and \( x \neq y \), what is the value of \( x^2+y^2 \)? </p><p>\( \textbf{(A) }10\qquad\textbf{(B) }15\qquad\textbf{(C) }20\qquad\textbf{(D) }25\qquad\textbf{(E) }\text{30} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_16" title="2015 AMC 10A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A line that passes through the origin intersects both the line \( x=1 \) and the line \( y=1+\frac{\sqrt{3}}{3}x \). The three lines create an equilateral triangle. What is the perimeter of the triangle? </p><p>\( \textbf{(A) }2\sqrt{6}\qquad\textbf{(B) }2+2\sqrt{3}\qquad\textbf{(C) }6\qquad\textbf{(D) }3+2\sqrt{3}\qquad\textbf{(E) }6+\frac{\sqrt{3}}{3} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_17" title="2015 AMC 10A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Hexadecimal (base-16) numbers are written using numeric digits \( 0 \) through \( 9 \) as well as the letters \( A \) through \( F \) to represent \( 10 \) through \( 15 \). Among the first \( 1000 \) positive integers, there are \( n \) whose hexadecimal representation contains only numeric digits. What is the sum of the digits of \( n \)? </p><p>\( \textbf{(A) }17\qquad\textbf{(B) }18\qquad\textbf{(C) }19\qquad\textbf{(D) }20\qquad\textbf{(E) }21 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_18" title="2015 AMC 10A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The isosceles right triangle \( ABC \) has right angle at \( C \) and area \( 12.5 \). The rays trisecting \( \angle ACB \) intersect \( AB \) at \( D \) and \( E \). What is the area of \( \bigtriangleup CDE \)? </p><p>\( \textbf{(A) }\dfrac{5\sqrt{2}}{3}\qquad\textbf{(B) }\dfrac{50\sqrt{3}-75}{4}\qquad\textbf{(C) }\dfrac{15\sqrt{3}}{8}\qquad\textbf{(D) }\dfrac{50-25\sqrt{3}}{2}\qquad\textbf{(E) }\dfrac{25}{6} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_19" title="2015 AMC 10A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>A rectangle with positive integer side lengths in \( \text{cm} \) has area \( A \) \( \text{cm}^2 \) and perimeter \( P \) \( \text{cm} \). Which of the following numbers cannot equal \( A+P \)? </p><p>\( \textbf{(A) }100\qquad\textbf{(B) }102\qquad\textbf{(C) }104\qquad\textbf{(D) }106\qquad\textbf{(E) }108 \) </p><p>NOTE: As it originally appeared in the AMC 10, this problem was stated incorrectly and had no answer; it has been modified here to be solvable. </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_20" title="2015 AMC 10A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Tetrahedron \( ABCD \) has \( AB=5 \), \( AC=3 \), \( BC=4 \), \( BD=4 \), \( AD=3 \), and \( CD=\tfrac{12}5\sqrt2 \). What is the volume of the tetrahedron? </p><p>\( \textbf{(A) }3\sqrt2\qquad\textbf{(B) }2\sqrt5\qquad\textbf{(C) }\dfrac{24}5\qquad\textbf{(D) }3\sqrt3\qquad\textbf{(E) }\dfrac{24}5\sqrt2 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_21" title="2015 AMC 10A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Eight people are sitting around a circular table, each holding a fair coin. All eight people flip their coins and those who flip heads stand while those who flip tails remain seated. What is the probability that no two adjacent people will stand? </p><p>\( \textbf{(A)}\dfrac{47}{256}\qquad\textbf{(B)}\dfrac{3}{16}\qquad\textbf{(C) }\dfrac{49}{256}\qquad\textbf{(D) }\dfrac{25}{128}\qquad\textbf{(E) }\dfrac{51}{256} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_22" title="2015 AMC 10A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The zeroes of the function \( f(x)=x^2-ax+2a \) are integers. What is the sum of the possible values of \( a \)? </p><p>\( \textbf{(A) }7\qquad\textbf{(B) }8\qquad\textbf{(C) }16\qquad\textbf{(D) }17\qquad\textbf{(E) }18 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_23" title="2015 AMC 10A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>For some positive integers \( p \), there is a quadrilateral \( ABCD \) with positive integer side lengths, perimeter \( p \), right angles at \( B \) and \( C \), \( AB=2 \), and \( CD=AD \). How many different values of \( p&lt;2015 \) are possible? </p><p>\( \textbf{(A) }30\qquad\textbf{(B) }31\qquad\textbf{(C) }61\qquad\textbf{(D) }62\qquad\textbf{(E) }63 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_24" title="2015 AMC 10A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Let \( S \) be a square of side length \( 1 \). Two points are chosen independently at random on the sides of \( S \). The probability that the straight-line distance between the points is at least \( \tfrac12 \) is \( \tfrac{a-b\pi}c \), where \( a \), \( b \), and \( c \) are positive integers with \( \gcd(a,b,c)=1 \). What is \( a+b+c \)? </p><p>\( \textbf{(A) }59\qquad\textbf{(B) }60\qquad\textbf{(C) }61\qquad\textbf{(D) }62\qquad\textbf{(E) }63 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_25" title="2015 AMC 10A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","D","D","B","E","B","B","B","D","C","C","C","C","C","B","B","D","E","D","B","C","A","C","B","A"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

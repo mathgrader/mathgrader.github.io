@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2013 AMC 10B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2013 AMC 10B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is \( \frac{2+4+6}{1+3+5} - \frac{1+3+5}{2+4+6} \)? </p><p>\( \textbf{(A)}\ -1 \qquad\textbf{(B)}\ \frac{5}{36} \qquad\textbf{(C)}\ \frac{7}{12} \qquad\textbf{(D)}\ \frac{49}{20} \qquad\textbf{(E)}\ \frac{43}{3} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_1" title="2013 AMC 10B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Mr. Green measures his rectangular garden by walking two of the sides and finding that it is \( 15 \) steps by \( 20 \) steps. Each of Mr. Green's steps is \( 2 \) feet long. Mr. Green expects a half a pound of potatoes per square foot from his garden. How many pounds of potatoes does Mr. Green expect from his garden? </p><p>\( \textbf{(A)}\ 600 \qquad\textbf{(B)}\ 800 \qquad\textbf{(C)}\ 1000 \qquad\textbf{(D)}\ 1200 \qquad\textbf{(E)}\ 1400 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_2" title="2013 AMC 10B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>On a particular January day, the high temperature in Lincoln, Nebraska, was \( 16 \) degrees higher than the low temperature, and the average of the high and the low temperatures was \( 3\,^\circ \). In degrees, what was the low temperature in Lincoln that day? </p><p>\( \textbf{(A)}\ -13\qquad\textbf{(B)}\ -8\qquad\textbf{(C)}\ -5\qquad\textbf{(D)}\ -3\qquad\textbf{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_3" title="2013 AMC 10B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>When counting from \( 3 \) to \( 201 \), \( 53 \) is the \( 51^\mathrm{st} \) number counted. When counting backwards from \( 201 \) to \( 3 \), \( 53 \) is the \( n^\mathrm{th} \) number counted. What is \( n \)? </p><p>\( \textbf{(A)}\ 146\qquad\textbf{(B)}\ 147\qquad\textbf{(C)}\ 148\qquad\textbf{(D)}\ 149\qquad\textbf{(E)}\ 150 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_4" title="2013 AMC 10B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Positive integers \( a \) and \( b \) are each less than \( 6 \). What is the smallest possible value for \( 2 \cdot a - a \cdot b \)? </p><p><br> \( \textbf{(A)}\ -20\qquad\textbf{{(B)}}\ -15\qquad\textbf{{(C)}}\ -10\qquad\textbf{{(D)}}\ 0\qquad\textbf{{(E)}}\ 2 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_5" title="2013 AMC 10B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The average age of 33 fifth-graders is 11. The average age of 55 of their parents is 33. What is the average age of all of these parents and fifth-graders? </p><p>\( \textbf{(A)}\ 22\qquad\textbf{(B)}\ 23.25\qquad\textbf{(C)}\ 24.75\qquad\textbf{(D)}\ 26.25\qquad\textbf{(E)}\ 28 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_6" title="2013 AMC 10B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Six points are equally spaced around a circle of radius 1. Three of these points are the vertices of a triangle that is neither equilateral nor isosceles. What is the area of this triangle? </p><p>\( \textbf{(A)}\ \frac{\sqrt{3}}{3}\qquad\textbf{(B)}\ \frac{\sqrt{3}}{2}\qquad\textbf{(C)}\ \textbf{1}\qquad\textbf{(D)}\ \sqrt{2}\qquad\textbf{(E)}\ \text{2} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_7" title="2013 AMC 10B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Ray's car averages 40 miles per gallon of gasoline, and Tom's car averages 10 miles per gallon of gasoline. Ray and Tom each drive the same number of miles. What is the cars' combined rate of miles per gallon of gasoline? </p><p>\( \textbf{(A) }10\qquad\textbf{(B) }16\qquad\textbf{(C) }25\qquad\textbf{(D) }30\qquad\textbf{(E) }40 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_8" title="2013 AMC 10B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Three positive integers are each greater than \( 1 \), have a product of \( 27000 \), and are pairwise relatively prime. What is their sum? </p><p>\( \textbf{(A)}\ 100\qquad\textbf{(B)}\ 137\qquad\textbf{(C)}\ 156\qquad\textbf{(D)}\ 160\qquad\textbf{(E)}\ 165 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_9" title="2013 AMC 10B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A basketball team's players were successful on 50% of their two-point shots and 40% of their three-point shots, which resulted in 54 points. They attempted 50% more two-point shots than three-point shots. How many three-point shots did they attempt? </p><p>\( \textbf{(A) }10\qquad\textbf{(B) }15\qquad\textbf{(C) }20\qquad\textbf{(D) }25\qquad\textbf{(E) }30 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_10" title="2013 AMC 10B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Real numbers \( x \) and \( y \) satisfy the equation \( x^2 + y^2 = 10x - 6y - 34 \). What is \( x+y \)? </p><p>\( \textbf{(A)}\ 1 \qquad\textbf{(B)}\ 2 \qquad\textbf{(C)}\ 3 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_11" title="2013 AMC 10B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( S \) be the set of sides and diagonals of a regular pentagon. A pair of elements of \( S \) are selected at random without replacement. What is the probability that the two chosen segments have the same length? </p><p>\( \textbf{(A) }\frac{2}5\qquad\textbf{(B) }\frac{4}9\qquad\textbf{(C) }\frac{1}2\qquad\textbf{(D) }\frac{5}9\qquad\textbf{(E) }\frac{4}5 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_12" title="2013 AMC 10B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Jo and Blair take turns counting from \( 1 \) to one more than the last number said by the other person. Jo starts by saying "\( 1 \)", so Blair follows by saying "\( 1, 2 \)" . Jo then says "\( 1, 2, 3 \)" , and so on. What is the 53rd number said? </p><p>\( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 5\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_13" title="2013 AMC 10B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Define \( a\clubsuit b=a^2b-ab^2 \). Which of the following describes the set of points \( (x, y) \) for which \( x\clubsuit y=y\clubsuit x \)? </p><p>\( \textbf{(A)}\ \text{a finite set of points}\\ \qquad\textbf{(B)}\ \text{one line}\\ \qquad\textbf{(C)}\ \text{two parallel lines}\\ \qquad\textbf{(D)}\ \text{two intersecting lines}\\ \qquad\textbf{(E)}\ \text{three lines} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_14" title="2013 AMC 10B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>A wire is cut into two pieces, one of length \( a \) and the other of length \( b \). The piece of length \( a \) is bent to form an equilateral triangle, and the piece of length \( b \) is bent to form a regular hexagon. The triangle and the hexagon have equal area. What is \( \frac{a}{b} \)? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ \frac{\sqrt{6}}{2}\qquad\textbf{(C)}\ \sqrt{3} \qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ \frac{3\sqrt{2}}{2} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_15" title="2013 AMC 10B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>In triangle \( ABC \), medians \( AD \) and \( CE \) intersect at \( P \), \( PE=1.5 \), \( PD=2 \), and \( DE=2.5 \). What is the area of \( AEDC \)? </p><p>\( \qquad\textbf{(A)}13\qquad\textbf{(B)}13.5\qquad\textbf{(C)}14\qquad\textbf{(D)}14.5\qquad\textbf{(E)}15\qquad \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_16" title="2013 AMC 10B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Alex has \( 75 \) red tokens and \( 75 \) blue tokens. There is a booth where Alex can give two red tokens and receive in return a silver token and a blue token, and another booth where Alex can give three blue tokens and receive in return a silver token and a red token. Alex continues to exchange tokens until no more exchanges are possible. How many silver tokens will Alex have at the end? </p><p>\( \textbf{(A)} 62 \qquad \textbf{(B)} 82 \qquad \textbf{(C)} 83 \qquad \textbf{(D)} 102 \qquad \textbf{(E)} 103 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_17" title="2013 AMC 10B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The number \( 2013 \) has the property that its units digit is the sum of its other digits, that is \( 2+0+1=3 \). How many integers less than \( 2013 \) but greater than \( 1000 \) share this property? </p><p>\( \textbf{(A)}\ 33\qquad\textbf{(B)}\ 34\qquad\textbf{(C)}\ 45\qquad\textbf{(D)}\ 46\qquad\textbf{(E)}\ 58 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_18" title="2013 AMC 10B Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The real numbers \( c,b,a \) form an arithmetic sequence with \( a\ge b\ge c\ge 0 \). The quadratic \( ax^2+bx+c \) has exactly one root. What is this root? </p><p>\( \textbf{(A)}\ -7-4\sqrt{3}\qquad\textbf{(B)}\ -2-\sqrt{3}\qquad\textbf{(C)}\ -1\qquad\textbf{(D)}\ -2+\sqrt{3}\qquad\textbf{(E)}\ -7+4\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_19" title="2013 AMC 10B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The number \( 2013 \) is expressed in the form \[2013=\frac{a_1!a_2!\cdots a_m!}{b_1!b_2!\cdots b_n!},\] where \( a_1\ge a_2\ge\cdots\ge a_m \) and \( b_1\ge b_2\ge\cdots\ge b_n \) are positive integers and \( a_1+b_1 \) is as small as possible. What is \( |a_1-b_1| \)? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_20" title="2013 AMC 10B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Two non-decreasing sequences of nonnegative integers have different first terms. Each sequence has the property that each term beginning with the third is the sum of the previous two terms, and the seventh term of each sequence is \( N \). What is the smallest possible value of N? </p><p>\( \textbf{(A)}\ 55 \qquad\textbf{(B)}\ 89 \qquad\textbf{(C)}\ 104 \qquad\textbf{(D)}\ 144 \qquad\textbf{(E)}\ 273 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_21" title="2013 AMC 10B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The regular octagon \( ABCDEFGH \) has its center at \( J \). Each of the vertices and the center are to be associated with one of the digits \( 1 \) through \( 9 \), with each digit used once, in such a way that the sums of the numbers on the lines \( AJE \), \( BJF \), \( CJG \), and \( DJH \) are all equal. In how many ways can this be done? </p><p>\( \textbf{(A)}\ 384 \qquad\textbf{(B)}\ 576 \qquad\textbf{(C)}\ 1152 \qquad\textbf{(D)}\ 1680 \qquad\textbf{(E)}\ 3456 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><img src="https://latex.artofproblemsolving.com/d/3/0/d305e9074b588800bd9056981b0e283a8488bc59.png" width="252" height="248"> <a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_22" title="2013 AMC 10B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>In triangle \( ABC \), \( AB = 13 \), \( BC = 14 \), and \( CA = 15 \). Distinct points \( D \), \( E \), and \( F \) lie on segments \( \overline{BC} \), \( \overline{CA} \), and \( \overline{DE} \), respectively, such that \( \overline{AD} \perp \overline{BC} \), \( \overline{DE} \perp \overline{AC} \), and \( \overline{AF} \perp \overline{BF} \). The length of segment \( \overline{DF} \) can be written as \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. What is \( m + n \)? </p><p><br> \( \textbf{(A)}\ 18\qquad\textbf{(B)}\ 21\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 27\qquad\textbf{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_23" title="2013 AMC 10B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A positive integer \( n \) is <i>nice</i> if there is a positive integer \( m \) with exactly four positive divisors (including \( 1 \) and \( m \)) such that the sum of the four divisors is equal to \( n \). How many numbers in the set \( \{ 2010,2011,2012,\dotsc,2019 \} \) are nice? </p><p><br> \( \textbf{(A)}\ 1 \qquad\textbf{(B)}\ 2 \qquad\textbf{(C)}\ 3 \qquad\textbf{(D)}\ 4 \qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_24" title="2013 AMC 10B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Bernardo chooses a three-digit positive integer \( N \) and writes both its base-5 and base-6 representations on a blackboard. Later LeRoy sees the two numbers Bernardo has written. Treating the two numbers as base-10 integers, he adds them to obtain an integer \( S \). For example, if \( N = 749 \), Bernardo writes the numbers \( 10,444 \) and \( 3,245 \), and LeRoy obtains the sum \( S = 13,689 \). For how many choices of \( N \) are the two rightmost digits of \( S \), in order, the same as those of \( 2N \)? </p><p>\( \textbf{(A)}\ 5 \qquad\textbf{(B)}\ 10 \qquad\textbf{(C)}\ 15 \qquad\textbf{(D)}\ 20 \qquad\textbf{(E)}\ 25 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_25" title="2013 AMC 10B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","A","C","D","B","C","B","B","D","C","B","B","E","E","B","B","E","D","D","B","C","C","B","A","E"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

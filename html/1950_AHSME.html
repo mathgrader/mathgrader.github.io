@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1950 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1950 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>If \( 64 \) is divided into three parts proportional to \( 2 \), \( 4 \), and \( 6 \), the smallest part is: </p><p>\( \textbf{(A)}\ 5\frac{1}{3}\qquad\textbf{(B)}\ 11\qquad\textbf{(C)}\ 10\frac{2}{3}\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ \text{None of these answers} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_1" title="1950 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Let \( R=gS-4 \). When \( S=8 \), \( R=16 \). When \( S=10 \), \( R \) is equal to: </p><p>\( \textbf{(A)}\ 11\qquad\textbf{(B)}\ 14\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 21\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_2" title="1950 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The sum of the roots of the equation \( 4x^{2}+5-8x=0 \) is equal to: </p><p>\( \textbf{(A)}\ 8\qquad\textbf{(B)}\ -5\qquad\textbf{(C)}\ -\frac{5}{4}\qquad\textbf{(D)}\ -2\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_3" title="1950 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Reduced to lowest terms, \( \frac{a^{2}-b^{2}}{ab} - \frac{ab-b^{2}}{ab-a^{2}} \) is equal to: </p><p>\( \textbf{(A)}\ \frac{a}{b}\qquad\textbf{(B)}\ \frac{a^{2}-2b^{2}}{ab}\qquad\textbf{(C)}\ a^{2}\qquad\textbf{(D)}\ a-2b\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_4" title="1950 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>If five geometric means are inserted between \( 8 \) and \( 5832 \), the fifth term in the geometric series is: </p><p>\( \textbf{(A)}\ 648\qquad\textbf{(B)}\ 832\qquad\textbf{(C)}\ 1168\qquad\textbf{(D)}\ 1944\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_5" title="1950 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The values of \( y \) which will satisfy the equations \[\begin{array}{rcl} 2x^{2}+6x+5y+1&amp;=&amp;0\\ 2x+y+3&amp;=&amp;0 \end{array}\] may be found by solving: </p><p>\( \textbf{(A)}\ y^{2}+14y-7=0\qquad\textbf{(B)}\ y^{2}+8y+1=0\qquad\textbf{(C)}\ y^{2}+10y-7=0\qquad\\ \textbf{(D)}\ y^{2}+y-12=0\qquad \textbf{(E)}\ \text{None of these equations} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_6" title="1950 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If the digit \( 1 \) is placed after a two digit number whose tens' digit is \( t \), and units' digit is \( u \), the new number is: </p><p>\( \textbf{(A)}\ 10t+u+1\qquad\textbf{(B)}\ 100t+10u+1\qquad\textbf{(C)}\ 1000t+10u+1\qquad\textbf{(D)}\ t+u+1\qquad\\ \textbf{(E)}\ \text{None of these answers} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_7" title="1950 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>If the radius of a circle is increased \( 100\% \), the area is increased: </p><p>\( \textbf{(A)}\ 100\%\qquad\textbf{(B)}\ 200\%\qquad\textbf{(C)}\ 300\%\qquad\textbf{(D)}\ 400\%\qquad\textbf{(E)}\ \text{By none of these} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_8" title="1950 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The largest area of a triangle that can be inscribed in a semi-circle whose radius is \( r \) is: </p><p>\( \textbf{(A)}\ r^{2}\qquad\textbf{(B)}\ r^{3}\qquad\textbf{(C)}\ 2r^{2}\qquad\textbf{(D)}\ 2r^{3}\qquad\textbf{(E)}\ \frac{1}{2}r^{2} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_9" title="1950 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>After rationalizing the numerator of \( \frac{\sqrt{3}-\sqrt{2}}{\sqrt{3}} \), the denominator in simplest form is: </p><p>\( \textbf{(A)}\ \sqrt{3}(\sqrt{3}+\sqrt{2})\qquad\textbf{(B)}\ \sqrt{3}(\sqrt{3}-\sqrt{2})\qquad\textbf{(C)}\ 3-\sqrt{3}\sqrt{2}\qquad\\ \textbf{(D)}\ 3+\sqrt6\qquad\textbf{(E)}\ \text{None of these answers} \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_10" title="1950 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>If in the formula \( C =\frac{en}{R+nr} \), \( n \) is increased while \( e \), \( R \) and \( r \) are kept constant, then \( C \): </p><p>\( \textbf{(A)}\ \text{Increases}\qquad\textbf{(B)}\ \text{Decreases}\qquad\textbf{(C)}\ \text{Remains constant}\qquad\textbf{(D)}\ \text{Increases and then decreases}\qquad\\ \textbf{(E)}\ \text{Decreases and then increases} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_11" title="1950 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>As the number of sides of a polygon increases from \( 3 \) to \( n \), the sum of the exterior angles formed by extending each side in succession: </p><p>\( \textbf{(A)}\ \text{Increases}\qquad\textbf{(B)}\ \text{Decreases}\qquad\textbf{(C)}\ \text{Remains constant}\qquad\textbf{(D)}\ \text{Cannot be predicted}\qquad\\ \textbf{(E)}\ \text{Becomes }(n-3)\text{ straight angles} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_12" title="1950 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The roots of \( (x^{2}-3x+2)(x)(x-4)=0 \) are: </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 0\text{ and }4\qquad\textbf{(C)}\ 1\text{ and }2\qquad\textbf{(D)}\ 0,1,2\text{ and }4\qquad\textbf{(E)}\ 1,2\text{ and }4 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_13" title="1950 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>For the simultaneous equations \[2x-3y=8\]\[6y-4x=9\] </p><p>\( \textbf{(A)}\ x=4,y=0\qquad\textbf{(B)}\ x=0,y=\frac{3}{2}\qquad\textbf{(C)}\ x=0,y=0\qquad\\ \textbf{(D)}\ \text{There is no solution}\qquad\textbf{(E)}\ \text{There are an infinite number of solutions} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_14" title="1950 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>The real factors of \( x^4+4 \) are: </p><p>\( \textbf{(A)}\ (x^{2}+2)(x^{2}+2)\qquad\textbf{(B)}\ (x^{2}+2)(x^{2}-2)\qquad\textbf{(C)}\ x^{2}(x^{2}+4)\qquad\\ \textbf{(D)}\ (x^{2}-2x+2)(x^{2}+2x+2)\qquad\textbf{(E)}\ \text{Non-existent} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_15" title="1950 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>The number of terms in the expansion of \( [(a+3b)^{2}(a-3b)^{2}]^{2} \) when simplified is: </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 7\qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_16" title="1950 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>The formula which expresses the relationship between \( x \) and \( y \) as shown in the accompanying table is: </p><p>\[\begin{tabular}[t]{|c|c|c|c|c|c|}\hline x&amp;0&amp;1&amp;2&amp;3&amp;4\\\hline y&amp;100&amp;90&amp;70&amp;40&amp;0\\\hline\end{tabular}\] </p><p>\( \textbf{(A)}\ y=100-10x\qquad\textbf{(B)}\ y=100-5x^{2}\qquad\textbf{(C)}\ y=100-5x-5x^{2}\qquad\\ \textbf{(D)}\ y=20-x-x^{2}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_17" title="1950 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Of the following: </p><p>(1) \( a(x-y)=ax-ay \) </p><p>(2) \( a^{x-y}=a^x-a^y \) </p><p>(3) \( \log (x-y)=\log x-\log y \) </p><p>(4) \( \frac{\log x}{\log y}=\log{x}-\log{y} \) </p><p>(5) \( a(xy)=ax\times ay \) </p><p>\( \textbf{(A)}\ \text{Only 1 and 4 are true}\qquad\\ \textbf{(B)}\ \text{Only 1 and 5 are true}\qquad\\ \textbf{(C)}\ \text{Only 1 and 3 are true}\qquad\\ \textbf{(D)}\ \text{Only 1 and 2 are true}\qquad\\ \textbf{(E)}\ \text{Only 1 is true} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_18" title="1950 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>If \( m \) men can do a job in \( d \) days, then \( m+r \) men can do the job in: </p><p>\( \textbf{(A)}\ d+r\text{ days}\qquad\textbf{(B)}\ d-r\text{ days}\qquad\textbf{(C)}\ \frac{md}{m+r}\text{ days}\qquad\textbf{(D)}\ \frac{d}{m+r}\text{ days}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_19" title="1950 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>When \( x^{13}+1 \) is divided by \( x-1 \), the remainder is: </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ -1\qquad\textbf{(C)}\ 0\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ \text{None of these answers} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_20" title="1950 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>The volume of a rectangular solid each of whose side, front, and bottom faces are \( 12\text{ in}^{2} \), \( 8\text{ in}^{2} \), and \( 6\text{ in}^{2} \) respectively is: </p><p>\( \textbf{(A)}\ 576\text{ in}^{3}\qquad\textbf{(B)}\ 24\text{ in}^{3}\qquad\textbf{(C)}\ 9\text{ in}^{3}\qquad\textbf{(D)}\ 104\text{ in}^{3}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_21" title="1950 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Successive discounts of \( 10\% \) and \( 20\% \) are equivalent to a single discount of: </p><p>\( \textbf{(A)}\ 30\%\qquad\textbf{(B)}\ 15\%\qquad\textbf{(C)}\ 72\%\qquad\textbf{(D)}\ 28\%\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_22" title="1950 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>A man buys a house for \( 10000 \) dollars and rents it. He puts \( 12\frac{1}{2}\% \) of each month's rent aside for repairs and upkeep; pays \( 325 \) dollars a year taxes and realizes \( 5\frac{1}{2}\% \) on his investment. The monthly rent is: </p><p>\( \textbf{(A)}\ 64.82\text{ dollars}\qquad\textbf{(B)}\ 83.33\text{ dollars}\qquad\textbf{(C)}\ 72.08\text{ dollars}\qquad\textbf{(D)}\ 45.83\text{ dollars}\qquad\textbf{(E)}\ 177.08\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_23" title="1950 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>The equation \( x+\sqrt{x-2}=4 \) has: </p><p>\( \textbf{(A)}\ \text{2 real roots}\qquad\textbf{(B)}\ \text{1 real and 1 imaginary root}\qquad\textbf{(C)}\ \text{2 imaginary roots}\qquad\textbf{(D)}\ \text{No roots}\qquad\textbf{(E)}\ \text{1 real root} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_24" title="1950 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>The value of \( \log_{5}\frac{(125)(625)}{25} \) is equal to: </p><p>\( \textbf{(A)}\ 725\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 3125\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_25" title="1950 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>if \( \log_{10}{m}= b-\log_{10}{n} \), then \( m= \) </p><p>\( \textbf{(A)}\ \frac{b}{n}\qquad\textbf{(B)}\ bn\qquad\textbf{(C)}\ 10^{b}n\qquad\textbf{(D)}\ b-10^{n}\qquad\textbf{(E)}\ \frac{10^{b}}{n} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_26" title="1950 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>A car travels \( 120 \) miles from \( A \) to \( B \) at \( 30 \) miles per hour but returns the same distance at \( 40 \) miles per hour. The average speed for the round trip is closest to: </p><p>\( \textbf{(A)}\ 33\text{ mph}\qquad\textbf{(B)}\ 34\text{ mph}\qquad\textbf{(C)}\ 35\text{ mph}\qquad\textbf{(D)}\ 36\text{ mph}\qquad\textbf{(E)}\ 37\text{ mph} \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_27" title="1950 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Two boys \( A \) and \( B \) start at the same time to ride from Port Jervis to Poughkeepsie, \( 60 \) miles away. \( A \) travels \( 4 \) miles an hour slower than \( B \). \( B \) reaches Poughkeepsie and at once turns back meeting \( A \) \( 12 \) miles from Poughkeepsie. The rate of \( A \) was: </p><p>\( \textbf{(A)}\ 4\text{ mph}\qquad\textbf{(B)}\ 8\text{ mph}\qquad\textbf{(C)}\ 12\text{ mph}\qquad\textbf{(D)}\ 16\text{ mph}\qquad\textbf{(E)}\ 20\text{ mph} \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_28" title="1950 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>A manufacturer built a machine which will address \( 500 \) envelopes in \( 8 \) minutes. He wishes to build another machine so that when both are operating together they will address \( 500 \) envelopes in \( 2 \) minutes. The equation used to find how many minutes \( x \) it would require the second machine to address \( 500 \) envelopes alone is: </p><p>\( \textbf{(A)}\ 8-x=2\qquad\textbf{(B)}\ \frac{1}{8}+\frac{1}{x}=\frac{1}{2}\qquad\textbf{(C)}\ \frac{500}{8}+\frac{500}{x}=500\qquad\textbf{(D)}\ \frac{x}{2}+\frac{x}{8}=1\qquad\\ \textbf{(E)}\ \text{None of these answers} \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_29" title="1950 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>From a group of boys and girls, \( 15 \) girls leave. There are then left two boys for each girl. After this \( 45 \) boys leave. There are then \( 5 \) girls for each boy. The number of girls in the beginning was: </p><p>\( \textbf{(A)}\ 40\qquad\textbf{(B)}\ 43\qquad\textbf{(C)}\ 29\qquad\textbf{(D)}\ 50\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_30" title="1950 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 31</h2><p>John ordered \( 4 \) pairs of black socks and some additional pairs of blue socks. The price of the black socks per pair was twice that of the blue. When the order was filled, it was found that the number of pairs of the two colors had been interchanged. This increased the bill by \( 50\% \). The ratio of the number of pairs of black socks to the number of pairs of blue socks in the original order was: </p><p>\( \textbf{(A)}\ 4:1\qquad\textbf{(B)}\ 2:1\qquad\textbf{(C)}\ 1:4\qquad\textbf{(D)}\ 1:2\qquad\textbf{(E)}\ 1:8 \) </p>
+
+<p>Response: <input type="text" id="31" name="q31" maxlength="1 "size="3"><a id="response31"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_31" title="1950 AHSME Problems/Problem 31" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 32</h2><p>A \( 25 \) foot ladder is placed against a vertical wall of a building. The foot of the ladder is \( 7 \) feet from the base of the building. If the top of the ladder slips \( 4 \) feet, then the foot of the ladder will slide: </p><p>\( \textbf{(A)}\ 9\text{ ft}\qquad\textbf{(B)}\ 15\text{ ft}\qquad\textbf{(C)}\ 5\text{ ft}\qquad\textbf{(D)}\ 8\text{ ft}\qquad\textbf{(E)}\ 4\text{ ft} \) </p>
+
+<p>Response: <input type="text" id="32" name="q32" maxlength="1 "size="3"><a id="response32"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_32" title="1950 AHSME Problems/Problem 32" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 33</h2><p>The number of circular pipes with an inside diameter of \( 1 \) inch which will carry the same amount of water as a pipe with an inside diameter of \( 6 \) inches is: </p><p>\( \textbf{(A)}\ 6\pi\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 12\qquad\textbf{(D)}\ 36\qquad\textbf{(E)}\ 36\pi \) </p>
+
+<p>Response: <input type="text" id="33" name="q33" maxlength="1 "size="3"><a id="response33"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_33" title="1950 AHSME Problems/Problem 33" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 34</h2><p>When the circumference of a toy balloon is increased from \( 20 \) inches to \( 25 \) inches, the radius is increased by: </p><p>\( \textbf{(A)}\ 5\text{ in}\qquad\textbf{(B)}\ 2\frac{1}{2}\text{ in}\qquad\textbf{(C)}\ \frac{5}{\pi}\text{ in}\qquad\textbf{(D)}\ \frac{5}{2\pi}\text{ in}\qquad\textbf{(E)}\ \frac{\pi}{5}\text{ in} \) </p>
+
+<p>Response: <input type="text" id="34" name="q34" maxlength="1 "size="3"><a id="response34"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_34" title="1950 AHSME Problems/Problem 34" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 35</h2><p>In triangle \( ABC \), \( AC=24 \) inches, \( BC=10 \) inches, \( AB=26 \) inches. The radius of the inscribed circle is: </p><p>\( \textbf{(A)}\ 26\text{ in}\qquad\textbf{(B)}\ 4\text{ in}\qquad\textbf{(C)}\ 13\text{ in}\qquad\textbf{(D)}\ 8\text{ in}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="35" name="q35" maxlength="1 "size="3"><a id="response35"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_35" title="1950 AHSME Problems/Problem 35" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 36</h2><p>A merchant buys goods at \( 25\% \) off the list price. He desires to mark the goods so that he can give a discount of \( 20\% \) on the marked price and still clear a profit of \( 25\% \) on the selling price. What percent of the list price must he mark the goods? </p><p>\( \textbf{(A)}\ 125\%\qquad\textbf{(B)}\ 100\%\qquad\textbf{(C)}\ 120\%\qquad\textbf{(D)}\ 80\%\qquad\textbf{(E)}\ 75\% \) </p>
+
+<p>Response: <input type="text" id="36" name="q36" maxlength="1 "size="3"><a id="response36"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_36" title="1950 AHSME Problems/Problem 36" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 37</h2><p>If \( y =\log_{a}{x} \), \( a&gt;1 \), which of the following statements is incorrect? </p><p>\( \textbf{(A)}\ \text{If }x=1,y=0\qquad\\ \textbf{(B)}\ \text{If }x=a,y=1\qquad\\ \textbf{(C)}\ \text{If }x=-1,y\text{ is imaginary (complex)}\qquad\\ \textbf{(D)}\ \text{If }0&lt;x&lt;a,y\text{ is always less than 0 and decreases without limit as }x\text{ approaches zero}\qquad\\ \textbf{(E)}\ \text{Only some of the above statements are correct} \) </p>
+
+<p>Response: <input type="text" id="37" name="q37" maxlength="1 "size="3"><a id="response37"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_37" title="1950 AHSME Problems/Problem 37" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 38</h2><p>If the expression \( \begin{pmatrix}a &amp; c\\ d &amp; b\end{pmatrix} \) has the value \( ab-cd \) for all values of \( a, b, c \) and \( d \), then the equation \( \begin{pmatrix}2x &amp; 1\\ x &amp; x\end{pmatrix}= 3 \): </p><p>\( \textbf{(A)}\ \text{Is satisfied for only 1 value of }x\qquad\\ \textbf{(B)}\ \text{Is satisified for only 2 values of }x\qquad\\ \textbf{(C)}\ \text{Is satisified for no values of }x\qquad\\ \textbf{(D)}\ \text{Is satisfied for an infinite number of values of }x\qquad\\ \textbf{(E)}\ \text{None of these.} \) </p>
+
+<p>Response: <input type="text" id="38" name="q38" maxlength="1 "size="3"><a id="response38"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_38" title="1950 AHSME Problems/Problem 38" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 39</h2><p>Given the series \( 2+1+\frac{1}{2}+\frac{1}{4}+... \) and the following five statements: (1) the sum increases without limit (2) the sum decreases without limit (3) the difference between any term of the sequence and zero can be made less than any positive quantity no matter how small (4) the difference between the sum and 4 can be made less than any positive quantity no matter how small (5) the sum approaches a limit Of these statements, the correct ones are: </p><p>\( \textbf{(A)}\ \text{Only }3\text{ and }4\qquad\textbf{(B)}\ \text{Only }5\qquad\textbf{(C)}\ \text{Only }2\text{ and }4\qquad\textbf{(D)}\ \text{Only }2,3\text{ and }4\qquad\textbf{(E)}\ \text{Only }4\text{ and }5 \) </p>
+
+<p>Response: <input type="text" id="39" name="q39" maxlength="1 "size="3"><a id="response39"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_39" title="1950 AHSME Problems/Problem 39" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 40</h2><p>The limit of \( \frac{x^{2}-1}{x-1} \) as \( x \) approaches \( 1 \) as a limit is: </p><p>\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ \text{Indeterminate}\qquad\textbf{(C)}\ x-1\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ 1 \) </p>
+
+<p>Response: <input type="text" id="40" name="q40" maxlength="1 "size="3"><a id="response40"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_40" title="1950 AHSME Problems/Problem 40" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 41</h2><p>The least value of the function \( ax^2+bx+c \) with \( a&gt;0 \) is: </p><p>\( \textbf{(A)}\ -\frac{b}{a}\qquad\textbf{(B)}\ -\frac{b}{2a}\qquad\textbf{(C)}\ b^{2}-4ac\qquad\textbf{(D)}\ \frac{4ac-b^{2}}{4a}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="41" name="q41" maxlength="1 "size="3"><a id="response41"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_41" title="1950 AHSME Problems/Problem 41" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 42</h2><p>The equation \( x^{x^{x^{.^{.^.}}}}=2 \) is satisfied when \( x \) is equal to: </p><p>\( \textbf{(A)}\ \infty\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ \sqrt[4]{2}\qquad\textbf{(D)}\ \sqrt{2}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="42" name="q42" maxlength="1 "size="3"><a id="response42"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_42" title="1950 AHSME Problems/Problem 42" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 43</h2><p>The sum to infinity of \( \frac{1}{7}+\frac{2}{7^{2}}+\frac{1}{7^{3}}+\frac{2}{7^{4}}+... \) is: </p><p>\( \textbf{(A)}\ \frac{1}{5}\qquad\textbf{(B)}\ \frac{1}{24}\qquad\textbf{(C)}\ \frac{5}{48}\qquad\textbf{(D)}\ \frac{1}{16}\qquad\textbf{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="43" name="q43" maxlength="1 "size="3"><a id="response43"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_43" title="1950 AHSME Problems/Problem 43" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 44</h2><p>The graph of \( y=\log x \) </p><p>\( \textbf{(A)}\ \text{Cuts the }y\text{-axis}\qquad\\ \textbf{(B)}\ \text{Cuts all lines perpendicular to the }x\text{-axis}\qquad\\ \textbf{(C)}\ \text{Cuts the }x\text{-axis}\qquad\\ \textbf{(D)}\ \text{Cuts neither axis}\qquad\\ \textbf{(E)}\ \text{Cuts all circles whose center is at the origin} \) </p>
+
+<p>Response: <input type="text" id="44" name="q44" maxlength="1 "size="3"><a id="response44"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_44" title="1950 AHSME Problems/Problem 44" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 45</h2><p>The number of diagonals that can be drawn in a polygon of \( 100 \) sides is: </p><p>\( \textbf{(A)}\ 4850\qquad\textbf{(B)}\ 4950\qquad\textbf{(C)}\ 9900\qquad\textbf{(D)}\ 98\qquad\textbf{(E)}\ 8800 \) </p>
+
+<p>Response: <input type="text" id="45" name="q45" maxlength="1 "size="3"><a id="response45"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_45" title="1950 AHSME Problems/Problem 45" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 46</h2><p>In triangle \( ABC \), \( AB=12 \), \( AC=7 \), and \( BC=10 \). If sides \( AB \) and \( AC \) are doubled while \( BC \) remains the same, then: </p><p>\( \textbf{(A)}\ \text{The area is doubled}\qquad\\ \textbf{(B)}\ \text{The altitude is doubled}\qquad\\ \textbf{(C)}\ \text{The area is four times the original area}\qquad\\ \textbf{(D)}\ \text{The median is unchanged}\qquad\\ \textbf{(E)}\ \text{The area of the triangle is 0} \) </p>
+
+<p>Response: <input type="text" id="46" name="q46" maxlength="1 "size="3"><a id="response46"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_46" title="1950 AHSME Problems/Problem 46" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 47</h2><p>A rectangle inscribed in a triangle has its base coinciding with the base \( b \) of the triangle. If the altitude of the triangle is \( h \), and the altitude \( x \) of the rectangle is half the base of the rectangle, then: </p><p>\( \textbf{(A)}\ x=\frac{1}{2}h\qquad\textbf{(B)}\ x=\frac{bh}{b+h}\qquad\textbf{(C)}\ x=\frac{bh}{2h+b}\qquad\textbf{(D)}\ x=\sqrt{\frac{hb}{2}}\qquad\\ \textbf{(E)}\ x=\frac{1}{2}b \) </p>
+
+<p>Response: <input type="text" id="47" name="q47" maxlength="1 "size="3"><a id="response47"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_47" title="1950 AHSME Problems/Problem 47" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 48</h2><p>A point is selected at random inside an equilateral triangle. From this point perpendiculars are dropped to each side. The sum of these perpendiculars is: </p><p>\( \textbf{(A)}\ \text{Least when the point is the center of gravity of the triangle}\qquad\\ \textbf{(B)}\ \text{Greater than the altitude of the triangle}\qquad\\ \textbf{(C)}\ \text{Equal to the altitude of the triangle}\qquad\\ \textbf{(D)}\ \text{One-half the sum of the sides of the triangle}\qquad\\ \textbf{(E)}\ \text{Greatest when the point is the center of gravity} \) </p>
+
+<p>Response: <input type="text" id="48" name="q48" maxlength="1 "size="3"><a id="response48"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_48" title="1950 AHSME Problems/Problem 48" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 49</h2><p>A triangle has a fixed base \( AB \) that is \( 2 \) inches long. The median from \( A \) to side \( BC \) is \( 1 \frac{1}{2} \) inches long and can have any position emanating from \( A \). The locus of the vertex \( C \) of the triangle is: </p><p>\( \textbf{(A)}\ \text{A straight line }AB,1\frac{1}{2}\text{ inches from }A\qquad\\ \textbf{(B)}\ \text{A circle with }A\text{ as center and radius }2\text{ inches}\qquad\\ \textbf{(C)}\ \text{A circle with }A\text{ as center and radius }3\text{ inches}\qquad\\ \textbf{(D)}\ \text{A circle with radius }3\text{ inches and center }4\text{ inches from }B\text{ along }BA\qquad\\ \textbf{(E)}\ \text{An ellipse with }A\text{ as focus} \) </p>
+
+<p>Response: <input type="text" id="49" name="q49" maxlength="1 "size="3"><a id="response49"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_49" title="1950 AHSME Problems/Problem 49" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 50</h2><p>A privateer discovers a merchantman \( 10 \) miles to leeward at \( 11\text{:}45 \text{ a.m.} \) and with a good breeze bears down upon her at \( 11 \) mph, while the merchantman can only make \( 8 \) mph in his attempt to escape. After a two hour chase, the top sail of the privateer is carried away; she can now make only \( 17 \) miles while the merchantman makes \( 15 \). The privateer will overtake the merchantman at: </p><p>\( \textbf{(A)}\ 3\text{:}45\text{ p.m.}\qquad\textbf{(B)}\ 3\text{:}30\text{ p.m.}\qquad\textbf{(C)}\ 5\text{:}00\text{ p.m.}\qquad\textbf{(D)}\ 2\text{:}45\text{ p.m.}\qquad\textbf{(E)}\ 5\text{:}30\text{ p.m.} \) </p>
+
+<p>Response: <input type="text" id="50" name="q50" maxlength="1 "size="3"><a id="response50"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems/Problem_50" title="1950 AHSME Problems/Problem 50" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1950_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","D","E","A","A","C","B","C","A","D","A","C","D","D","E","B","C","E","C","D","B","D","B","E","D","E","B","B","B","A","C","D","D","D","B","A","E","B","E","D","D","D","E","C","A","E","C","C","D","E"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

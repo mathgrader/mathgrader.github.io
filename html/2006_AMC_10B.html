@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2006 AMC 10B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2006 AMC 10B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is \( (-1)^{1} + (-1)^{2} + ... + (-1)^{2006} \)&nbsp;? </p><p>\( \mathrm{(A) \ } -2006\qquad \mathrm{(B) \ } -1\qquad \mathrm{(C) \ } 0\qquad \mathrm{(D) \ } 1\qquad \mathrm{(E) \ } 2006 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_1" title="2006 AMC 10B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>For real numbers \( x \) and \( y \), define \( x \mathop{\spadesuit} y = (x+y)(x-y) \). What is \( 3 \mathop{\spadesuit} (4 \mathop{\spadesuit} 5) \)? </p><p>\( \mathrm{(A) \ } -72\qquad \mathrm{(B) \ } -27\qquad \mathrm{(C) \ } -24\qquad \mathrm{(D) \ } 24\qquad \mathrm{(E) \ } 72 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_2" title="2006 AMC 10B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A football game was played between two teams, the Cougars and the Panthers. The two teams scored a total of 34 points, and the Cougars won by a margin of 14 points. How many points did the Panthers score? </p><p>\( \mathrm{(A) \ } 10\qquad \mathrm{(B) \ } 14\qquad \mathrm{(C) \ } 17\qquad \mathrm{(D) \ } 20\qquad \mathrm{(E) \ } 24 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_3" title="2006 AMC 10B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Circles of diameter 1 inch and 3 inches have the same center. The smaller circle is painted red, and the portion outside the smaller circle and inside the larger circle is painted blue. What is the ratio of the blue-painted area to the red-painted area? </p><p>\( \mathrm{(A) \ } 2\qquad \mathrm{(B) \ } 3\qquad \mathrm{(C) \ } 6\qquad \mathrm{(D) \ } 8\qquad \mathrm{(E) \ } 9 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_4" title="2006 AMC 10B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A \( 2 \times 3 \) rectangle and a \( 3 \times 4 \) rectangle are contained within a square without overlapping at any point, and the sides of the square are parallel to the sides of the two given rectangles. What is the smallest possible area of the square? </p><p>\( \mathrm{(A) \ } 16\qquad \mathrm{(B) \ } 25\qquad \mathrm{(C) \ } 36\qquad \mathrm{(D) \ } 49\qquad \mathrm{(E) \ } 64 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_5" title="2006 AMC 10B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>A region is bounded by semicircular arcs constructed on the side of a square whose sides measure \( \frac{2}{\pi} \), as shown. What is the perimeter of this region? </p><p><img src="https://latex.artofproblemsolving.com/7/b/3/7b38113c08d3a31597444d88c0f64f603a6e8c33.png" width="192" height="192"> </p><p>\( \mathrm{(A) \ } \frac{4}{\pi}\qquad \mathrm{(B) \ } 2\qquad \mathrm{(C) \ } \frac{8}{\pi}\qquad \mathrm{(D) \ } 4\qquad \mathrm{(E) \ } \frac{16}{\pi} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_6" title="2006 AMC 10B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Which of the following is equivalent to \( \sqrt{\frac{x}{1-\frac{x-1}{x}}} \) when \( x &lt; 0 \)? </p><p>\( \mathrm{(A) \ } -x\qquad \mathrm{(B) \ } x\qquad \mathrm{(C) \ } 1\qquad \mathrm{(D) \ } \sqrt{\frac{x}{2}}\qquad \mathrm{(E) \ } x\sqrt{-1} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_7" title="2006 AMC 10B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A square of area 40 is inscribed in a semicircle as shown. What is the area of the semicircle? </p><p><img src="https://latex.artofproblemsolving.com/a/8/4/a84aff5918c2d4b85230ff4a75193f98188240e3.png" width="215" height="108"> </p><p>\( \mathrm{(A) \ } 20\pi\qquad \mathrm{(B) \ } 25\pi\qquad \mathrm{(C) \ } 30\pi\qquad \mathrm{(D) \ } 40\pi\qquad \mathrm{(E) \ } 50\pi \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_8" title="2006 AMC 10B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Francesca uses 100 grams of lemon juice, 100 grams of sugar, and 400 grams of water to make lemonade. There are 25 calories in 100 grams of lemon juice and 386 calories in 100 grams of sugar. Water contains no calories. How many calories are in 200 grams of her lemonade? </p><p>\( \mathrm{(A) \ } 129\qquad \mathrm{(B) \ } 137\qquad \mathrm{(C) \ } 174\qquad \mathrm{(D) \ } 233\qquad \mathrm{(E) \ } 411 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_9" title="2006 AMC 10B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>In a triangle with integer side lengths, one side is three times as long as a second side, and the length of the third side is 15. What is the greatest possible perimeter of the triangle? </p><p>\( \mathrm{(A) \ } 43\qquad \mathrm{(B) \ } 44\qquad \mathrm{(C) \ } 45\qquad \mathrm{(D) \ } 46\qquad \mathrm{(E) \ } 47 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_10" title="2006 AMC 10B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>What is the tens digit in the sum \( 7!+8!+9!+...+2006! \) </p><p>\( \mathrm{(A) \ } 1\qquad \mathrm{(B) \ } 3\qquad \mathrm{(C) \ } 4\qquad \mathrm{(D) \ } 6\qquad \mathrm{(E) \ } 9 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_11" title="2006 AMC 10B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The lines \( x=\frac{1}{4}y+a \) and \( y=\frac{1}{4}x+b \) intersect at the point \( (1,2) \). What is \( a+b \)? </p><p>\( \mathrm{(A) \ } 0\qquad \mathrm{(B) \ } \frac{3}{4}\qquad \mathrm{(C) \ } 1\qquad \mathrm{(D) \ } 2\qquad \mathrm{(E) \ } \frac{9}{4} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_12" title="2006 AMC 10B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Joe and JoAnn each bought 12 ounces of coffee in a 16 ounce cup. Joe drank 2 ounces of his coffee and then added 2 ounces of cream. JoAnn added 2 ounces of cream, stirred the coffee well, and then drank 2 ounces. What is the resulting ratio of the amount of cream in Joe's coffee to that in JoAnn's coffee? </p><p>\( \mathrm{(A) \ } \frac{6}{7}\qquad \mathrm{(B) \ } \frac{13}{14}\qquad \mathrm{(C) \ }1 \qquad \mathrm{(D) \ } \frac{14}{13}\qquad \mathrm{(E) \ } \frac{7}{6} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_13" title="2006 AMC 10B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( a \) and \( b \) be the roots of the equation \( x^2-mx+2=0 \). Suppose that \( a+(1/b) \) and \( b+(1/a) \) are the roots of the equation \( x^2-px+q=0 \). What is \( q \)? </p><p>\( \mathrm{(A) \ } \frac{5}{2}\qquad \mathrm{(B) \ } \frac{7}{2}\qquad \mathrm{(C) \ } 4\qquad \mathrm{(D) \ } \frac{9}{2}\qquad \mathrm{(E) \ } 8 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_14" title="2006 AMC 10B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Rhombus \( ABCD \) is similar to rhombus \( BFDE \). The area of rhombus \( ABCD \) is \( 24 \) and \( \angle BAD = 60^\circ \). What is the area of rhombus \( BFDE \)? </p><p><img src="https://latex.artofproblemsolving.com/c/9/8/c98fccf25fdaf81fa2ec0b3fdb8f1bae8255249c.png" width="258" height="165"> </p><p>\( \mathrm{(A) \ } 6\qquad \mathrm{(B) \ } 4\sqrt{3}\qquad \mathrm{(C) \ } 8\qquad \mathrm{(D) \ } 9\qquad \mathrm{(E) \ } 6\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_15" title="2006 AMC 10B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Leap Day, February 29, 2004, occurred on a Sunday. On what day of the week will Leap Day, February 29, 2020, occur? </p><p>\( \mathrm{(A) \ } \textrm{Tuesday} \qquad \mathrm{(B) \ } \textrm{Wednesday} \qquad \mathrm{(C) \ } \textrm{Thursday} \qquad \mathrm{(D) \ } \textrm{Friday} \qquad \mathrm{(E) \ } \textrm{Saturday} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_16" title="2006 AMC 10B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Bob and Alice each have a bag that contains one ball of each of the colors blue, green, orange, red, and violet. Alice randomly selects one ball from her bag and puts it into Bob's bag. Bob then randomly selects one ball from his bag and puts it into Alice's bag. What is the probability that after this process the contents of the two bags are the same? </p><p>\( \mathrm{(A) \ } \frac{1}{10}\qquad \mathrm{(B) \ } \frac{1}{6}\qquad \mathrm{(C) \ } \frac{1}{5}\qquad \mathrm{(D) \ } \frac{1}{3}\qquad \mathrm{(E) \ } \frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_17" title="2006 AMC 10B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Let \( a_1 , a_2 , ... \) be a sequence for which </p><p>\( a_1=2 \) , \( a_2=3 \), and \( a_n=\frac{a_{n-1}}{a_{n-2}} \) for each positive integer \( n \ge 3 \). </p><p>What is \( a_{2006} \)? </p><p>\( \mathrm{(A) \ } \frac{1}{2}\qquad \mathrm{(B) \ } \frac{2}{3}\qquad \mathrm{(C) \ } \frac{3}{2}\qquad \mathrm{(D) \ } 2\qquad \mathrm{(E) \ } 3 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_18" title="2006 AMC 10B Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A circle of radius \( 2 \) is centered at \( O \). Square \( OABC \) has side length \( 1 \). Sides \( AB \) and \( CB \) are extended past \( B \) to meet the circle at \( D \) and \( E \), respectively. What is the area of the shaded region in the figure, which is bounded by \( BD \), \( BE \), and the minor arc connecting \( D \) and \( E \)? </p><p><img src="https://latex.artofproblemsolving.com/d/9/6/d96de8eea5aaf413adf41d2ee020a36ae9a4aeef.png" width="292" height="288"> </p><p>\( \mathrm{(A) \ } \frac{\pi}{3}+1-\sqrt{3}\qquad \mathrm{(B) \ } \frac{\pi}{2}(2-\sqrt{3})\qquad \mathrm{(C) \ } \pi(2-\sqrt{3})\qquad \mathrm{(D) \ } \frac{\pi}{6}+\frac{\sqrt{3}+1}{2}\qquad \mathrm{(E) \ } \frac{\pi}{3}-1+\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_19" title="2006 AMC 10B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>In rectangle \( ABCD \), we have \( A=(6,-22) \), \( B=(2006,178) \), \( D=(8,y) \), for some integer \( y \). What is the area of rectangle \( ABCD \)? </p><p>\( \mathrm{(A) \ } 4000\qquad \mathrm{(B) \ } 4040\qquad \mathrm{(C) \ } 4400\qquad \mathrm{(D) \ } 40,000\qquad \mathrm{(E) \ } 40,400 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_20" title="2006 AMC 10B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>For a particular peculiar pair of dice, the probabilities of rolling \( 1 \), \( 2 \), \( 3 \), \( 4 \), \( 5 \), and \( 6 \), on each die are in the ratio \( 1:2:3:4:5:6 \). What is the probability of rolling a total of \( 7 \) on the two dice? </p><p>\( \mathrm{(A) \ } \frac{4}{63}\qquad \mathrm{(B) \ } \frac{1}{8}\qquad \mathrm{(C) \ } \frac{8}{63}\qquad \mathrm{(D) \ } \frac{1}{6}\qquad \mathrm{(E) \ } \frac{2}{7} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_21" title="2006 AMC 10B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Elmo makes \( N \) sandwiches for a fundraiser. For each sandwich he uses \( B \) globs of peanut butter at \( 4\cent \) per glob and \( J \) blobs of jam at \( 5\cent \) per blob. The cost of the peanut butter and jam to make all the sandwiches is \( $2.53 \). Assume that \( B \), \( J \), and \( N \) are positive integers with \( N&gt;1 \). What is the cost of the jam Elmo uses to make the sandwiches? </p><p>\( \mathrm{(A) \ } 1.05\qquad \mathrm{(B) \ } 1.25\qquad \mathrm{(C) \ } 1.45\qquad \mathrm{(D) \ } 1.65\qquad \mathrm{(E) \ } 1.85 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_22" title="2006 AMC 10B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>A triangle is partitioned into three triangles and a quadrilateral by drawing two lines from vertices to their opposite sides. The areas of the three triangles are 3, 7, and 7 as shown. What is the area of the shaded quadrilateral? </p><p><img src="https://latex.artofproblemsolving.com/c/f/7/cf791fd7b612d29ad4afcad408d1c4e8e0c60790.png" width="215" height="145"> </p><p>\( \mathrm{(A) \ } 15\qquad \mathrm{(B) \ } 17\qquad \mathrm{(C) \ } \frac{35}{2}\qquad \mathrm{(D) \ } 18\qquad \mathrm{(E) \ } \frac{55}{3} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_23" title="2006 AMC 10B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Circles with centers \( O \) and \( P \) have radii \( 2 \) and \( 4 \), respectively, and are externally tangent. Points \( A \) and \( B \) on the circle with center \( O \) and points \( C \) and \( D \) on the circle with center \( P \) are such that \( AD \) and \( BC \) are common external tangents to the circles. What is the area of the concave hexagon \( AOBCPD \)? </p><p><img src="https://latex.artofproblemsolving.com/7/e/f/7efc09f3f65bc3a5eb8f333cf067e4b12c579b82.png" width="398" height="295"> </p><p>\( \mathrm{(A) \ } 18\sqrt{3}\qquad \mathrm{(B) \ } 24\sqrt{2}\qquad \mathrm{(C) \ } 36\qquad \mathrm{(D) \ } 24\sqrt{3}\qquad \mathrm{(E) \ } 32\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_24" title="2006 AMC 10B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Mr. Jones has eight children of different ages. On a family trip his oldest child, who is 9, spots a license plate with a 4-digit number in which each of two digits appears two times. "Look, daddy!" she exclaims. "That number is evenly divisible by the age of each of us kids!" "That's right," replies Mr. Jones, "and the last two digits just happen to be my age." Which of the following is <b><i>not</i></b> the age of one of Mr. Jones's children? </p><p>\( \mathrm{(A) \ } 4\qquad \mathrm{(B) \ } 5\qquad \mathrm{(C) \ } 6\qquad \mathrm{(D) \ } 7\qquad \mathrm{(E) \ } 8 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_25" title="2006 AMC 10B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","A","A","D","B","D","A","B","B","A","C","E","E","D","C","E","D","E","A","E","C","D","D","B","B"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

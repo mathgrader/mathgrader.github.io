@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1987 AJHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1987 AJHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>\( .4+.02+.006= \) </p><p>\( \text{(A)}\ .012 \qquad \text{(B)}\ .066 \qquad \text{(C)}\ .12 \qquad \text{(D)}\ .24 \qquad \text{(E)} .426 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_1" title="1987 AJHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>\( \frac{2}{25}= \) </p><p>\( \text{(A)}\ .008 \qquad \text{(B)}\ .08 \qquad \text{(C)}\ .8 \qquad \text{(D)} 1.25 \qquad \text{(E)}\ 12.5 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_2" title="1987 AJHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>\( 2(81+83+85+87+89+91+93+95+97+99)= \) </p><p>\( \text{(A)}\ 1600 \qquad \text{(B)}\ 1650 \qquad \text{(C)}\ 1700 \qquad \text{(D)}\ 1750 \qquad \text{(E)}\ 1800 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_3" title="1987 AJHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Martians measure angles in clerts. There are \( 500 \) clerts in a full circle. How many clerts are there in a right angle? </p><p>\( \text{(A)}\ 90 \qquad \text{(B)}\ 100 \qquad \text{(C)}\ 125 \qquad \text{(D)}\ 180 \qquad \text{(E)}\ 250 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_4" title="1987 AJHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The area of the rectangular region is </p><p><img src="https://latex.artofproblemsolving.com/8/c/c/8cc290473bf98b3c78b84fe4028b8f76279b0e54.png" width="252" height="132"> </p><p>\( \text{(A)}\ \text{.088 m}^2 \qquad \text{(B)}\ \text{.62 m}^2 \qquad \text{(C)}\ \text{.88 m}^2 \qquad \text{(D)}\ \text{1.24 m}^2 \qquad \text{(E)}\ \text{4.22 m}^2 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_5" title="1987 AJHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The smallest product one could obtain by multiplying two numbers in the set \( \{ -7, -5, -1, 1, 3 \} \) is </p><p>\( \text{(A)}\ -35 \qquad \text{(B)}\ -21 \qquad \text{(C)}\ -15 \qquad \text{(D)}\ -1 \qquad \text{(E)}\ 3 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_6" title="1987 AJHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The large cube shown is made up of \( 27 \) identical sized smaller cubes. For each face of the large cube, the opposite face is shaded the same way. The total number of smaller cubes that must have at least one face shaded is </p><p>\( \text{(A)}\ 10 \qquad \text{(B)}\ 16 \qquad \text{(C)}\ 20 \qquad \text{(D)}\ 22 \qquad \text{(E)}\ 24 \) </p><p><img src="https://latex.artofproblemsolving.com/3/2/d/32d182fcce5019c425fe5750bc4ed740d6bbc707.png" width="315" height="265"> </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_7" title="1987 AJHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>If \( \text{A} \) and \( \text{B} \) are nonzero digits, then the number of digits (not necessarily different) in the sum of the three whole numbers is </p><p>\[\begin{tabular}[t]{cccc} 9 &amp; 8 &amp; 7 &amp; 6 \\ &amp; A &amp; 3 &amp; 2 \\ &amp; &amp; B &amp; 1 \\ \hline \end{tabular}\] </p><p><br> \( \text{(A)}\ 4 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 9 \qquad \text{(E)}\ \text{depends on the values of A and B} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_8" title="1987 AJHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>When finding the sum \( \frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7} \), the least common denominator used is </p><p>\( \text{(A)}\ 120 \qquad \text{(B)}\ 210 \qquad \text{(C)}\ 420 \qquad \text{(D)}\ 840 \qquad \text{(E)}\ 5040 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_9" title="1987 AJHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>\( 4(299)+3(299)+2(299)+298= \) </p><p>\( \text{(A)}\ 2889 \qquad \text{(B)}\ 2989 \qquad \text{(C)}\ 2991 \qquad \text{(D)}\ 2999 \qquad \text{(E)}\ 3009 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_10" title="1987 AJHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The sum \( 2\frac17+3\frac12+5\frac{1}{19} \) is between </p><p>\( \text{(A)}\ 10\text{ and }10\frac12 \qquad \text{(B)}\ 10\frac12 \text{ and } 11 \qquad \text{(C)}\ 11\text{ and }11\frac12 \qquad \text{(D)}\ 11\frac12 \text{ and }12 \qquad \text{(E)}\ 12\text{ and }12\frac12 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_11" title="1987 AJHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>What fraction of the large \( 12 \) by \( 18 \) rectangular region is shaded? </p><p><img src="https://latex.artofproblemsolving.com/b/0/c/b0c6216f64369917ffe601761ed51640384663a4.png" width="252" height="172"> </p><p>\( \text{(A)}\ \frac{1}{108} \qquad \text{(B)}\ \frac{1}{18} \qquad \text{(C)}\ \frac{1}{12} \qquad \text{(D)}\ \frac29 \qquad \text{(E)}\ \frac13 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_12" title="1987 AJHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Which of the following fractions has the largest value? </p><p>\( \text{(A)}\ \frac{3}{7} \qquad \text{(B)}\ \frac{4}{9} \qquad \text{(C)}\ \frac{17}{35} \qquad \text{(D)}\ \frac{100}{201} \qquad \text{(E)}\ \frac{151}{301} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_13" title="1987 AJHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A computer can do \( 10,000 \) additions per second. How many additions can it do in one hour? </p><p>\( \text{(A)}\ 6\text{ million} \qquad \text{(B)}\ 36\text{ million} \qquad \text{(C)}\ 60\text{ million} \qquad \text{(D)}\ 216\text{ million} \qquad \text{(E)}\ 360\text{ million} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_14" title="1987 AJHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>The sale ad read: "Buy three tires at the regular price and get the fourth tire for three dollars;." Sam paid \( 240\text{ dollars} \) for a set of four tires at the sale. What was the regular price of one tire? </p><p>\( \text{(A)}\ 59.25\text{ dollars} \qquad \text{(B)}\ 60\text{ dollars} \qquad \text{(C)}\ 70\text{ dollars} \qquad \text{(D)}\ 79\text{ dollars} \qquad \text{(E)}\ 80\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_15" title="1987 AJHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Joyce made \( 12 \) of her first \( 30 \) shots in the first three games of this basketball game, so her seasonal shooting average was \( 40\% \). In her next game, she took \( 10 \) shots and raised her seasonal shooting average to \( 50\% \). How many of these \( 10 \) shots did she make? </p><p>\( \text{(A)}\ 2 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 5 \qquad \text{(D)}\ 6 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_16" title="1987 AJHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Abby, Bret, Carl, and Dana are seated in a row of four seats numbered #1 to #4. Joe looks at them and says: </p><pre>"Bret is next to Carl."
+"Abby is between Bret and Carl."
+</pre><p>However each one of Joe's statements is false. Bret is actually sitting in seat #3. Who is sitting in seat #2? </p><p>\( \text{(A)}\ \text{Abby} \qquad \text{(B)}\ \text{Bret} \qquad \text{(C)}\ \text{Carl} \qquad \text{(D)}\ \text{Dana} \qquad \text{(E)}\ \text{There is not enough information to be sure.} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_17" title="1987 AJHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Half the people in a room left. One third of those remaining started to dance. There were then \( 12 \) people who were not dancing. The original number of people in the room was </p><p>\( \text{(A)}\ 24 \qquad \text{(B)}\ 30 \qquad \text{(C)}\ 36 \qquad \text{(D)}\ 42 \qquad \text{(E)}\ 72 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_18" title="1987 AJHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A calculator has a squaring key \( \boxed{x^2} \) which replaces the current number displayed with its square. For example, if the display is \( \boxed{000003} \) and the \( \boxed{x^2} \) key is depressed, then the display becomes \( \boxed{000009} \). If the display reads \( \boxed{000002} \), how many times must you depress the \( \boxed{x^2} \) key to produce a displayed number greater than \( 500 \)? </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 8 \qquad \text{(D)}\ 9 \qquad \text{(E)}\ 250 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_19" title="1987 AJHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>"If a whole number \( n \) is not prime, then the whole number \( n-2 \) is not prime." A value of \( n \) which shows this statement to be false is </p><p>\( \text{(A)}\ 9 \qquad \text{(B)}\ 12 \qquad \text{(C)}\ 13 \qquad \text{(D)}\ 16 \qquad \text{(E)}\ 23 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_20" title="1987 AJHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Suppose \( n^{*} \) means \( \frac{1}{n} \), the reciprocal of \( n \). For example, \( 5^{*}=\frac{1}{5} \). How many of the following statements are true? </p><pre>i) \( 3^*+6^*=9^* \)
+ii) \( 6^*-4^*=2^* \)
+iii) \( 2^*\cdot 6^*=12^* \)
+iv) \( 10^*\div 2^* =5^* \)
+</pre><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 1 \qquad \text{(C)}\ 2 \qquad \text{(D)}\ 3 \qquad \text{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_21" title="1987 AJHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>\( \text{ABCD} \) is a rectangle, \( \text{D} \) is the center of the circle, and \( \text{B} \) is on the circle. If \( \text{AD}=4 \) and \( \text{CD}=3 \), then the area of the shaded region is between </p><p><img src="https://latex.artofproblemsolving.com/3/4/f/34f83e970acc786d0c8e91464cc6120d79fc07aa.png" width="252" height="252"> </p><p>\( \text{(A)}\ 4\text{ and }5 \qquad \text{(B)}\ 5\text{ and }6 \qquad \text{(C)}\ 6\text{ and }7 \qquad \text{(D)}\ 7\text{ and }8 \qquad \text{(E)}\ 8\text{ and }9 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_22" title="1987 AJHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Assume the adjoining chart shows the \( 1980 \) U.S. population, in millions, for each region by ethnic group. To the nearest percent, what percent of the U.S. Black population lived in the South? </p><p>\[\begin{tabular}[t]{c|cccc} &amp; NE &amp; MW &amp; South &amp; West \\ \hline White &amp; 42 &amp; 52 &amp; 57 &amp; 35 \\ Black &amp; 5 &amp; 5 &amp; 15 &amp; 2 \\ Asian &amp; 1 &amp; 1 &amp; 1 &amp; 3 \\ Other &amp; 1 &amp; 1 &amp; 2 &amp; 4 \end{tabular}\] </p><p>\( \text{(A)}\ 20\% \qquad \text{(B)}\ 25\% \qquad \text{(C)}\ 40\% \qquad \text{(D)}\ 56\% \qquad \text{(E)}\ 80\% \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_23" title="1987 AJHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A multiple choice examination consists of \( 20 \) questions. The scoring is \( +5 \) for each correct answer, \( -2 \) for each incorrect answer, and \( 0 \) for each unanswered question. John's score on the examination is \( 48 \). What is the maximum number of questions he could have answered correctly? </p><p>\( \text{(A)}\ 9 \qquad \text{(B)}\ 10 \qquad \text{(C)}\ 11 \qquad \text{(D)}\ 12 \qquad \text{(E)}\ 16 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_24" title="1987 AJHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Ten balls numbered \( 1 \) to \( 10 \) are in a jar. Jack reaches into the jar and randomly removes one of the balls. Then Jill reaches into the jar and randomly removes a different ball. The probability that the sum of the two numbers on the balls removed is even is </p><p>\( \text{(A)}\ \frac{4}{9} \qquad \text{(B)}\ \frac{9}{19} \qquad \text{(C)}\ \frac{1}{2} \qquad \text{(D)}\ \frac{10}{19} \qquad \text{(E)}\ \frac{5}{9} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems/Problem_25" title="1987 AJHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1987_AJHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","B","E","C","A","B","C","B","C","B","B","C","E","B","D","E","D","C","A","A","C","D","D","D","A"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

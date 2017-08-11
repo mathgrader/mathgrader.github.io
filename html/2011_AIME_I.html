@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2011 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2011 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Jar A contains four liters of a solution that is \( 45\% \) acid. Jar B contains five liters of a solution that is \( 48\% \) acid. Jar C contains one liter of a solution that is \( k\% \) acid. From jar C, \( \frac{m}{n} \) liters of the solution is added to jar A, and the remainder of the solution in jar C is added to jar B. At the end both jar A and jar B contain solutions that are \( 50\% \) acid. Given that \( m \) and \( n \) are relatively prime positive integers, find \( k + m + n \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_1" title="2011 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>In rectangle \( ABCD \), \( AB = 12 \) and \( BC = 10 \). Points \( E \) and \( F \) lie inside rectangle \( ABCD \) so that \( BE = 9 \), \( DF = 8 \), \( \overline{BE} \parallel \overline{DF} \), \( \overline{EF} \parallel \overline{AB} \), and line \( BE \) intersects segment \( \overline{AD} \). The length \( EF \) can be expressed in the form \( m \sqrt{n} - p \), where \( m \), \( n \), and \( p \) are positive integers and \( n \) is not divisible by the square of any prime. Find \( m + n + p \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_2" title="2011 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Let \( L \) be the line with slope \( \frac{5}{12} \) that contains the point \( A = (24,-1) \), and let \( M \) be the line perpendicular to line \( L \) that contains the point \( B = (5,6) \). The original coordinate axes are erased, and line \( L \) is made the \( x \)-axis and line \( M \) the \( y \)-axis. In the new coordinate system, point \( A \) is on the positive \( x \)-axis, and point \( B \) is on the positive \( y \)-axis. The point \( P \) with coordinates \( (-14,27) \) in the original system has coordinates \( (\alpha,\beta) \) in the new coordinate system. Find \( \alpha + \beta \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_3" title="2011 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In triangle \( ABC \), \( AB = 125 \), \( AC = 117 \), and \( BC = 120 \). The angle bisector of angle \( A \) intersects \( \overline{BC} \) at point \( L \), and the angle bisector of angle \( B \) intersects \( \overline{AC} \) at point \( K \). Let \( M \) and \( N \) be the feet of the perpendiculars from \( C \) to \( \overline{BK} \) and \( \overline{AL} \), respectively. Find \( MN \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_4" title="2011 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The vertices of a regular nonagon (9-sided polygon) are to be labeled with the digits 1 through 9 in such a way that the sum of the numbers on every three consecutive vertices is a multiple of 3. Two acceptable arrangements are considered to be indistinguishable if one can be obtained from the other by rotating the nonagon in the plane. Find the number of distinguishable acceptable arrangements. </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_5" title="2011 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Suppose that a parabola has vertex \( \left(\frac{1}{4},-\frac{9}{8}\right) \) and equation \( y = ax^2 + bx + c \), where \( a &gt; 0 \) and \( a + b + c \) is an integer. The minimum possible value of \( a \) can be written in the form \( \frac{p}{q} \), where \( p \) and \( q \) are relatively prime positive integers. Find \( p + q \). </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_6" title="2011 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Find the number of positive integers \( m \) for which there exist nonnegative integers \( x_0 \), \( x_1 \) , \( \dots \) , \( x_{2011} \) such that \[m^{x_0} = \sum_{k = 1}^{2011} m^{x_k}.\] </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_7" title="2011 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>In triangle \( ABC \), \( BC = 23 \), \( CA = 27 \), and \( AB = 30 \). Points \( V \) and \( W \) are on \( \overline{AC} \) with \( V \) on \( \overline{AW} \), points \( X \) and \( Y \) are on \( \overline{BC} \) with \( X \) on \( \overline{CY} \), and points \( Z \) and \( U \) are on \( \overline{AB} \) with \( Z \) on \( \overline{BU} \). In addition, the points are positioned so that \( \overline{UV} \parallel \overline{BC} \), \( \overline{WX} \parallel \overline{AB} \), and \( \overline{YZ} \parallel \overline{CA} \). Right angle folds are then made along \( \overline{UV} \), \( \overline{WX} \), and \( \overline{YZ} \). The resulting figure is placed on a level floor to make a table with triangular legs. Let \( h \) be the maximum possible height of a table constructed from triangle \( ABC \) whose top is parallel to the floor. Then \( h \) can be written in the form \( \frac{k \sqrt{m}}{n} \), where \( k \) and \( n \) are relatively prime positive integers and \( m \) is a positive integer that is not divisible by the square of any prime. Find \( k + m + n \). </p><center> 
+ <img src="https://latex.artofproblemsolving.com/a/3/3/a3378981be03ff826f3c61884709fecbe15b1ee5.png" width="502" height="192"> 
+</center>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_8" title="2011 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Suppose \( x \) is in the interval \( [0,\pi/2] \) and \( \log_{24 \sin x} (24 \cos x) = \frac{3}{2} \). Find \( 24 \cot^2 x \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_9" title="2011 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The probability that a set of three distinct vertices chosen at random from among the vertices of a regular \( n \)-gon determine an obtuse triangle is \( \frac{93}{125} \). Find the sum of all possible values of \( n \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_10" title="2011 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( R \) be the set of all possible remainders when a number of the form \( 2^n \), \( n \) a nonnegative integer, is divided by 1000. Let \( S \) be the sum of the elements in \( R \). Find the remainder when \( S \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_11" title="2011 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Six men and some number of women stand in a line in random order. Let \( p \) be the probability that a group of at least four men stand together in the line, given that every man stands next to at least one other man. Find the least number of women in the line such that \( p \) does not exceed 1 percent. </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_12" title="2011 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A cube with side length 10 is suspended above a plane. The vertex closest to the plane is labeled \( A \). The three vertices adjacent to vertex \( A \) are at heights 10, 11, and 12 above the plane. The distance from vertex \( A \) to the plane can be expressed as \( \frac{r - \sqrt{s}}{t} \), where \( r \), \( s \), and \( t \) are positive integers. Find \( r + s + t \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_13" title="2011 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( A_1 A_2 A_3 A_4 A_5 A_6 A_7 A_8 \) be a regular octagon. Let \( M_1 \), \( M_3 \), \( M_5 \), and \( M_7 \) be the midpoints of sides \( \overline{A_1 A_2} \), \( \overline{A_3 A_4} \), \( \overline{A_5 A_6} \), and \( \overline{A_7 A_8} \), respectively. For \( i = 1, 3, 5, 7 \), ray \( R_i \) is constructed from \( M_i \) towards the interior of the octagon such that \( R_1 \perp R_3 \), \( R_3 \perp R_5 \), \( R_5 \perp R_7 \), and \( R_7 \perp R_1 \). Pairs of rays \( R_1 \) and \( R_3 \), \( R_3 \) and \( R_5 \), \( R_5 \) and \( R_7 \), and \( R_7 \) and \( R_1 \) meet at \( B_1 \), \( B_3 \), \( B_5 \), \( B_7 \) respectively. If \( B_1 B_3 = A_1 A_2 \), then \( \cos 2 \angle A_3 M_3 B_1 \) can be written in the form \( m - \sqrt{n} \), where \( m \) and \( n \) are positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_14" title="2011 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>For some integer \( m \), the polynomial \( x^3 - 2011x + m \) has the three integer roots \( a \), \( b \), and \( c \). Find \( |a| + |b| + |c| \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_15" title="2011 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["085","036","031","056","144","011","016","318","192","503","007","594","330","037","098"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1995 AJHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1995 AJHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Walter has exactly one penny, one nickel, one dime and one quarter in his pocket. What percent of one dollar is in his pocket? </p><p>\( \text{(A)}\ 4\% \qquad \text{(B)}\ 25\% \qquad \text{(C)}\ 40\% \qquad \text{(D)}\ 41\% \qquad \text{(E)}\ 59\% \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_1" title="1995 AJHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Jose is \( 4 \) years younger than Zack. Zack is \( 3 \) years older than Inez. Inez is \( 15 \) years old. How old is Jose? </p><p>\( \text{(A)}\ 8 \qquad \text{(B)}\ 11 \qquad \text{(C)}\ 14 \qquad \text{(D)}\ 16 \qquad \text{(E)}\ 22 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_2" title="1995 AJHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Which of the following operations has the same effect on a number as multiplying by \( \dfrac{3}{4} \) and then dividing by \( \dfrac{3}{5} \)? </p><p>\( \text{(A)}\ \text{dividing by }\dfrac{4}{3} \qquad \text{(B)}\ \text{dividing by }\dfrac{9}{20} \qquad \text{(C)}\ \text{multiplying by }\dfrac{9}{20} \qquad \text{(D)}\ \text{dividing by }\dfrac{5}{4} \qquad \text{(E)}\ \text{multiplying by }\dfrac{5}{4} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_3" title="1995 AJHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>A teacher tells the class, </p><center> 
+ <p><i>"Think of a number, add 1 to it, and double the result. Give the answer to your partner. Partner, subtract 1 from the number you are given and double the result to get your answer."</i> </p> 
+</center><p>Ben thinks of \( 6 \), and gives his answer to Sue. What should Sue's answer be? </p><p>\( \text{(A)}\ 18 \qquad \text{(B)}\ 24 \qquad \text{(C)}\ 26 \qquad \text{(D)}\ 27 \qquad \text{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_4" title="1995 AJHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Find the smallest whole number that is larger than the sum </p><p>\[2\dfrac{1}{2}+3\dfrac{1}{3}+4\dfrac{1}{4}+5\dfrac{1}{5}.\] </p><p>\( \text{(A)}\ 14 \qquad \text{(B)}\ 15 \qquad \text{(C)}\ 16 \qquad \text{(D)}\ 17 \qquad \text{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_5" title="1995 AJHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Figures \( I \), \( II \), and \( III \) are squares. The perimeter of \( I \) is \( 12 \) and the perimeter of \( II \) is \( 24 \). The perimeter of \( III \) is </p><p><img src="https://latex.artofproblemsolving.com/5/8/c/58cc78e77fd3ec27c31db8cb87221ab494e6797e.png" width="252" height="152"> </p><p>\( \text{(A)}\ 9 \qquad \text{(B)}\ 18 \qquad \text{(C)}\ 36 \qquad \text{(D)}\ 72 \qquad \text{(D)}\ 81 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_6" title="1995 AJHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>At Clover View Junior High, one half of the students go home on the school bus. One fourth go home by automobile. One tenth go home on their bicycles. The rest walk home. What fractional part of the students walk home? </p><p>\( \text{(A)}\ \dfrac{1}{16} \qquad \text{(B)}\ \dfrac{3}{20} \qquad \text{(C)}\ \dfrac{1}{3} \qquad \text{(D)}\ \dfrac{17}{20} \qquad \text{(E)}\ \dfrac{9}{10} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_7" title="1995 AJHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>An American traveling in Italy wishes to exchange American money (dollars) for Italian money (lire). If 3000 lire = $1.60, how much lire will the traveler receive in exchange for $1.00? </p><p>\( \text{(A)}\ 180 \qquad \text{(B)}\ 480 \qquad \text{(C)}\ 1800 \qquad \text{(D)}\ 1875 \qquad \text{(E)}\ 4875 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_8" title="1995 AJHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Three congruent circles with centers \( P \), \( Q \), and \( R \) are tangent to the sides of rectangle \( ABCD \) as shown. The circle centered at \( Q \) has diameter \( 4 \) and passes through points \( P \) and \( R \). The area of the rectangle is </p><p><img src="https://latex.artofproblemsolving.com/f/8/c/f8cdb8860743450573eda533b3ba4facf3292fa7.png" width="252" height="145"> </p><p>\( \text{(A)}\ 16 \qquad \text{(B)}\ 24 \qquad \text{(C)}\ 32 \qquad \text{(D)}\ 64 \qquad \text{(E)}\ 128 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_9" title="1995 AJHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A jacket and a shirt originally sold for dollar 80 and dollar 40, respectively. During a sale Chris bought the dollar80 jacket at a \( 40\% \) discount and the dollar 40 shirt at a \( 55\% \) discount. The total amount saved was what percent of the total of the original prices? </p><p>\( \text{(A)}\ 45\% \qquad \text{(B)}\ 47\dfrac{1}{2}\% \qquad \text{(C)}\ 50\% \qquad \text{(D)}\ 79\dfrac{1}{6}\% \qquad \text{(E)}\ 95\% \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_10" title="1995 AJHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Jane can walk any distance in half the time it takes Hector to walk the same distance. They set off in opposite directions around the outside of the 18-block area as shown. When they meet for the first time, they will be closest to </p><p><img src="https://latex.artofproblemsolving.com/1/d/7/1d722c9b7817a874ae13c9c5f3bee0f7bc2fa033.png" width="252" height="178"> </p><p>\( \text{(A)}\ A \qquad \text{(B)}\ B \qquad \text{(C)}\ C \qquad \text{(D)}\ D \qquad \text{(E)}\ E \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_11" title="1995 AJHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A <i>lucky</i> year is one in which at least one date, when written in the form month/day/year, has the following property: <i>The product of the month times the day equals the last two digits of the year</i>. For example, 1956 is a lucky year because it has the date 7/8/56 and \( 7\times 8 = 56 \). Which of the following is NOT a lucky year? </p><p>\( \text{(A)}\ 1990 \qquad \text{(B)}\ 1991 \qquad \text{(C)}\ 1992 \qquad \text{(D)}\ 1993 \qquad \text{(E)}\ 1994 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_12" title="1995 AJHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>In the figure, \( \angle A \), \( \angle B \), and \( \angle C \) are right angles. If \( \angle AEB = 40^\circ \) and \( \angle BED = \angle BDE \), then \( \angle CDE = \) </p><p><img src="https://latex.artofproblemsolving.com/a/c/6/ac6cb7b3dc91e264fcd05ead4b80a3040983193a.png" width="252" height="145"> </p><p>\( \text{(A)}\ 75^\circ \qquad \text{(B)}\ 80^\circ \qquad \text{(C)}\ 85^\circ \qquad \text{(D)}\ 90^\circ \qquad \text{(E)}\ 95^\circ \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_13" title="1995 AJHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A team won 40 of its first 50 games. How many of the remaining 40 games must this team win so it will have won exactly 70% of its games for the season? </p><p>\( \text{(A)}\ 20 \qquad \text{(B)}\ 23 \qquad \text{(C)}\ 28 \qquad \text{(D)}\ 30 \qquad \text{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_14" title="1995 AJHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>What is the \( 100^\text{th} \) digit to the right of the decimal point in the decimal form of \( 4/37 \)? </p><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 1 \qquad \text{(C)}\ 2 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_15" title="1995 AJHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Students from three middle schools worked on a summer project. </p><ul> 
+ <li>Seven students from Allen school worked for 3 days.</li> 
+ <li>Four students from Balboa school worked for 5 days.</li> 
+ <li>Five students from Carver school worked for 9 days.</li> 
+</ul><p>The total amount paid for the students' work was &lt;dollar/&gt;774. Assuming each student received the same amount for a day's work, how much did the students from Balboa school earn altogether? </p><p>\( \text{(A)}\ 9.00\text{ dollars} \qquad \text{(B)}\ 48.38\text{ dollars} \qquad \text{(C)}\ 180.00\text{ dollars} \qquad \text{(D)}\ 193.50\text{ dollars} \qquad \text{(E)}\ 258.00\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_16" title="1995 AJHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>The table below gives the percent of students in each grade at Annville and Cleona elementary schools: </p><p>\[\begin{tabular}{rccccccc} &amp; \textbf{\underline{K}} &amp; \textbf{\underline{1}} &amp; \textbf{\underline{2}} &amp; \textbf{\underline{3}} &amp; \textbf{\underline{4}} &amp; \textbf{\underline{5}} &amp; \textbf{\underline{6}} \\ \textbf{Annville:} &amp; 16\% &amp; 15\% &amp; 15\% &amp; 14\% &amp; 13\% &amp; 16\% &amp; 11\% \\ \textbf{Cleona:} &amp; 12\% &amp; 15\% &amp; 14\% &amp; 13\% &amp; 15\% &amp; 14\% &amp; 17\% \end{tabular}\] </p><p>Annville has 100 students and Cleona has 200 students. In the two schools combined, what percent of the students are in grade 6? </p><p>\( \text{(A)}\ 12\% \qquad \text{(B)}\ 13\% \qquad \text{(C)}\ 14\% \qquad \text{(D)}\ 15\% \qquad \text{(E)}\ 28\% \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_17" title="1995 AJHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The area of each of the four congruent L-shaped regions of this 100-inch by 100-inch square is 3/16 of the total area. How many inches long is the side of the center square? </p><p><img src="https://latex.artofproblemsolving.com/a/1/a/a1a3a520aef5349391bdc7054d86229bbbe3bfcc.png" width="252" height="252"> </p><p>\( \text{(A)}\ 25 \qquad \text{(B)}\ 44 \qquad \text{(C)}\ 50 \qquad \text{(D)}\ 62 \qquad \text{(E)}\ 75 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_18" title="1995 AJHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The graph shows the distribution of the number of children in the families of the students in Ms. Jordan's English class. The median number of children in the family for this distribution is </p><p><img src="https://latex.artofproblemsolving.com/3/e/9/3e92c6cf7a393378bc1ba356ec7c05eb556083f9.png" width="502" height="258"> </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_19" title="1995 AJHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Diana and Apollo each roll a standard die obtaining a number at random from 1 to 6. What is the probability that Diana's number is larger than Apollo's number? </p><p>\( \text{(A)}\ \dfrac{1}{3} \qquad \text{(B)}\ \dfrac{5}{12} \qquad \text{(C)}\ \dfrac{4}{9} \qquad \text{(D)}\ \dfrac{17}{36} \qquad \text{(E)}\ \dfrac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_20" title="1995 AJHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>A plastic snap-together cube has a protruding snap on one side and receptacle holes on the other five sides as shown. What is the smallest number of these cubes that can be snapped together so that only receptacle holes are showing? </p><p><img src="https://latex.artofproblemsolving.com/2/7/c/27c74ee953b766e2b714cc8b26ae75af1d02122b.png" width="252" height="232"> </p><p>\( \text{(A)}\ 3 \qquad \text{(B)}\ 4 \qquad \text{(C)}\ 5 \qquad \text{(D)}\ 6 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_21" title="1995 AJHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The number 6545 can be written as a product of a pair of positive two-digit numbers. What is the sum of this pair of numbers? </p><p>\( \text{(A)}\ 162 \qquad \text{(B)}\ 172 \qquad \text{(C)}\ 173 \qquad \text{(D)}\ 174 \qquad \text{(E)}\ 222 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_22" title="1995 AJHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>How many four-digit whole numbers are there such that the leftmost digit is odd, the second digit is even, and all four digits are different? </p><p>\( \text{(A)}\ 1120 \qquad \text{(B)}\ 1400 \qquad \text{(C)}\ 1800 \qquad \text{(D)}\ 2025 \qquad \text{(E)}\ 2500 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_23" title="1995 AJHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>In parallelogram \( ABCD \), \( \overline{DE} \) is the altitude to the base \( \overline{AB} \) and \( \overline{DF} \) is the altitude to the base \( \overline{BC} \). [<b>Note:</b> <i>Both pictures represent the same parallelogram.</i>] If \( DC=12 \), \( EB=4 \), and \( DE=6 \), then \( DF= \) </p><p><img src="https://latex.artofproblemsolving.com/9/e/2/9e2bbb0a9b55e0060cb42c71e75562e282f6032e.png" width="805" height="165"> </p><p>\( \text{(A)}\ 6.4 \qquad \text{(B)}\ 7 \qquad \text{(C)}\ 7.2 \qquad \text{(D)}\ 8 \qquad \text{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_24" title="1995 AJHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Buses from Dallas to Houston leave every hour on the hour. Buses from Houston to Dallas leave every hour on the half hour. The trip from one city to the other takes 5 hours. Assuming the buses travel on the same highway, how many Dallas-bound buses does a Houston-bound bus pass in the highway (not in the station)? </p><p>\( \text{(A)}\ 5 \qquad \text{(B)}\ 6 \qquad \text{(C)}\ 9 \qquad \text{(D)}\ 10 \qquad \text{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems/Problem_25" title="1995 AJHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1995_AJHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","C","E","C","C","C","B","D","C","A","D","E","E","B","B","C","D","C","D","B","B","A","B","C","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

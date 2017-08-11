@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1974 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1974 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>If \( x\not=0 \) or \( 4 \) and \( y\not=0 \) or \( 6 \), then \( \frac{2}{x}+\frac{3}{y}=\frac{1}{2} \) is equivalent to </p><p>\( \mathrm{(A)\ } 4x+3y=xy \qquad \mathrm{(B) \ }y=\frac{4x}{6-y} \qquad \mathrm{(C) \ } \frac{x}{2}+\frac{y}{3}=2 \qquad \) </p><p>\( \mathrm{(D) \ } \frac{4y}{y-6}=x \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_1" title="1974 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Let \( x_1 \) and \( x_2 \) be such that \( x_1\not=x_2 \) and \( 3x_i^2-hx_i=b \), \( i=1, 2 \). Then \( x_1+x_2 \) equals </p><p>\( \mathrm{(A)\ } -\frac{h}{3} \qquad \mathrm{(B) \ }\frac{h}{3} \qquad \mathrm{(C) \ } \frac{b}{3} \qquad \mathrm{(D) \ } 2b \qquad \mathrm{(E) \ }-\frac{b}{3} \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_2" title="1974 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The coefficient of \( x^7 \) in the polynomial expansion of </p><p>\[(1+2x-x^2)^4\] </p><p>is </p><p>\( \mathrm{(A)\ } -8 \qquad \mathrm{(B) \ }12 \qquad \mathrm{(C) \ } 6 \qquad \mathrm{(D) \ } -12 \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_3" title="1974 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>What is the remainder when \( x^{51}+51 \) is divided by \( x+1 \)? </p><p>\( \mathrm{(A)\ } 0 \qquad \mathrm{(B) \ }1 \qquad \mathrm{(C) \ } 49 \qquad \mathrm{(D) \ } 50 \qquad \mathrm{(E) \ }51 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_4" title="1974 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Given a quadrilateral \( ABCD \) inscribed in a circle with side \( AB \) extended beyond \( B \) to point \( E \), if \( \measuredangle BAD=92^\circ \) and \( \measuredangle ADC=68^\circ \), find \( \measuredangle EBC \). </p><p>\( \mathrm{(A)\ } 66^\circ \qquad \mathrm{(B) \ }68^\circ \qquad \mathrm{(C) \ } 70^\circ \qquad \mathrm{(D) \ } 88^\circ \qquad \mathrm{(E) \ }92^\circ \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_5" title="1974 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>For positive real numbers \( x \) and \( y \) define \( x*y=\frac{x\cdot y}{x+y} \)' then </p><p>\( \mathrm{(A)\ } \text{``*" is commutative but not associative} \qquad \) </p><p>\( \mathrm{(B) \ }\text{``*" is associative but not commutative} \qquad \) </p><p>\( \mathrm{(C) \ } \text{``*" is neither commutative nor associative} \qquad \) </p><p>\( \mathrm{(D) \ } \text{``*" is commutative and associative} \qquad \) </p><p>\( \mathrm{(E) \ }\text{none of these} \qquad \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_6" title="1974 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>A town's population increased by \( 1,200 \) people, and then this new population decreased by \( 11\% \). The town now had \( 32 \) less people than it did before the \( 1,200 \) increase. What is the original population? </p><p>\( \mathrm{(A)\ } 1,200 \qquad \mathrm{(B) \ }11,200 \qquad \mathrm{(C) \ } 9,968 \qquad \mathrm{(D) \ } 10,000 \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_7" title="1974 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>What is the smallest prime number dividing the sum \( 3^{11}+5^{13} \)? </p><p>\( \mathrm{(A)\ } 2 \qquad \mathrm{(B) \ }3 \qquad \mathrm{(C) \ } 5 \qquad \mathrm{(D) \ } 3^{11}+5^{13} \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_8" title="1974 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The integers greater than one are arranged in five columns as follows: </p><p>\[\begin{tabular}{c c c c c}\ &amp; 2 &amp; 3 &amp; 4 &amp; 5\\ 9 &amp; 8 &amp; 7 &amp; 6 &amp;\ \\ \ &amp; 10 &amp; 11 &amp; 12 &amp; 13\\ 17 &amp; 16 &amp; 15 &amp; 14 &amp;\ \\ \ &amp; . &amp; . &amp; . &amp; .\\ \end{tabular}\] </p><p>(Four consecutive integers appear in each row; in the first, third and other odd numbered rows, the integers appear in the last four columns and increase from left to right; in the second, fourth and other even numbered rows, the integers appear in the first four columns and increase from right to left.) </p><p>In which column will the number \( 1,000 \) fall? </p><p>\( \mathrm{(A)\ } \text{first} \qquad \mathrm{(B) \ }\text{second} \qquad \mathrm{(C) \ } \text{third} \qquad \mathrm{(D) \ } \text{fourth} \qquad \mathrm{(E) \ }\text{fifth} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_9" title="1974 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>What is the smallest integral value of \( k \) such that </p><p>\[2x(kx-4)-x^2+6=0\] </p><p>has no real roots? </p><p>\( \mathrm{(A)\ } -1 \qquad \mathrm{(B) \ }2 \qquad \mathrm{(C) \ } 3 \qquad \mathrm{(D) \ } 4 \qquad \mathrm{(E) \ }5 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_10" title="1974 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>If \( (a, b) \) and \( (c, d) \) are two points on the line whose equation is \( y=mx+k \), then the distance between \( (a, b) \) and \( (c, d) \), in terms of \( a, c, \) and \( m \) is </p><p>\( \mathrm{(A)\ } |a-c|\sqrt{1+m^2} \qquad \mathrm{(B) \ }|a+c|\sqrt{1+m^2} \qquad \mathrm{(C) \ } \frac{|a-c|}{\sqrt{1+m^2}} \qquad \) </p><p>\( \mathrm{(D) \ } |a-c|(1+m^2) \qquad \mathrm{(E) \ }|a-c|\,|m| \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_11" title="1974 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>If \( g(x)=1-x^2 \) and \( f(g(x))=\frac{1-x^2}{x^2} \) when \( x\not=0 \), then \( f(1/2) \) equals </p><p>\( \mathrm{(A)\ } 3/4 \qquad \mathrm{(B) \ }1 \qquad \mathrm{(C) \ } 3 \qquad \mathrm{(D) \ } \sqrt{2}/2 \qquad \mathrm{(E) \ }\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_12" title="1974 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Which of the following is equivalent to "If P is true, then Q is false."? </p><p>\( \mathrm{(A)\ } \text{``P is true or Q is false."} \qquad \) </p><p>\( \mathrm{(B) \ }\text{``If Q is false then P is true."} \qquad \) </p><p>\( \mathrm{(C) \ } \text{``If P is false then Q is true."} \qquad \) </p><p>\( \mathrm{(D) \ } \text{``If Q is true then P is false."} \qquad \) </p><p>\( \mathrm{(E) \ }\text{``If Q is true then P is true."} \qquad \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_13" title="1974 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Which statement is correct? </p><p>\( \mathrm{(A)\ } \text{If } x&lt;0, \text{then } x^2&gt;x. \qquad \mathrm{(B) \ } \text{If } x^2&gt;0, \text{then } x&gt;0. \) </p><p>\( \qquad \mathrm{(C) \ } \text{If } x^2&gt;x, \text{then } x&gt;0. \qquad \mathrm{(D) \ } \text{If } x^2&gt;x, \text{then } x&lt;0. \) </p><p>\( \qquad \mathrm{(E) \ }\text{If } x&lt;1, \text{then } x^2&lt;x. \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_14" title="1974 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>If \( x&lt;-2 \), then \( |1-|1+x|| \) equals </p><p>\( \mathrm{(A)\ } 2+x \qquad \mathrm{(B) \ }-2-x \qquad \mathrm{(C) \ } x \qquad \mathrm{(D) \ } -x \qquad \mathrm{(E) \ }-2 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_15" title="1974 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A circle of radius \( r \) is inscribed in a right isosceles triangle, and a circle of radius \( R \) is circumscribed about the triangle. Then \( R/r \) equals </p><p>\( \mathrm{(A)\ } 1+\sqrt{2} \qquad \mathrm{(B) \ }\frac{2+\sqrt{2}}{2} \qquad \mathrm{(C) \ } \frac{\sqrt{2}-1}{2} \qquad \mathrm{(D) \ } \frac{1+\sqrt{2}}{2} \qquad \mathrm{(E) \ }2(2-\sqrt{2}) \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_16" title="1974 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>If \( i^2=-1 \), then \( (1+i)^{20}-(1-i)^{20} \) equals </p><p>\( \mathrm{(A)\ } -1024 \qquad \mathrm{(B) \ }-1024i \qquad \mathrm{(C) \ } 0 \qquad \mathrm{(D) \ } 1024 \qquad \mathrm{(E) \ }1024i \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_17" title="1974 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>If \( \log_8{3}=p \) and \( \log_3{5}=q \), then, in terms of \( p \) and \( q \), \( \log_{10}{5} \) equals </p><p>\( \mathrm{(A)\ } pq \qquad \mathrm{(B) \ }\frac{3p+q}{5} \qquad \mathrm{(C) \ } \frac{1+3pq}{p+q} \qquad \mathrm{(D) \ } \frac{3pq}{1+3pq} \qquad \mathrm{(E) \ }p^2+q^2 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_18" title="1974 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>In the adjoining figure \( ABCD \) is a square and \( CMN \) is an equilateral triangle. If the area of \( ABCD \) is one square inch, then the area of \( CMN \) in square inches is </p><p><img src="https://latex.artofproblemsolving.com/5/3/6/5364f863ec952e5fddb7ee1031895e2bc735bf65.png" width="245" height="252"> </p><p>\( \mathrm{(A)\ } 2\sqrt{3}-3 \qquad \mathrm{(B) \ }1-\frac{\sqrt{3}}{3} \qquad \mathrm{(C) \ } \frac{\sqrt{3}}{4} \qquad \mathrm{(D) \ } \frac{\sqrt{2}}{3} \qquad \mathrm{(E) \ }4-2\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_19" title="1974 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Let </p><p>\[T=\frac{1}{3-\sqrt{8}}-\frac{1}{\sqrt{8}-\sqrt{7}}+\frac{1}{\sqrt{7}-\sqrt{6}}-\frac{1}{\sqrt{6}-\sqrt{5}}+\frac{1}{\sqrt{5}-2}.\] </p><p>Then </p><p>\( \mathrm{(A)\ } T&lt;1 \qquad \mathrm{(B) \ }T=1 \qquad \mathrm{(C) \ } 1&lt;T&lt;2 \qquad \mathrm{(D) \ } T&gt;2 \qquad \) </p><p>\( \mathrm{(E) \ }T=\frac{1}{(3-\sqrt{8})(\sqrt{8}-\sqrt{7})(\sqrt{7}-\sqrt{6})(\sqrt{6}-\sqrt{5})(\sqrt{5}-2)} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_20" title="1974 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>In a geometric series of positive terms the difference between the fifth and fourth terms is \( 576 \), and the difference between the second and first terms is \( 9 \). What is the sum of the first five terms of this series? </p><p>\( \mathrm{(A)\ } 1061 \qquad \mathrm{(B) \ }1023 \qquad \mathrm{(C) \ } 1024 \qquad \mathrm{(D) \ } 768 \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_21" title="1974 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The minimum of \( \sin\frac{A}{2}-\sqrt{3}\cos\frac{A}{2} \) is attained when \( A \) is </p><p>\( \mathrm{(A)\ } -180^\circ \qquad \mathrm{(B) \ }60^\circ \qquad \mathrm{(C) \ } 120^\circ \qquad \mathrm{(D) \ } 0^\circ \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_22" title="1974 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>In the adjoining figure \( TP \) and \( T'Q \) are parallel tangents to a circle of radius \( r \), with \( T \) and \( T' \) the points of tangency. \( PT''Q \) is a third tangent with \( T''' \) as a point of tangency. If \( TP=4 \) and \( T'Q=9 \) then \( r \) is </p><p><img src="https://latex.artofproblemsolving.com/0/4/f/04fab947ffafd06a13547f83b3774c9162575763.png" width="208" height="198"> </p><p>\( \mathrm{(A)\ } 25/6 \qquad \mathrm{(B) \ } 6 \qquad \mathrm{(C) \ } 25/4 \qquad \) </p><p>\( \mathrm{(D) \ } \text{a number other than }25/6, 6, 25/4 \qquad \) </p><p>\( \mathrm{(E) \ }\text{not determinable from the given information} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_23" title="1974 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A fair die is rolled six times. The probability of rolling at least a five at least five times is </p><p>\( \mathrm{(A)\ } \frac{13}{729} \qquad \mathrm{(B) \ }\frac{12}{729} \qquad \mathrm{(C) \ } \frac{2}{729} \qquad \mathrm{(D) \ } \frac{3}{729} \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_24" title="1974 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>In parallelogram \( ABCD \) of the accompanying diagram, line \( DP \) is drawn bisecting \( BC \) at \( N \) and meeting \( AB \) (extended) at \( P \). From vertex \( C \), line \( CQ \) is drawn bisecting side \( AD \) at \( M \) and meeting \( AB \) (extended) at \( Q \). Lines \( DP \) and \( CQ \) meet at \( O \). If the area of parallelogram \( ABCD \) is \( k \), then the area of the triangle \( QPO \) is equal to </p><p><img src="https://latex.artofproblemsolving.com/0/5/e/05e5cd7b8c56d1533436642a2a9c670adfb2257f.png" width="668" height="168"> </p><p>\( \mathrm{(A)\ } k \qquad \mathrm{(B) \ }\frac{6k}{5} \qquad \mathrm{(C) \ } \frac{9k}{8} \qquad \mathrm{(D) \ } \frac{5k}{4} \qquad \mathrm{(E) \ }2k \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_25" title="1974 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>The number of distinct positive integral divisors of \( (30)^4 \) excluding \( 1 \) and \( (30)^4 \) is </p><p>\( \mathrm{(A)\ } 100 \qquad \mathrm{(B) \ }125 \qquad \mathrm{(C) \ } 123 \qquad \mathrm{(D) \ } 30 \qquad \mathrm{(E) \ }\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_26" title="1974 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>If \( f(x)=3x+2 \) for all real \( x \), then the statement: "\( |f(x)+4|&lt;a \) whenever \( |x+2|&lt;b \) and \( a&gt;0 \) and \( b&gt;0 \)" is true when </p><p>\( \mathrm{(A)}\ b\le a/3\qquad\mathrm{(B)}\ b &gt; a/3\qquad\mathrm{(C)}\ a\le b/3\qquad\mathrm{(D)}\ a &gt; b/3\\ \qquad\mathrm{(E)}\ \text{The statement is never true.} \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_27" title="1974 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Which of the following is satisfied by all numbers \( x \) of the form </p><p>\[x=\frac{a_1}{3}+\frac{a_2}{3^2}+\cdots+\frac{a_{25}}{3^{25}}\] </p><p>where \( a_1 \) is \( 0 \) or \( 2 \), \( a_2 \) is \( 0 \) or \( 2 \),...,\( a_{25} \) is \( 0 \) or \( 2 \)? </p><p>\( \mathrm{(A)\ } 0\le x&lt;1/3 \qquad \mathrm{(B) \ } 1/3\le x&lt;2/3 \qquad \mathrm{(C) \ } 2/3\le x&lt;1 \qquad \) </p><p>\( \mathrm{(D) \ } 0\le x&lt;1/3 \text{ or }2/3\le x&lt;1 \qquad \mathrm{(E) \ }1/2\le x\le 3/4 \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_28" title="1974 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>For \( p=1, 2, \cdots, 10 \) let \( S_p \) be the sum of the first \( 40 \) terms of the arithmetic progression whose first term is \( p \) and whose common difference is \( 2p-1 \); then \( S_1+S_2+\cdots+S_{10} \) is </p><p>\( \mathrm{(A)\ } 80000 \qquad \mathrm{(B) \ }80200 \qquad \mathrm{(C) \ } 80400 \qquad \mathrm{(D) \ } 80600 \qquad \mathrm{(E) \ }80800 \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_29" title="1974 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>A line segment is divided so that the lesser part is to the greater part as the greater part is to the whole. If \( R \) is the ratio of the lesser part to the greater part, then the value of </p><p>\[R^{[R^{(R^2+R^{-1})}+R^{-1}]}+R^{-1}\] </p><p>is </p><p>\( \mathrm{(A)\ } 2 \qquad \mathrm{(B) \ }2R \qquad \mathrm{(C) \ } R^{-1} \qquad \mathrm{(D) \ } 2+R^{-1} \qquad \mathrm{(E) \ }2+R \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems/Problem_30" title="1974 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1974_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","B","A","D","B","D","D","A","B","B","A","B","D","A","B","A","C","D","A","D","B","E","B","A","C","C","A","D","B","A"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

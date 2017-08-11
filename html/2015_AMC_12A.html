@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2015 AMC 12A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2015 AMC 12A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is the value of \( (2^0-1+5^2-0)^{-1}\times5? \) </p><p>\( \textbf{(A)}\ -125\qquad\textbf{(B)}\ -120\qquad\textbf{(C)}\ \frac{1}{5}\qquad\textbf{(D)}\ \frac{5}{24}\qquad\textbf{(E)}\ 25 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_1" title="2015 AMC 12A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Two of the three sides of a triangle are 20 and 15. Which of the following numbers is not a possible perimeter of the triangle? </p><p>\( \textbf{(A)}\ 52\qquad\textbf{(B)}\ 57\qquad\textbf{(C)}\ 62\qquad\textbf{(D)}\ 67\qquad\textbf{(E)}\ 72 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_2" title="2015 AMC 12A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Mr. Patrick teaches math to 15 students. He was grading tests and found that when he graded everyone's test except Payton's, the average grade for the class was 80. After he graded Payton's test, the class average became 81. What was Payton's score on the test? </p><p>\( \textbf{(A)}\ 81\qquad\textbf{(B)}\ 85\qquad\textbf{(C)}\ 91\qquad\textbf{(D)}\ 94\qquad\textbf{(E)}\ 95 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_3" title="2015 AMC 12A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The sum of two positive numbers is 5 times their difference. What is the ratio of the larger number to the smaller? </p><p>\( \textbf{(A)}\ \frac54 \qquad\textbf{(B)}\ \frac32 \qquad\textbf{(C)}\ \frac95 \qquad\textbf{(D)}\ 2 \qquad\textbf{(E)}\ \frac52 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_4" title="2015 AMC 12A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Amelia needs to estimate the quantity \( \frac{a}{b} - c \), where \( a, b, \) and \( c \) are large positive integers. She rounds each of the integers so that the calculation will be easier to do mentally. In which of these situations will her answer necessarily be greater than the exact value of \( \frac{a}{b} - c \)? </p><p>\( \textbf{(A)}\ \text{She rounds all three numbers up.}\\ \qquad\textbf{(B)}\ \text{She rounds } a \text{ and } b \text{ up, and she rounds } c \text{ down.}\\ \qquad\textbf{(C)}\ \text{She rounds } a \text{ and } c \text{ up, and she rounds } b \text{ down.} \\ \qquad\textbf{(D)}\ \text{She rounds } a \text{ up, and she rounds } b \text{ and } c \text{ down.}\\ \qquad\textbf{(E)}\ \text{She rounds } c \text{ up, and she rounds } a \text{ and } b \text{ down.} \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_5" title="2015 AMC 12A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Two years ago Pete was three times as old as his cousin Claire. Two years before that, Pete was four times as old as Claire. In how many years will the ratio of their ages be \( 2&nbsp;: 1 \)? </p><p>\( \textbf{(A)}\ 2 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 5 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_6" title="2015 AMC 12A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Two right circular cylinders have the same volume. The radius of the second cylinder is \( 10\% \) more than the radius of the first. What is the relationship between the heights of the two cylinders? </p><p>\( \textbf{(A)}\ \text{The second height is } 10\% \text{ less than the first.} \\ \textbf{(B)}\ \text{The first height is } 10\% \text{ more than the second.}\\ \textbf{(C)}\ \text{The second height is } 21\% \text{ less than the first.} \\ \textbf{(D)}\ \text{The first height is } 21\% \text{ more than the second.}\\ \textbf{(E)}\ \text{The second height is } 80\% \text{ of the first.} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_7" title="2015 AMC 12A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The ratio of the length to the width of a rectangle is \( 4 \)&nbsp;: \( 3 \). If the rectangle has diagonal of length \( d \), then the area may be expressed as \( kd^2 \) for some constant \( k \). What is \( k \)? </p><p>\( \textbf{(A)}\ \frac27 \qquad\textbf{(B)}\ \frac37 \qquad\textbf{(C)}\ \frac{12}{25} \qquad\textbf{(D)}\ \frac{16}{26} \qquad\textbf{(E)}\ \frac34 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_8" title="2015 AMC 12A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>A box contains 2 red marbles, 2 green marbles, and 2 yellow marbles. Carol takes 2 marbles from the box at random; then Claudia takes 2 of the remaining marbles at random; and then Cheryl takes the last 2 marbles. What is the probability that Cheryl gets 2 marbles of the same color? </p><p>\( \textbf{(A)}\ \frac{1}{10} \qquad\textbf{(B)}\ \frac16 \qquad\textbf{(C)}\ \frac15 \qquad\textbf{(D)}\ \frac13 \qquad\textbf{(E)}\ \frac12 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_9" title="2015 AMC 12A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Integers \( x \) and \( y \) with \( x&gt;y&gt;0 \) satisfy \( x+y+xy=80 \). What is \( x \)? </p><p>\( \textbf{(A)}\ 8 \qquad\textbf{(B)}\ 10 \qquad\textbf{(C)}\ 15 \qquad\textbf{(D)}\ 18 \qquad\textbf{(E)}\ 26 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_10" title="2015 AMC 12A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>On a sheet of paper, Isabella draws a circle of radius \( 2 \), a circle of radius \( 3 \), and all possible lines simultaneously tangent to both circles. Isabella notices that she has drawn exactly \( k \ge 0 \) lines. How many different values of \( k \) are possible? </p><p>\( \textbf{(A)}\ 2 \qquad\textbf{(B)}\ 3 \qquad\textbf{(C)}\ 4 \qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_11" title="2015 AMC 12A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The parabolas \( y=ax^2 - 2 \) and \( y=4 - bx^2 \) intersect the coordinate axes in exactly four points, and these four points are the vertices of a kite of area \( 12 \). What is \( a+b \)? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 1.5\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 2.5\qquad\textbf{(E)}\ 3 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_12" title="2015 AMC 12A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A league with 12 teams holds a round-robin tournament, with each team playing every other team exactly once. Games either end with one team victorious or else end in a draw. A team scores 2 points for every game it wins and 1 point for every game it draws. Which of the following is NOT a true statement about the list of 12 scores? </p><p>\( \textbf{(A)}\ \text{There must be an even number of odd scores.}\\ \qquad\textbf{(B)}\ \text{There must be an even number of even scores.}\\ \qquad\textbf{(C)}\ \text{There cannot be two scores of }0\text{.}\\ \qquad\textbf{(D)}\ \text{The sum of the scores must be at least }100\text{.}\\ \qquad\textbf{(E)}\ \text{The highest score must be at least }12\text{.} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_13" title="2015 AMC 12A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>What is the value of \( a \) for which \( \frac{1}{\text{log}_2a} + \frac{1}{\text{log}_3a} + \frac{1}{\text{log}_4a} = 1 \)? </p><p>\( \textbf{(A)}\ 9\qquad\textbf{(B)}\ 12\qquad\textbf{(C)}\ 18\qquad\textbf{(D)}\ 24\qquad\textbf{(E)}\ 36 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_14" title="2015 AMC 12A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>What is the minimum number of digits to the right of the decimal point needed to express the fraction \( \frac{123456789}{2^{26}\cdot 5^4} \) as a decimal? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 22\qquad\textbf{(C)}\ 26\qquad\textbf{(D)}\ 30\qquad\textbf{(E)}\ 104 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_15" title="2015 AMC 12A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Tetrahedron \( ABCD \) has \( AB=5,AC=3,BC=4,BD=4,AD=3, \) and \( CD=\frac{12}{5}\sqrt{2} \). What is the volume of the tetrahedron? </p><p>\( \textbf{(A)}\ 3\sqrt{2}\qquad\textbf{(B)}\ 2\sqrt{5}\qquad\textbf{(C)}\ \frac{24}{5}\qquad\textbf{(D)}\ 3\sqrt{3}\qquad\textbf{(E)}\ \frac{24}{5}\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_16" title="2015 AMC 12A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Eight people are sitting around a circular table, each holding a fair coin. All eight people flip their coins and those who flip heads stand while those who flip tails remain seated. What is the probability that no two adjacent people will stand? </p><p>\( \textbf{(A)}\ \frac{47}{256} \qquad\textbf{(B)}\ \frac{3}{16} \qquad\textbf{(C)}\ \frac{49}{256} \qquad\textbf{(D)}\ \frac{25}{128} \qquad\textbf{(E)}\ \frac{51}{256} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_17" title="2015 AMC 12A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The zeros of the function \( f(x) = x^2-ax+2a \) are integers. What is the sum of the possible values of \( a \)? </p><p>\( \textbf{(A)}\ 7 \qquad\textbf{(B)}\ 8 \qquad\textbf{(C)}\ 16 \qquad\textbf{(D)}\ 17 \qquad\textbf{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_18" title="2015 AMC 12A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>For some positive integers \( p \), there is a quadrilateral \( ABCD \) with positive integer side lengths, perimeter \( p \), right angles at \( B \) and \( C \), \( AB=2 \), and \( CD=AD \). How many different values of \( p&lt;2015 \) are possible? </p><p>\( \textbf{(A)}\ 30 \qquad\textbf{(B)}\ 31 \qquad\textbf{(C)}\ 61 \qquad\textbf{(D)}\ 62 \qquad\textbf{(E)}\ 63 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_19" title="2015 AMC 12A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Isosceles triangles \( T \) and \( T' \) are not congruent but have the same area and the same perimeter. The sides of \( T \) have lengths of \( 5,5, \) and \( 8 \), while those of \( T' \) have lengths of \( a,a, \) and \( b \). Which of the following numbers is closest to \( b \)? </p><p>\( \textbf{(A)}\ 3 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 5 \qquad\textbf{(D)}\ 6 \qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_20" title="2015 AMC 12A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>A circle of radius \( r \) passes through both foci of, and exactly four points on, the ellipse with equation \( x^2+16y^2=16 \). The set of all possible values of \( r \) is an interval \( [a,b) \). What is \( a+b \)? </p><p>\( \textbf{(A)}\ 5\sqrt{2}+4 \qquad\textbf{(B)}\ \sqrt{17}+7 \qquad\textbf{(C)}\ 6\sqrt{2}+3 \qquad\textbf{(D)}\ \sqrt{15}+8 \qquad\textbf{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_21" title="2015 AMC 12A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>For each positive integer \( n \), let \( S(n) \) be the number of sequences of length \( n \) consisting solely of the letters \( A \) and \( B \), with no more than three \( A \)s in a row and no more than three \( B \)s in a row. What is the remainder when \( S(2015) \) is divided by 12? </p><p>\( \textbf{(A)}\ 0 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\ 6 \qquad\textbf{(D)}\ 8 \qquad\textbf{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_22" title="2015 AMC 12A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Let \( S \) be a square of side length 1. Two points are chosen independently at random on the sides of \( S \). The probability that the straight-line distance between the points is at least \( \frac12 \) is \( \frac{a-b\pi}{c} \), where \( a,b, \) and \( c \) are positive integers and \( \text{gcd}(a,b,c) = 1 \). What is \( a+b+c \)? </p><p>\( \textbf{(A)}\ 59 \qquad\textbf{(B)}\ 60 \qquad\textbf{(C)}\ 61 \qquad\textbf{(D)}\ 62 \qquad\textbf{(E)}\ 63 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_23" title="2015 AMC 12A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Rational numbers \( a \) and \( b \) are chosen at random among all rational numbers in the interval \( [0,2) \) that can be written as fractions \( \frac{n}{d} \) where \( n \) and \( d \) are integers with \( 1 \le d \le 5 \). What is the probability that \[(\text{cos}(a\pi)+i\text{sin}(b\pi))^4\] is a real number? </p><p>\( \textbf{(A)}\ \frac{3}{50} \qquad\textbf{(B)}\ \frac{4}{25} \qquad\textbf{(C)}\ \frac{41}{200} \qquad\textbf{(D)}\ \frac{6}{25} \qquad\textbf{(E)}\ \frac{13}{50} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_24" title="2015 AMC 12A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A collection of circles in the upper half-plane, all tangent to the \( x \)-axis, is constructed in layers as follows. Layer \( L_0 \) consists of two circles of radii \( 70^2 \) and \( 73^2 \) that are externally tangent. For \( k\ge1 \), the circles in \( \bigcup_{j=0}^{k-1}L_j \) are ordered according to their points of tangency with the \( x \)-axis. For every pair of consecutive circles in this order, a new circle is constructed externally tangent to each of the two circles in the pair. Layer \( L_k \) consists of the \( 2^{k-1} \) circles constructed in this way. Let \( S=\bigcup_{j=0}^{6}L_j \), and for every circle \( C \) denote by \( r(C) \) its radius. What is \[\sum_{C\in S} \frac{1}{\sqrt{r(C)}}?\] </p><p><img src="https://latex.artofproblemsolving.com/4/4/b/44baa4ca6b766bcdb4182c8761117884a2ad2cbd.png" width="585" height="262"> </p><p><br> \( \textbf{(A)}\ \frac{286}{35} \qquad\textbf{(B)}\ \frac{583}{70} \qquad\textbf{(C)}\ \frac{715}{73}\qquad\textbf{(D)}\ \frac{143}{14} \qquad\textbf{(E)}\ \frac{1573}{146} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems/Problem_25" title="2015 AMC 12A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2015_AMC_12A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","E","E","B","D","B","D","C","C","E","D","B","E","D","C","C","A","C","B","A","D","D","A","D","D"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

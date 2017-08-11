@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1975 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1975 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The value of \( \frac {1}{2 - \frac {1}{2 - \frac {1}{2 - \frac12}}} \) is </p><p>\( \textbf{(A)}\ 3/4 \qquad \textbf{(B)}\ 4/5 \qquad \textbf{(C)}\ 5/6 \qquad \textbf{(D)}\ 6/7 \qquad \textbf{(E)}\ 6/5 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_1" title="1975 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>For which real values of m are the simultaneous equations \begin{align*}y &amp;= mx + 3 \\ y&amp; = (2m - 1)x + 4\end{align*} satisfied by at least one pair of real numbers \( (x,y) \)? </p><p>\( \textbf{(A)}\ \text{all }m\qquad \textbf{(B)}\ \text{all }m\neq 0\qquad \textbf{(C)}\ \text{all }m\neq 1/2\qquad \textbf{(D)}\ \text{all }m\neq 1\qquad \\ \textbf{(E)}\ \text{no values of }m \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_2" title="1975 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Which of the following inequalities are satisfied for all real numbers \( a, b, c, x, y, z \) which satisfy the conditions \( x &lt; a, y &lt; b \), and \( z &lt; c \)? </p><p>\( \text{I}. \ xy + yz + zx &lt; ab + bc + ca \\ \text{II}. \ x^2 + y^2 + z^2 &lt; a^2 + b^2 + c^2 \\ \text{III}. \ xyz &lt; abc \) </p><p>\( \textbf{(A)}\ \text{None are satisfied.} \qquad \textbf{(B)}\ \text{I only} \qquad \textbf{(C)}\ \text{II only} \qquad \textbf{(D)}\ \text{III only} \qquad \textbf{(E)}\ \text{All are satisfied.} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_3" title="1975 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>If the side of one square is the diagonal of a second square, what is the ratio of the area of the first square to the area of the second? </p><p>\( \textbf{(A)}\ 2 \qquad \textbf{(B)}\ \sqrt2 \qquad \textbf{(C)}\ 1/2 \qquad \textbf{(D)}\ 2\sqrt2 \qquad \textbf{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_4" title="1975 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The polynomial \( (x+y)^9 \) is expanded in decreasing powers of \( x \). The second and third terms have equal values when evaluated at \( x=p \) and \( y=q \), where \( p \) and \( q \) are positive numbers whose sum is one. What is the value of \( p \)? </p><p>\( \textbf{(A)}\ 1/5 \qquad \textbf{(B)}\ 4/5 \qquad \textbf{(C)}\ 1/4 \qquad \textbf{(D)}\ 3/4 \qquad \textbf{(E)}\ 8/9 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_5" title="1975 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The sum of the first eighty positive odd integers subtracted from the sum of the first eighty positive even integers is </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 20 \qquad \textbf{(C)}\ 40 \qquad \textbf{(D)}\ 60 \qquad \textbf{(E)}\ 80 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_6" title="1975 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>For which non-zero real numbers \( x \) is \( \frac{|x-|x|\-|}{x} \) a positive integers? </p><p>\( \textbf{(A)}\ \text{for negative } x \text{ only} \qquad \\ \textbf{(B)}\ \text{for positive } x \text{ only} \qquad \\ \textbf{(C)}\ \text{only for } x \text{ an even integer} \qquad \\ \textbf{(D)}\ \text{for all non-zero real numbers } x \\ \textbf{(E)}\ \text{for no non-zero real numbers } x \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_7" title="1975 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>If the statement "All shirts in this store are on sale." is false, then which of the following statements must be true? </p><p>I. All shirts in this store are at non-sale prices. </p><p>II. There is some shirt in this store not on sale. </p><p>III. No shirt in this store is on sale. </p><p>IV. Not all shirts in this store are on sale. </p><p><br> \( \textbf{(A)}\ \text{II only} \qquad \textbf{(B)}\ \text{IV only} \qquad \textbf{(C)}\ \text{I and III only} \qquad \textbf{(D)}\ \text{II and IV only} \qquad \textbf{(E)}\ \text{I, II and IV only} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_8" title="1975 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Let \( a_1, a_2, \ldots \) and \( b_1, b_2, \ldots \) be arithmetic progressions such that \( a_1 = 25, b_1 = 75 \), and \( a_{100} + b_{100} = 100 \). Find the sum of the first hundred terms of the progression \( a_1 + b_1, a_2 + b_2, \ldots \) </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 100 \qquad \textbf{(C)}\ 10,000 \qquad \textbf{(D)}\ 505,000 \qquad \\ \textbf{(E)}\ \text{not enough information given to solve the problem} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_9" title="1975 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>The sum of the digits in base ten of \( (10^{4n^2+8}+1)^2 \), where \( n \) is a positive integer, is </p><p>\( \textbf{(A)}\ 4 \qquad \textbf{(B)}\ 4n \qquad \textbf{(C)}\ 2+2n \qquad \textbf{(D)}\ 4n^2 \qquad \textbf{(E)}\ n^2+n+2 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_10" title="1975 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( P \) be an interior point of circle \( K \) other than the center of \( K \). Form all chords of \( K \) which pass through \( P \), and determine their midpoints. The locus of these midpoints is </p><p>\( \textbf{(A)}\ \text{a circle with one point deleted} \qquad \\ \textbf{(B)}\ \text{a circle if the distance from } P \text{ to the center of } K \text{ is less than} \\ \text{one half the radius of } K \text{; otherwise a circular arc of less than} 360^{\circ}\qquad \\ \textbf{(C)}\ \text{a semicircle with one point deleted} \qquad \\ \textbf{(D)}\ \text{a semicircle} \qquad \textbf{(E)}\ \text{a circle} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_11&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 11 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>If \( a \neq b, a^3 - b^3 = 19x^3 \), and \( a-b = x \), which of the following conclusions is correct? </p><p>\( \textbf{(A)}\ a=3x \qquad \textbf{(B)}\ a=3x \text{ or } a = -2x \qquad \textbf{(C)}\ a=-3x \text{ or } a = 2x \qquad \\ \textbf{(D)}\ a=3x \text{ or } a=2x \qquad \textbf{(E)}\ a=2x \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_12" title="1975 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The equation \( x^6 - 3x^5 - 6x^3 - x + 8 \) has </p><p>\( \textbf{(A)}\ \text{no real roots} \qquad \textbf{(B)}\ \text{exactly two distinct negative roots} \qquad \\ \textbf{(C)}\ \text{exactly one negative root} \qquad \textbf{(D)}\ \text{no negative roots, but at least one positive root} \qquad \\ \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_13&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 13 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>If the \( whatsis \) is \( so \) when the \( whosis \) is \( is \) and the \( so \) and \( so \) is \( is \cdot so \), what is the \( whosis \cdot whatsis \) when the \( whosis \) is \( so \), the \( so \) and \( so \) is \( so \cdot so \) and the is is two (\( whatsis, whosis, is \) and \( so \) are variables taking positive values)? </p><p>\( \textbf{(A)}\ whosis \cdot is \cdot so \qquad \textbf{(B)}\ whosis \qquad \textbf{(C)}\ is \qquad \textbf{(D)}\ so\qquad \textbf{(E)}\ so\text{ and }so \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_14&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 14 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>In the sequence of numbers \( 1, 3, 2, \ldots \) each term after the first two is equal to the term preceding it minus the term preceding that. The sum of the first one hundred terms of the sequence is </p><p>\( \textbf{(A)}\ 5 \qquad \textbf{(B)}\ 4 \qquad \textbf{(C)}\ 2 \qquad \textbf{(D)}\ 1 \qquad \textbf{(E)}\ -1 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_15&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 15 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>If the first term of an infinite geometric series is a positive integer, the common ratio is the reciprocal of a positive integer, and the sum of the series is \( 3 \), then the sum of the first two terms of the series is </p><p>\( \textbf{(A)}\ 1/3 \qquad \textbf{(B)}\ 2/3 \qquad \textbf{(C)}\ 8/3 \qquad \textbf{(D)}\ 2 \qquad \textbf{(E)}\ 9/2 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_16&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 16 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A man can commute either by train or by bus. If he goes to work on the train in the morning, he comes home on the bus in the afternoon; and if he comes home in the afternoon on the train, he took the bus in the morning. During a total of x working days, the man took the bus to work in the morning \( 8 \) times, came home by bus in the afternoon \( 15 \) times, and commuted by train (either morning or afternoon) \( 9 \) times. Find \( x \). </p><p>\( \textbf{(A)}\ 19 \qquad \textbf{(B)}\ 18 \qquad \textbf{(C)}\ 17 \qquad \textbf{(D)}\ 16 \qquad \\ \textbf{(E)}\ \text{not enough information given to solve the problem} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_17&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 17 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A positive integer \( N \) with three digits in its base ten representation is chosen at random, with each three digit number having an equal chance of being chosen. The probability that \( \log_2 N \) is an integer is </p><p>\( \textbf{(A)}\ 0 \qquad \textbf{(B)}\ 3/899 \qquad \textbf{(C)}\ 1/225 \qquad \textbf{(D)}\ 1/300 \qquad \textbf{(E)}\ 1/450 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_18&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 18 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Which positive numbers \( x \) satisfy the equation \( (\log_3x)(\log_x5)=\log_35 \)? </p><p>\( \textbf{(A)}\ 3 \text{ and } 5 \text{ only} \qquad \textbf{(B)}\ 3, 5, \text{ and } 15 \text{ only} \qquad \\ \textbf{(C)}\ \text{only numbers of the form } 5^n \cdot 3^m, \text{ where } n \text{ and } m \text{ are positive integers} \qquad \\ \textbf{(D)}\ \text{all positive } x \neq 1 \qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_19&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 19 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>In the adjoining figure \( \triangle ABC \) is such that \( AB = 4 \) and \( AC = 8 \). If \( M \) is the midpoint of \( BC \) and \( AM = 3 \), what is the length of \( BC \)? </p><p><br> <img src="https://latex.artofproblemsolving.com/a/1/a/a1a767bcf7946a7b1bd09cf2e1025ce0d106ed1d.png" width="252" height="105"> </p><p>\( \textbf{(A)}\ 2\sqrt{26} \qquad \textbf{(B)}\ 2\sqrt{31} \qquad \textbf{(C)}\ 9 \qquad \textbf{(D)}\ 4+2\sqrt{13} \qquad\\ \textbf{(E)}\ \text{not enough information given to solve the problem} \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_20&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 20 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Suppose \( f(x) \) is defined for all real numbers \( x \); \( f(x)&gt;0 \) for all \( x \), and \( f(a)f(b)=f(a+b) \) for all \( a \) and \( b \). Which of the following statements is true? </p><p>\[\text{I. } f(0)=1 \\ \text{II. } f(-a)=1/f(a) \text{ for all } a \\ \text{III. } f(a) = \sqrt[3]{f(3a)} \text{ for all } a \\ \text{IV. } f(b)&gt;f(a) \text{ if } b&gt;a\] </p><p>\( \textbf{(A)}\ \text{III and IV only} \qquad \textbf{(B)}\ \text{I, III, and IV only} \qquad \textbf{(C)}\ \text{I, II, and IV only} \qquad \textbf{(D)}\ \text{I, II, and III only} \qquad \textbf{(E)}\ \text{All are true.} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_21&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 21 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>If \( p \) and \( q \) are primes and \( x^2 - px + q = 0 \) has distinct positive integral roots, then which of the following statements are true? </p><p>\[\text{I. The difference of the roots is odd.} \\ \text{II. At least one root is prime.} \\ \text{III. } p^2 - q \text{ is prime.} \\ \text{IV. } p + q \text{ is prime.}\] </p><p>\( \textbf{(A)}\ \text{I only} \qquad \textbf{(B)}\ \text{II only} \qquad \textbf{(C)}\ \text{II and III only} \qquad \textbf{(D)}\ \text{I, II and IV only} \qquad \textbf{(E)}\ \text{All are true.} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_22&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 22 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>In the adjoining figure \( AB \) and \( BC \) are adjacent sides of square \( ABCD \); \( M \) is the midpoint of \( AB \); \( N \) is the midpoint of \( BC \); and \( AN \) and \( CM \) intersect at \( O \). The ratio of the area of \( AOCD \) to the area of \( ABCD \) is </p><p><img src="https://latex.artofproblemsolving.com/3/1/e/31edb098b5398ce0cb0d5cf757b54a1f9fc36e72.png" width="242" height="252"> </p><p>\( \textbf{(A)}\ \frac{5}{6}\qquad \textbf{(B)}\ \frac{3}{4}\qquad \textbf{(C)}\ \frac{2}{3}\qquad \textbf{(D)}\ \frac{\sqrt{3}}{2}\qquad \textbf{(E)}\ \frac{(\sqrt{3}-1)}{2} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_23&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 23 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>In \( \triangle ABC \), \( \measuredangle C=\theta \) and \( \measuredangle B=2\theta \), where \( 0^{\circ} &lt;\theta &lt; 60^{\circ} \). The circle with center \( A \) and radius \( AB \) intersects \( AC \) at \( D \) and intersects \( BC \), extended if necessary, at \( B \) and at \( E \) (\( E \) may coincide with \( B \)). Then \( EC=AD \) </p><p>\( \textbf{(A)}\ \text{for no values of}\ \theta \qquad \textbf{(B)}\ \text{only if}\ \theta=45^{\circ} \qquad \textbf{(C)}\ \text{only if}\ 0^{\circ}&lt;\theta\le 45^{\circ}\\ \qquad\ \textbf{(D)}\ \text{only if}\ 45^{\circ}\le\theta &lt; 60^{\circ}\qquad \textbf{(E)}\ \text{for all}\ \theta\ \text{such that}\ 0^{\circ}&lt;\theta &lt; 60^{\circ} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_24&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 24 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A woman, her brother, her son and her daughter are chess players (all relations by birth). The worst player's twin (who is one of the four players) and the best player are of opposite sex. The worst player and the best player are the same age. Who is the worst player? </p><p>\( \textbf{(A)}\ \text{the woman} \qquad \textbf{(B)}\ \text{her son} \qquad \textbf{(C)}\ \text{her brother} \qquad \textbf{(D)}\ \text{her daughter}\\ \qquad \textbf{(E)}\ \text{No solution is consistent with the given information} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_25&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 25 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>In acute \( \triangle ABC \) the bisector of \( \measuredangle A \) meets side \( BC \) at \( D \). The circle with center \( B \) and radius \( BD \) intersects side \( AB \) at \( M \); and the circle with center \( C \) and radius \( CD \) intersects side \( AC \) at \( N \). Then it is always true that </p><p>\( \textbf{(A)}\ \measuredangle CND+\measuredangle BMD-\measuredangle DAC =120^{\circ} \qquad \textbf{(B)}\ AMDN\ \text{is a trapezoid}\qquad \textbf{(C)}\ BC\ \text{is parallel to}\ MN\\ \qquad \textbf{(D)}\ AM-AN=\frac{3(DB-DC)}{2}\qquad \textbf{(E)}\ AB-AC=\frac{3(DB-DC)}{2} \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_26&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 26 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>If \( p, q \) and \( r \) are distinct roots of \( x^3-x^2+x-2=0 \), then \( p^3+q^3+r^3 \) equals </p><p>\( \textbf{(A)}\ -1 \qquad \textbf{(B)}\ 1 \qquad \textbf{(C)}\ 3 \qquad \textbf{(D)}\ 5 \qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_27&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 27 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>In \( \triangle ABC \) shown in the adjoining figure, \( M \) is the midpoint of side \( BC, AB=12 \) and \( AC=16 \). Points \( E \) and \( F \) are taken on \( AC \) and \( AB \), respectively, and lines \( EF \) and \( AM \) intersect at \( G \). If \( AE=2AF \) then \( \frac{EG}{GF} \) equals </p><p><img src="https://latex.artofproblemsolving.com/6/6/2/662c4c936833517cc18cec877d2128aa6846192b.png" width="252" height="155"> </p><p>\( \textbf{(A)}\ \frac{3}{2} \qquad \textbf{(B)}\ \frac{4}{3} \qquad \textbf{(C)}\ \frac{5}{4} \qquad \textbf{(D)}\ \frac{6}{5}\\ \qquad \textbf{(E)}\ \text{not enough information to solve the problem} \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_28&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 28 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>What is the smallest integer larger than \( (\sqrt{3}+\sqrt{2})^6 \)? </p><p>\( \textbf{(A)}\ 972 \qquad \textbf{(B)}\ 971 \qquad \textbf{(C)}\ 970 \qquad \textbf{(D)}\ 969 \qquad \textbf{(E)}\ 968 \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1975_AHSME_Problems/Problem_29&amp;action=edit&amp;redlink=1" class="solutionLink" title="1975 AHSME Problems/Problem 29 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Let \( x=\cos 36^{\circ} - \cos 72^{\circ} \). Then \( x \) equals </p><p>\( \textbf{(A)}\ \frac{1}{3}\qquad \textbf{(B)}\ \frac{1}{2} \qquad \textbf{(C)}\ 3-\sqrt{6} \qquad \textbf{(D)}\ 2\sqrt{3}-3\qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems/Problem_30" title="1975 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1975_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","D","A","A","B","E","E","D","C","A","E","B","D","E","A","C","D","D","D","B","D","E","C","E","B","C","E","A","C","B"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

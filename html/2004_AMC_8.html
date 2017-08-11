@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2004 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2004 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>On a map, a \( 12 \)-centimeter length represents \( 72 \) kilometers. How many kilometers does a \( 17 \)-centimeter length represent? </p><p>\( \textbf{(A)}\ 6\qquad\textbf{(B)}\ 102\qquad\textbf{(C)}\ 204\qquad\textbf{(D)}\ 864\qquad\textbf{(E)}\ 1224 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_1" title="2004 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>How many different four-digit numbers can be formed by rearranging the four digits in \( 2004 \)? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 16\qquad\textbf{(D)}\ 24\qquad\textbf{(E)}\ 81 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_2" title="2004 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Twelve friends met for dinner at Oscar's Overstuffed Oyster House, and each ordered one meal. The portions were so large, there was enough food for \( 18 \) people. If they shared, how many meals should they have ordered to have just enough food for the \( 12 \) of them? </p><p>\( \textbf{(A)}\ 8\qquad\textbf{(B)}\ 9\qquad\textbf{(C)}\ 10\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_3" title="2004 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Ms. Hamilton’s eighth-grade class wants to participate in the annual three-person-team basketball tournament. Lance, Sally, Joy, and Fred are chosen for the team. In how many ways can the three starters be chosen? </p><p>\( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 8\qquad\textbf{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_4" title="2004 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament. The losing team of each game is eliminated from the tournament. If sixteen teams compete, how many games will be played to determine the winner? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 7\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 15\qquad\textbf{(E)}\ 16 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_5" title="2004 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>After Sally takes \( 20 \) shots, she has made \( 55\% \) of her shots. After she takes \( 5 \) more shots, she raises her percentage to \( 56\% \). How many of the last \( 5 \) shots did she make? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_6" title="2004 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>An athlete's target heart rate, in beats per minute, is \( 80\% \) of the theoretical maximum heart rate. The maximum heart rate is found by subtracting the athlete's age, in years, from \( 220 \). To the nearest whole number, what is the target heart rate of an athlete who is \( 26 \) years old? </p><p>\( \textbf{(A)}\ 134\qquad\textbf{(B)}\ 155\qquad\textbf{(C)}\ 176\qquad\textbf{(D)}\ 194\qquad\textbf{(E)}\ 243 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_7" title="2004 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Find the number of two-digit positive integers whose digits total \( 7 \). </p><p>\( \textbf{(A)}\ 6 \qquad\textbf{(B)}\ 7 \qquad\textbf{(C)}\ 8 \qquad\textbf{(D)}\ 9 \qquad\textbf{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_8" title="2004 AMC 8 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The average of the five numbers in a list is \( 54 \). The average of the first two numbers is \( 48 \). What is the average of the last three numbers? </p><p>\( \textbf{(A)}\ 55\qquad\textbf{(B)}\ 56\qquad\textbf{(C)}\ 57\qquad\textbf{(D)}\ 58\qquad\textbf{(E)}\ 59 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_9" title="2004 AMC 8 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Handy Aaron helped a neighbor \( 1 \frac14 \) hours on Monday, \( 50 \) minutes on Tuesday, from 8:20 to 10:45 on Wednesday morning, and a half-hour on Friday. He is paid \( \$ 3 \) per hour. How much did he earn for the week? </p><p>\( \textbf{(A)}\ \$ 8 \qquad \textbf{(B)}\ \$ 9 \qquad \textbf{(C)}\ \$ 10 \qquad \textbf{(D)}\ \$ 12 \qquad \textbf{(E)}\ \$ 15 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_10" title="2004 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The numbers \( -2, 4, 6, 9 \) and \( 12 \) are rearranged according to these rules: </p><pre>        1. The largest isn’t first, but it is in one of the first three places. 
+        2. The smallest isn’t last, but it is in one of the last three places. 
+        3. The median isn’t first or last.
+</pre><p>What is the average of the first and last numbers? </p><p>\( \textbf{(A)}\ 3.5 \qquad \textbf{(B)}\ 5 \qquad \textbf{(C)}\ 6.5 \qquad \textbf{(D)}\ 7.5 \qquad \textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_11" title="2004 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Niki usually leaves her cell phone on. If her cell phone is on but she is not actually using it, the battery will last for \( 24 \) hours. If she is using it constantly, the battery will last for only \( 3 \) hours. Since the last recharge, her phone has been on \( 9 \) hours, and during that time she has used it for \( 60 \) minutes. If she doesn’t talk any more but leaves the phone on, how many more hours will the battery last? </p><p>\( \textbf{(A)}\ 7 \qquad \textbf{(B)}\ 8 \qquad \textbf{(C)}\ 11 \qquad \textbf{(D)}\ 14 \qquad \textbf{(E)}\ 15 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_12" title="2004 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Amy, Bill and Celine are friends with different ages. Exactly one of the following statements is true. </p><pre>I. Bill is the oldest.
+II. Amy is not the oldest.
+III. Celine is not the youngest.
+</pre><p>Rank the friends from the oldest to the youngest. </p><p>\( \textbf{(A)}\ \text{Bill, Amy, Celine}\qquad \textbf{(B)}\ \text{Amy, Bill, Celine}\qquad \textbf{(C)}\ \text{Celine, Amy, Bill}\\ \textbf{(D)}\ \text{Celine, Bill, Amy} \qquad \textbf{(E)}\ \text{Amy, Celine, Bill} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_13" title="2004 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>What is the area enclosed by the geoboard quadrilateral below? </p><p><img src="https://latex.artofproblemsolving.com/7/6/0/76034624e12f53431e5b0c0d4dd5abb475dc1fbb.png" width="145" height="145"> </p><div style="color: green; background-color: yellow;"></div><p>\( \textbf{(A)}\ 15\qquad \textbf{(B)}\ 18\frac{1}{2} \qquad \textbf{(C)}\ 22\frac{1}{2} \qquad \textbf{(D)}\ 27 \qquad \textbf{(E)}\ 41 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_14" title="2004 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Thirteen black and six white hexagonal tiles were used to create the figure below. If a new figures is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure? </p><center> 
+ <p><a href="/wiki/index.php/File:AMC8200415.gif" class="image"><img alt="AMC8200415.gif" src="//wiki-images.artofproblemsolving.com/c/cc/AMC8200415.gif" width="163" height="151"></a> </p> 
+</center><p>\( \textbf{(A)}\ 5\qquad \textbf{(B)}\ 7\qquad \textbf{(C)}\ 11\qquad \textbf{(D)}\ 12 \qquad \textbf{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_15" title="2004 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Two \( 600 \) mL pitchers contain orange juice. One pitcher is \( 1/3 \) full and the other pitcher is \( 2/5 \) full. Water is added to fill each pitcher completely, then both pitchers are poured into one large container. What fraction of the mixture in the large container is orange juice? </p><p>\( \textbf{(A)}\ \frac18 \qquad \textbf{(B)}\ \frac{3}{16} \qquad \textbf{(C)}\ \frac{11}{30} \qquad \textbf{(D)}\ \frac{11}{19}\qquad \textbf{(E)}\ \frac{11}{15} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_16" title="2004 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Three friends have a total of \( 6 \) identical pencils, and each one has at least one pencil. In how many ways can this happen? </p><p>\( \textbf{(A)}\ 1\qquad \textbf{(B)}\ 3\qquad \textbf{(C)}\ 6\qquad \textbf{(D)}\ 10 \qquad \textbf{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_17" title="2004 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Five friends compete in a dart-throwing contest. Each one has two darts to throw at the same circular target, and each individual's score is the sum of the scores in the target regions that are hit. The scores for the target regions are the whole numbers \( 1 \) through \( 10 \). Each throw hits the target in a region with a different value. The scores are: Alice \( 16 \) points, Ben \( 4 \) points, Cindy \( 7 \) points, Dave \( 11 \) points, and Ellen \( 17 \) points. Who hits the region worth \( 6 \) points? </p><p>\( \textbf{(A)}\ \text{Alice}\qquad \textbf{(B)}\ \text{Ben}\qquad \textbf{(C)}\ \text{Cindy}\qquad \textbf{(D)}\ \text{Dave} \qquad \textbf{(E)}\ \text{Ellen} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_18" title="2004 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A whole number larger than \( 2 \) leaves a remainder of \( 2 \) when divided by each of the numbers \( 3, 4, 5, \) and \( 6 \). The smallest such number lies between which two numbers? </p><p>\( \textbf{(A)}\ 40\ \text{and}\ 49 \qquad \textbf{(B)}\ 60 \text{ and } 79 \qquad \textbf{(C)}\ 100\ \text{and}\ 129 \qquad \textbf{(D)}\ 210\ \text{and}\ 249\qquad \textbf{(E)}\ 320\ \text{and}\ 369 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_19" title="2004 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Two-thirds of the people in a room are seated in three-fourths of the chairs. The rest of the people are standing. If there are \( 6 \) empty chairs, how many people are in the room? </p><p>\( \textbf{(A)}\ 12\qquad \textbf{(B)}\ 18\qquad \textbf{(C)}\ 24\qquad \textbf{(D)}\ 27\qquad \textbf{(E)}\ 36 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_20" title="2004 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Spinners \( A \) and \( B \) are spun. On each spinner, the arrow is equally likely to land on each number. What is the probability that the product of the two spinners' numbers is even? </p><p><img src="https://latex.artofproblemsolving.com/2/b/8/2b8c0e9de9eb3c68e3938fd3467803e6bbb24ef3.png" width="252" height="108"> </p><p>\( \textbf{(A)}\ \frac14\qquad \textbf{(B)}\ \frac13\qquad \textbf{(C)}\ \frac12\qquad \textbf{(D)}\ \frac23\qquad \textbf{(E)}\ \frac34 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_21" title="2004 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>At a party there are only single women and married men with their wives. The probability that a randomly selected woman is single is \( \frac25 \). What fraction of the people in the room are married men? </p><p>\( \textbf{(A)}\ \frac13\qquad \textbf{(B)}\ \frac38\qquad \textbf{(C)}\ \frac25\qquad \textbf{(D)}\ \frac{5}{12}\qquad \textbf{(E)}\ \frac35 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_22" title="2004 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Tess runs counterclockwise around rectangular block \( JKLM \). She lives at corner \( J \). Which graph could represent her straight-line distance from home? </p><p><img src="https://latex.artofproblemsolving.com/c/f/a/cfa3151064b41051d0fd988b63693968a5f5531e.png" width="195" height="138"> </p><p><a href="/wiki/index.php/File:AMC8200423.gif" class="image"><img alt="AMC8200423.gif" src="//wiki-images.artofproblemsolving.com/f/f5/AMC8200423.gif" width="650" height="232"></a> </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_23" title="2004 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>In the figure, \( ABCD \) is a rectangle and \( EFGH \) is a parallelogram. Using the measurements given in the figure, what is the length \( d \) of the segment that is perpendicular to \( \overline{HE} \) and \( \overline{FG} \)? </p><p><img src="https://latex.artofproblemsolving.com/d/2/3/d23e9bb30960feaeb516f8d23d48c117676bfbd0.png" width="185" height="152"> </p><p>\( \textbf{(A)}\ 6.8\qquad \textbf{(B)}\ 7.1\qquad \textbf{(C)}\ 7.6\qquad \textbf{(D)}\ 7.8\qquad \textbf{(E)}\ 8.1 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_24" title="2004 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Two \( 4 \times 4 \) squares intersect at right angles, bisecting their intersecting sides, as shown. The circle's diameter is the segment between the two points of intersection. What is the area of the shaded region created by removing the circle from the squares? </p><p><img src="https://latex.artofproblemsolving.com/f/f/3/ff3f7c00e1a1162a19e43dda58d4387172fd8380.png" width="172" height="115"> </p><p>\( \textbf{(A)}\ 16-4\pi\qquad \textbf{(B)}\ 16-2\pi \qquad \textbf{(C)}\ 28-4\pi \qquad \textbf{(D)}\ 28-2\pi \qquad \textbf{(E)}\ 32-2\pi \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_25" title="2004 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","B","A","B","D","C","B","B","D","E","C","B","E","C","C","C","D","A","B","D","D","B","D","C","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

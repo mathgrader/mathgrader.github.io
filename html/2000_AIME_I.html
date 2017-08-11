@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2000 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2000 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Find the least positive integer \( n \) such that no matter how \( 10^{n} \) is expressed as the product of any two positive integers, at least one of these two integers contains the digit \( 0 \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_1" title="2000 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Let \( u \) and \( v \) be integers satisfying \( 0 &lt; v &lt; u \). Let \( A = (u,v) \), let \( B \) be the reflection of \( A \) across the line \( y = x \), let \( C \) be the reflection of \( B \) across the y-axis, let \( D \) be the reflection of \( C \) across the x-axis, and let \( E \) be the reflection of \( D \) across the y-axis. The area of pentagon \( ABCDE \) is \( 451 \). Find \( u + v \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_2" title="2000 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>In the expansion of \( (ax + b)^{2000}, \) where \( a \) and \( b \) are relatively prime positive integers, the coefficients of \( x^{2} \) and \( x^{3} \) are equal. Find \( a + b \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_3" title="2000 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The diagram shows a rectangle that has been dissected into nine non-overlapping squares. Given that the width and the height of the rectangle are relatively prime positive integers, find the perimeter of the rectangle. </p><center> 
+ <img src="https://latex.artofproblemsolving.com/d/8/1/d8140d628cc0905f333aa8deaface1b89ee6c983.png" width="252" height="222"> 
+</center>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_4" title="2000 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Each of two boxes contains both black and white marbles, and the total number of marbles in the two boxes is \( 25. \) One marble is taken out of each box randomly. The probability that both marbles are black is \( \frac{27}{50}, \) and the probability that both marbles are white is \( \frac{m}{n}, \) where \( m \) and \( n \) are relatively prime positive integers. What is \( m + n \)? </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_5" title="2000 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>For how many ordered pairs \( (x,y) \) of integers is it true that \( 0 &lt; x &lt; y &lt; 10^{6} \) and that the arithmetic mean of \( x \) and \( y \) is exactly \( 2 \) more than the geometric mean of \( x \) and \( y \)? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_6" title="2000 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Suppose that \( x, \) \( y, \) and \( z \) are three positive numbers that satisfy the equations \( xyz = 1, \) \( x + \frac {1}{z} = 5, \) and \( y + \frac {1}{x} = 29. \) Then \( z + \frac {1}{y} = \frac {m}{n}, \) where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_7" title="2000 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A container in the shape of a right circular cone is 12 inches tall and its base has a 5-inch radius. The liquid that is sealed inside is 9 inches deep when the cone is held with its point down and its base horizontal. When the liquid is held with its point up and its base horizontal, the height of the liquid is \( m - n\sqrt [3]{p}, \) where \( m, \) \( n, \) and \( p \) are positive integers and \( p \) is not divisible by the cube of any prime number. Find \( m + n + p \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_8" title="2000 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The system of equations \begin{eqnarray*}\log_{10}(2000xy) - (\log_{10}x)(\log_{10}y) &amp; = &amp; 4 \\ \log_{10}(2yz) - (\log_{10}y)(\log_{10}z) &amp; = &amp; 1 \\ \log_{10}(zx) - (\log_{10}z)(\log_{10}x) &amp; = &amp; 0 \\ \end{eqnarray*} </p><p>has two solutions \( (x_{1},y_{1},z_{1}) \) and \( (x_{2},y_{2},z_{2}) \). Find \( y_{1} + y_{2} \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_9" title="2000 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A sequence of numbers \( x_{1},x_{2},x_{3},\ldots,x_{100} \) has the property that, for every integer \( k \) between \( 1 \) and \( 100, \) inclusive, the number \( x_{k} \) is \( k \) less than the sum of the other \( 99 \) numbers. Given that \( x_{50} = \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers, find \( m + n \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_10" title="2000 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( S \) be the sum of all numbers of the form \( \frac{a}{b} \), where \( a \) and \( b \) are relatively prime positive divisors of \( 1000. \) What is the greatest integer that does not exceed \( \frac{S}{10} \)? </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_11" title="2000 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Given a function \( f \) for which </p><center> \( f(x) = f(398 - x) = f(2158 - x) = f(3214 - x) \) 
+</center><p>holds for all real \( x, \) what is the largest number of different values that can appear in the list \( f(0),f(1),f(2),\ldots,f(999) \)? </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_12" title="2000 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>In the middle of a vast prairie, a firetruck is stationed at the intersection of two perpendicular straight highways. The truck travels at \( 50 \) miles per hour along the highways and at \( 14 \) miles per hour across the prairie. Consider the set of points that can be reached by the firetruck within six minutes. The area of this region is \( \frac{m}{n} \) square miles, where \( m \) and \( n \) are relatively prime positive integers. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_13" title="2000 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>In triangle \( ABC, \) it is given that angles \( B \) and \( C \) are congruent. Points \( P \) and \( Q \) lie on \( \overline{AC} \) and \( \overline{AB}, \) respectively, so that \( AP = PQ = QB = BC. \) Angle \( ACB \) is \( r \) times as large as angle \( APQ, \) where \( r \) is a positive real number. Find the greatest integer that does not exceed \( 1000r \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_14" title="2000 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>A stack of \( 2000 \) cards is labelled with the integers from \( 1 \) to \( 2000, \) with different integers on different cards. The cards in the stack are not in numerical order. The top card is removed from the stack and placed on the table, and the next card is moved to the bottom of the stack. The new top card is removed from the stack and placed on the table, to the right of the card already there, and the next card in the stack is moved to the bottom of the stack. The process - placing the top card to the right of the cards already on the table and moving the next card in the stack to the bottom of the stack - is repeated until all cards are on the table. It is found that, reading from left to right, the labels on the cards are now in ascending order: \( 1,2,3,\ldots,1999,2000. \) In the original stack of cards, how many cards were above the card labeled \( 1999 \)? </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_15" title="2000 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["008","021","667","260","026","997","005","052","025","173","248","177","731","571","927"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2007 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2007 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>A mathematical organization is producing a set of commemorative license plates. Each plate contains a sequence of five characters chosen from the four letters in AIME and the four digits in \( 2007 \). No character may appear in a <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> more times than it appears among the four letters in AIME or the four digits in \( 2007 \). A set of plates in which each possible sequence appears exactly once contains \( N \) license plates. Find \( \frac{N}{10} \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_1" title="2007 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Find the number of ordered triples \( (a,b,c) \) where \( a \), \( b \), and \( c \) are positive <a href="/wiki/index.php/Integer" title="Integer">integers</a>, \( a \) is a <a href="/wiki/index.php/Factor" title="Factor">factor</a> of \( b \), \( a \) is a factor of \( c \), and \( a+b+c=100 \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_2" title="2007 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p><a href="/wiki/index.php/Square" title="Square">Square</a> \( ABCD \) has side length \( 13 \), and <a href="/wiki/index.php/Point" title="Point">points</a> \( E \) and \( F \) are exterior to the square such that \( BE=DF=5 \) and \( AE=CF=12 \). Find \( EF^{2} \). </p><div style="text-align:center;"> 
+ <a href="/wiki/index.php/File:2007_AIME_II-3.png" class="image"><img alt="2007 AIME II-3.png" src="//wiki-images.artofproblemsolving.com/b/bb/2007_AIME_II-3.png" width="186" height="288"></a> 
+</div>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_3" title="2007 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The workers in a factory produce widgets and whoosits. For each product, production time is <a href="/wiki/index.php/Constant" title="Constant">constant</a> and identical for all workers, but not necessarily equal for the two products. In one hour, \( 100 \) workers can produce \( 300 \) widgets and \( 200 \) whoosits. In two hours, \( 60 \) workers can produce \( 240 \) widgets and \( 300 \) whoosits. In three hours, \( 50 \) workers can produce \( 150 \) widgets and \( m \) whoosits. Find \( m \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_4" title="2007 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The <a href="/wiki/index.php/Graph" title="Graph">graph</a> of the <a href="/wiki/index.php/Equation" title="Equation">equation</a> \( 9x+223y=2007 \) is drawn on graph paper with each <a href="/wiki/index.php/Square" title="Square">square</a> representing one <a href="/wiki/index.php/Unit_square" title="Unit square">unit</a> in each direction. How many of the \( 1 \) by \( 1 \) graph paper squares have interiors lying entirely below the graph and entirely in the first <a href="/wiki/index.php/Quadrant" title="Quadrant">quadrant</a>? </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_5" title="2007 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>An integer is called <i>parity-monotonic</i> if its decimal representation \( a_{1}a_{2}a_{3}\cdots a_{k} \) satisfies \( a_{i}&lt;a_{i+1} \) if \( a_{i} \) is <a href="/wiki/index.php/Odd" title="Odd" class="mw-redirect">odd</a>, and \( a_{i}&gt;a_{i+1} \) if \( a_{i} \) is <a href="/wiki/index.php/Even" title="Even" class="mw-redirect">even</a>. How many four-digit parity-monotonic integers are there? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_6" title="2007 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Given a <a href="/wiki/index.php/Real_number" title="Real number">real number</a> \( x, \) let \( \lfloor x \rfloor \) denote the <a href="/wiki/index.php/Floor_function" title="Floor function">greatest integer</a> less than or equal to \( x. \) For a certain <a href="/wiki/index.php/Integer" title="Integer">integer</a> \( k, \) there are exactly \( 70 \) positive integers \( n_{1}, n_{2}, \ldots, n_{70} \) such that \( k=\lfloor\sqrt[3]{n_{1}}\rfloor = \lfloor\sqrt[3]{n_{2}}\rfloor = \cdots = \lfloor\sqrt[3]{n_{70}}\rfloor \) and \( k \) divides \( n_{i} \) for all \( i \) such that \( 1 \leq i \leq 70. \) </p><p>Find the maximum value of \( \frac{n_{i}}{k} \) for \( 1\leq i \leq 70. \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_7" title="2007 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A <a href="/wiki/index.php/Rectangle" title="Rectangle">rectangular</a> piece of paper measures 4 units by 5 units. Several <a href="/wiki/index.php/Line" title="Line">lines</a> are drawn <a href="/wiki/index.php/Parallel" title="Parallel">parallel</a> to the edges of the paper. A rectangle determined by the <a href="/wiki/index.php/Intersection" title="Intersection">intersections</a> of some of these lines is called <i>basic</i> if </p><dl> 
+ <dd>
+   (i) all four sides of the rectangle are segments of drawn line segments, and 
+ </dd> 
+ <dd>
+   (ii) no 
+  <a href="/wiki/index.php/Segment" title="Segment" class="mw-redirect">segments</a> of drawn lines lie inside the rectangle. 
+ </dd> 
+</dl><p>Given that the total length of all lines drawn is exactly 2007 units, let \( N \) be the maximum possible number of basic rectangles determined. Find the <a href="/wiki/index.php/Remainder" title="Remainder">remainder</a> when \( N \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_8" title="2007 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p><a href="/wiki/index.php/Rectangle" title="Rectangle">Rectangle</a> \( ABCD \) is given with \( AB=63 \) and \( BC=448. \) Points \( E \) and \( F \) lie on \( AD \) and \( BC \) respectively, such that \( AE=CF=84. \) The <a href="/wiki/index.php/Inscribed_circle" title="Inscribed circle">inscribed circle</a> of <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> \( BEF \) is <a href="/wiki/index.php/Tangent" title="Tangent">tangent</a> to \( EF \) at point \( P, \) and the inscribed circle of triangle \( DEF \) is tangent to \( EF \) at <a href="/wiki/index.php/Point" title="Point">point</a> \( Q. \) Find \( PQ. \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_9" title="2007 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( S \) be a <a href="/wiki/index.php/Set" title="Set">set</a> with six <a href="/wiki/index.php/Element" title="Element">elements</a>. Let \( P \) be the set of all <a href="/wiki/index.php/Subset" title="Subset">subsets</a> of \( S. \) Subsets \( A \) and \( B \) of \( S \), not necessarily distinct, are chosen independently and at random from \( P \). The <a href="/wiki/index.php/Probability" title="Probability">probability</a> that \( B \) is contained in at least one of \( A \) or \( S-A \) is \( \frac{m}{n^{r}}, \) where \( m \), \( n \), and \( r \) are <a href="/wiki/index.php/Positive" title="Positive" class="mw-redirect">positive</a> <a href="/wiki/index.php/Integer" title="Integer">integers</a>, \( n \) is <a href="/wiki/index.php/Prime" title="Prime">prime</a>, and \( m \) and \( n \) are <a href="/wiki/index.php/Relatively_prime" title="Relatively prime">relatively prime</a>. Find \( m+n+r. \) (The set \( S-A \) is the set of all elements of \( S \) which are not in \( A. \)) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_10" title="2007 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Two long <a href="/wiki/index.php/Cylinder" title="Cylinder">cylindrical</a> tubes of the same length but different <a href="/wiki/index.php/Diameter" title="Diameter">diameters</a> lie <a href="/wiki/index.php/Parallel" title="Parallel">parallel</a> to each other on a <a href="/wiki/index.php/Plane" title="Plane">flat surface</a>. The larger tube has <a href="/wiki/index.php/Radius" title="Radius">radius</a> \( 72 \) and rolls along the surface toward the smaller tube, which has radius \( 24 \). It rolls over the smaller tube and continues rolling along the flat surface until it comes to rest on the same point of its <a href="/wiki/index.php/Circumference" title="Circumference">circumference</a> as it started, having made one complete revolution. If the smaller tube never moves, and the rolling occurs with no slipping, the larger tube ends up a <a href="/wiki/index.php/Distance" title="Distance">distance</a> \( x \) from where it starts. The distance \( x \) can be expressed in the form \( a\pi+b\sqrt{c}, \) where \( a, \) \( b, \) and \( c \) are <a href="/wiki/index.php/Integer" title="Integer">integers</a> and \( c \) is not divisible by the <a href="/wiki/index.php/Square" title="Square">square</a> of any <a href="/wiki/index.php/Prime" title="Prime">prime</a>. Find \( a+b+c. \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_11" title="2007 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The increasing <a href="/wiki/index.php/Geometric_sequence" title="Geometric sequence">geometric sequence</a> \( x_{0},x_{1},x_{2},\ldots \) consists entirely of <a href="/wiki/index.php/Integer" title="Integer">integral</a> powers of \( 3. \) Given that </p><p>\( \sum_{n=0}^{7}\log_{3}(x_{n}) = 308 \) and \( 56 \leq \log_{3}\left ( \sum_{n=0}^{7}x_{n}\right ) \leq 57, \) </p><p>find \( \log_{3}(x_{14}). \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_12" title="2007 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A <a href="/wiki/index.php/Triangle" title="Triangle">triangular</a> <a href="/wiki/index.php?title=Array&amp;action=edit&amp;redlink=1" class="new" title="Array (page does not exist)">array</a> of <a href="/wiki/index.php/Square" title="Square">squares</a> has one square in the first row, two in the second, and in general, \( k \) squares in the \( k \)th row for \( 1 \leq k \leq 11. \) With the exception of the bottom row, each square rests on two squares in the row immediately below (illustrated in given diagram). In each square of the eleventh row, a \( 0 \) or a \( 1 \) is placed. Numbers are then placed into the other squares, with the entry for each square being the sum of the entries in the two squares below it. For how many initial distributions of \( 0 \)'s and \( 1 \)'s in the bottom row is the number in the top square a <a href="/wiki/index.php/Multiple" title="Multiple">multiple</a> of \( 3 \)? </p><p><a href="/wiki/index.php/File:2007_AIME_II-13.png" class="image"><img alt="2007 AIME II-13.png" src="//wiki-images.artofproblemsolving.com/3/39/2007_AIME_II-13.png" width="262" height="263"></a> </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_13" title="2007 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( f(x) \) be a <a href="/wiki/index.php/Polynomial" title="Polynomial">polynomial</a> with real <a href="/wiki/index.php/Coefficient" title="Coefficient">coefficients</a> such that \( f(0) = 1, \) \( f(2)+f(3)=125, \) and for all \( x \), \( f(x)f(2x^{2})=f(2x^{3}+x). \) Find \( f(5). \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_14" title="2007 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Four <a href="/wiki/index.php/Circle" title="Circle">circles</a> \( \omega, \) \( \omega_{A}, \) \( \omega_{B}, \) and \( \omega_{C} \) with the same <a href="/wiki/index.php/Radius" title="Radius">radius</a> are drawn in the interior of <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> \( ABC \) such that \( \omega_{A} \) is <a href="/wiki/index.php/Tangent" title="Tangent">tangent</a> to sides \( AB \) and \( AC \), \( \omega_{B} \) to \( BC \) and \( BA \), \( \omega_{C} \) to \( CA \) and \( CB \), and \( \omega \) is <a href="/wiki/index.php/Externally_tangent" title="Externally tangent">externally tangent</a> to \( \omega_{A}, \) \( \omega_{B}, \) and \( \omega_{C} \). If the sides of triangle \( ABC \) are \( 13, \) \( 14, \) and \( 15, \) the radius of \( \omega \) can be represented in the form \( \frac{m}{n} \), where \( m \) and \( n \) are <a href="/wiki/index.php/Relatively_prime" title="Relatively prime">relatively prime</a> positive integers. Find \( m+n. \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_15" title="2007 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="//wiki-images.artofproblemsolving.com/8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle"></a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["372","200","578","450","888","640","553","896","259","710","179","091","640","676","389"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

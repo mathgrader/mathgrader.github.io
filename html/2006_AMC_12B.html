@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2006 AMC 12B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2006 AMC 12B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is \( ( - 1)^1 + ( - 1)^2 + \cdots + ( - 1)^{2006} \)? </p><p>\( \text {(A) } - 2006 \qquad \text {(B) } - 1 \qquad \text {(C) } 0 \qquad \text {(D) } 1 \qquad \text {(E) } 2006 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_1" title="2006 AMC 12B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>For real numbers \( x \) and \( y \), define \( x\spadesuit y = (x + y)(x - y) \). What is \( 3\spadesuit(4\spadesuit 5) \)? </p><p>\( \text {(A) } - 72 \qquad \text {(B) } - 27 \qquad \text {(C) } - 24 \qquad \text {(D) } 24 \qquad \text {(E) } 72 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_2" title="2006 AMC 12B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A football game was played between two teams, the Cougars and the Panthers. The two teams scored a total of 34 points, and the Cougars won by a margin of 14 points. How many points did the Panthers score? </p><p>\( \text {(A) } 10 \qquad \text {(B) } 14 \qquad \text {(C) } 17 \qquad \text {(D) } 20 \qquad \text {(E) } 24 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_3" title="2006 AMC 12B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Mary is about to pay for five items at the grocery store. The prices of the items are \( \$7.99 \), \( \$4.99 \), \( \$2.99 \), \( \$1.99 \), and \( \$0.99 \). Mary will pay with a twenty-dollar bill. Which of the following is closest to the percentage of the \( \$20.00 \) that she will receive in change? </p><p>\( \text {(A) } 5 \qquad \text {(B) } 10 \qquad \text {(C) } 15 \qquad \text {(D) } 20 \qquad \text {(E) } 25 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_4" title="2006 AMC 12B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>John is walking east at a speed of 3 miles per hour, while Bob is also walking east, but at a speed of 5 miles per hour. If Bob is now 1 mile west of John, how many minutes will it take for Bob to catch up to John? </p><p>\( \text {(A) } 30 \qquad \text {(B) } 50 \qquad \text {(C) } 60 \qquad \text {(D) } 90 \qquad \text {(E) } 120 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_5" title="2006 AMC 12B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Francesca uses 100 grams of lemon juice, 100 grams of sugar, and 400 grams of water to make lemonade. There are 25 calories in 100 grams of lemon juice and 386 calories in 100 grams of sugar. Water contains no calories. How many calories are in 200 grams of her lemonade? </p><p>\( \text {(A) } 129 \qquad \text {(B) } 137 \qquad \text {(C) } 174 \qquad \text {(D) } 223 \qquad \text {(E) } 411 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_6" title="2006 AMC 12B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Mr. and Mrs. Lopez have two children. When they get into their family car, two people sit in the front, and the other two sit in the back. Either Mr. Lopez or Mrs. Lopez must sit in the driver's seat. How many seating arrangements are possible? </p><p>\( \text {(A) } 4 \qquad \text {(B) } 12 \qquad \text {(C) } 16 \qquad \text {(D) } 24 \qquad \text {(E) } 48 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_7" title="2006 AMC 12B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The lines \( x = \frac 14y + a \) and \( y = \frac 14x + b \) intersect at the point \( (1,2) \). What is \( a + b \)? </p><p>\( \text {(A) } 0 \qquad \text {(B) } \frac 34 \qquad \text {(C) } 1 \qquad \text {(D) } 2 \qquad \text {(E) } \frac 94 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_8" title="2006 AMC 12B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>How many even three-digit integers have the property that their digits, read left to right, are in strictly increasing order? </p><p>\( \text {(A) } 21 \qquad \text {(B) } 34 \qquad \text {(C) } 51 \qquad \text {(D) } 72 \qquad \text {(E) } 150 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_9" title="2006 AMC 12B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>In a triangle with integer side lengths, one side is three times as long as a second side, and the length of the third side is 15. What is the greatest possible perimeter of the triangle? </p><p>\( \text {(A) } 43 \qquad \text {(B) } 44 \qquad \text {(C) } 45 \qquad \text {(D) } 46 \qquad \text {(E) } 47 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_10" title="2006 AMC 12B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Joe and JoAnn each bought 12 ounces of coffee in a 16-ounce cup. Joe drank 2 ounces of his coffee and then added 2 ounces of cream. JoAnn added 2 ounces of cream, stirred the coffee well, and then drank 2 ounces. What is the resulting ratio of the amount of cream in Joe's coffee to that in JoAnn's coffee? </p><p>\( \text {(A) } \frac 67 \qquad \text {(B) } \frac {13}{14} \qquad \text {(C) } 1 \qquad \text {(D) } \frac {14}{13} \qquad \text {(E) } \frac 76 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_11" title="2006 AMC 12B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The parabola \( y=ax^2+bx+c \) has vertex \( (p,p) \) and \( y \)-intercept \( (0,-p) \), where \( p\ne 0 \). What is \( b \)? </p><p>\( \text {(A) } -p \qquad \text {(B) } 0 \qquad \text {(C) } 2 \qquad \text {(D) } 4 \qquad \text {(E) } p \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_12" title="2006 AMC 12B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Rhombus \( ABCD \) is similar to rhombus \( BFDE \). The area of rhombus \( ABCD \) is 24, and \( \angle BAD = 60^\circ \). What is the area of rhombus \( BFDE \)? </p><p><img src="https://latex.artofproblemsolving.com/4/3/e/43e4a11b576cfc60bb546ede67ebb9668484c340.png" width="668" height="402"> </p><p>\( \textrm{(A) } 6 \qquad \textrm{(B) } 4\sqrt {3} \qquad \textrm{(C) } 8 \qquad \textrm{(D) } 9 \qquad \textrm{(E) } 6\sqrt {3} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_13" title="2006 AMC 12B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Elmo makes \( N \) sandwiches for a fundraiser. For each sandwich he uses \( B \) globs of peanut butter at \( 4 \) cents per glob and \( J \) blobs of jam at \( 5 \) cents per glob. The cost of the peanut butter and jam to make all the sandwiches is \( \$ 2.53 \). Assume that \( B \), \( J \) and \( N \) are all positive integers with \( N&gt;1 \). What is the cost of the jam Elmo uses to make the sandwiches? </p><p>\( \mathrm{(A)}\ 1.05 \qquad \mathrm{(B)}\ 1.25 \qquad \mathrm{(C)}\ 1.45 \qquad \mathrm{(D)}\ 1.65 \qquad \mathrm{(E)}\ 1.85 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_14" title="2006 AMC 12B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Circles with centers \( O \) and \( P \) have radii 2 and 4, respectively, and are externally tangent. Points \( A \) and \( B \) are on the circle centered at \( O \), and points \( C \) and \( D \) are on the circle centered at \( P \), such that \( \overline{AD} \) and \( \overline{BC} \) are common external tangents to the circles. What is the area of hexagon \( AOBCPD \)? </p><p><img src="https://latex.artofproblemsolving.com/d/8/8/d88efb6880a2e704b5d45bd37acbda99709c7e82.png" width="235" height="182"> </p><p>\( \textbf{(A) } 18\sqrt {3} \qquad \textbf{(B) } 24\sqrt {2} \qquad \textbf{(C) } 36 \qquad \textbf{(D) } 24\sqrt {3} \qquad \textbf{(E) } 32\sqrt {2} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_15" title="2006 AMC 12B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Regular hexagon \( ABCDEF \) has vertices \( A \) and \( C \) at \( (0,0) \) and \( (7,1) \), respectively. What is its area? </p><p>\( \mathrm{(A)}\ 20\sqrt {3} \qquad \mathrm{(B)}\ 22\sqrt {3} \qquad \mathrm{(C)}\ 25\sqrt {3} \qquad \mathrm{(D)}\ 27\sqrt {3} \qquad \mathrm{(E)}\ 50 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_16" title="2006 AMC 12B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>For a particular peculiar pair of dice, the probabilities of rolling \( 1 \), \( 2 \), \( 3 \), \( 4 \), \( 5 \) and \( 6 \) on each die are in the ratio \( 1:2:3:4:5:6 \). What is the probability of rolling a total of \( 7 \) on the two dice? </p><p>\( \mathrm{(A)}\ \frac 4{63} \qquad \mathrm{(B)}\ \frac 18 \qquad \mathrm{(C)}\ \frac 8{63} \qquad \mathrm{(D)}\ \frac 16 \qquad \mathrm{(E)}\ \frac 27 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_17" title="2006 AMC 12B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>An object in the plane moves from one lattice point to another. At each step, the object may move one unit to the right, one unit to the left, one unit up, or one unit down. If the object starts at the origin and takes a ten-step path, how many different points could be the final point? </p><p>\( \mathrm{(A)}\ 120 \qquad \mathrm{(B)}\ 121 \qquad \mathrm{(C)}\ 221 \qquad \mathrm{(D)}\ 230 \qquad \mathrm{(E)}\ 231 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_18" title="2006 AMC 12B Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Mr. Jones has eight children of different ages. On a family trip his oldest child, who is 9, spots a license plate with a 4-digit number in which each of two digits appears two times. "Look, daddy!" she exclaims. "That number is evenly divisible by the age of each of us kids!" "That's right," replies Mr. Jones, "and the last two digits just happen to be my age." Which of the following is not the age of one of Mr. Jones's children? </p><p>\( \mathrm{(A)}\ 4 \qquad \mathrm{(B)}\ 5 \qquad \mathrm{(C)}\ 6 \qquad \mathrm{(D)}\ 7 \qquad \mathrm{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_19" title="2006 AMC 12B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Let \( x \) be chosen at random from the interval \( (0,1) \). What is the probability that \( \lfloor\log_{10}4x\rfloor - \lfloor\log_{10}x\rfloor = 0 \)? Here \( \lfloor x\rfloor \) denotes the greatest integer that is less than or equal to \( x \). </p><p><br> \( \mathrm{(A)}\ \frac 18 \qquad \mathrm{(B)}\ \frac 3{20} \qquad \mathrm{(C)}\ \frac 16 \qquad \mathrm{(D)}\ \frac 15 \qquad \mathrm{(E)}\ \frac 14 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_20" title="2006 AMC 12B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Rectangle \( ABCD \) has area \( 2006 \). An ellipse with area \( 2006\pi \) passes through \( A \) and \( C \) and has foci at \( B \) and \( D \). What is the perimeter of the rectangle? (The area of an ellipse is \( ab\pi \) where \( 2a \) and \( 2b \) are the lengths of the axes.) </p><p>\( \mathrm{(A)}\ \frac {16\sqrt {2006}}{\pi} \qquad \mathrm{(B)}\ \frac {1003}4 \qquad \mathrm{(C)}\ 8\sqrt {1003} \qquad \mathrm{(D)}\ 6\sqrt {2006} \qquad \mathrm{(E)}\ \frac {32\sqrt {1003}}\pi \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_21" title="2006 AMC 12B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Suppose \( a \), \( b \) and \( c \) are positive integers with \( a+b+c=2006 \), and \( a!b!c!=m\cdot 10^n \), where \( m \) and \( n \) are integers and \( m \) is not divisible by \( 10 \). What is the smallest possible value of \( n \)? </p><p>\( \mathrm{(A)}\ 489 \qquad \mathrm{(B)}\ 492 \qquad \mathrm{(C)}\ 495 \qquad \mathrm{(D)}\ 498 \qquad \mathrm{(E)}\ 501 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_22" title="2006 AMC 12B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Isosceles \( \triangle ABC \) has a right angle at \( C \). Point \( P \) is inside \( \triangle ABC \), such that \( PA=11 \), \( PB=7 \), and \( PC=6 \). Legs \( \overline{AC} \) and \( \overline{BC} \) have length \( s=\sqrt{a+b\sqrt{2}} \), where \( a \) and \( b \) are positive integers. What is \( a+b \)? </p><p><img src="https://latex.artofproblemsolving.com/2/c/3/2c392d8d139c6322173e1707cb47c2895ac6f36a.png" width="238" height="235"> </p><p>\( \mathrm{(A)}\ 85 \qquad \mathrm{(B)}\ 91 \qquad \mathrm{(C)}\ 108 \qquad \mathrm{(D)}\ 121 \qquad \mathrm{(E)}\ 127 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_23" title="2006 AMC 12B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Let \( S \) be the set of all points \( (x,y) \) in the coordinate plane such that \( 0\leq x\leq \frac\pi 2 \) and \( 0\leq y\leq \frac\pi 2 \). What is the area of the subset of \( S \) for which \( \sin^2 x - \sin x\sin y + \sin^2 y\le \frac 34 \)? </p><p>\( \mathrm{(A)}\ \frac {\pi^2}9 \qquad \mathrm{(B)}\ \frac {\pi^2}8 \qquad \mathrm{(C)}\ \frac {\pi^2}6 \qquad \mathrm{(D)}\ \frac {3\pi^2}{16} \qquad \mathrm{(E)}\ \frac {2\pi^2}9 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_24" title="2006 AMC 12B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A sequence \( a_1,a_2,\dots \) of non-negative integers is defined by the rule \( a_{n+2}=|a_{n+1}-a_n| \) for \( n\geq 1 \). If \( a_1=999 \), \( a_2&lt;999 \) and \( a_{2006}=1 \), how many different values of \( a_2 \) are possible? </p><p>\( \mathrm{(A)}\ 165 \qquad \mathrm{(B)}\ 324 \qquad \mathrm{(C)}\ 495 \qquad \mathrm{(D)}\ 499 \qquad \mathrm{(E)}\ 660 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems/Problem_25" title="2006 AMC 12B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2006_AMC_12B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","A","A","A","A","B","B","E","B","A","E","D","C","D","B","C","C","B","B","C","C","B","E","C","B"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

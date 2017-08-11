@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1992 AJHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1992 AJHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>\( \dfrac{10-9+8-7+6-5+4-3+2-1}{1-2+3-4+5-6+7-8+9}= \) </p><p>\( \text{(A)}\ -1 \qquad \text{(B)}\ 1 \qquad \text{(C)}\ 5 \qquad \text{(D)}\ 9 \qquad \text{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_1" title="1992 AJHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Which of the following is not equal to \( \dfrac{5}{4} \)? </p><p>\( \text{(A)}\ \dfrac{10}{8} \qquad \text{(B)}\ 1\dfrac{1}{4} \qquad \text{(C)}\ 1\dfrac{3}{12} \qquad \text{(D)}\ 1\dfrac{1}{5} \qquad \text{(E)}\ 1\dfrac{10}{40} \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_2" title="1992 AJHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>What is the largest difference that can be formed by subtracting two numbers chosen from the set \( \{ -16,-4,0,2,4,12 \} \)? </p><p>\( \text{(A)}\ 10 \qquad \text{(B)}\ 12 \qquad \text{(C)}\ 16 \qquad \text{(D)}\ 28 \qquad \text{(E)}\ 48 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_3" title="1992 AJHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>During the softball season, Judy had \( 35 \) hits. Among her hits were \( 1 \) home run, \( 1 \) triple and \( 5 \) doubles. The rest of her hits were singles. What percent of her hits were singles? </p><p>\( \text{(A)}\ 28\% \qquad \text{(B)}\ 35\% \qquad \text{(C)}\ 70\% \qquad \text{(D)}\ 75\% \qquad \text{(E)}\ 80\% \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_4" title="1992 AJHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A circle of diameter \( 1 \) is removed from a \( 2\times 3 \) rectangle, as shown. Which whole number is closest to the area of the shaded region? </p><p><img src="https://latex.artofproblemsolving.com/1/c/8/1c8b52d197731b410838a3439b6b219ae443fe19.png" width="252" height="168"> </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_5" title="1992 AJHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Suppose that <img src="https://latex.artofproblemsolving.com/3/6/d/36dbd276ddba01c938b762addfb0e4d14c555db2.png" width="62" height="55"> means \( a+b-c \). For example, <img src="https://latex.artofproblemsolving.com/8/7/f/87fa64329d26c5fc3e7fbfb572d479dbef63ae93.png" width="62" height="55"> is \( 5+4-6 = 3 \). Then the sum <img src="https://latex.artofproblemsolving.com/6/a/c/6ace4445c995cc99d66def7ca3e0d5cefe90b775.png" width="152" height="55"> is </p><p>\( \text{(A)}\ -2 \qquad \text{(B)}\ -1 \qquad \text{(C)}\ 0 \qquad \text{(D)}\ 1 \qquad \text{(E)}\ 2 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_6" title="1992 AJHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The digit-sum of \( 998 \) is \( 9+9+8=26 \). How many 3-digit whole numbers, whose digit-sum is \( 26 \), are even? </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_7" title="1992 AJHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A store owner bought \( 1500 \) pencils at \( $0.10 \) each. If he sells them for \( $0.25 \) each, how many of them must he sell to make a profit of exactly \( $100.00 \)? </p><p>\( \text{(A)}\ 400 \qquad \text{(B)}\ 667 \qquad \text{(C)}\ 1000 \qquad \text{(D)}\ 1500 \qquad \text{(E)}\ 1900 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_8" title="1992 AJHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The population of a small town is \( 480 \). The graph indicates the number of females and males in the town, but the vertical scale-values are omitted. How many males live in the town? </p><p><img src="https://latex.artofproblemsolving.com/8/b/6/8b6893d40aebd402667ea599ed3ad0422b733c6b.png" width="252" height="185"> </p><p>\( \text{(A)}\ 120 \qquad \text{(B)}\ 160 \qquad \text{(C)}\ 200 \qquad \text{(D)}\ 240 \qquad \text{(E)}\ 360 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_9" title="1992 AJHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>An isosceles right triangle with legs of length \( 8 \) is partitioned into \( 16 \) congruent triangles as shown. The shaded area is </p><p><img src="https://latex.artofproblemsolving.com/5/0/d/50d24f2652cf461b0ca9941ff2e7e3d38dec6712.png" width="248" height="252"> </p><p>\( \text{(A)}\ 10 \qquad \text{(B)}\ 20 \qquad \text{(C)}\ 32 \qquad \text{(D)}\ 40 \qquad \text{(E)}\ 64 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_10" title="1992 AJHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The bar graph shows the results of a survey on color preferences. What percent preferred blue? </p><p><img src="https://latex.artofproblemsolving.com/1/0/3/10387807c6182adb3b560fee12dfe2c6c74475be.png" width="252" height="178"> </p><p>\( \text{(A)}\ 20\% \qquad \text{(B)}\ 24\% \qquad \text{(C)}\ 30\% \qquad \text{(D)}\ 36\% \qquad \text{(E)}\ 42\% \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_11" title="1992 AJHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The five tires of a car (four road tires and a full-sized spare) were rotated so that each tire was used the same number of miles during the first \( 30,000 \) miles the car traveled. For how many miles was each tire used? </p><p>\( \text{(A)}\ 6000 \qquad \text{(B)}\ 7500 \qquad \text{(C)}\ 24,000 \qquad \text{(D)}\ 30,000 \qquad \text{(E)}\ 37,500 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_12" title="1992 AJHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Five test scores have a mean (average score) of \( 90 \), a median (middle score) of \( 91 \) and a mode (most frequent score) of \( 94 \). The sum of the two lowest test scores is </p><p>\( \text{(A)}\ 170 \qquad \text{(B)}\ 171 \qquad \text{(C)}\ 176 \qquad \text{(D)}\ 177 \qquad \text{(E)}\ \text{not determined by the information given} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_13" title="1992 AJHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>When four gallons are added to a tank that is one-third full, the tank is then one-half full. The capacity of the tank in gallons is </p><p>\( \text{(A)}\ 8 \qquad \text{(B)}\ 12 \qquad \text{(C)}\ 20 \qquad \text{(D)}\ 24 \qquad \text{(E)}\ 48 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_14" title="1992 AJHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>What is the \( 1992^\text{nd} \) letter in this sequence? </p><p>\[\text{ABCDEDCBAABCDEDCBAABCDEDCBAABCDEDC}\cdots\] </p><p>\( \text{(A)}\ \text{A} \qquad \text{(B)}\ \text{B} \qquad \text{(C)}\ \text{C} \qquad \text{(D)}\ \text{D} \qquad \text{(E)}\ \text{E} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_15" title="1992 AJHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p><img src="https://latex.artofproblemsolving.com/4/8/a/48a018e84e421aaed03f4192d4e70246b227fec7.png" width="252" height="165"> </p><p>Which cylinder has twice the volume of the cylinder shown above? </p><p><img src="https://latex.artofproblemsolving.com/1/3/4/1349b963179bfa1b7e83dca7b965388f5d7832b1.png" width="755" height="218"> </p><p>\( \text{(E)}\ \text{None of the above} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_16" title="1992 AJHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>The sides of a triangle have lengths \( 6.5 \), \( 10 \), and \( s \), where \( s \) is a whole number. What is the smallest possible value of \( s \)? </p><p><img src="https://latex.artofproblemsolving.com/c/9/2/c92ca742ef1e1c4b45c953991f78ff1e6bc82f1a.png" width="252" height="68"> </p><p>\( \text{(A)}\ 3 \qquad \text{(B)}\ 4 \qquad \text{(C)}\ 5 \qquad \text{(D)}\ 6 \qquad \text{(E)}\ 7 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_17" title="1992 AJHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>On a trip, a car traveled \( 80 \) miles in an hour and a half, then was stopped in traffic for \( 30 \) minutes, then traveled \( 100 \) miles during the next \( 2 \) hours. What was the car's average speed in miles per hour for the \( 4 \)-hour trip? </p><p>\( \text{(A)}\ 45 \qquad \text{(B)}\ 50 \qquad \text{(C)}\ 60 \qquad \text{(D)}\ 75 \qquad \text{(E)}\ 90 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_18" title="1992 AJHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The distance between the \( 5^\text{th} \) and \( 26^\text{th} \) exits on an interstate highway is \( 118 \) miles. If any two exits are at least \( 5 \) miles apart, then what is the largest number of miles there can be between two consecutive exits that are between the \( 5^\text{th} \) and \( 26^\text{th} \) exits? </p><p>\( \text{(A)}\ 8 \qquad \text{(B)}\ 13 \qquad \text{(C)}\ 18 \qquad \text{(D)}\ 47 \qquad \text{(E)}\ 98 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_19" title="1992 AJHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Which pattern of identical squares could NOT be folded along the lines shown to form a cube? </p><p><img src="https://latex.artofproblemsolving.com/6/1/3/61371bb9369e40201746dfe599a3ae6a9e438327.png" width="682" height="65"> </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_20" title="1992 AJHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Northside's Drum and Bugle Corps raised money for a trip. The drummers and bugle players kept separate sales records. According to the double bar graph, in what month did one group's sales exceed the other's by the greatest percent? </p><p><img src="https://latex.artofproblemsolving.com/2/9/3/2934815fe2b4cfb37adf9d94fadad746a9defb37.png" width="345" height="328"> </p><p>\( \text{(A)}\ \text{Jan} \qquad \text{(B)}\ \text{Feb} \qquad \text{(C)}\ \text{Mar} \qquad \text{(D)}\ \text{Apr} \qquad \text{(E)}\ \text{May} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_21" title="1992 AJHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Eight \( 1\times 1 \) square tiles are arranged as shown so their outside edges form a polygon with a perimeter of \( 14 \) units. Two additional tiles of the same size are added to the figure so that at least one side of each tile is shared with a side of one of the squares in the original figure. Which of the following could be the perimeter of the new figure? </p><p><img src="https://latex.artofproblemsolving.com/0/8/a/08aaee15864e18a32aa70fb9c2f14e3dcc4a29c9.png" width="252" height="102"> </p><p>\( \text{(A)}\ 15 \qquad \text{(B)}\ 17 \qquad \text{(C)}\ 18 \qquad \text{(D)}\ 19 \qquad \text{(E)}\ 20 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_22" title="1992 AJHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>If two dice are tossed, the probability that the product of the numbers showing on the tops of the dice is greater than \( 10 \) is </p><p>\( \text{(A)}\ \dfrac{3}{7} \qquad \text{(B)}\ \dfrac{17}{36} \qquad \text{(C)}\ \dfrac{1}{2} \qquad \text{(D)}\ \dfrac{5}{8} \qquad \text{(E)}\ \dfrac{11}{12} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_23" title="1992 AJHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Four circles of radius \( 3 \) are arranged as shown. Their centers are the vertices of a square. The area of the shaded region is closest to </p><p><img src="https://latex.artofproblemsolving.com/2/9/9/2993624e51e3a6603dd60630eadad79dacead787.png" width="252" height="252"> </p><p>\( \text{(A)}\ 7.7 \qquad \text{(B)}\ 12.1 \qquad \text{(C)}\ 17.2 \qquad \text{(D)}\ 18 \qquad \text{(E)}\ 27 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_24" title="1992 AJHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>One half of the water is poured out of a full container. Then one third of the remainder is poured out. Continue the process: one fourth of the remainder for the third pouring, one fifth of the remainder for the fourth pouring, etc. After how many pourings does exactly one tenth of the original water remain? </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 7 \qquad \text{(C)}\ 8 \qquad \text{(D)}\ 9 \qquad \text{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems/Problem_25" title="1992 AJHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1992_AJHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","D","D","E","E","D","A","C","B","B","B","C","B","D","C","B","B","A","C","D","B","C","B","A","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

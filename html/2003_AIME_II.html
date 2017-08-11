@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2003 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2003 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The product \( N \) of three positive integers is 6 times their sum, and one of the integers is the sum of the other two. Find the sum of all possible values of \( N \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_1" title="2003 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Let \( N \) be the greatest integer multiple of 8, whose digits are all different. What is the remainder when \( N \) is divided by 1000? </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_2" title="2003 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Define a \( good~word \) as a sequence of letters that consists only of the letters \( A \), \( B \), and \( C \) - some of these letters may not appear in the sequence - and in which \( A \) is never immediately followed by \( B \), \( B \) is never immediately followed by \( C \), and \( C \) is never immediately followed by \( A \). How many seven-letter good words are there? </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_3" title="2003 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In a regular tetrahedron the centers of the four faces are the vertices of a smaller tetrahedron. The ratio of the volume of the smaller tetrahedron to that of the larger is \( m/n \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_4" title="2003 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A cylindrical log has diameter \( 12 \) inches. A wedge is cut from the log by making two planar cuts that go entirely through the log. The first is perpendicular to the axis of the cylinder, and the plane of the second cut forms a \( 45^\circ \) angle with the plane of the first cut. The intersection of these two planes has exactly one point in common with the log. The number of cubic inches in the wedge can be expressed as \( n\pi \), where n is a positive integer. Find \( n \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_5" title="2003 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>In triangle \( ABC, \) \( AB = 13, \) \( BC = 14, \) \( AC = 15, \) and point \( G \) is the intersection of the medians. Points \( A', \) \( B', \) and \( C', \) are the images of \( A, \) \( B, \) and \( C, \) respectively, after a \( 180^\circ \) rotation about \( G. \) What is the area of the union of the two regions enclosed by the triangles \( ABC \) and \( A'B'C'? \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_6" title="2003 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Find the area of rhombus \( ABCD \) given that the radii of the circles circumscribed around triangles \( ABD \) and \( ACD \) are \( 12.5 \) and \( 25 \), respectively. </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_7" title="2003 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Find the eighth term of the sequence \( 1440, \) \( 1716, \) \( 1848,\ldots, \) whose terms are formed by multiplying the corresponding terms of two arithmetic sequences. </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_8" title="2003 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Consider the polynomials \( P(x) = x^{6} - x^{5} - x^{3} - x^{2} - x \) and \( Q(x) = x^{4} - x^{3} - x^{2} - 1. \) Given that \( z_{1},z_{2},z_{3}, \) and \( z_{4} \) are the roots of \( Q(x) = 0, \) find \( P(z_{1}) + P(z_{2}) + P(z_{3}) + P(z_{4}). \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_9" title="2003 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Two positive integers differ by \( 60. \) The sum of their square roots is the square root of an integer that is not a perfect square. What is the maximum possible sum of the two integers? </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_10" title="2003 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Triangle \( ABC \) is a right triangle with \( AC = 7, \) \( BC = 24, \) and right angle at \( C. \) Point \( M \) is the midpoint of \( AB, \) and \( D \) is on the same side of line \( AB \) as \( C \) so that \( AD = BD = 15. \) Given that the area of triangle \( CDM \) may be expressed as \( \frac {m\sqrt {n}}{p}, \) where \( m, \) \( n, \) and \( p \) are positive integers, \( m \) and \( p \) are relatively prime, and \( n \) is not divisible by the square of any prime, find \( m + n + p. \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_11" title="2003 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The members of a distinguished committee were choosing a president, and each member gave one vote to one of the \( 27 \) candidates. For each candidate, the exact percentage of votes the candidate got was smaller by at least \( 1 \) than the number of votes for that candidate. What is the smallest possible number of members of the committee? </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_12" title="2003 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A bug starts at a vertex of an equilateral triangle. On each move, it randomly selects one of the two vertices where it is not currently located, and crawls along a side of the triangle to that vertex. Given that the probability that the bug moves to its starting vertex on its tenth move is \( m/n, \) where \( m \) and \( n \) are relatively prime positive integers, find \( m + n. \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_13" title="2003 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( A = (0,0) \) and \( B = (b,2) \) be points on the coordinate plane. Let \( ABCDEF \) be a convex equilateral hexagon such that \( \angle FAB = 120^\circ, \) \( \overline{AB}\parallel \overline{DE}, \) \( \overline{BC}\parallel \overline{EF,} \) \( \overline{CD}\parallel \overline{FA}, \) and the y-coordinates of its vertices are distinct elements of the set \( \{0,2,4,6,8,10\}. \) The area of the hexagon can be written in the form \( m\sqrt {n}, \) where \( m \) and \( n \) are positive integers and n is not divisible by the square of any prime. Find \( m + n. \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_14" title="2003 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let </p><center> \( P(x) = 24x^{24} + \sum_{j = 1}^{23}(24 - j)(x^{24 - j} + x^{24 + j}). \) 
+</center><p>Let \( z_{1},z_{2},\ldots,z_{r} \) be the distinct zeros of \( P(x), \) and let \( z_{k}^{2} = a_{k} + b_{k}i \) for \( k = 1,2,\ldots,r, \) where \( i = \sqrt { - 1}, \) and \( a_{k} \) and \( b_{k} \) are real numbers. Let </p><center> \( \sum_{k = 1}^{r}|b_{k}| = m + n\sqrt {p}, \) 
+</center><p>where \( m, \) \( n, \) and \( p \) are integers and \( p \) is not divisible by the square of any prime. Find \( m + n + p. \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_15" title="2003 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["336","120","192","028","216","112","400","348","006","156","578","134","683","051","015"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

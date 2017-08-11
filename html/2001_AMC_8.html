@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2001 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2001 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Casey's shop class is making a golf trophy. He has to paint 300 dimples on a golf ball. If it takes him 2 seconds to paint one dimple, how many minutes will he need to do his job? </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 6 \qquad \text{(C)}\ 8 \qquad \text{(D)}\ 10 \qquad \text{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_1" title="2001 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>I'm thinking of two whole numbers. Their product is 24 and their sum is 11. What is the larger number? </p><p>\( \text{(A)}\ 3 \qquad \text{(B)}\ 4 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 8 \qquad \text{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_2" title="2001 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Granny Smith has $63. Elberta has $2 more than Anjou and Anjou has one-third as much as Granny Smith. How many dollars does Elberta have? </p><p>\( \text{(A)}\ 17 \qquad \text{(B)}\ 18 \qquad \text{(C)}\ 19 \qquad \text{(D)}\ 21 \qquad \text{(E)}\ 23 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_3" title="2001 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The digits 1, 2, 3, 4 and 9 are each used once to form the smallest possible <b>even</b> five-digit number. The digit in the tens place is </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_4" title="2001 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>On a dark and stormy night Snoopy suddenly saw a flash of lightning. Ten seconds later he heard the sound of thunder. The speed of sound is 1088 feet per second and one mile is 5280 feet. Estimate, to the nearest half-mile, how far Snoopy was from the flash of lightning. </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 1\frac{1}{2} \qquad \text{(C)}\ 2 \qquad \text{(D)}\ 2\frac{1}{2} \qquad \text{(E)}\ 3 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_5" title="2001 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Six trees are equally spaced along one side of a straight road. The distance from the first tree to the fourth is 60 feet. What is the distance in feet between the first and last trees? </p><p>\( \text{(A)}\ 90 \qquad \text{(B)}\ 100 \qquad \text{(C)}\ 105 \qquad \text{(D)}\ 120 \qquad \text{(E)}\ 140 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_6" title="2001 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><p><i>Problems 7, 8 and 9 are about these kites.</i> </p><p>To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram below. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid. ￼<img src="https://latex.artofproblemsolving.com/d/b/c/dbcd4303dcc6afa14d54520b62df0067d0e0df4b.png" width="218" height="252"> </p><h3><span class="mw-headline" id="Problem_7">Problem 7</span></h3><p>What is the number of square inches in the area of the small kite? </p><p>\( \text{(A)}\ 21 \qquad \text{(B)}\ 22 \qquad \text{(C)}\ 23 \qquad \text{(D)}\ 24 \qquad \text{(E)}\ 25 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_7" title="2001 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A collector offers to buy state quarters for 2000% of their face value. At that rate how much will Bryden get for his four state quarters? </p><p>\( \text{(A)}\ 20\text{ dollars} \qquad \text{(B)}\ 50\text{ dollars} \qquad \text{(C)}\ 200\text{ dollars} \qquad \text{(D)}\ 500\text{ dollars} \qquad \text{(E)}\ 2000\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_10" title="2001 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Points \( A \), \( B \), \( C \) and \( D \) have these coordinates: \( A(3,2) \), \( B(3,-2) \), \( C(-3,-2) \) and \( D(-3, 0) \). The area of quadrilateral \( ABCD \) is </p><p><img src="https://latex.artofproblemsolving.com/4/a/5/4a5d673b417777371c05a721a7afc4dce870e712.png" width="252" height="252"> </p><p>\( \text{(A)}\ 12 \qquad \text{(B)}\ 15 \qquad \text{(C)}\ 18 \qquad \text{(D)}\ 21 \qquad \text{(E)}\ 24 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_11" title="2001 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>If \( a\otimes b = \dfrac{a + b}{a - b} \), then \( (6\otimes 4)\otimes 3 = \) </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 13 \qquad \text{(C)}\ 15 \qquad \text{(D)}\ 30 \qquad \text{(E)}\ 72 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_12" title="2001 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Of the 36 students in Richelle's class, 12 prefer chocolate pie, 8 prefer apple, and 6 prefer blueberry. Half of the remaining students prefer cherry pie and half prefer lemon. For Richelle's pie graph showing this data, how many degrees should she use for cherry pie? </p><p>\( \text{(A)}\ 10 \qquad \text{(B)}\ 20 \qquad \text{(C)}\ 30 \qquad \text{(D)}\ 50 \qquad \text{(E)}\ 72 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_13" title="2001 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Tyler has entered a buffet line in which he chooses one kind of meat, two different vegetables and one dessert. If the order of food items is not important, how many different meals might he choose? </p><ul> 
+ <li>Meat: beef, chicken, pork</li> 
+ <li>Vegetables: baked beans, corn, potatoes, tomatoes</li> 
+ <li>Dessert: brownies, chocolate cake, chocolate pudding, ice cream</li> 
+</ul><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 24 \qquad \text{(C)}\ 72 \qquad \text{(D)}\ 80 \qquad \text{(E)}\ 144 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_14" title="2001 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Homer began peeling a pile of 44 potatoes at the rate of 3 potatoes per minute. Four minutes later Christen joined him and peeled at the rate of 5 potatoes per minute. When they finished, how many potatoes had Christen peeled? </p><p>\( \text{(A)}\ 20 \qquad \text{(B)}\ 24 \qquad \text{(C)}\ 32 \qquad \text{(D)}\ 33 \qquad \text{(E)}\ 40 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_15" title="2001 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A square piece of paper, 4 inches on a side, is folded in half vertically. Both layers are then cut in half parallel to the fold. Three new rectangles are formed, a large one and two small ones. What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle? </p><p><img src="https://latex.artofproblemsolving.com/7/e/9/7e91c72c703f0e511d42bca49f65aa22acae754b.png" width="102" height="252"> </p><p>\( \text{(A)}\ \dfrac{1}{3} \qquad \text{(B)}\ \dfrac{1}{2} \qquad \text{(C)}\ \dfrac{3}{4} \qquad \text{(D)}\ \dfrac{4}{5} \qquad \text{(E)}\ \dfrac{5}{6} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_16" title="2001 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>For the game show <i>Who Wants To Be A Millionaire?</i>, the dollar values of each question are shown in the following table (where K = 1000). </p><p>\[\begin{tabular}{rccccccccccccccc} \text{Question} &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 &amp; 11 &amp; 12 &amp; 13 &amp; 14 &amp; 15 \\ \text{Value} &amp; 100 &amp; 200 &amp; 300 &amp; 500 &amp; 1\text{K} &amp; 2\text{K} &amp; 4\text{K} &amp; 8\text{K} &amp; 16\text{K} &amp; 32\text{K} &amp; 64\text{K} &amp; 125\text{K} &amp; 250\text{K} &amp; 500\text{K} &amp; 1000\text{K} \end{tabular}\] </p><p>Between which two questions is the percent increase of the value the smallest? </p><p>\( \text{(A)}\ \text{From 1 to 2} \qquad \text{(B)}\ \text{From 2 to 3} \qquad \text{(C)}\ \text{From 3 to 4} \qquad \text{(D)}\ \text{From 11 to 12} \qquad \text{(E)}\ \text{From 14 to 15} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_17" title="2001 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Two dice are thrown. What is the probability that the product of the two numbers is a multiple of 5? </p><p>\( \text{(A)}\ \dfrac{1}{36} \qquad \text{(B)}\ \dfrac{1}{18} \qquad \text{(C)}\ \dfrac{1}{6} \qquad \text{(D)}\ \dfrac{11}{36} \qquad \text{(E)}\ \dfrac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_18" title="2001 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Car M traveled at a constant speed for a given time. This is shown by the dashed line. Car N traveled at twice the speed for the same distance. If Car N's speed and time are shown as solid line, which graph illustrates this? </p><p><img src="https://latex.artofproblemsolving.com/c/f/5/cf5f4932472c29c9b113be5cbee4ee9eea008993.png" width="838" height="532"> </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_19" title="2001 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Kaleana shows her test score to Quay, Marty and Shana, but the others keep theirs hidden. Quay thinks, "At least two of us have the same score." Marty thinks, "I didn't get the lowest score." Shana thinks, "I didn't get the highest score." List the scores from lowest to highest for Marty (M), Quay (Q) and Shana (S). </p><p>\( \text{(A)}\ \text{S,Q,M} \qquad \text{(B)}\ \text{Q,M,S} \qquad \text{(C)}\ \text{Q,S,M} \qquad \text{(D)}\ \text{M,S,Q} \qquad \text{(E)}\ \text{S,M,Q} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_20" title="2001 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The mean of a set of five different positive integers is 15. The median is 18. The maximum possible value of the largest of these five integers is </p><p>\( \text{(A)}\ 19 \qquad \text{(B)}\ 24 \qquad \text{(C)}\ 32 \qquad \text{(D)}\ 35 \qquad \text{(E)}\ 40 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_21" title="2001 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>On a twenty-question test, each correct answer is worth 5 points, each unanswered question is worth 1 point and each incorrect answer is worth 0 points. Which of the following scores is <b>NOT</b> possible? </p><p>\( \text{(A)}\ 90 \qquad \text{(B)}\ 91 \qquad \text{(C)}\ 92 \qquad \text{(D)}\ 95 \qquad \text{(E)}\ 97 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_22" title="2001 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Points \( R \), \( S \) and \( T \) are vertices of an equilateral triangle, and points \( X \), \( Y \) and \( Z \) are midpoints of its sides. How many noncongruent triangles can be drawn using any three of these six points as vertices? </p><p><img src="https://latex.artofproblemsolving.com/8/5/a/85a81732e12f5eaa1d40ce7d0ba5d9185110000f.png" width="252" height="225"> </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 20 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_23" title="2001 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Each half of this figure is composed of 3 red triangles, 5 blue triangles and 8 white triangles. When the upper half is folded down over the centerline, 2 pairs of red triangles coincide, as do 3 pairs of blue triangles. There are 2 red-white pairs. How many white pairs coincide? </p><p><img src="https://latex.artofproblemsolving.com/a/6/e/a6ea4df0291b906ab438eabfdd597f614bf8c42b.png" width="182" height="252"> </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_24" title="2001 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>There are 24 four-digit whole numbers that use each of the four digits 2, 4, 5 and 7 exactly once. Only one of these four-digit numbers is a multiple of another one. Which of the following is it? </p><p>\( \text{(A)}\ 5724 \qquad \text{(B)}\ 7245 \qquad \text{(C)}\ 7254 \qquad \text{(D)}\ 7425 \qquad \text{(E)}\ 7542 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_25" title="2001 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;"> 
+ <tbody href="http://www.artofproblemsolving.com" class="solutionLink" target="_blank">
+  Full Solution
+ </tbody> 
+</table><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","D","E","E","C","B","A","E","D","A","C","A","D","C","A","E","B","D","D","A","D","E","D","B","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

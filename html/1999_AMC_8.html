@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1999 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1999 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>\( (6?3) + 4 - (2 - 1) = 5. \) To make this statement true, the question mark between the 6 and the 3 should be replaced by </p><p>\( \text{(A)} \div \qquad \text{(B)}\ \times \qquad \text{(C)} + \qquad \text{(D)}\ - \qquad \text{(E)}\ \text{None of these} \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_1" title="1999 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>What is the degree measure of the smaller angle formed by the hands of a clock at 10 o'clock? </p><p><img src="https://latex.artofproblemsolving.com/4/5/0/4500534f275d08449e027ed4322baa4c284ea69e.png" width="252" height="252"> </p><p>\( \text{(A)}\ 30 \qquad \text{(B)}\ 45 \qquad \text{(C)}\ 60 \qquad \text{(D)}\ 75 \qquad \text{(E)}\ 90 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_2" title="1999 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Which triplet of numbers has a sum NOT equal to 1? </p><p>\( \text{(A)}\ (1/2,1/3,1/6) \qquad \text{(B)}\ (2,-2,1) \qquad \text{(C)}\ (0.1,0.3,0.6) \qquad \text{(D)}\ (1.1,-2.1,1.0) \qquad \text{(E)}\ (-3/2,-5/2,5) \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_3" title="1999 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The diagram shows the miles traveled by bikers Alberto and Bjorn. After four hours, about how many more miles has Alberto biked than Bjorn? </p><p><img src="https://latex.artofproblemsolving.com/0/7/b/07bfc35302b906872d0fbe29df5e4d23b2a658d9.png" width="252" height="195"> </p><p>\( \text{(A)}\ 15 \qquad \text{(B)}\ 20 \qquad \text{(C)}\ 25 \qquad \text{(D)}\ 30 \qquad \text{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_4" title="1999 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A rectangular garden 50 feet long and 10 feet wide is enclosed by a fence. To make the garden larger, while using the same fence, its shape is changed to a square. By how many square feet does this enlarge the garden? </p><p>\( \text{(A)}\ 100 \qquad \text{(B)}\ 200 \qquad \text{(C)}\ 300 \qquad \text{(D)}\ 400 \qquad \text{(E)}\ 500 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_5" title="1999 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Bo, Coe, Flo, Jo, and Moe have different amounts of money. Neither Jo nor Bo has as much money as Flo. Both Bo and Coe have more than Moe. Jo has more than Moe, but less than Bo. Who has the least amount of money? </p><p>\( \text{(A)}\ \text{Bo} \qquad \text{(B)}\ \text{Coe} \qquad \text{(C)}\ \text{Flo} \qquad \text{(D)}\ \text{Joe} \qquad \text{(E)}\ \text{Moe} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_6" title="1999 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The third exit on a highway is located at milepost 40 and the tenth exit is at milepost 160. There is a service center on the highway located three-fourths of the way from the third exit to the tenth exit. At what milepost would you expect to find this service center? </p><p>\( \text{(A)}\ 90 \qquad \text{(B)}\ 100 \qquad \text{(C)}\ 110 \qquad \text{(D)}\ 120 \qquad \text{(E)}\ 130 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_7" title="1999 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Six squares are colored, front and back, (R = red, B = blue, O = orange, Y = yellow, G = green, and W = white). They are hinged together as shown, then folded to form a cube. The face opposite the white face is </p><p><img src="https://latex.artofproblemsolving.com/7/9/c/79c831b7f1e842c1127b2c37447a942e1ffff08b.png" width="252" height="188"> </p><p>\( \text{(A)}\ \text{B} \qquad \text{(B)}\ \text{G} \qquad \text{(C)}\ \text{O} \qquad \text{(D)}\ \text{R} \qquad \text{(E)}\ \text{Y} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_8" title="1999 AMC 8 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Three flower beds overlap as shown. Bed A has 500 plants, bed B has 450 plants, and bed C has 350 plants. Beds A and B share 50 plants, while beds A and C share 100. The total number of plants is </p><p><img src="https://latex.artofproblemsolving.com/e/c/e/ece582021fe59973b5c82e6a43d3522518c4c99c.png" width="252" height="128"> </p><p>\( \text{(A)}\ 850 \qquad \text{(B)}\ 1000 \qquad \text{(C)}\ 1150 \qquad \text{(D)}\ 1300 \qquad \text{(E)}\ 1450 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_9" title="1999 AMC 8 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A complete cycle of a traffic light takes 60 seconds. During each cycle the light is green for 25 seconds, yellow for 5 seconds, and red for 30 seconds. At a randomly chosen time, what is the probability that the light will NOT be green? </p><p>\( \text{(A)}\ \frac{1}{4} \qquad \text{(B)}\ \frac{1}{3} \qquad \text{(C)}\ \frac{5}{12} \qquad \text{(D)}\ \frac{1}{2} \qquad \text{(E)}\ \frac{7}{12} \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_10" title="1999 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Each of the five numbers 1, 4, 7, 10, and 13 is placed in one of the five squares so that the sum of the three numbers in the horizontal row equals the sum of the three numbers in the vertical column. The largest possible value for the horizontal or vertical sum is </p><p><img src="https://latex.artofproblemsolving.com/5/a/6/5a63267c9764e69c4a9d9a68d30bd7e85138a60a.png" width="252" height="252"> </p><p>\( \text{(A)}\ 20 \qquad \text{(B)}\ 21 \qquad \text{(C)}\ 22 \qquad \text{(D)}\ 24 \qquad \text{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_11" title="1999 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The ratio of the number of games won to the number of games lost (no ties) by the Middle School Middies is \( 11/4 \). To the nearest whole percent, what percent of its games did the team lose? </p><p>\( \text{(A)}\ 24 \qquad \text{(B)}\ 27 \qquad \text{(C)}\ 36 \qquad \text{(D)}\ 45 \qquad \text{(E)}\ 73 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_12" title="1999 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The average age of the 40 members of a computer science camp is 17 years. There are 20 girls, 15 boys, and 5 adults. If the average age of the girls is 15 and the average age of the boys is 16, what is the average age of the adults? </p><p>\( \text{(A)}\ 26 \qquad \text{(B)}\ 27 \qquad \text{(C)}\ 28 \qquad \text{(D)}\ 29 \qquad \text{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_13" title="1999 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>In trapezoid \( ABCD \), the sides \( AB \) and \( CD \) are equal. The perimeter of \( ABCD \) is </p><p><img src="https://latex.artofproblemsolving.com/b/e/b/beb4d75c7db4c3afcc5a11cb678b437390df2029.png" width="252" height="82"> </p><p>\( \text{(A)}\ 27 \qquad \text{(B)}\ 30 \qquad \text{(C)}\ 32 \qquad \text{(D)}\ 34 \qquad \text{(E)}\ 48 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_14" title="1999 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Bicycle license plates in Flatville each contain three letters. The first is chosen from the set {C,H,L,P,R}, the second from {A,I,O}, and the third from {D,M,N,T}. </p><p>When Flatville needed more license plates, they added two new letters. The new letters may both be added to one set or one letter may be added to one set and one to another set. What is the largest possible number of ADDITIONAL license plates that can be made by adding two letters? </p><p>\( \text{(A)}\ 24 \qquad \text{(B)}\ 30 \qquad \text{(C)}\ 36 \qquad \text{(D)}\ 40 \qquad \text{(E)}\ 60 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_15" title="1999 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Tori's mathematics test had 75 problems: 10 arithmetic, 30 algebra, and 35 geometry problems. Although she answered 70% of the arithmetic, 40% of the algebra, and 60% of the geometry problems correctly, she did not pass the test because she got less than 60% of the problems right. How many more problems would she have needed to answer correctly to earn a 60% passing grade? </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 7 \qquad \text{(D)}\ 9 \qquad \text{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_16" title="1999 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Problems 17, 18, and 19 refer to the following: </p><p>At Central Middle School the 108 students who take the AMC 8 meet in the evening to talk about problems and eat an average of two cookies apiece. Walter and Gretel are baking Bonnie's Best Bar Cookies this year. Their recipe, which makes a pan of 15 cookies, lists these items: \( 1\frac{1}{2} \) cups flour, \( 2 \) eggs, \( 3 \) tablespoons butter, \( \frac{3}{4} \) cups sugar, and \( 1 \) package of chocolate drops. They will make only full recipes, not partial recipes. </p><p>Walter can buy eggs by the half-dozen. How many half-dozens should he buy to make enough cookies? (Some eggs and some cookies may be left over.) </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 5 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 15 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_17" title="1999 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Problems 17, 18, and 19 refer to the following: </p><p>At Central Middle School the 108 students who take the AMC 8 meet in the evening to talk about problems and eat an average of two cookies apiece. Walter and Gretel are baking Bonnie's Best Bar Cookies this year. Their recipe, which makes a pan of 15 cookies, lists these items: \( 1\frac{1}{2} \) cups flour, \( 2 \) eggs, \( 3 \) tablespoons butter, \( \frac{3}{4} \) cups sugar, and \( 1 \) package of chocolate drops. They will make only full recipes, not partial recipes. </p><p>They learn that a big concert is scheduled for the same night and attendance will be down 25%. How many recipes of cookies should they make for their smaller party? </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 8 \qquad \text{(C)}\ 9 \qquad \text{(D)}\ 10 \qquad \text{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_18" title="1999 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Problems 17, 18, and 19 refer to the following: </p><p>At Central Middle School the 108 students who take the AMC 8 meet in the evening to talk about problems and eat an average of two cookies apiece. Walter and Gretel are baking Bonnie's Best Bar Cookies this year. Their recipe, which makes a pan of 15 cookies, lists these items: \( 1\frac{1}{2} \) cups flour, \( 2 \) eggs, \( 3 \) tablespoons butter, \( \frac{3}{4} \) cups sugar, and \( 1 \) package of chocolate drops. They will make only full recipes, not partial recipes. </p><p>The drummer gets sick. The concert is cancelled. Walter and Gretel must make enough pans of cookies to supply 216 cookies. There are 8 tablespoons in a stick of butter. How many sticks of butter will be needed? (Some butter may be left over, of course.) </p><p>\( \text{(A)}\ 5 \qquad \text{(B)}\ 6 \qquad \text{(C)}\ 7 \qquad \text{(D)}\ 8 \qquad \text{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_19" title="1999 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Figure 1 is called a "stack map." The numbers tell how many cubes are stacked in each position. Fig. 2 shows these cubes, and Fig. 3 shows the view of the stacked cubes as seen from the front. </p><p>Which of the following is the front view for the stack map in Fig. 4? </p><p><img src="https://latex.artofproblemsolving.com/9/3/4/9344ad4413ac6ebc01562ab2cbf140b2dfbdb6da.png" width="642" height="215"> </p><p><br> <br> </p><p><img src="https://latex.artofproblemsolving.com/b/1/2/b127b554d38b87c63967149b6dc4f393b7c3ff6b.png" width="662" height="152"> </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_20" title="1999 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>The degree measure of angle \( A \) is </p><p><img src="https://latex.artofproblemsolving.com/c/c/3/cc3d87ddc15f303c48dcb5e245523d226f95fbe3.png" width="425" height="302"> </p><p>\( \text{(A)}\ 20 \qquad \text{(B)}\ 30 \qquad \text{(C)}\ 35 \qquad \text{(D)}\ 40 \qquad \text{(E)}\ 45 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_21" title="1999 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>In a far-off land three fish can be traded for two loaves of bread and a loaf of bread can be traded for four bags of rice. How many bags of rice is one fish worth? </p><p>\( \text{(A)}\ \frac{3}{8} \qquad \text{(B)}\ \frac{1}{2} \qquad \text{(C)}\ \frac{3}{4} \qquad \text{(D)}\ 2\frac{2}{3} \qquad \text{(E)}\ 3\frac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_22" title="1999 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Square \( ABCD \) has sides of length 3. Segments \( CM \) and \( CN \) divide the square's area into three equal parts. How long is segment \( CM \)? </p><p><img src="https://latex.artofproblemsolving.com/f/6/b/f6b58b49cd954ac4a1cafb41013acb3af953f570.png" width="252" height="242"> </p><p>\( \text{(A)}\ \sqrt{10} \qquad \text{(B)}\ \sqrt{12} \qquad \text{(C)}\ \sqrt{13} \qquad \text{(D)}\ \sqrt{14} \qquad \text{(E)}\ \sqrt{15} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_23" title="1999 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>When \( 1999^{2000} \) is divided by \( 5 \), the remainder is </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 2 \qquad \text{(D)}\ 1 \qquad \text{(E)}\ 0 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_24" title="1999 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Points \( B \), \( D \), and \( J \) are midpoints of the sides of right triangle \( ACG \). Points \( K \), \( E \), \( I \) are midpoints of the sides of triangle \( JDG \), etc. If the dividing and shading process is done 100 times (the first three are shown) and \( AC=CG=6 \), then the total area of the shaded triangles is nearest </p><p><img src="https://latex.artofproblemsolving.com/c/f/d/cfd00c85535b42635e07b9230f8dc34f5d21d985.png" width="252" height="248"> </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 7 \qquad \text{(C)}\ 8 \qquad \text{(D)}\ 9 \qquad \text{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems/Problem_25" title="1999 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1999_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["A","C","D","A","D","E","E","A","C","E","D","B","C","D","D","B","C","E","B","B","B","D","C","D","A"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

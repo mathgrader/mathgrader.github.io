@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2009 AMC 10A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2009 AMC 10A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>One can holds \( 12 \) ounces of soda. What is the minimum number of cans needed to provide a gallon (128 ounces) of soda? </p><p>\( \mathrm{(A)}\ 7 \qquad \mathrm{(B)}\ 8 \qquad \mathrm{(C)}\ 9 \qquad \mathrm{(D)}\ 10 \qquad \mathrm{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_1" title="2009 AMC 10A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Four coins are picked out of a piggy bank that contains a collection of pennies, nickels, dimes and quarters. Which of the following could <i>not</i> be the total value of the four coins, in cents? </p><p>\( \mathrm{(A)}\ 15 \qquad \mathrm{(B)}\ 25 \qquad \mathrm{(C)}\ 35 \qquad \mathrm{(D)}\ 45 \qquad \mathrm{(E)}\ 55 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_2" title="2009 AMC 10A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Which of the following is equal to \( 1 + \frac{1}{1+\frac{1}{1+1}} \)? </p><p>\( \mathrm{(A)}\ \frac{5}{4} \qquad \mathrm{(B)}\ \frac{3}{2} \qquad \mathrm{(C)}\ \frac{5}{3} \qquad \mathrm{(D)}\ 2 \qquad \mathrm{(E)}\ 3 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_3" title="2009 AMC 10A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Eric plans to compete in a triathlon. He can average \( 2 \) miles per hour in the \( \frac{1}{4} \)-mile swim and \( 6 \) miles per hour in the \( 3 \)-mile run. His goal is to finish the triathlon in \( 2 \) hours. To accomplish his goal what must his average speed in miles per hour, be for the \( 15 \)-mile bicycle ride? </p><p>\( \mathrm{(A)}\ \frac{120}{11} \qquad \mathrm{(B)}\ 11 \qquad \mathrm{(C)}\ \frac{56}{5} \qquad \mathrm{(D)}\ \frac{45}{4} \qquad \mathrm{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_4" title="2009 AMC 10A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>What is the sum of the digits of the square of \( 111,111,111 \)? </p><p>\( \mathrm{(A)}\ 18 \qquad \mathrm{(B)}\ 27 \qquad \mathrm{(C)}\ 45 \qquad \mathrm{(D)}\ 63 \qquad \mathrm{(E)}\ 81 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_5" title="2009 AMC 10A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>A circle of radius \( 2 \) is inscribed in a semicircle, as shown. The area inside the semicircle but outside the circle is shaded. What fraction of the semicircle's area is shaded? </p><p><img src="https://latex.artofproblemsolving.com/b/5/7/b576665e4dd6ec10b3ec91bcda2f520bbd9d9846.png" width="228" height="115"> </p><p>\( \mathrm{(A)}\ \frac{1}{2} \qquad \mathrm{(B)}\ \frac{\pi}{6} \qquad \mathrm{(C)}\ \frac{2}{\pi} \qquad \mathrm{(D)}\ \frac{2}{3} \qquad \mathrm{(E)}\ \frac{3}{\pi} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_6" title="2009 AMC 10A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>A carton contains milk that is \( 2 \)% fat, an amount that is \( 40 \)% less fat than the amount contained in a carton of whole milk. What is the percentage of fat in whole milk? </p><p>\( \mathrm{(A)}\ \frac{12}{5} \qquad \mathrm{(B)}\ 3 \qquad \mathrm{(C)}\ \frac{10}{3} \qquad \mathrm{(D)}\ 38 \qquad \mathrm{(E)}\ 42 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_7" title="2009 AMC 10A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Three generations of the Wen family are going to the movies, two from each generation. The two members of the youngest generation receive a \( 50 \)% discount as children. The two members of the oldest generation receive a \( 25\% \) discount as senior citizens. The two members of the middle generation receive no discount. Grandfather Wen, whose senior ticket costs \( \$ 6.00 \), is paying for everyone. How many dollars must he pay? </p><p>\( \mathrm{(A)}\ 34 \qquad \mathrm{(B)}\ 36 \qquad \mathrm{(C)}\ 42 \qquad \mathrm{(D)}\ 46 \qquad \mathrm{(E)}\ 48 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_8" title="2009 AMC 10A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Positive integers \( a \), \( b \), and \( 2009 \), with \( a&lt;b&lt;2009 \), form a geometric sequence with an integer ratio. What is \( a \)? </p><p>\( \mathrm{(A)}\ 7 \qquad \mathrm{(B)}\ 41 \qquad \mathrm{(C)}\ 49 \qquad \mathrm{(D)}\ 289 \qquad \mathrm{(E)}\ 2009 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_9" title="2009 AMC 10A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Triangle \( ABC \) has a right angle at \( B \). Point \( D \) is the foot of the altitude from \( B \), \( AD=3 \), and \( DC=4 \). What is the area of \( \triangle ABC \)? </p><p><img src="https://latex.artofproblemsolving.com/4/b/e/4bea2faf81f4ba6dca40fdb9ce720c9ed82b168c.png" width="158" height="138"> </p><p>\( \mathrm{(A)}\ 4\sqrt3 \qquad \mathrm{(B)}\ 7\sqrt3 \qquad \mathrm{(C)}\ 21 \qquad \mathrm{(D)}\ 14\sqrt3 \qquad \mathrm{(E)}\ 42 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_10" title="2009 AMC 10A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>One dimension of a cube is increased by \( 1 \), another is decreased by \( 1 \), and the third is left unchanged. The volume of the new rectangular solid is \( 5 \) less than that of the cube. What was the volume of the cube? </p><p>\( \mathrm{(A)}\ 8 \qquad \mathrm{(B)}\ 27 \qquad \mathrm{(C)}\ 64 \qquad \mathrm{(D)}\ 125 \qquad \mathrm{(E)}\ 216 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_11" title="2009 AMC 10A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>In quadrilateral \( ABCD \), \( AB = 5 \), \( BC = 17 \), \( CD = 5 \), \( DA = 9 \), and \( BD \) is an integer. What is \( BD \)? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/5/7/0/570b698fea7c6d66beab04dd6aee44dd24f2b6c1.png" width="358" height="85"> 
+</center><p>\( \mathrm{(A)}\ 11 \qquad \mathrm{(B)}\ 12 \qquad \mathrm{(C)}\ 13 \qquad \mathrm{(D)}\ 14 \qquad \mathrm{(E)}\ 15 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_12" title="2009 AMC 10A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Suppose that \( P = 2^m \) and \( Q = 3^n \). Which of the following is equal to \( 12^{mn} \) for every pair of integers \( (m,n) \)? </p><p>\( \mathrm{(A)}\ P^2Q \qquad \mathrm{(B)}\ P^nQ^m \qquad \mathrm{(C)}\ P^nQ^{2m} \qquad \mathrm{(D)}\ P^{2m}Q^n \qquad \mathrm{(E)}\ P^{2n}Q^m \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_13" title="2009 AMC 10A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Four congruent rectangles are placed as shown. The area of the outer square is \( 4 \) times that of the inner square. What is the ratio of the length of the longer side of each rectangle to the length of its shorter side? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/4/f/8/4f8d08abd119d663ad6630516ebc1b3bd784727e.png" width="115" height="115"> 
+</center><p>\( \mathrm{(A)}\ 3 \qquad \mathrm{(B)}\ \sqrt {10} \qquad \mathrm{(C)}\ 2 + \sqrt2 \qquad \mathrm{(D)}\ 2\sqrt3 \qquad \mathrm{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_14" title="2009 AMC 10A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>The figures \( F_1 \), \( F_2 \), \( F_3 \), and \( F_4 \) shown are the first in a sequence of figures. For \( n\ge3 \), \( F_n \) is constructed from \( F_{n - 1} \) by surrounding it with a square and placing one more diamond on each side of the new square than \( F_{n - 1} \) had on each side of its outside square. For example, figure \( F_3 \) has \( 13 \) diamonds. How many diamonds are there in figure \( F_{20} \)? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/d/2/4/d24a6830ee3382e3945990d8af2e9e00ba14c85e.png" width="355" height="115"> 
+</center><p>\( \mathrm{(A)}\ 401 \qquad \mathrm{(B)}\ 485 \qquad \mathrm{(C)}\ 585 \qquad \mathrm{(D)}\ 626 \qquad \mathrm{(E)}\ 761 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_15" title="2009 AMC 10A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Let \( a \), \( b \), \( c \), and \( d \) be real numbers with \( |a-b|=2 \), \( |b-c|=3 \), and \( |c-d|=4 \). What is the sum of all possible values of \( |a-d| \)? </p><p>\( \mathrm{(A)}\ 9 \qquad \mathrm{(B)}\ 12 \qquad \mathrm{(C)}\ 15 \qquad \mathrm{(D)}\ 18 \qquad \mathrm{(E)}\ 24 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_16" title="2009 AMC 10A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Rectangle \( ABCD \) has \( AB=4 \) and \( BC=3 \). Segment \( EF \) is constructed through \( B \) so that \( EF \) is perpendicular to \( DB \), and \( A \) and \( C \) lie on \( DE \) and \( DF \), respectively. What is \( EF \)? </p><p>\( \mathrm{(A)}\ 9 \qquad \mathrm{(B)}\ 10 \qquad \mathrm{(C)}\ \frac {125}{12} \qquad \mathrm{(D)}\ \frac {103}{9} \qquad \mathrm{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_17" title="2009 AMC 10A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>At Jefferson Summer Camp, \( 60\% \) of the children play soccer, \( 30\% \) of the children swim, and \( 40\% \) of the soccer players swim. To the nearest whole percent, what percent of the non-swimmers play soccer? </p><p>\( \mathrm{(A)}\ 30\% \qquad \mathrm{(B)}\ 40\% \qquad \mathrm{(C)}\ 49\% \qquad \mathrm{(D)}\ 51\% \qquad \mathrm{(E)}\ 70\% \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_18" title="2009 AMC 10A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Circle \( A \) has radius \( 100 \). Circle \( B \) has an integer radius \( r&lt;100 \) and remains internally tangent to circle \( A \) as it rolls once around the circumference of circle \( A \). The two circles have the same points of tangency at the beginning and end of circle \( B \)'s trip. How many possible values can \( r \) have? </p><p>\( \mathrm{(A)}\ 4 \qquad \mathrm{(B)}\ 8 \qquad \mathrm{(C)}\ 9 \qquad \mathrm{(D)}\ 50 \qquad \mathrm{(E)}\ 90 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_19" title="2009 AMC 10A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Andrea and Lauren are \( 20 \) kilometers apart. They bike toward one another with Andrea traveling three times as fast as Lauren, and the distance between them decreasing at a rate of \( 1 \) kilometer per minute. After \( 5 \) minutes, Andrea stops biking because of a flat tire and waits for Lauren. After how many minutes from the time they started to bike does Lauren reach Andrea? </p><p>\( \mathrm{(A)}\ 20 \qquad \mathrm{(B)}\ 30 \qquad \mathrm{(C)}\ 55 \qquad \mathrm{(D)}\ 65 \qquad \mathrm{(E)}\ 80 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_20" title="2009 AMC 10A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Many Gothic cathedrals have windows with portions containing a ring of congruent circles that are circumscribed by a larger circle. In the figure shown, the number of smaller circles is four. What is the ratio of the sum of the areas of the four smaller circles to the area of the larger circle? </p><p><img src="https://latex.artofproblemsolving.com/a/1/c/a1c9cf43e5cccc1df5df071a00ccfbc0434fb45e.png" width="138" height="138"> </p><p>\( \mathrm{(A)}\ 3-2\sqrt2 \qquad \mathrm{(B)}\ 2-\sqrt2 \qquad \mathrm{(C)}\ 4(3-2\sqrt2) \qquad \mathrm{(D)}\ \frac12(3-\sqrt2) \qquad \mathrm{(E)}\ 2\sqrt2-2 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_21" title="2009 AMC 10A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Two cubical dice each have removable numbers \( 1 \) through \( 6 \). The twelve numbers on the two dice are removed, put into a bag, then drawn one at a time and randomly reattached to the faces of the cubes, one number to each face. The dice are then rolled and the numbers on the two top faces are added. What is the probability that the sum is \( 7 \)? </p><p>\( \mathrm{(A)}\ \frac{1}{9} \qquad \mathrm{(B)}\ \frac{1}{8} \qquad \mathrm{(C)}\ \frac{1}{6} \qquad \mathrm{(D)}\ \frac{2}{11} \qquad \mathrm{(E)}\ \frac{1}{5} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_22" title="2009 AMC 10A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Convex quadrilateral \( ABCD \) has \( AB=9 \) and \( CD=12 \). Diagonals \( AC \) and \( BD \) intersect at \( E \), \( AC=14 \), and \( \triangle AED \) and \( \triangle BEC \) have equal areas. What is \( AE \)? </p><p>\( \mathrm{(A)}\ \frac{9}{2} \qquad \mathrm{(B)}\ \frac{50}{11} \qquad \mathrm{(C)}\ \frac{21}{4} \qquad \mathrm{(D)}\ \frac{17}{3} \qquad \mathrm{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_23" title="2009 AMC 10A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Three distinct vertices of a cube are chosen at random. What is the probability that the plane determined by these three vertices contains points inside the cube? </p><p>\( \mathrm{(A)}\ \frac{1}{4} \qquad \mathrm{(B)}\ \frac{3}{8} \qquad \mathrm{(C)}\ \frac{4}{7} \qquad \mathrm{(D)}\ \frac{5}{7} \qquad \mathrm{(E)}\ \frac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_24" title="2009 AMC 10A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>For \( k &gt; 0 \), let \( I_k = 10\ldots 064 \), where there are \( k \) zeros between the \( 1 \) and the \( 6 \). Let \( N(k) \) be the number of factors of \( 2 \) in the prime factorization of \( I_k \). What is the maximum value of \( N(k) \)? </p><p>\( \mathrm{(A)}\ 6 \qquad \mathrm{(B)}\ 7 \qquad \mathrm{(C)}\ 8 \qquad \mathrm{(D)}\ 9 \qquad \mathrm{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_25" title="2009 AMC 10A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","A","C","A","E","A","C","B","B","B","D","C","E","A","E","D","C","D","B","D","C","D","E","C","B"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

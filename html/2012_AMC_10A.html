@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2012 AMC 10A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2012 AMC 10A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Cagney can frost a cupcake every 20 seconds and Lacey can frost a cupcake every 30 seconds. Working together, how many cupcakes can they frost in 5 minutes? </p><p>\( \textbf{(A)}\ 10\qquad\textbf{(B)}\ 15\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 25\qquad\textbf{(E)}\ 30 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_1" title="2012 AMC 10A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A square with side length 8 is cut in half, creating two congruent rectangles. What are the dimensions of one of these rectangles? </p><p>\( \textbf{(A)}\ 2\ \text{by}\ 4\qquad\textbf{(B)}\ \ 2\ \text{by}\ 6\qquad\textbf{(C)}\ \ 2\ \text{by}\ 8\qquad\textbf{(D)}\ 4\ \text{by}\ 4\qquad\textbf{(E)}\ 4\ \text{by}\ 8 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_2" title="2012 AMC 10A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A bug crawls along a number line, starting at -2. It crawls to -6, then turns around and crawls to 5. How many units does the bug crawl altogether? </p><p>\( \textbf{(A)}\ 9\qquad\textbf{(B)}\ 11\qquad\textbf{(C)}\ 13\qquad\textbf{(D)}\ 14\qquad\textbf{(E)}\ 15 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_3" title="2012 AMC 10A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Let \( \angle ABC = 24^\circ \) and \( \angle ABD = 20^\circ \). What is the smallest possible degree measure for angle CBD? </p><p>\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 6\qquad\textbf{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_4" title="2012 AMC 10A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Last year 100 adult cats, half of whom were female, were brought into the Smallville Animal Shelter. Half of the adult female cats were accompanied by a litter of kittens. The average number of kittens per litter was 4. What was the total number of cats and kittens received by the shelter last year? </p><p>\( \textbf{(A)}\ 150\qquad\textbf{(B)}\ 200\qquad\textbf{(C)}\ 250\qquad\textbf{(D)}\ 300\qquad\textbf{(E)}\ 400 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_5" title="2012 AMC 10A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The product of two positive numbers is 9. The reciprocal of one of these numbers is 4 times the reciprocal of the other number. What is the sum of the two numbers? </p><p>\( \textbf{(A)}\ \frac{10}{3}\qquad\textbf{(B)}\ \frac{20}{3}\qquad\textbf{(C)}\ 7\qquad\textbf{(D)}\ \frac{15}{2}\qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_6" title="2012 AMC 10A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>In a bag of marbles, \( \frac{3}{5} \) of the marbles are blue and the rest are red. If the number of red marbles is doubled and the number of blue marbles stays the same, what fraction of the marbles will be red? </p><p>\( \textbf{(A)}\ \frac{2}{5}\qquad\textbf{(B)}\ \frac{3}{7}\qquad\textbf{(C)}\ \frac{4}{7}\qquad\textbf{(D)}\ \frac{3}{5}\qquad\textbf{(E)}\ \frac{4}{5} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_7" title="2012 AMC 10A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The sums of three whole numbers taken in pairs are 12, 17, and 19. What is the middle number? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 7\qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_8" title="2012 AMC 10A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>A pair of six-sided dice are labeled so that one die has only even numbers (two each of 2, 4, and 6), and the other die has only odd numbers (two of each 1, 3, and 5). The pair of dice is rolled. What is the probability that the sum of the numbers on the tops of the two dice is 7? </p><p>\( \textbf{(A)}\ \frac{1}{6}\qquad\textbf{(B)}\ \frac{1}{5}\qquad\textbf{(C)}\ \frac{1}{4}\qquad\textbf{(D)}\ \frac{1}{3}\qquad\textbf{(E)}\ \frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_9" title="2012 AMC 10A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Mary divides a circle into 12 sectors. The central angles of these sectors, measured in degrees, are all integers and they form an arithmetic sequence. What is the degree measure of the smallest possible sector angle? </p><p>\( \textbf{(A)}\ 5\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 10\qquad\textbf{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_10" title="2012 AMC 10A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Externally tangent circles with centers at points A and B have radii of lengths 5 and 3, respectively. A line externally tangent to both circles intersects ray AB at point C. What is BC? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 4.8\qquad\textbf{(C)}\ 10.2\qquad\textbf{(D)}\ 12\qquad\textbf{(E)}\ 14.4 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_11" title="2012 AMC 10A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A year is a leap year if and only if the year number is divisible by 400 (such as 2000) or is divisible by 4 but not 100 (such as 2012). The 200th anniversary of the birth of novelist Charles Dickens was celebrated on February 7, 2012, a Tuesday. On what day of the week was Dickens born? </p><p>\( \textbf{(A)}\ \text{Friday}\qquad\textbf{(B)}\ \text{Saturday}\qquad\textbf{(C)}\ \text{Sunday}\qquad\textbf{(D)}\ \text{Monday}\qquad\textbf{(E)}\ \text{Tuesday} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_12" title="2012 AMC 10A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>An <i>iterative average</i> of the numbers 1, 2, 3, 4, and 5 is computed the following way. Arrange the five numbers in some order. Find the mean of the first two numbers, then find the mean of that with the third number, then the mean of that with the fourth number, and finally the mean of that with the fifth number. What is the difference between the largest and smallest possible values that can be obtained using this procedure? </p><p>\( \textbf{(A)}\ \frac{31}{16}\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ \frac{17}{8}\qquad\textbf{(D)}\ 3\qquad\textbf{(E)}\ \frac{65}{16} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_13" title="2012 AMC 10A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Chubby makes nonstandard checkerboards that have \( 31 \) squares on each side. The checkerboards have a black square in every corner and alternate red and black squares along every row and column. How many black squares are there on such a checkerboard? </p><p>\( \textbf{(A)}\ 480 \qquad\textbf{(B)}\ 481 \qquad\textbf{(C)}\ 482 \qquad\textbf{(D)}\ 483 \qquad\textbf{(E)}\ 484 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_14" title="2012 AMC 10A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Three unit squares and two line segments connecting two pairs of vertices are shown. What is the area of \( \triangle ABC \)? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/7/4/5/7455071b64017000edb58cc8b71022c0bfd9aefd.png" width="198" height="208"> 
+</center><p>\( \textbf{(A)}\ \frac16 \qquad\textbf{(B)}\ \frac15 \qquad\textbf{(C)}\ \frac29 \qquad\textbf{(D)}\ \frac13 \qquad\textbf{(E)}\ \frac{\sqrt{2}}{4} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_15" title="2012 AMC 10A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Three runners start running simultaneously from the same point on a 500-meter circular track. They each run clockwise around the course maintaining constant speeds of 4.4, 4.8, and 5.0 meters per second. The runners stop once they are all together again somewhere on the circular course. How many seconds do the runners run? </p><p>\( \textbf{(A)}\ 1,000\qquad\textbf{(B)}\ 1,250\qquad\textbf{(C)}\ 2,500\qquad\textbf{(D)}\ 5,000\qquad\textbf{(E)}\ 10,000 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_16" title="2012 AMC 10A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Let \( a \) and \( b \) be relatively prime integers with \( a&gt;b&gt;0 \) and \( \frac{a^3-b^3}{(a-b)^3} \) = \( \frac{73}{3} \). What is \( a-b \)? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_17" title="2012 AMC 10A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The closed curve in the figure is made up of 9 congruent circular arcs each of length \( \frac{2\pi}{3} \), where each of the centers of the corresponding circles is among the vertices of a regular hexagon of side 2. What is the area enclosed by the curve? </p><p><img src="https://latex.artofproblemsolving.com/c/2/5/c25ea7245d49ffc173e58d29fdca0f31dda4f437.png" width="668" height="618"> </p><p>\( \textbf{(A)}\ 2\pi+6\qquad\textbf{(B)}\ 2\pi+4\sqrt{3}\qquad\textbf{(C)}\ 3\pi+4\qquad\textbf{(D)}\ 2\pi+3\sqrt{3}+2\qquad\textbf{(E)}\ \pi+6\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_18" title="2012 AMC 10A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Paula the painter and her two helpers each paint at constant, but different, rates. They always start at 8:00 AM, and all three always take the same amount of time to eat lunch. On Monday the three of them painted 50% of a house, quitting at 4:00 PM. On Tuesday, when Paula wasn't there, the two helpers painted only 24% of the house and quit at 2:12 PM. On Wednesday Paula worked by herself and finished the house by working until 7:12 P.M. How long, in minutes, was each day's lunch break? </p><p>\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ 36\qquad\textbf{(C)}\ 42\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 60 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_19" title="2012 AMC 10A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>A \( 3 \) x \( 3 \) square is partitioned into \( 9 \) unit squares. Each unit square is painted either white or black with each color being equally likely, chosen independently and at random. The square is then rotated \( 90\,^{\circ} \) clockwise about its center, and every white square in a position formerly occupied by a black square is painted black. The colors of all other squares are left unchanged. What is the probability the grid is now entirely black? </p><p>\( \textbf{(A)}\ \frac{49}{512}\qquad\textbf{(B)}\ \frac{7}{64}\qquad\textbf{(C)}\ \frac{121}{1024}\qquad\textbf{(D)}\ \frac{81}{512}\qquad\textbf{(E)}\ \frac{9}{32} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_20" title="2012 AMC 10A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Let points \( A \) = \( (0 ,0 ,0) \), \( B \) = \( (1, 0, 0) \), \( C \) = \( (0, 2, 0) \), and \( D \) = \( (0, 0, 3) \). Points \( E \), \( F \), \( G \), and \( H \) are midpoints of line segments \( \overline{BD},\text{ } \overline{AB}, \text{ } \overline {AC}, \) and \( \overline{DC} \) respectively. What is the area of \( EFGH \)? </p><p>\( \textbf{(A)}\ \sqrt{2}\qquad\textbf{(B)}\ \frac{2\sqrt{5}}{3}\qquad\textbf{(C)}\ \frac{3\sqrt{5}}{4}\qquad\textbf{(D)}\ \sqrt{3}\qquad\textbf{(E)}\ \frac{2\sqrt{7}}{3} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_21" title="2012 AMC 10A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The sum of the first \( m \) positive odd integers is 212 more than the sum of the first \( n \) positive even integers. What is the sum of all possible values of \( n \)? </p><p>\( \textbf{(A)}\ 255\qquad\textbf{(B)}\ 256\qquad\textbf{(C)}\ 257\qquad\textbf{(D)}\ 258\qquad\textbf{(E)}\ 259 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_22" title="2012 AMC 10A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Adam, Benin, Chiang, Deshawn, Esther, and Fiona have internet accounts. Some, but not all, of them are internet friends with each other, and none of them has an internet friend outside this group. Each of them has the same number of internet friends. In how many different ways can this happen? </p><p>\( \textbf{(A)}\ 60\qquad\textbf{(B)}\ 170\qquad\textbf{(C)}\ 290\qquad\textbf{(D)}\ 320\qquad\textbf{(E)}\ 660 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_23" title="2012 AMC 10A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Let \( a \), \( b \), and \( c \) be positive integers with \( a\ge \) \( b\ge \) \( c \) such that \begin{align*}a^2-b^2-c^2+ab&amp;=2011\text{ and}\\ a^2+3b^2+3c^2-3ab-2ac-2bc&amp;=-1997.\end{align*} </p><p>What is \( a \)? </p><p>\( \textbf{(A)}\ 249\qquad\textbf{(B)}\ 250\qquad\textbf{(C)}\ 251\qquad\textbf{(D)}\ 252\qquad\textbf{(E)}\ 253 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_24" title="2012 AMC 10A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Real numbers \( x \), \( y \), and \( z \) are chosen independently and at random from the interval \( [0,n] \) for some positive integer \( n \). The probability that no two of \( x \), \( y \), and \( z \) are within 1 unit of each other is greater than \( \frac {1}{2} \). What is the smallest possible value of \( n \)? </p><p>\( \textbf{(A)}\ 7\qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ 9\qquad\textbf{(D)}\ 10\qquad\textbf{(E)}\ 11 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_25" title="2012 AMC 10A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","E","E","C","B","D","C","D","D","C","D","A","C","B","B","C","C","E","D","A","C","A","B","E","D"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

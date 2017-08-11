@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1985 AIME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1985 AIME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Let \( x_1=97 \), and for \( n&gt;1 \) let \( x_n=\frac{n}{x_{n-1}} \). Calculate the product \( x_1x_2x_3x_4x_5x_6x_7x_8 \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_1" title="1985 AIME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>When a right triangle is rotated about one leg, the volume of the cone produced is \( 800\pi \;\textrm{cm}^3 \). When the triangle is rotated about the other leg, the volume of the cone produced is \( 1920\pi \;\textrm{cm}^3 \). What is the length (in cm) of the hypotenuse of the triangle? </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_2" title="1985 AIME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Find \( c \) if \( a \), \( b \), and \( c \) are positive integers which satisfy \( c=(a + bi)^3 - 107i \), where \( i^2 = -1 \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_3" title="1985 AIME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>A small square is constructed inside a square of area 1 by dividing each side of the unit square into \( n \) equal parts, and then connecting the vertices to the division points closest to the opposite vertices. Find the value of \( n \) if the the area of the small square is exactly \( \frac1{1985} \). </p><p><a href="/wiki/index.php/File:AIME_1985_Problem_4.png" class="image"><img alt="AIME 1985 Problem 4.png" src="//wiki-images.artofproblemsolving.com/b/b1/AIME_1985_Problem_4.png" width="187" height="183"></a> </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_4" title="1985 AIME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A sequence of integers \( a_1, a_2, a_3, \ldots \) is chosen so that \( a_n = a_{n - 1} - a_{n - 2} \) for each \( n \ge 3 \). What is the sum of the first 2001 terms of this sequence if the sum of the first 1492 terms is 1985, and the sum of the first 1985 terms is 1492? </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_5" title="1985 AIME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>As shown in the figure, triangle \( ABC \) is divided into six smaller triangles by lines drawn from the vertices through a common interior point. The areas of four of these triangles are as indicated. Find the area of triangle \( ABC \). </p><p><a href="/wiki/index.php/File:AIME_1985_Problem_6.png" class="image"><img alt="AIME 1985 Problem 6.png" src="//wiki-images.artofproblemsolving.com/f/f7/AIME_1985_Problem_6.png" width="221" height="173"></a> </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_6" title="1985 AIME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Assume that \( a \), \( b \), \( c \), and \( d \) are positive integers such that \( a^5 = b^4 \), \( c^3 = d^2 \), and \( c - a = 19 \). Determine \( d - b \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_7" title="1985 AIME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The sum of the following seven numbers is exactly 19: \( a_1 = 2.56 \), \( a_2 = 2.61 \), \( a_3 = 2.65 \), \( a_4 = 2.71 \), \( a_5 = 2.79 \), \( a_6 = 2.82 \), \( a_7 = 2.86 \). It is desired to replace each \( a_i \) by an integer approximation \( A_i \), \( 1\le i \le 7 \), so that the sum of the \( A_i \)'s is also 19 and so that \( M \), the maximum of the "errors" \( \| A_i-a_i\| \), the maximum absolute value of the difference, is as small as possible. For this minimum \( M \), what is \( 100M \)? </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_8" title="1985 AIME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>In a circle, parallel chords of lengths 2, 3, and 4 determine central angles of \( \alpha \), \( \beta \), and \( \alpha + \beta \) radians, respectively, where \( \alpha + \beta &lt; \pi \). If \( \cos \alpha \), which is a positive rational number, is expressed as a fraction in lowest terms, what is the sum of its numerator and denominator? </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_9" title="1985 AIME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>How many of the first 1000 positive integers can be expressed in the form </p><p>\( \lfloor 2x \rfloor + \lfloor 4x \rfloor + \lfloor 6x \rfloor + \lfloor 8x \rfloor \), </p><p>where \( x \) is a real number, and \( \lfloor z \rfloor \) denotes the greatest integer less than or equal to \( z \)? </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_10" title="1985 AIME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>An ellipse has foci at \( (9, 20) \) and \( (49, 55) \) in the \( xy \)-plane and is tangent to the \( x \)-axis. What is the length of its major axis? </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_11" title="1985 AIME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( A \), \( B \), \( C \) and \( D \) be the <a href="/wiki/index.php/Vertex" title="Vertex"> vertices</a> of a regular <a href="/wiki/index.php/Tetrahedron" title="Tetrahedron">tetrahedron</a> each of whose <a href="/wiki/index.php/Edge" title="Edge">edges</a> measures 1 meter. A bug, starting from vertex \( A \), observes the following rule: at each vertex it chooses one of the three edges meeting at that vertex, each edge being equally likely to be chosen, and crawls along that edge to the vertex at its opposite end. Let \( p = \frac n{729} \) be the <a href="/wiki/index.php/Probability" title="Probability">probability</a> that the bug is at vertex \( A \) when it has crawled exactly 7 meters. Find the value of \( n \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_12" title="1985 AIME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The numbers in the <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> \( 101 \), \( 104 \), \( 109 \), \( 116 \),\( \ldots \) are of the form \( a_n=100+n^2 \), where \( n=1,2,3,\ldots \) For each \( n \), let \( d_n \) be the greatest common divisor of \( a_n \) and \( a_{n+1} \). Find the maximum value of \( d_n \) as \( n \) ranges through the <a href="/wiki/index.php/Positive_integer" title="Positive integer">positive integers</a>. </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_13" title="1985 AIME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>In a tournament each player played exactly one game against each of the other players. In each game the winner was awarded 1 point, the loser got 0 points, and each of the two players earned 1/2 point if the game was a tie. After the completion of the tournament, it was found that exactly half of the points earned by each player were earned against the ten players with the least number of points. (In particular, each of the ten lowest scoring players earned half of her/his points against the other nine of the ten). What was the total number of players in the tournament? </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_14" title="1985 AIME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Three 12 cm \( \times \)12 cm <a href="/wiki/index.php/Square_(geometry)" title="Square (geometry)"> squares</a> are each cut into two pieces \( A \) and \( B \), as shown in the first figure below, by joining the <a href="/wiki/index.php/Midpoint" title="Midpoint">midpoints</a> of two adjacent sides. These six pieces are then attached to a <a href="/wiki/index.php/Regular_polygon" title="Regular polygon"> regular</a> <a href="/wiki/index.php/Hexagon" title="Hexagon">hexagon</a>, as shown in the second figure, so as to fold into a <a href="/wiki/index.php/Polyhedron" title="Polyhedron">polyhedron</a>. What is the <a href="/wiki/index.php/Volume" title="Volume">volume</a> (in \( \mathrm{cm}^3 \)) of this polyhedron? </p><p><a href="/wiki/index.php/File:AIME_1985_Problem_15.png" class="image"><img alt="AIME 1985 Problem 15.png" src="//wiki-images.artofproblemsolving.com/f/ff/AIME_1985_Problem_15.png" width="321" height="186"></a> </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_15" title="1985 AIME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["384","026","198","032","986","315","757","061","049","600","085","182","401","025","864"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1989 AIME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1989 AIME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Compute \( \sqrt{(31)(30)(29)(28)+1} \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_1" title="1989 AIME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Ten points are marked on a circle. How many distinct convex polygons of three or more sides can be drawn using some (or all) of the ten points as vertices? </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_2" title="1989 AIME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Suppose \( n_{}^{} \) is a positive integer and \( d_{}^{} \) is a single digit in base 10. Find \( n_{}^{} \) if </p><center> \( \frac{n}{810}=0.d25d25d25\ldots \) 
+</center>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_3" title="1989 AIME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>If \( a&lt;b&lt;c&lt;d&lt;e^{}_{} \) are consecutive positive integers such that \( b+c+d^{}_{} \) is a perfect square and \( a+b+c+d+e^{}_{} \) is a perfect cube, what is the smallest possible value of \( c^{}_{} \)? </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_4" title="1989 AIME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>When a certain biased coin is flipped five times, the probability of getting heads exactly once is not equal to \( 0^{}_{} \) and is the same as that of getting heads exactly twice. Let \( \frac ij^{}_{} \), in lowest terms, be the probability that the coin comes up heads in exactly \( 3_{}^{} \) out of \( 5^{}_{} \) flips. Find \( i+j^{}_{} \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_5" title="1989 AIME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Two skaters, Allie and Billie, are at points \( A^{}_{} \) and \( B^{}_{} \), respectively, on a flat, frozen lake. The distance between \( A^{}_{} \) and \( B^{}_{} \) is \( 100^{}_{} \) meters. Allie leaves \( A^{}_{} \) and skates at a speed of \( 8^{}_{} \) meters per second on a straight line that makes a \( 60^\circ \) angle with \( AB^{}_{} \). At the same time Allie leaves \( A^{}_{} \), Billie leaves \( B^{}_{} \) at a speed of \( 7^{}_{} \) meters per second and follows the straight path that produces the earliest possible meeting of the two skaters, given their speeds. How many meters does Allie skate before meeting Billie? </p><p><a href="/wiki/index.php/File:AIME_1989_Problem_6.png" class="image"><img alt="AIME 1989 Problem 6.png" src="//wiki-images.artofproblemsolving.com/7/7b/AIME_1989_Problem_6.png" width="255" height="128"></a> </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_6" title="1989 AIME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If the integer \( k^{}_{} \) is added to each of the numbers \( 36^{}_{} \), \( 300^{}_{} \), and \( 596^{}_{} \), one obtains the squares of three consecutive terms of an arithmetic series. Find \( k^{}_{} \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_7" title="1989 AIME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Assume that \( x_1,x_2,\ldots,x_7 \) are real numbers such that </p><center> \( x_1+4x_2+9x_3+16x_4+25x_5+36x_6+49x_7=1^{}_{} \) 
+</center><center> \( 4x_1+9x_2+16x_3+25x_4+36x_5+49x_6+64x_7=12^{}_{} \) 
+</center><center> \( 9x_1+16x_2+25x_3+36x_4+49x_5+64x_6+81x_7=123^{}_{} \) 
+</center><p>Find the value of \( 16x_1+25x_2+36x_3+49x_4+64x_5+81x_6+100x_7^{} \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_8" title="1989 AIME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>One of Euler's conjectures was disproved in the 1960s by three American mathematicians when they showed there was a positive integer \( n \) such that \( 133^5+110^5+84^5+27^5=n^{5}_{} \). Find the value of \( n^{}_{} \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_9" title="1989 AIME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( a_{}^{} \), \( b_{}^{} \), \( c_{}^{} \) be the three sides of a triangle, and let \( \alpha_{}^{} \), \( \beta_{}^{} \), \( \gamma_{}^{} \), be the angles opposite them. If \( a^2+b^2=1989^{}_{}c^2 \), find </p><center> \( \frac{\cot \gamma}{\cot \alpha+\cot \beta} \) 
+</center>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_10" title="1989 AIME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>A sample of 121 integers is given, each between 1 and 1000 inclusive, with repetitions allowed. The sample has a unique mode (most frequent value). Let \( D^{}_{} \) be the difference between the mode and the arithmetic mean of the sample. What is the largest possible value of \( \lfloor D^{}_{}\rfloor \)? (For real \( x^{}_{} \), \( \lfloor x^{}_{}\rfloor \) is the greatest integer less than or equal to \( x^{}_{} \).) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_11" title="1989 AIME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( ABCD^{}_{} \) be a tetrahedron with \( AB=41^{}_{} \), \( AC=7^{}_{} \), \( AD=18^{}_{} \), \( BC=36^{}_{} \), \( BD=27^{}_{} \), and \( CD=13^{}_{} \), as shown in the figure. Let \( d^{}_{} \) be the distance between the midpoints of edges \( AB^{}_{} \) and \( CD^{}_{} \). Find \( d^{2}_{} \). </p><p><a href="/wiki/index.php/File:AIME_1989_Problem_12.png" class="image"><img alt="AIME 1989 Problem 12.png" src="//wiki-images.artofproblemsolving.com/c/cc/AIME_1989_Problem_12.png" width="212" height="234"></a> </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_12" title="1989 AIME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Let \( S^{}_{} \) be a subset of \( \{1,2,3^{}_{},\ldots,1989\} \) such that no two members of \( S^{}_{} \) differ by \( 4^{}_{} \) or \( 7^{}_{} \). What is the largest number of elements \( S^{}_{} \) can have? </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_13" title="1989 AIME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Given a positive integer \( n^{}_{} \), it can be shown that every complex number of the form \( r+si^{}_{} \), where \( r^{}_{} \) and \( s^{}_{} \) are integers, can be uniquely expressed in the base \( -n+i^{}_{} \) using the integers \( 1,2^{}_{},\ldots,n^2 \) as digits. That is, the equation </p><center> \( r+si=a_m(-n+i)^m+a_{m-1}(-n+i)^{m-1}+\cdots +a_1(-n+i)+a_0 \) 
+</center><p>is true for a unique choice of non-negative integer \( m^{}_{} \) and digits \( a_0,a_1^{},\ldots,a_m \) chosen from the set \( \{0^{}_{},1,2,\ldots,n^2\} \), with \( a_m\ne 0^{}){} \). We write </p><center> \( r+si=(a_ma_{m-1}\ldots a_1a_0)_{-n+i} \) 
+</center><p>to denote the base \( -n+i^{}_{} \) expansion of \( r+si^{}_{} \). There are only finitely many integers \( k+0i^{}_{} \) that have four-digit expansions </p><center> \( k=(a_3a_2a_1a_0)_{-3+i^{}_{}}~~~~a_3\ne 0. \) 
+</center><p>Find the sum of all such \( k^{}_{} \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_14" title="1989 AIME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Point \( P^{}_{} \) is inside \( \triangle ABC^{}_{} \). Line segments \( APD^{}_{} \), \( BPE^{}_{} \), and \( CPF^{}_{} \) are drawn with \( D^{}_{} \) on \( BC^{}_{} \), \( E^{}_{} \) on \( AC^{}_{} \), and \( F{}{}^{}_{} \) on \( AB^{}_{} \) (see the figure at right). Given that \( AP=6^{}_{} \), \( BP=9^{}_{} \), \( PD=6^{}_{} \), \( PE=3^{}_{} \), and \( CF=20^{}_{} \), find the area of \( \triangle ABC^{}_{} \). </p><p><a href="/wiki/index.php/File:AIME_1989_Problem_15.png" class="image"><img alt="AIME 1989 Problem 15.png" src="//wiki-images.artofproblemsolving.com/9/9e/AIME_1989_Problem_15.png" width="158" height="253"></a> </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_15" title="1989 AIME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["869","968","750","675","283","160","925","334","144","994","947","137","905","490","108"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2004 AMC 12B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2004 AMC 12B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>At each basketball practice last week, Jenny made twice as many free throws as she made at the previous practice. At her fifth practice she made 48 free throws. How many free throws did she make at the first practice? </p><p>\( (\mathrm {A}) 3\qquad (\mathrm {B}) 6 \qquad (\mathrm {C}) 9 \qquad (\mathrm {D}) 12 \qquad (\mathrm {E}) 15 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_1" title="2004 AMC 12B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>In the expression \( c\cdot a^b-d \), the values of \( a \), \( b \), \( c \), and \( d \) are 0, 1, 2, and 3, although not necessarily in that order. What is the maximum possible value of the result? </p><p>\( (\mathrm {A}) 5\qquad (\mathrm {B}) 6 \qquad (\mathrm {C}) 8 \qquad (\mathrm {D}) 9 \qquad (\mathrm {E}) 10 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_2" title="2004 AMC 12B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>If \( x \) and \( y \) are positive integers for which \( 2^x3^y=1296 \), what is the value of \( x+y \)? </p><p>\( (\mathrm {A}) 8\qquad (\mathrm {B}) 9 \qquad (\mathrm {C}) 10 \qquad (\mathrm {D}) 11 \qquad (\mathrm {E}) 12 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_3" title="2004 AMC 12B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>An integer \( x \), with \( 10\leq x\leq 99 \), is to be chosen. If all choices are equally likely, what is the probability that at least one digit of \( x \) is a 7? </p><p>\( (\mathrm {A}) \dfrac{1}{9} \qquad (\mathrm {B}) \dfrac{1}{5} \qquad (\mathrm {C}) \dfrac{19}{90} \qquad (\mathrm {D}) \dfrac{2}{9} \qquad (\mathrm {E}) \dfrac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_4" title="2004 AMC 12B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>On a trip from the United States to Canada, Isabella took \( d \) U.S. dollars. At the border she exchanged them all, receiving 10 Canadian dollars for every 7 U.S. dollars. After spending 60 Canadian dollars, she had \( d \) Canadian dollars left. What is the sum of the digits of \( d \)? </p><p>\( (\mathrm {A}) 5\qquad (\mathrm {B}) 6 \qquad (\mathrm {C}) 7 \qquad (\mathrm {D}) 8 \qquad (\mathrm {E}) 9 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_5" title="2004 AMC 12B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Minneapolis-St. Paul International Airport is 8 miles southwest of downtown St. Paul and 10 miles southeast of downtown Minneapolis. Which of the following is closest to the number of miles between downtown St. Paul and downtown Minneapolis? </p><p>\( (\mathrm {A}) 13\qquad (\mathrm {B}) 14 \qquad (\mathrm {C}) 15 \qquad (\mathrm {D}) 16 \qquad (\mathrm {E}) 17 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_6" title="2004 AMC 12B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>A square has sides of length 10, and a circle centered at one of its vertices has radius 10. What is the area of the union of the regions enclosed by the square and the circle? </p><p>\( (\mathrm {A}) 200+25\pi \quad (\mathrm {B}) 100+75\pi \quad (\mathrm {C}) 75+100\pi \quad (\mathrm {D}) 100+100\pi \quad (\mathrm {E}) 100+125\pi \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_7" title="2004 AMC 12B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A grocer makes a display of cans in which the top row has one can and each lower row has two more cans than the row above it. If the display contains 100 cans, how many rows does it contain? </p><p>\( (\mathrm {A}) 5 \qquad (\mathrm {B}) 8 \qquad (\mathrm {C}) 9 \qquad (\mathrm {D}) 10 \qquad (\mathrm {E}) 11 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_8" title="2004 AMC 12B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The point \( (-3,2) \) is rotated \( 90^\circ \) clockwise around the origin to point \( B \). Point \( B \) is then reflected over the line \( x=y \) to point \( C \). What are the coordinates of \( C \)? </p><p>\( \mathrm{(A)}\ (-3,-2) \qquad \mathrm{(B)}\ (-2,-3) \qquad \mathrm{(C)}\ (2,-3) \qquad \mathrm{(D)}\ (2,3) \qquad \mathrm{(E)}\ (3,2) \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_9" title="2004 AMC 12B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>An annulus is the region between two concentric circles. The concentric circles in the ﬁgure have radii \( b \) and \( c \), with \( b&gt;c \). Let \( OX \) be a radius of the larger circle, let \( XZ \) be tangent to the smaller circle at \( Z \), and let \( OY \) be the radius of the larger circle that contains \( Z \). Let \( a=XZ \), \( d=YZ \), and \( e=XY \). What is the area of the annulus? </p><p><img src="https://latex.artofproblemsolving.com/e/8/1/e810cc7b6572d11a1cb77c70ea93bf73a9411484.png" width="358" height="378"> </p><p>\( \mathrm{(A) \ } \pi a^2 \qquad \mathrm{(B) \ } \pi b^2 \qquad \mathrm{(C) \ } \pi c^2 \qquad \mathrm{(D) \ } \pi d^2 \qquad \mathrm{(E) \ } \pi e^2 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_10" title="2004 AMC 12B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>All the students in an algebra class took a \( 100 \)-point test. Five students scored \( 100 \), each student scored at least \( 60 \), and the mean score was \( 76 \). What is the smallest possible number of students in the class? </p><p>\( \mathrm{(A)}\ 10 \qquad \mathrm{(B)}\ 11 \qquad \mathrm{(C)}\ 12 \qquad \mathrm{(D)}\ 13 \qquad \mathrm{(E)}\ 14 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_11" title="2004 AMC 12B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>In the sequence \( 2001 \), \( 2002 \), \( 2003 \), \( \ldots \) , each term after the third is found by subtracting the previous term from the sum of the two terms that precede that term. For example, the fourth term is \( 2001 + 2002 - 2003 = 2000 \). What is the \( 2004^\textrm{th} \) term in this sequence? </p><p>\( \mathrm{(A) \ } -2004 \qquad \mathrm{(B) \ } -2 \qquad \mathrm{(C) \ } 0 \qquad \mathrm{(D) \ } 4003 \qquad \mathrm{(E) \ } 6007 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_12" title="2004 AMC 12B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>If \( f(x) = ax+b \) and \( f^{-1}(x) = bx+a \) with \( a \) and \( b \) real, what is the value of \( a+b \)? </p><p>\( \mathrm{(A)}\ -2 \qquad\mathrm{(B)}\ -1 \qquad\mathrm{(C)}\ 0 \qquad\mathrm{(D)}\ 1 \qquad\mathrm{(E)}\ 2 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_13" title="2004 AMC 12B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>In \( \triangle ABC \), \( AB=13 \), \( AC=5 \), and \( BC=12 \). Points \( M \) and \( N \) lie on \( AC \) and \( BC \), respectively, with \( CM=CN=4 \). Points \( J \) and \( K \) are on \( AB \) so that \( MJ \) and \( NK \) are perpendicular to \( AB \). What is the area of pentagon \( CMJKN \)? </p><p><img src="https://latex.artofproblemsolving.com/a/0/5/a0578d737aee0aa9a0c6e400c18538bade106520.png" width="335" height="162"> </p><p>\( \mathrm{(A)}\ 15 \qquad \mathrm{(B)}\ \frac{81}{5} \qquad \mathrm{(C)}\ \frac{205}{12} \qquad \mathrm{(D)}\ \frac{240}{13} \qquad \mathrm{(E)}\ 20 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_14" title="2004 AMC 12B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>The two digits in Jack's age are the same as the digits in Bill's age, but in reverse order. In five years Jack will be twice as old as Bill will be then. What is the difference in their current ages? </p><p>\( \mathrm{(A) \ } 9 \qquad \mathrm{(B) \ } 18 \qquad \mathrm{(C) \ } 27 \qquad \mathrm{(D) \ } 36\qquad \mathrm{(E) \ } 45 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_15" title="2004 AMC 12B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A <a href="/wiki/index.php/Function" title="Function">function</a> \( f \) is defined by \( f(z) = i\overline{z} \), where \( i=\sqrt{-1} \) and \( \overline{z} \) is the <a href="/wiki/index.php/Complex_conjugate" title="Complex conjugate">complex conjugate</a> of \( z \). How many values of \( z \) satisfy both \( |z| = 5 \) and \( f(z) = z \)? </p><p>\( \mathrm{(A)}\ 0 \qquad\mathrm{(B)}\ 1 \qquad\mathrm{(C)}\ 2 \qquad\mathrm{(D)}\ 4 \qquad\mathrm{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_16" title="2004 AMC 12B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>For some real numbers \( a \) and \( b \), the <a href="/wiki/index.php/Equation" title="Equation">equation</a> \[8x^3 + 4ax^2 + 2bx + a = 0\] has three distinct positive roots. If the sum of the base-\( 2 \) <a href="/wiki/index.php/Logarithm" title="Logarithm">logarithms</a> of the roots is \( 5 \), what is the value of \( a \)? </p><p>\( \mathrm{(A)}\ -256 \qquad\mathrm{(B)}\ -64 \qquad\mathrm{(C)}\ -8 \qquad\mathrm{(D)}\ 64 \qquad\mathrm{(E)}\ 256 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_17" title="2004 AMC 12B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Points \( A \) and \( B \) are on the parabola \( y=4x^2+7x-1 \), and the origin is the midpoint of \( AB \). What is the length of \( AB \)? </p><p>\( \mathrm{(A)}\ 2\sqrt5 \qquad \mathrm{(B)}\ 5+\frac{\sqrt2}{2} \qquad \mathrm{(C)}\ 5+\sqrt2 \qquad \mathrm{(D)}\ 7 \qquad \mathrm{(E)}\ 5\sqrt2 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_18" title="2004 AMC 12B Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A truncated <a href="/wiki/index.php/Cone" title="Cone">cone</a> has horizontal bases with radii \( 18 \) and \( 2 \). A <a href="/wiki/index.php/Sphere" title="Sphere">sphere</a> is tangent to the top, bottom, and lateral surface of the truncated cone. What is the <a href="/wiki/index.php/Radius" title="Radius">radius</a> of the sphere? </p><p>\( \mathrm{(A)}\ 6 \qquad\mathrm{(B)}\ 4\sqrt{5} \qquad\mathrm{(C)}\ 9 \qquad\mathrm{(D)}\ 10 \qquad\mathrm{(E)}\ 6\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_19" title="2004 AMC 12B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Each face of a <a href="/wiki/index.php/Cube" title="Cube">cube</a> is painted either red or blue, each with probability \( 1/2 \). The color of each face is determined independently. What is the probability that the painted cube can be placed on a horizontal surface so that the four vertical faces are all the same color? </p><p>\( \textbf{(A)}\ \frac14 \qquad \textbf{(B)}\ \frac {5}{16} \qquad \textbf{(C)}\ \frac38 \qquad \textbf{(D)}\ \frac {7}{16} \qquad \textbf{(E)}\ \frac12 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_20" title="2004 AMC 12B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>The graph of \( 2x^2 + xy + 3y^2 - 11x - 20y + 40 = 0 \) is an ellipse in the first quadrant of the \( xy \)-plane. Let \( a \) and \( b \) be the maximum and minimum values of \( \frac yx \) over all points \( (x,y) \) on the ellipse. What is the value of \( a+b \)? </p><p>\( \mathrm{(A)}\ 3 \qquad\mathrm{(B)}\ \sqrt{10} \qquad\mathrm{(C)}\ \frac 72 \qquad\mathrm{(D)}\ \frac 92 \qquad\mathrm{(E)}\ 2\sqrt{14} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_21" title="2004 AMC 12B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The square </p><center> \( \begin{tabular}{|c|c|c|} \hline 50 &amp; \textit{b} &amp; \textit{c} \\ \hline \textit{d} &amp; \textit{e} &amp; \textit{f} \\ \hline \textit{g} &amp; \textit{h} &amp; 2 \\ \hline \end{tabular} \) 
+</center><p>is a multiplicative magic square. That is, the product of the numbers in each row, column, and diagonal is the same. If all the entries are positive integers, what is the sum of the possible values of \( g \)? </p><p>\( \textbf{(A)}\ 10 \qquad \textbf{(B)}\ 25 \qquad \textbf{(C)}\ 35 \qquad \textbf{(D)}\ 62 \qquad \textbf{(E)}\ 136 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_22" title="2004 AMC 12B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The <a href="/wiki/index.php/Polynomial" title="Polynomial">polynomial</a> \( x^3 - 2004 x^2 + mx + n \) has <a href="/wiki/index.php/Integer" title="Integer">integer</a> coefficients and three distinct positive zeros. Exactly one of these is an integer, and it is the sum of the other two. How many values of \( n \) are possible? </p><p>\( \mathrm{(A)}\ 250,000 \qquad\mathrm{(B)}\ 250,250 \qquad\mathrm{(C)}\ 250,500 \qquad\mathrm{(D)}\ 250,750 \qquad\mathrm{(E)}\ 251,000 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_23" title="2004 AMC 12B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>In \( \triangle ABC \), \( AB = BC \), and \( \overline{BD} \) is an <a href="/wiki/index.php/Altitude" title="Altitude">altitude</a>. Point \( E \) is on the extension of \( \overline{AC} \) such that \( BE = 10 \). The values of \( \tan \angle CBE \), \( \tan \angle DBE \), and \( \tan \angle ABE \) form a <a href="/wiki/index.php/Geometric_progression" title="Geometric progression" class="mw-redirect">geometric progression</a>, and the values of \( \cot \angle DBE, \) \( \cot \angle CBE, \) \( \cot \angle DBC \) form an <a href="/wiki/index.php/Arithmetic_progression" title="Arithmetic progression" class="mw-redirect">arithmetic progression</a>. What is the area of \( \triangle ABC \)? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/c/5/a/c5ae6e04f0710cb08f0e10ffc47a0f257844910e.png" width="158" height="202"> 
+</center><p>\( \mathrm{(A)}\ 16 \qquad\mathrm{(B)}\ \frac {50}3 \qquad\mathrm{(C)}\ 10\sqrt{3} \qquad\mathrm{(D)}\ 8\sqrt{5} \qquad\mathrm{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_24" title="2004 AMC 12B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Given that \( 2^{2004} \) is a \( 604 \)-<a href="/wiki/index.php/Digit" title="Digit">digit</a> number whose first digit is \( 1 \), how many <a href="/wiki/index.php/Element" title="Element">elements</a> of the <a href="/wiki/index.php/Set" title="Set">set</a> \( S = \{2^0,2^1,2^2,\ldots ,2^{2003}\} \) have a first digit of \( 4 \)? </p><p>\( \mathrm{(A)}\ 194 \qquad\mathrm{(B)}\ 195 \qquad\mathrm{(C)}\ 196 \qquad\mathrm{(D)}\ 197 \qquad\mathrm{(E)}\ 198 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems/Problem_25" title="2004 AMC 12B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2004_AMC_12B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["A","D","A","B","A","A","B","D","E","A","D","C","A","D","B","C","A","E","A","B","C","C","C","B","B"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

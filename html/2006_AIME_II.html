@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2006 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2006 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>In convex hexagon \( ABCDEF \), all six sides are congruent, \( \angle A \) and \( \angle D \) are right angles, and \( \angle B, \angle C, \angle E, \) and \( \angle F \) are congruent. The area of the hexagonal region is \( 2116(\sqrt{2}+1). \) Find \( AB \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_1" title="2006 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>The lengths of the sides of a triangle with positive area are \( \log_{10} 12 \), \( \log_{10} 75 \), and \( \log_{10} n \), where \( n \) is a positive integer. Find the number of possible values for \( n \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_2" title="2006 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Let \( P \) be the product of the first 100 positive odd integers. Find the largest integer \( k \) such that \( P \) is divisible by \( 3^k \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_3" title="2006 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Let \( (a_1,a_2,a_3,\ldots,a_{12}) \) be a permutation of \( (1,2,3,\ldots,12) \) for which </p><center> \( a_1&gt;a_2&gt;a_3&gt;a_4&gt;a_5&gt;a_6 \mathrm{\ and \ } a_6&lt;a_7&lt;a_8&lt;a_9&lt;a_{10}&lt;a_{11}&lt;a_{12}. \) 
+</center><p>An example of such a permutation is \( (6,5,4,3,2,1,7,8,9,10,11,12). \) Find the number of such permutations. </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_4" title="2006 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>When rolling a certain unfair six-sided die with faces numbered 1, 2, 3, 4, 5, and 6, the probability of obtaining face \( F \) is greater than 1/6, the probability of obtaining the face opposite is less than 1/6, the probability of obtaining any one of the other four faces is 1/6, and the sum of the numbers on opposite faces is 7. When two such dice are rolled, the probability of obtaining a sum of 7 is 47/288. Given that the probability of obtaining face \( F \) is \( m/n, \) where \( m \) and \( n \) are relatively prime positive integers, find \( m+n. \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_5" title="2006 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Square \( ABCD \) has sides of length 1. Points \( E \) and \( F \) are on \( \overline{BC} \) and \( \overline{CD}, \) respectively, so that \( \triangle AEF \) is equilateral. A square with vertex \( B \) has sides that are parallel to those of \( ABCD \) and a vertex on \( \overline{AE}. \) The length of a side of this smaller square is \( \frac{a-\sqrt{b}}{c}, \) where \( a, b, \) and \( c \) are positive integers and \( b \) is not divisible by the square of any prime. Find \( a+b+c. \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_6" title="2006 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Find the number of ordered pairs of positive integers \( (a,b) \) such that \( a+b=1000 \) and neither \( a \) nor \( b \) has a zero digit. </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_7" title="2006 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>There is an unlimited supply of congruent equilateral triangles made of colored paper. Each triangle is a solid color with the same color on both sides of the paper. A large equilateral triangle is constructed from four of these paper triangles. Two large triangles are considered distinguishable if it is not possible to place one on the other, using translations, rotations, and/or reflections, so that their corresponding small triangles are of the same color. </p><p>Given that there are six different colors of triangles from which to choose, how many distinguishable large equilateral triangles may be formed? </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_8" title="2006 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Circles \( \mathcal{C}_1, \mathcal{C}_2, \) and \( \mathcal{C}_3 \) have their centers at (0,0), (12,0), and (24,0), and have radii 1, 2, and 4, respectively. Line \( t_1 \) is a common internal tangent to \( \mathcal{C}_1 \) and \( \mathcal{C}_2 \) and has a positive slope, and line \( t_2 \) is a common internal tangent to \( \mathcal{C}_2 \) and \( \mathcal{C}_3 \) and has a negative slope. Given that lines \( t_1 \) and \( t_2 \) intersect at \( (x,y), \) and that \( x=p-q\sqrt{r}, \) where \( p, q, \) and \( r \) are positive integers and \( r \) is not divisible by the square of any prime, find \( p+q+r. \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_9" title="2006 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Seven teams play a soccer tournament in which each team plays every other team exactly once. No ties occur, each team has a \( 50\% \) chance of winning each game it plays, and the outcomes of the games are independent. In each game, the winner is awarded a point and the loser gets 0 points. The total points are accumulated to decide the ranks of the teams. In the first game of the tournament, team \( A \) beats team \( B. \) The probability that team \( A \) finishes with more points than team \( B \) is \( m/n, \) where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n. \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_10" title="2006 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>A sequence is defined as follows \( a_1=a_2=a_3=1, \) and, for all positive integers \( n, a_{n+3}=a_{n+2}+a_{n+1}+a_n. \) Given that \( a_{28}=6090307, a_{29}=11201821, \) and \( a_{30}=20603361, \) find the remainder when \( \sum^{28}_{k=1} a_k \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_11" title="2006 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Equilateral \( \triangle ABC \) is inscribed in a circle of radius 2. Extend \( \overline{AB} \) through \( B \) to point \( D \) so that \( AD=13, \) and extend \( \overline{AC} \) through \( C \) to point \( E \) so that \( AE = 11. \) Through \( D, \) draw a line \( l_1 \) parallel to \( \overline{AE}, \) and through \( E, \) draw a line \( l_2 \) parallel to \( \overline{AD}. \) Let \( F \) be the intersection of \( l_1 \) and \( l_2. \) Let \( G \) be the point on the circle that is collinear with \( A \) and \( F \) and distinct from \( A. \) Given that the area of \( \triangle CBG \) can be expressed in the form \( \frac{p\sqrt{q}}{r}, \) where \( p, q, \) and \( r \) are positive integers, \( p \) and \( r \) are relatively prime, and \( q \) is not divisible by the square of any prime, find \( p+q+r. \) <img src="https://latex.artofproblemsolving.com/2/9/9/299c51b0ad858e4078795c0f549803abc5d0ec0d.png" width="258" height="418"> </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_12" title="2006 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>How many integers \( N \) less than 1000 can be written as the sum of \( j \) consecutive positive odd integers from exactly 5 values of \( j\ge 1 \)? </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_13" title="2006 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( S_n \) be the sum of the reciprocals of the non-zero digits of the integers from \( 1 \) to \( 10^n \) inclusive. Find the smallest positive integer n for which \( S_n \) is an integer. </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_14" title="2006 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Given that \( x, y, \) and \( z \) are real numbers that satisfy: </p><center> \( x = \sqrt{y^2-\frac{1}{16}}+\sqrt{z^2-\frac{1}{16}} \) 
+</center><center> \( y = \sqrt{z^2-\frac{1}{25}}+\sqrt{x^2-\frac{1}{25}} \) 
+</center><center> \( z = \sqrt{x^2 - \frac 1{36}}+\sqrt{y^2-\frac 1{36}} \) 
+</center><p>and that \( x+y+z = \frac{m}{\sqrt{n}}, \) where \( m \) and \( n \) are positive integers and \( n \) is not divisible by the square of any prime, find \( m+n. \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_15" title="2006 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["046","893","049","462","029","012","738","336","027","831","834","865","015","063","009"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

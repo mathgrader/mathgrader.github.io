@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2008 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2008 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Of the students attending a school party, \( 60\% \) of the students are girls, and \( 40\% \) of the students like to dance. After these students are joined by \( 20 \) more boy students, all of whom like to dance, the party is now \( 58\% \) girls. How many students now at the party like to dance? </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_1" title="2008 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Square \( AIME \) has sides of length \( 10 \) units. Isosceles triangle \( GEM \) has base \( EM \), and the area common to triangle \( GEM \) and square \( AIME \) is \( 80 \) square units. Find the length of the altitude to \( EM \) in \( \triangle GEM \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_2" title="2008 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Ed and Sue bike at equal and constant rates. Similarly, they jog at equal and constant rates, and they swim at equal and constant rates. Ed covers \( 74 \) kilometers after biking for \( 2 \) hours, jogging for \( 3 \) hours, and swimming for \( 4 \) hours, while Sue covers \( 91 \) kilometers after jogging for \( 2 \) hours, swimming for \( 3 \) hours, and biking for \( 4 \) hours. Their biking, jogging, and swimming rates are all whole numbers of kilometers per hour. Find the sum of the squares of Ed's biking, jogging, and swimming rates. </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_3" title="2008 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>There exist unique positive integers \( x \) and \( y \) that satisfy the equation \( x^2 + 84x + 2008 = y^2 \). Find \( x + y \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_4" title="2008 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A right circular cone has base radius \( r \) and height \( h \). The cone lies on its side on a flat table. As the cone rolls on the surface of the table without slipping, the point where the cone's base meets the table traces a circular arc centered at the point where the vertex touches the table. The cone first returns to its original position on the table after making \( 17 \) complete rotations. The value of \( h/r \) can be written in the form \( m\sqrt {n} \), where \( m \) and \( n \) are positive integers and \( n \) is not divisible by the square of any prime. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_5" title="2008 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>A triangular array of numbers has a first row consisting of the odd integers \( 1,3,5,\ldots,99 \) in increasing order. Each row below the first has one fewer entry than the row above it, and the bottom row has a single entry. Each entry in any row after the top row equals the sum of the two entries diagonally above it in the row immediately above it. How many entries in the array are multiples of \( 67 \)? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_6" title="2008 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Let \( S_i \) be the set of all integers \( n \) such that \( 100i\leq n &lt; 100(i + 1) \). For example, \( S_4 \) is the set \( {400,401,402,\ldots,499} \). How many of the sets \( S_0, S_1, S_2, \ldots, S_{999} \) do not contain a perfect square? </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_7" title="2008 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Find the positive integer \( n \) such that </p><p>\[\arctan\frac {1}{3} + \arctan\frac {1}{4} + \arctan\frac {1}{5} + \arctan\frac {1}{n} = \frac {\pi}{4}.\] </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_8" title="2008 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Ten identical crates each of dimensions \( 3 \) ft \( \times \) \( 4 \) ft \( \times \) \( 6 \) ft. The first crate is placed flat on the floor. Each of the remaining nine crates is placed, in turn, flat on top of the previous crate, and the orientation of each crate is chosen at random. Let \( \frac {m}{n} \) be the probability that the stack of crates is exactly \( 41 \) ft tall, where \( m \) and \( n \) are relatively prime positive integers. Find \( m \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_9" title="2008 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( ABCD \) be an isosceles trapezoid with \( \overline{AD}||\overline{BC} \) whose angle at the longer base \( \overline{AD} \) is \( \dfrac{\pi}{3} \). The diagonals have length \( 10\sqrt {21} \), and point \( E \) is at distances \( 10\sqrt {7} \) and \( 30\sqrt {7} \) from vertices \( A \) and \( D \), respectively. Let \( F \) be the foot of the altitude from \( C \) to \( \overline{AD} \). The distance \( EF \) can be expressed in the form \( m\sqrt {n} \), where \( m \) and \( n \) are positive integers and \( n \) is not divisible by the square of any prime. Find \( m + n \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_10" title="2008 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Consider sequences that consist entirely of \( A \)'s and \( B \)'s and that have the property that every run of consecutive \( A \)'s has even length, and every run of consecutive \( B \)'s has odd length. Examples of such sequences are \( AA \), \( B \), and \( AABAA \), while \( BBAB \) is not such a sequence. How many such sequences have length 14? </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_11" title="2008 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>On a long straight stretch of one-way single-lane highway, cars all travel at the same speed and all obey the safety rule: the distance from the back of the car ahead to the front of the car behind is exactly one car length for each 15 kilometers per hour of speed or fraction thereof (Thus the front of a car traveling 52 kilometers per hour will be four car lengths behind the back of the car in front of it.) A photoelectric eye by the side of the road counts the number of cars that pass in one hour. Assuming that each car is 4 meters long and that the cars can travel at any speed, let \( M \) be the maximum whole number of cars that can pass the photoelectric eye in one hour. Find the quotient when \( M \) is divided by 10. </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_12" title="2008 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Let </p><p>\( p(x,y) = a_0 + a_1x + a_2y + a_3x^2 + a_4xy + a_5y^2 + a_6x^3 + a_7x^2y + a_8xy^2 + a_9y^3 \). </p><p>Suppose that </p><p>\( p(0,0) = p(1,0) = p( - 1,0) = p(0,1) = p(0, - 1) = p(1,1) = p(1, - 1) = p(2,2) = 0 \). </p><p>There is a point \( \left(\frac {a}{c},\frac {b}{c}\right) \) for which \( p\left(\frac {a}{c},\frac {b}{c}\right) = 0 \) for all such polynomials, where \( a \), \( b \), and \( c \) are positive integers, \( a \) and \( c \) are relatively prime, and \( c &gt; 1 \). Find \( a + b + c \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_13" title="2008 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( \overline{AB} \) be a diameter of circle \( \omega \). Extend \( \overline{AB} \) through \( A \) to \( C \). Point \( T \) lies on \( \omega \) so that line \( CT \) is tangent to \( \omega \). Point \( P \) is the foot of the perpendicular from \( A \) to line \( CT \). Suppose \( AB = 18 \), and let \( m \) denote the maximum possible length of segment \( BP \). Find \( m^{2} \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_14" title="2008 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>A square piece of paper has sides of length \( 100 \). From each corner a wedge is cut in the following manner: at each corner, the two cuts for the wedge each start at distance \( \sqrt {17} \) from the corner, and they meet on the diagonal at an angle of \( 60^\circ \) (see the figure below). The paper is then folded up along the lines joining the vertices of adjacent cuts. When the two edges of a cut meet, they are taped together. The result is a paper tray whose sides are not at right angles to the base. The height of the tray, that is, the perpendicular distance between the plane of the base and the plane formed by the upper edges, can be written in the form \( \sqrt [n]{m} \), where \( m \) and \( n \) are positive integers, \( m &lt; 1000 \), and \( m \) is not divisible by the \( n \)th power of any prime. Find \( m + n \). </p><center> 
+ <img src="https://latex.artofproblemsolving.com/2/1/3/21378bf620713fc38bd4747453f6451f9faf16bd.png" width="335" height="322"> 
+</center>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_15" title="2008 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["252","025","314","080","014","017","708","047","190","032","172","375","040","432","871"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

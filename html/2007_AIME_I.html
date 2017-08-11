@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2007 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2007 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>How many positive perfect squares less than \( 10^6 \) are multiples of 24? </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_1" title="2007 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A 100 foot long moving walkway moves at a constant rate of 6 feet per second. Al steps onto the start of the walkway and stands. Bob steps onto the start of the walkway two seconds later and strolls forward along the walkway at a constant rate of 4 feet per second. Two seconds after that, Cy reaches the start of the walkway and walks briskly forward beside the walkway at a constant rate of 8 feet per second. At a certain time, one of these three persons is exactly halfway between the other two. At that time, find the distance in feet between the start of the walkway and the middle person. </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_2" title="2007 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The complex number \( z \) is equal to \( 9+bi \), where \( b \) is a positive real number and \( i^{2}=-1 \). Given that the imaginary parts of \( z^{2} \) and \( z^{3} \) are the same, what is \( b \) equal to? </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_3" title="2007 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Three planets orbit a star circularly in the same plane. Each moves in the same direction and moves at constant speed. Their periods are \( 60 \), \( 84 \), and \( 140 \) years. The three planets and the star are currently collinear. What is the fewest number of years from now that they will all be collinear again? </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_4" title="2007 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The formula for converting a Fahrenheit temperature \( F \) to the corresponding Celsius temperature \( C \) is \( C = \frac{5}{9}(F-32). \) An integer Fahrenheit temperature is converted to Celsius, rounded to the nearest integer, converted back to Fahrenheit, and again rounded to the nearest integer. </p><p>For how many integer Fahrenheit temperatures between \( 32 \) and \( 1000 \) inclusive does the original temperature equal the final temperature? </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_5" title="2007 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>A frog is placed at the <a href="/wiki/index.php/Origin" title="Origin">origin</a> on the <a href="/wiki/index.php/Number_line" title="Number line">number line</a>, and moves according to the following rule: in a given move, the frog advances to either the closest <a href="/wiki/index.php/Point" title="Point">point</a> with a greater <a href="/wiki/index.php/Integer" title="Integer">integer</a> <a href="/wiki/index.php/Coordinate" title="Coordinate" class="mw-redirect">coordinate</a> that is a multiple of \( 3 \), or to the closest point with a greater integer coordinate that is a multiple of \( 13 \). A <i>move sequence</i> is a <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> of coordinates which correspond to valid moves, beginning with \( 0 \), and ending with \( 39 \). For example, \( 0,\ 3,\ 6,\ 13,\ 15,\ 26,\ 39 \) is a move sequence. How many move sequences are possible for the frog? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_6" title="2007 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Let \( N = \sum_{k = 1}^{1000} k ( \lceil \log_{\sqrt{2}} k \rceil - \lfloor \log_{\sqrt{2}} k \rfloor ) \) </p><p>Find the remainder when \( N \) is divided by 1000. (\( \lfloor{k}\rfloor \) is the greatest integer less than or equal to \( k \), and \( \lceil{k}\rceil \) is the least integer greater than or equal to \( k \).) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_7" title="2007 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The polynomial \( P(x) \) is cubic. What is the largest value of \( k \) for which the polynomials \( Q_1(x) = x^2 + (k-29)x - k \) and \( Q_2(x) = 2x^2+ (2k-43)x + k \) are both factors of \( P(x) \)? </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_8" title="2007 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>In right triangle \( ABC \) with right angle \( C \), \( CA = 30 \) and \( CB = 16 \). Its legs \( CA \) and \( CB \) are extended beyond \( A \) and \( B \). Points \( O_1 \) and \( O_2 \) lie in the exterior of the triangle and are the centers of two circles with equal radii. The circle with center \( O_1 \) is tangent to the hypotenuse and to the extension of leg \( CA \), the circle with center \( O_2 \) is tangent to the hypotenuse and to the extension of leg \( CB \), and the circles are externally tangent to each other. The length of the radius of either circle can be expressed as \( p/q \), where \( p \) and \( q \) are relatively prime positive integers. Find \( p+q \). </p><p><a href="/wiki/index.php/File:AIME_I_2007-9.png" class="image"><img alt="AIME I 2007-9.png" src="//wiki-images.artofproblemsolving.com/2/23/AIME_I_2007-9.png" width="276" height="416"></a> </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_9" title="2007 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>In a \( 6 \times 4 \) grid (\( 6 \) rows, \( 4 \) columns), \( 12 \) of the \( 24 \) squares are to be shaded so that there are two shaded squares in each row and three shaded squares in each column. Let \( N \) be the number of shadings with this property. Find the remainder when \( N \) is divided by \( 1000 \). </p><p><a href="/wiki/index.php/File:AIME_I_2007-10.png" class="image"><img alt="AIME I 2007-10.png" src="//wiki-images.artofproblemsolving.com/a/a8/AIME_I_2007-10.png" width="191" height="285"></a> </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_10" title="2007 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>For each positive integer \( p \), let \( b(p) \) denote the unique positive integer \( k \) such that \( |k-\sqrt{p}| &lt; \frac{1}{2} \). For example, \( b(6) = 2 \) and \( b(23) = 5 \). If \( S = \sum_{p=1}^{2007} b(p), \) find the remainder when \( S \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_11" title="2007 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>In isosceles triangle \( ABC \), \( A \) is located at the origin and \( B \) is located at (20,0). Point \( C \) is in the first quadrant with \( AC = BC \) and angle \( BAC = 75^{\circ} \). If triangle \( ABC \) is rotated counterclockwise about point \( A \) until the image of \( C \) lies on the positive \( y \)-axis, the area of the region common to the original and the rotated triangle is in the form \( p\sqrt{2} + q\sqrt{3} + r\sqrt{6} + s \), where \( p,q,r,s \) are integers. Find \( (p-q+r-s)/2 \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_12" title="2007 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A square pyramid with base \( ABCD \) and vertex \( E \) has eight edges of length 4. A plane passes through the midpoints of \( AE \), \( BC \), and \( CD \). The plane's intersection with the pyramid has an area that can be expressed as \( \sqrt{p} \). Find \( p \). </p><p><a href="/wiki/index.php/File:AIME_I_2007-13.png" class="image"><img alt="AIME I 2007-13.png" src="//wiki-images.artofproblemsolving.com/b/b7/AIME_I_2007-13.png" width="317" height="332"></a> </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_13" title="2007 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A sequence is defined over non-negative integral indexes in the following way: \( a_{0}=a_{1}=3 \), \( a_{n+1}a_{n-1}=a_{n}^{2}+2007 \). </p><p>Find the greatest integer that does not exceed \( \frac{a_{2006}^{2}+a_{2007}^{2}}{a_{2006}a_{2007}} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_14" title="2007 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( ABC \) be an equilateral triangle, and let \( D \) and \( F \) be points on sides \( BC \) and \( AB \), respectively, with \( FA = 5 \) and \( CD = 2 \). Point \( E \) lies on side \( CA \) such that angle \( DEF = 60^{\circ} \). The area of triangle \( DEF \) is \( 14\sqrt{3} \). The two possible values of the length of side \( AB \) are \( p \pm q \sqrt{r} \), where \( p \) and \( q \) are rational, and \( r \) is an integer not divisible by the square of a prime. Find \( r \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_15" title="2007 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["083","052","015","105","539","169","477","030","737","860","955","875","080","224","989"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2013 AIME I</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2013 AIME I</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>The AIME Triathlon consists of a half-mile swim, a 30-mile bicycle ride, and an eight-mile run. Tom swims, bicycles, and runs at constant rates. He runs fives times as fast as he swims, and he bicycles twice as fast as he runs. Tom completes the AIME Triathlon in four and a quarter hours. How many minutes does he spend bicycling? </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_1" title="2013 AIME I Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Find the number of five-digit positive integers, \( n \), that satisfy the following conditions: </p><ul>
+  (a) the number \( n \) is divisible by \( 5, \) 
+</ul><ul>
+  (b) the first and last digits of \( n \) are equal, and 
+</ul><ul>
+  (c) the sum of the digits of \( n \) is divisible by \( 5. \) 
+</ul>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_2" title="2013 AIME I Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Let \( ABCD \) be a square, and let \( E \) and \( F \) be points on \( \overline{AB} \) and \( \overline{BC}, \) respectively. The line through \( E \) parallel to \( \overline{BC} \) and the line through \( F \) parallel to \( \overline{AB} \) divide \( ABCD \) into two squares and two nonsquare rectangles. The sum of the areas of the two squares is \( \frac{9}{10} \) of the area of square \( ABCD. \) Find \( \frac{AE}{EB} + \frac{EB}{AE}. \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_3" title="2013 AIME I Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In the array of \( 13 \) squares shown below, \( 8 \) squares are colored red, and the remaining \( 5 \) squares are colored blue. If one of all possible such colorings is chosen at random, the probability that the chosen colored array appears the same when rotated \( 90^{\circ} \) around the central square is \( \frac{1}{n} \) , where \( n \) is a positive integer. Find \( n \). </p><p><img src="https://latex.artofproblemsolving.com/1/1/a/11a69eb2f68ba08e0f212bacb515a331670c3d57.png" width="168" height="168"> </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_4" title="2013 AIME I Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The real root of the equation \( 8x^3-3x^2-3x-1=0 \) can be written in the form \( \frac{\sqrt[3]{a}+\sqrt[3]{b}+1}{c} \), where \( a \), \( b \), and \( c \) are positive integers. Find \( a+b+c \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_5" title="2013 AIME I Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Melinda has three empty boxes and \( 12 \) textbooks, three of which are mathematics textbooks. One box will hold any three of her textbooks, one will hold any four of her textbooks, and one will hold any five of her textbooks. If Melinda packs her textbooks into these boxes in random order, the probability that all three mathematics textbooks end up in the same box can be written as \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_6" title="2013 AIME I Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>A rectangular box has width \( 12 \) inches, length \( 16 \) inches, and height \( \frac{m}{n} \) inches, where \( m \) and \( n \) are relatively prime positive integers. Three faces of the box meet at a corner of the box. The center points of those three faces are the vertices of a triangle with an area of \( 30 \) square inches. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_7" title="2013 AIME I Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The domain of the function \( f(x) = \arcsin(\log_{m}(nx)) \) is a closed interval of length \( \frac{1}{2013} \) , where \( m \) and \( n \) are positive integers and \( m&gt;1 \). Find the remainder when the smallest possible sum \( m+n \) is divided by 1000. </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_8" title="2013 AIME I Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>A paper equilateral triangle \( ABC \) has side length \( 12 \). The paper triangle is folded so that vertex \( A \) touches a point on side \( \overline{BC} \) a distance \( 9 \) from point \( B \). The length of the line segment along which the triangle is folded can be written as \( \frac{m\sqrt{p}}{n} \), where \( m \), \( n \), and \( p \) are positive integers, \( m \) and \( n \) are relatively prime, and \( p \) is not divisible by the square of any prime. Find \( m+n+p \). </p><p><img src="https://latex.artofproblemsolving.com/8/6/1/8614a5c1f3561dd65964cf67fa56b23139e833c3.png" width="568" height="212"> </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_9" title="2013 AIME I Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>There are nonzero integers \( a \), \( b \), \( r \), and \( s \) such that the complex number \( r+si \) is a zero of the polynomial \( P(x)={x}^{3}-a{x}^{2}+bx-65 \). For each possible combination of \( a \) and \( b \), let \( {p}_{a,b} \) be the sum of the zeros of \( P(x) \). Find the sum of the \( {p}_{a,b} \)'s for all possible combinations of \( a \) and \( b \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_10" title="2013 AIME I Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Ms. Math's kindergarten class has 16 registered students. The classroom has a very large number, <i>N</i>, of play blocks which satisfies the conditions: </p><p>(a) If 16, 15, or 14 students are present in the class, then in each case all the blocks can be distributed in equal numbers to each student, and </p><p>(b) There are three integers \( 0 &lt; x &lt; y &lt; z &lt; 14 \) such that when \( x \), \( y \), or \( z \) students are present and the blocks are distributed in equal numbers to each student, there are exactly three blocks left over. </p><p>Find the sum of the distinct prime divisors of the least possible value of <i>N</i> satisfying the above conditions. </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_11" title="2013 AIME I Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( \bigtriangleup PQR \) be a triangle with \( \angle P = 75^o \) and \( \angle Q = 60^o \). A regular hexagon \( ABCDEF \) with side length 1 is drawn inside \( \triangle PQR \) so that side \( \overline{AB} \) lies on \( \overline{PQ} \), side \( \overline{CD} \) lies on \( \overline{QR} \), and one of the remaining vertices lies on \( \overline{RP} \). There are positive integers \( a, b, c, \) and \( d \) such that the area of \( \triangle PQR \) can be expressed in the form \( \frac{a+b\sqrt{c}}{d} \), where \( a \) and \( d \) are relatively prime, and c is not divisible by the square of any prime. Find \( a+b+c+d \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_12" title="2013 AIME I Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Triangle \( AB_0C_0 \) has side lengths \( AB_0 = 12 \), \( B_0C_0 = 17 \), and \( C_0A = 25 \). For each positive integer \( n \), points \( B_n \) and \( C_n \) are located on \( \overline{AB_{n-1}} \) and \( \overline{AC_{n-1}} \), respectively, creating three similar triangles \( \triangle AB_nC_n \sim \triangle B_{n-1}C_nC_{n-1} \sim \triangle AB_{n-1}C_{n-1} \). The area of the union of all triangles \( B_{n-1}C_nB_n \) for \( n\geq1 \) can be expressed as \( \tfrac pq \), where \( p \) and \( q \) are relatively prime positive integers. Find \( q \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_13" title="2013 AIME I Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>For \( \pi \le \theta &lt; 2\pi \), let </p><p>\[P=\dfrac12\cos\theta-\dfrac14\sin2\theta-\dfrac18\cos3\theta+\dfrac1{16}\sin4\theta+\dfrac1{32}\cos5\theta-\dfrac1{64}\sin6\theta-\dfrac1{128}\cos7\theta+\ldots\] </p><p>and </p><p>\[Q=1-\dfrac12\sin\theta-\dfrac14\cos2\theta+\dfrac1{8}\sin3\theta+\dfrac1{16}\cos4\theta-\dfrac1{32}\sin5\theta-\dfrac1{64}\cos6\theta+\dfrac1{128}\sin7\theta +\ldots\] </p><p>so that \( \frac{P}{Q} = \frac{2\sqrt2}{7} \). Then \( \sin\theta = -\frac{m}{n} \) where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_14" title="2013 AIME I Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( N \) be the number of ordered triples \( (A,B,C) \) of integers satisfying the conditions (a) \( 0\le A&lt;B&lt;C\le99 \), (b) there exist integers \( a \), \( b \), and \( c \), and prime \( p \) where \( 0\le b&lt;a&lt;c&lt;p \), (c) \( p \) divides \( A-a \), \( B-b \), and \( C-c \), and (d) each ordered triple \( (A,B,C) \) and each ordered triple \( (b,a,c) \) form arithmetic sequences. Find \( N \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_15" title="2013 AIME I Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="//wiki-images.artofproblemsolving.com/8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle"></a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["150","200","018","429","098","047","041","371","113","080","148","021","961","036","272"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2013 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2013 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Suppose that the measurement of time during the day is converted to the metric system so that each day has \( 10 \) metric hours, and each metric hour has \( 100 \) metric minutes. Digital clocks would then be produced that would read \( \text{9:99} \) just before midnight, \( \text{0:00} \) at midnight, \( \text{1:25} \) at the former \( \text{3:00} \) AM, and \( \text{7:50} \) at the former \( \text{6:00} \) PM. After the conversion, a person who wanted to wake up at the equivalent of the former \( \text{6:36} \) AM would set his new digital alarm clock for \( \text{A:BC} \), where \( \text{A} \), \( \text{B} \), and \( \text{C} \) are digits. Find \( 100\text{A}+10\text{B}+\text{C} \). </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_1" title="2013 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Positive integers \( a \) and \( b \) satisfy the condition \[\log_2(\log_{2^a}(\log_{2^b}(2^{1000}))) = 0.\] Find the sum of all possible values of \( a+b \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_2" title="2013 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A large candle is \( 119 \) centimeters tall. It is designed to burn down more quickly when it is first lit and more slowly as it approaches its bottom. Specifically, the candle takes \( 10 \) seconds to burn down the first centimeter from the top, \( 20 \) seconds to burn down the second centimeter, and \( 10k \) seconds to burn down the \( k \)-th centimeter. Suppose it takes \( T \) seconds for the candle to burn down completely. Then \( \tfrac{T}{2} \) seconds after it is lit, the candle's height in centimeters will be \( h \). Find \( 10h \). </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_3" title="2013 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In the Cartesian plane let \( A = (1,0) \) and \( B = \left( 2, 2\sqrt{3} \right) \). Equilateral triangle \( ABC \) is constructed so that \( C \) lies in the first quadrant. Let \( P=(x,y) \) be the center of \( \triangle ABC \). Then \( x \cdot y \) can be written as \( \tfrac{p\sqrt{q}}{r} \), where \( p \) and \( r \) are relatively prime positive integers and \( q \) is an integer that is not divisible by the square of any prime. Find \( p+q+r \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_4" title="2013 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>In equilateral \( \triangle ABC \) let points \( D \) and \( E \) trisect \( \overline{BC} \). Then \( \sin(\angle DAE) \) can be expressed in the form \( \frac{a\sqrt{b}}{c} \), where \( a \) and \( c \) are relatively prime positive integers, and \( b \) is an integer that is not divisible by the square of any prime. Find \( a+b+c \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_5" title="2013 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Find the least positive integer \( N \) such that the set of \( 1000 \) consecutive integers beginning with \( 1000\cdot N \) contains no square of an integer. </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_6" title="2013 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>A group of clerks is assigned the task of sorting \( 1775 \) files. Each clerk sorts at a constant rate of \( 30 \) files per hour. At the end of the first hour, some of the clerks are reassigned to another task; at the end of the second hour, the same number of the remaining clerks are also reassigned to another task, and a similar assignment occurs at the end of the third hour. The group finishes the sorting in \( 3 \) hours and \( 10 \) minutes. Find the number of files sorted during the first one and a half hours of sorting. </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_7" title="2013 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A hexagon that is inscribed in a circle has side lengths \( 22 \), \( 22 \), \( 20 \), \( 22 \), \( 22 \), and \( 20 \) in that order. The radius of the circle can be written as \( p+\sqrt{q} \), where \( p \) and \( q \) are positive integers. Find \( p+q \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_8" title="2013 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>A \( 7\times 1 \) board is completely covered by \( m\times 1 \) tiles without overlap; each tile may cover any number of consecutive squares, and each tile lies completely on the board. Each tile is either red, blue, or green. Let \( N \) be the number of tilings of the \( 7\times 1 \) board in which all three colors are used at least once. For example, a \( 1\times 1 \) red tile followed by a \( 2\times 1 \) green tile, a \( 1\times 1 \) green tile, a \( 2\times 1 \) blue tile, and a \( 1\times 1 \) green tile is a valid tiling. Note that if the \( 2\times 1 \) blue tile is replaced by two \( 1\times 1 \) blue tiles, this results in a different tiling. Find the remainder when \( N \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_9" title="2013 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Given a circle of radius \( \sqrt{13} \), let \( A \) be a point at a distance \( 4 + \sqrt{13} \) from the center \( O \) of the circle. Let \( B \) be the point on the circle nearest to point \( A \). A line passing through the point \( A \) intersects the circle at points \( K \) and \( L \). The maximum possible area for \( \triangle BKL \) can be written in the form \( \frac{a - b\sqrt{c}}{d} \), where \( a \), \( b \), \( c \), and \( d \) are positive integers, \( a \) and \( d \) are relatively prime, and \( c \) is not divisible by the square of any prime. Find \( a+b+c+d \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_10" title="2013 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( A = \{1, 2, 3, 4, 5, 6, 7\} \), and let \( N \) be the number of functions \( f \) from set \( A \) to set \( A \) such that \( f(f(x)) \) is a constant function. Find the remainder when \( N \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_11" title="2013 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Let \( S \) be the set of all polynomials of the form \( z^3 + az^2 + bz + c \), where \( a \), \( b \), and \( c \) are integers. Find the number of polynomials in \( S \) such that each of its roots \( z \) satisfies either \( |z| = 20 \) or \( |z| = 13 \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_12" title="2013 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>In \( \triangle ABC \), \( AC = BC \), and point \( D \) is on \( \overline{BC} \) so that \( CD = 3\cdot BD \). Let \( E \) be the midpoint of \( \overline{AD} \). Given that \( CE = \sqrt{7} \) and \( BE = 3 \), the area of \( \triangle ABC \) can be expressed in the form \( m\sqrt{n} \), where \( m \) and \( n \) are positive integers and \( n \) is not divisible by the square of any prime. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_13" title="2013 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>For positive integers \( n \) and \( k \), let \( f(n, k) \) be the remainder when \( n \) is divided by \( k \), and for \( n &gt; 1 \) let \( F(n) = \max_{\substack{1\le k\le \frac{n}{2}}} f(n, k) \). Find the remainder when \( \sum\limits_{n=20}^{100} F(n) \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_14" title="2013 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( A,B,C \) be angles of an acute triangle with \begin{align*} \cos^2 A + \cos^2 B + 2 \sin A \sin B \cos C &amp;= \frac{15}{8} \text{ and} \\ \cos^2 B + \cos^2 C + 2 \sin B \sin C \cos A &amp;= \frac{14}{9} \end{align*} There are positive integers \( p \), \( q \), \( r \), and \( s \) for which \[\cos^2 C + \cos^2 A + 2 \sin C \sin A \cos B = \frac{p-q\sqrt{r}}{s},\] where \( p+q \) and \( s \) are relatively prime and \( r \) is not divisible by the square of any prime. Find \( p+q+r+s \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_15" title="2013 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["275","881","350","040","020","282","945","272","106","146","399","540","010","512","222"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

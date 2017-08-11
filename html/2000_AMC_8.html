@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2000 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2000 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Aunt Anna is \( 42 \) years old. Caitlin is \( 5 \) years younger than Brianna, and Brianna is half as old as Aunt Anna. How old is Caitlin? </p><p>\( \text{(A)}\ 15 \qquad \text{(B)}\ 16 \qquad \text{(C)}\ 17 \qquad \text{(D)}\ 21 \qquad \text{(E)}\ 37 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_1" title="2000 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Which of these numbers is less than its reciprocal? </p><p>\( \text{(A)}\ -2 \qquad \text{(B)}\ -1 \qquad \text{(C)}\ 0 \qquad \text{(D)}\ 1 \qquad \text{(E)}\ 2 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_2" title="2000 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>How many whole numbers lie in the interval between \( \frac{5}{3} \) and \( 2\pi? \) </p><p>\( \text{(A)}\ 2 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ \text{infinitely many} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_3" title="2000 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In \( 1960 \) only \( 5\% \) of the working adults in Carlin City worked at home. By \( 1970 \) the "at-home" work force increased to \( 8\% \). In \( 1980 \) there were approximately \( 15\% \) working at home, and in \( 1990 \) there were \( 30\% \). The graph that best illustrates this is </p><p><img src="https://latex.artofproblemsolving.com/6/5/6/656eabcc57c768cb1f63e28160766b9874093f65.png" width="1002" height="408"> </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_4" title="2000 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Each principal of Lincoln High School serves exactly one \( 3 \)-year term. What is the maximum number of principals this school could have during an \( 8 \)-year period? </p><p>\( \text{(A)}\ 2 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_5" title="2000 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Figure \( ABCD \) is a square. Inside this square three smaller squares are drawn with the side lengths as labeled. The area of the shaded L-shaped region is </p><p><img src="https://latex.artofproblemsolving.com/7/c/6/7c6ea431a00e38c9ba0b8513fa0b9a39252cfcef.png" width="252" height="248"> </p><p>\( \text{(A)}\ 7 \qquad \text{(B)}\ 10 \qquad \text{(C)}\ 12.5 \qquad \text{(D)}\ 14 \qquad \text{(E)}\ 15 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_6" title="2000 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>What is the minimum possible product of three different numbers of the set \( \{-8,-6,-4,0,3,5,7\} \)? </p><p>\( \text{(A)}\ -336 \qquad \text{(B)}\ -280 \qquad \text{(C)}\ -210 \qquad \text{(D)}\ -192 \qquad \text{(E)}\ 0 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_7" title="2000 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Three dice with faces numbered 1 through 6 are stacked as shown. Seven of the eighteen faces are visible, leaving eleven faces hidden (back, bottom, between). The total number of dots NOT visible in this view is </p><p><img src="https://latex.artofproblemsolving.com/e/6/e/e6edba55d99924ea2b25e28f44f68200e0b47bed.png" width="108" height="252"> </p><p>\( \text{(A)}\ 21 \qquad \text{(B)}\ 22 \qquad \text{(C)}\ 31 \qquad \text{(D)}\ 41 \qquad \text{(E)}\ 53 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_8" title="2000 AMC 8 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Three-digit powers of 2 and 5 are used in this <i>cross-number</i> puzzle. What is the only possible digit for the outlined square? \[\begin{array}{lcl} \textbf{ACROSS} &amp; &amp; \textbf{DOWN} \\ \textbf{2}. 2^m &amp; &amp; \textbf{1}. 5^n \end{array}\] </p><p><img src="https://latex.artofproblemsolving.com/2/7/3/273126e87eac499d2e6ba1b00aed3bd4b97258d7.png" width="252" height="252"> </p><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 6 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_9" title="2000 AMC 8 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Ara and Shea were once the same height. Since then Shea has grown 20% while Ara has grown half as many inches as Shea. Shea is now 60 inches tall. How tall, in inches, is Ara now? </p><p>\( \text{(A)}\ 48 \qquad \text{(B)}\ 51 \qquad \text{(C)}\ 52 \qquad \text{(D)}\ 54 \qquad \text{(E)}\ 55 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_10" title="2000 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>The number 64 has the property that it is divisible by its units digit. How many whole numbers between 10 and 50 have this property? </p><p>\( \text{(A)}\ 15 \qquad \text{(B)}\ 16 \qquad \text{(C)}\ 17 \qquad \text{(D)}\ 18 \qquad \text{(E)}\ 20 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_11" title="2000 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A block wall 100 feet long and 7 feet high will be constructed using blocks that are 1 foot high and either 2 feet long or 1 foot long (no blocks may be cut). The vertical joins in the blocks must be staggered as shown, and the wall must be even on the ends. What is the smallest number of blocks needed to build this wall? </p><p><img src="https://latex.artofproblemsolving.com/d/2/5/d2510c58a73be2d05ac8d92921b4223049279b87.png" width="252" height="85"> </p><p>\( \text{(A)}\ 344 \qquad \text{(B)}\ 347 \qquad \text{(C)}\ 350 \qquad \text{(D)}\ 353 \qquad \text{(E)}\ 356 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_12" title="2000 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>In triangle \( CAT \), we have \( \angle ACT = \angle ATC \) and \( \angle CAT = 36^\circ \). If \( \overline{TR} \) bisects \( \angle ATC \), then \( \angle CRT = \) </p><p><img src="https://latex.artofproblemsolving.com/c/4/b/c4b609451f269142963f5f523e25d97c932e07d4.png" width="178" height="252"> </p><p>\( \text{(A)}\ 36^\circ \qquad \text{(B)}\ 54^\circ \qquad \text{(C)}\ 72^\circ \qquad \text{(D)}\ 90^\circ \qquad \text{(E)}\ 108^\circ \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_13" title="2000 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>What is the units digit of \( 19^{19} + 99^{99} \)? </p><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 1 \qquad \text{(C)}\ 2 \qquad \text{(D)}\ 8 \qquad \text{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_14" title="2000 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Triangles \( ABC \), \( ADE \), and \( EFG \) are all equilateral. Points \( D \) and \( G \) are midpoints of \( \overline{AC} \) and \( \overline{AE} \), respectively. If \( AB = 4 \), what is the perimeter of figure \( ABCDEFG \)? </p><p><img src="https://latex.artofproblemsolving.com/7/2/f/72f7a22c3a9ae992bff212373ce0202e4adcabd3.png" width="252" height="175"> </p><p>\( \text{(A)}\ 12 \qquad \text{(B)}\ 13 \qquad \text{(C)}\ 15 \qquad \text{(D)}\ 18 \qquad \text{(E)}\ 21 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_15" title="2000 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>In order for Mateen to walk a kilometer (1000m) in his rectangular backyard, he must walk the length 25 times or walk its perimeter 10 times. What is the area of Mateen's backyard in square meters? </p><p>\( \text{(A)}\ 40 \qquad \text{(B)}\ 200 \qquad \text{(C)}\ 400 \qquad \text{(D)}\ 500 \qquad \text{(E)}\ 1000 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_16" title="2000 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>The operation \( \otimes \) is defined for all nonzero numbers by \( a\otimes b = \dfrac{a^2}{b} \). Determine \( [(1\otimes 2)\otimes 3] - [1\otimes (2\otimes 3)] \). </p><p>\( \text{(A)}\ -\dfrac{2}{3} \qquad \text{(B)}\ -\dfrac{1}{4} \qquad \text{(C)}\ 0 \qquad \text{(D)}\ \dfrac{1}{4} \qquad \text{(E)}\ \dfrac{2}{3} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_17" title="2000 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Consider these two geoboard quadrilaterals. Which of the following statements is true? </p><p><img src="https://latex.artofproblemsolving.com/6/c/8/6c83ebd88108fd56e5ee23dfd7195ffc2dd808b9.png" width="252" height="252"> </p><p>\( \text{(A)}\ \text{The area of quadrilateral I is more than the area of quadrilateral II.} \) </p><p>\( \text{(B)}\ \text{The area of quadrilateral I is less than the area of quadrilateral II.} \) </p><p>\( \text{(C)}\ \text{The quadrilaterals have the same area and the same perimeter.} \) </p><p>\( \text{(D)}\ \text{The quadrilaterals have the same area, but the perimeter of I is more than the perimeter of II.} \) </p><p>\( \text{(E)}\ \text{The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II.} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_18" title="2000 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Three circular arcs of radius 5 units bound the region shown. Arcs \( AB \) and \( AD \) are quarter-circles, and arc \( BCD \) is a semicircle. What is the area, in square units, of the region? </p><p><img src="https://latex.artofproblemsolving.com/f/6/8/f68d2f850792d1c86d124affe62be3679ead3139.png" width="252" height="245"> </p><p>\( \text{(A)}\ 25 \qquad \text{(B)}\ 10 + 5\pi \qquad \text{(C)}\ 50 \qquad \text{(D)}\ 50 + 5\pi \qquad \text{(E)}\ 25\pi \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_19" title="2000 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>You have nine coins: a collection of pennies, nickels, dimes, and quarters having a total value of $\( 1.02 \), with at least one coin of each type. How many dimes must you have? </p><p>\( \text{(A)}\ 1 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 3 \qquad \text{(D)}\ 4 \qquad \text{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_20" title="2000 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Keiko tosses one penny and Ephraim tosses two pennies. The probability that Ephraim gets the same number of heads that Keiko gets is </p><p>\( \text{(A)}\ \dfrac{1}{4} \qquad \text{(B)}\ \dfrac{3}{8} \qquad \text{(C)}\ \dfrac{1}{2} \qquad \text{(D)}\ \dfrac{2}{3} \qquad \text{(E)}\ \dfrac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_21" title="2000 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A cube has edge length 2. Suppose that we glue a cube of edge length 1 on top of the big cube so that one of its faces rests entirely on the top face of the larger cube. The percent increase in the surface area (sides, top, and bottom) from the original cube to the new solid formed is closest to </p><p><img src="https://latex.artofproblemsolving.com/7/7/e/77efdf228acb1d09a0aa03b41d91db66e38ef858.png" width="198" height="252"> </p><p>\( \text{(A)}\ 10 \qquad \text{(B)}\ 15 \qquad \text{(C)}\ 17 \qquad \text{(D)}\ 21 \qquad \text{(E)}\ 25 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_22" title="2000 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>There is a list of seven numbers. The average of the first four numbers is 5, and the average of the last four numbers is 8. If the average of all seven numbers is \( 6\frac{4}{7} \), then the number common to both sets of four numbers is </p><p>\( \text{(A)}\ 5\frac{3}{7} \qquad \text{(B)}\ 6 \qquad \text{(C)}\ 6\frac{4}{7} \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 7\frac{3}{7} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_23" title="2000 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>If \( \angle A = 20^\circ \) and \( \angle AFG = \angle AGF \), then \( \angle B + \angle D = \) </p><p><img src="https://latex.artofproblemsolving.com/d/e/d/ded25078447948be07f8871f985ca397d863f393.png" width="252" height="238"> </p><p>\( \text{(A)}\ 48^\circ \qquad \text{(B)}\ 60^\circ \qquad \text{(C)}\ 72^\circ \qquad \text{(D)}\ 80^\circ \qquad \text{(E)}\ 90^\circ \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_24" title="2000 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>The area of rectangle \( ABCD \) is 72. If point \( A \) and the midpoints of \( \overline{BC} \) and \( \overline{CD} \) are joined to form a triangle, the area of that triangle is </p><p><img src="https://latex.artofproblemsolving.com/8/2/d/82d9c49065366cbfc4a0be7f8a732970a7640dca.png" width="252" height="225"> </p><p>\( \text{(A)}\ 21 \qquad \text{(B)}\ 27 \qquad \text{(C)}\ 30 \qquad \text{(D)}\ 36 \qquad \text{(E)}\ 40 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_25" title="2000 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","A","D","E","C","A","B","D","D","E","C","D","C","D","C","C","A","E","C","A","B","C","B","D","B"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

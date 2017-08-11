@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2009 AMC 10B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2009 AMC 10B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Each morning of her five-day workweek, Jane bought either a 50-cent muffin or a 75-cent bagel. Her total cost for the week was a whole number of dollars, How many bagels did she buy? </p><p>\( \text{(A) } 1 \qquad \text{(B) } 2 \qquad \text{(C) } 3 \qquad \text{(D) } 4 \qquad \text{(E) } 5 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_1" title="2009 AMC 10B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Which of the following is equal to \( \dfrac{\frac{1}{3}-\frac{1}{4}}{\frac{1}{2}-\frac{1}{3}} \)? </p><p>\( \text{(A) } \frac 14 \qquad \text{(B) } \frac 13 \qquad \text{(C) } \frac 12 \qquad \text{(D) } \frac 23 \qquad \text{(E) } \frac 34 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_2" title="2009 AMC 10B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Paula the painter had just enough paint for \( 30 \) identically sized rooms. Unfortunately, on the way to work, three cans of paint fell off her truck, so she had only enough paint for \( 25 \) rooms. How many cans of paint did she use for the \( 25 \) rooms? </p><p>\( \text{(A) } 10 \qquad \text{(B) } 12 \qquad \text{(C) } 15 \qquad \text{(D) } 18 \qquad \text{(E) } 25 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_3" title="2009 AMC 10B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>A rectangular yard contains two flower beds in the shape of congruent isosceles right triangles. The remainder of the yard has a trapezoidal shape, as shown. The parallel sides of the trapezoid have lengths \( 15 \) and \( 25 \) meters. What fraction of the yard is occupied by the flower beds? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/3/e/e/3ee29f78e4a8eecdb8faec4092f2f1c361a869e4.png" width="238" height="52"> 
+</center><p>\( \text{(A) } \frac {1}{8} \qquad \text{(B) } \frac {1}{6} \qquad \text{(C) } \frac {1}{5} \qquad \text{(D) } \frac {1}{4} \qquad \text{(E) } \frac {1}{3} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_4" title="2009 AMC 10B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Twenty percent less than 60 is one-third more than what number? </p><p>\( \text{(A) } 16 \qquad \text{(B) } 30 \qquad \text{(C) } 32 \qquad \text{(D) } 36 \qquad \text{(E) } 48 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_5" title="2009 AMC 10B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Kiana has two older twin brothers. The product of their three ages is 128. What is the sum of their three ages? </p><p>\( \text{(A) } 10 \qquad \text{(B) } 12 \qquad \text{(C) } 16 \qquad \text{(D) } 18 \qquad \text{(E) } 24 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_6" title="2009 AMC 10B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>By inserting parentheses, it is possible to give the expression \[2\times3 + 4\times5\] several values. How many different values can be obtained? </p><p>\( \text{(A) } 2 \qquad \text{(B) } 3 \qquad \text{(C) } 4 \qquad \text{(D) } 5 \qquad \text{(E) } 6 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_7" title="2009 AMC 10B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>In a certain year the price of gasoline rose by \( 20\% \) during January, fell by \( 20\% \) during February, rose by \( 25\% \) during March, and fell by \( x\% \) during April. The price of gasoline at the end of April was the same as it had been at the beginning of January. To the nearest integer, what is \( x \)? </p><p>\( \text{(A) } 12 \qquad \text{(B) } 17 \qquad \text{(C) } 20 \qquad \text{(D) } 25 \qquad \text{(E) } 35 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_8" title="2009 AMC 10B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Segment \( BD \) and \( AE \) intersect at \( C \), as shown, \( AB=BC=CD=CE \), and \( \angle A = \frac 52 \angle B \). What is the degree measure of \( \angle D \)? </p><p><img src="https://latex.artofproblemsolving.com/2/6/4/2648b032deb3bc4fba6f53bcb3b07b32bcfad484.png" width="192" height="132"> </p><p>\( \text{(A) } 52.5 \qquad \text{(B) } 55 \qquad \text{(C) } 57.7 \qquad \text{(D) } 60 \qquad \text{(E) } 62.5 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_9" title="2009 AMC 10B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A flagpole is originally \( 5 \) meters tall. A hurricane snaps the flagpole at a point \( x \) meters above the ground so that the upper part, still attached to the stump, touches the ground \( 1 \) meter away from the base. What is \( x \)? </p><p>\( \text{(A) } 2.0 \qquad \text{(B) } 2.1 \qquad \text{(C) } 2.2 \qquad \text{(D) } 2.3 \qquad \text{(E) } 2.4 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_10" title="2009 AMC 10B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>How many \( 7 \)-digit palindromes (numbers that read the same backward as forward) can be formed using the digits \( 2 \), \( 2 \), \( 3 \), \( 3 \), \( 5 \), \( 5 \), \( 5 \)? </p><p>\( \text{(A) } 6 \qquad \text{(B) } 12 \qquad \text{(C) } 24 \qquad \text{(D) } 36 \qquad \text{(E) } 48 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_11" title="2009 AMC 10B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Distinct points \( A \), \( B \), \( C \), and \( D \) lie on a line, with \( AB=BC=CD=1 \). Points \( E \) and \( F \) lie on a second line, parallel to the first, with \( EF=1 \). A triangle with positive area has three of the six points as its vertices. How many possible values are there for the area of the triangle? </p><p>\( \text{(A) } 3 \qquad \text{(B) } 4 \qquad \text{(C) } 5 \qquad \text{(D) } 6 \qquad \text{(E) } 7 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_12" title="2009 AMC 10B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>As shown below, convex pentagon \( ABCDE \) has sides \( AB=3 \), \( BC=4 \), \( CD=6 \), \( DE=3 \), and \( EA=7 \). The pentagon is originally positioned in the plane with vertex \( A \) at the origin and vertex \( B \) on the positive \( x \)-axis. The pentagon is then rolled clockwise to the right along the \( x \)-axis. Which side will touch the point \( x=2009 \) on the \( x \)-axis? </p><p><img src="https://latex.artofproblemsolving.com/f/d/6/fd6ac5c8a85c125cb27930bfe3c7aa4b9cd98e12.png" width="668" height="238"> </p><p>\( \text{(A) } \overline{AB} \qquad \text{(B) } \overline{BC} \qquad \text{(C) } \overline{CD} \qquad \text{(D) } \overline{DE} \qquad \text{(E) } \overline{EA} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_13" title="2009 AMC 10B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>On Monday, Millie puts a quart of seeds, \( 25\% \) of which are millet, into a bird feeder. On each successive day she adds another quart of the same mix of seeds without removing any seeds that are left. Each day the birds eat only \( 25\% \) of the millet in the feeder, but they eat all of the other seeds. On which day, just after Millie has placed the seeds, will the birds find that more than half the seeds in the feeder are millet? </p><p>\( \text{(A) } \text{Tuesday} \qquad \text{(B) } \text{Wednesday} \qquad \text{(C) } \text{Thursday} \qquad \text{(D) } \text{Friday} \qquad \text{(E) } \text{Saturday} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_14" title="2009 AMC 10B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>When a bucket is two-thirds full of water, the bucket and water weigh \( a \) kilograms. When the bucket is one-half full of water the total weight is \( b \) kilograms. In terms of \( a \) and \( b \), what is the total weight in kilograms when the bucket is full of water? </p><p>\( \text{(A) } \frac23a + \frac13b \qquad \text{(B) } \frac32a - \frac12b \qquad \text{(C) } \frac32a + b \qquad \text{(D) } \frac32a + 2b \qquad \text{(E) } 3a - 2b \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_15" title="2009 AMC 10B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Points \( A \) and \( C \) lie on a circle centered at \( O \), each of \( \overline{BA} \) and \( \overline{BC} \) are tangent to the circle, and \( \triangle ABC \) is equilateral. The circle intersects \( \overline{BO} \) at \( D \). What is \( \frac{BD}{BO} \)? </p><p>\( \text{(A) } \frac {\sqrt2}{3} \qquad \text{(B) } \frac {1}{2} \qquad \text{(C) } \frac {\sqrt3}{3} \qquad \text{(D) } \frac {\sqrt2}{2} \qquad \text{(E) } \frac {\sqrt3}{2} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_16" title="2009 AMC 10B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Five unit squares are arranged in the coordinate plane as shown, with the lower left corner at the origin. The slanted line, extending from \( (a,0) \) to \( (3,3) \), divides the entire region into two regions of equal area. What is \( a \)? <img src="https://latex.artofproblemsolving.com/6/b/c/6bc7311ff3d3544995cdcaf4af10e95b690b3f22.png" width="665" height="665"> </p><p>\( \text{(A) } \frac 12 \qquad \text{(B) } \frac 35 \qquad \text{(C) } \frac 23 \qquad \text{(D) } \frac 34 \qquad \text{(E) } \frac 45 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_17" title="2009 AMC 10B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Rectangle \( ABCD \) has \( AB=8 \) and \( BC=6 \). Point \( M \) is the midpoint of diagonal \( \overline{AC} \), and \( E \) is on \( AB \) with \( \overline{ME}\perp\overline{AC} \). What is the area of \( \triangle AME \)? </p><p>\( \text{(A) } \frac{65}{8} \qquad \text{(B) } \frac{25}{3} \qquad \text{(C) } 9 \qquad \text{(D) } \frac{75}{8} \qquad \text{(E) } \frac{85}{8} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_18" title="2009 AMC 10B Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A particular \( 12 \)-hour digital clock displays the hour and minute of a day. Unfortunately, whenever it is supposed to display a \( 1 \), it mistakenly displays a \( 9 \). For example, when it is 1:16 PM the clock incorrectly shows 9:96 PM. What fraction of the day will the clock show the correct time? </p><p>\( \text{(A) } \frac 12 \qquad \text{(B) } \frac 58 \qquad \text{(C) } \frac 34 \qquad \text{(D) } \frac 56 \qquad \text{(E) } \frac 9{10} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_19" title="2009 AMC 10B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Triangle \( ABC \) has a right angle at \( B \), \( AB=1 \), and \( BC=2 \). The bisector of \( \angle BAC \) meets \( \overline{BC} \) at \( D \). What is \( BD \)? </p><p><img src="https://latex.artofproblemsolving.com/f/0/b/f0b6594577eb2fc6916bc732b5f99843acda5c60.png" width="222" height="125"> </p><p>\( \text{(A) } \frac {\sqrt3 - 1}{2} \qquad \text{(B) } \frac {\sqrt5 - 1}{2} \qquad \text{(C) } \frac {\sqrt5 + 1}{2} \qquad \text{(D) } \frac {\sqrt6 + \sqrt2}{2} \qquad \text{(E) } 2\sqrt 3 - 1 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_20" title="2009 AMC 10B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>What is the remainder when \( 3^0 + 3^1 + 3^2 + \cdots + 3^{2009} \) is divided by 8? </p><p>\( \text{(A) } 0 \qquad \text{(B) } 1 \qquad \text{(C) } 2 \qquad \text{(D) } 4 \qquad \text{(E) } 6 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_21" title="2009 AMC 10B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A cubical cake with edge length \( 2 \) inches is iced on the sides and the top. It is cut vertically into three pieces as shown in this top view, where \( M \) is the midpoint of a top edge. The piece whose top is triangle \( B \) contains \( c \) cubic inches of cake and \( s \) square inches of icing. What is \( c+s \)? </p><p><img src="https://latex.artofproblemsolving.com/b/9/a/b9a0b0d2b46c6d8034bbea244b0985f0df2a098d.png" width="118" height="98"> </p><p>\( \text{(A) } \frac{24}{5} \qquad \text{(B) } \frac{32}{5} \qquad \text{(C) } 8+\sqrt5 \qquad \text{(D) } 5+\frac{16\sqrt5}{5} \qquad \text{(E) } 10+5\sqrt5 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_22" title="2009 AMC 10B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>Rachel and Robert run on a circular track. Rachel runs counterclockwise and completes a lap every 90 seconds, and Robert runs clockwise and completes a lap every 80 seconds. Both start from the same line at the same time. At some random time between 10 minutes and 11 minutes after they begin to run, a photographer standing inside the track takes a picture that shows one-fourth of the track, centered on the starting line. What is the probability that both Rachel and Robert are in the picture? </p><p>\( \text{(A) } \frac 1{16} \qquad \text{(B) } \frac 18 \qquad \text{(C) } \frac 3{16} \qquad \text{(D) } \frac 14 \qquad \text{(E) } \frac 5{16} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_23" title="2009 AMC 10B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>The keystone arch is an ancient architectural feature. It is composed of congruent isosceles trapezoids fitted together along the non-parallel sides, as shown. The bottom sides of the two end trapezoids are horizontal. In an arch made with \( 9 \) trapezoids, let \( x \) be the angle measure in degrees of the larger interior angle of the trapezoid. What is \( x \)? </p><p><img src="https://latex.artofproblemsolving.com/d/e/c/dec895c3ce8d2cb187b83306a03e47ef6abc8f75.png" width="268" height="115"> </p><p>\( \text{(A) } 100 \qquad \text{(B) } 102 \qquad \text{(C) } 104 \qquad \text{(D) } 106 \qquad \text{(E) } 108 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_24" title="2009 AMC 10B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Each face of a cube is given a single narrow stripe painted from the center of one edge to the center of the opposite edge. The choice of the edge pairing is made at random and independently for each face. What is the probability that there is a continuous stripe encircling the cube? </p><p>\( \text{(A) } \frac 18 \qquad \text{(B) } \frac {3}{16} \qquad \text{(C) } \frac 14 \qquad \text{(D) } \frac 38 \qquad \text{(E) } \frac 12 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_25" title="2009 AMC 10B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","C","C","C","D","D","C","B","A","E","A","A","C","D","E","B","C","D","A","B","D","B","C","A","B"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

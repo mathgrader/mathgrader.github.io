@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2016 AMC 10A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2016 AMC 10A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is the value of \( \dfrac{11!-10!}{9!} \)? </p><p>\( \textbf{(A)}\ 99\qquad\textbf{(B)}\ 100\qquad\textbf{(C)}\ 110\qquad\textbf{(D)}\ 121\qquad\textbf{(E)}\ 132 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_1" title="2016 AMC 10A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>For what value of \( x \) does \( 10^{x}\cdot 100^{2x}=1000^{5} \)? </p><p>\( \textbf{(A)}\ 1 \qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_2" title="2016 AMC 10A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>For every dollar Ben spent on bagels, David spent \( 25 \) cents less. Ben paid \( $12.50 \) more than David. How much did they spend in the bagel store together? </p><p>\( \textbf{(A)}\ $37.50 \qquad\textbf{(B)}\ $50.00\qquad\textbf{(C)}\ $87.50\qquad\textbf{(D)}\ $90.00\qquad\textbf{(E)}\ $92.50 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_3" title="2016 AMC 10A Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The remainder can be defined for all real numbers \( x \) and \( y \) with \( y \neq 0 \) by \[\text{rem} (x ,y)=x-y\left \lfloor \frac{x}{y} \right \rfloor\]where \( \left \lfloor \tfrac{x}{y} \right \rfloor \) denotes the greatest integer less than or equal to \( \tfrac{x}{y} \). What is the value of \( \text{rem} (\tfrac{3}{8}, -\tfrac{2}{5} ) \)? </p><p>\( \textbf{(A) } -\frac{3}{8} \qquad \textbf{(B) } -\frac{1}{40} \qquad \textbf{(C) } 0 \qquad \textbf{(D) } \frac{3}{8} \qquad \textbf{(E) } \frac{31}{40} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_4" title="2016 AMC 10A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>A rectangular box has integer side lengths in the ratio \( 1: 3: 4 \). Which of the following could be the volume of the box? </p><p>\( \textbf{(A)}\ 48\qquad\textbf{(B)}\ 56\qquad\textbf{(C)}\ 64\qquad\textbf{(D)}\ 96\qquad\textbf{(E)}\ 144 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_5" title="2016 AMC 10A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Ximena lists the whole numbers \( 1 \) through \( 30 \) once. Emilio copies Ximena's numbers, replacing each occurrence of the digit \( 2 \) by the digit \( 1 \). Ximena adds her numbers and Emilio adds his numbers. How much larger is Ximena's sum than Emilio's? </p><p>\( \textbf{(A)}\ 13\qquad\textbf{(B)}\ 26\qquad\textbf{(C)}\ 102\qquad\textbf{(D)}\ 103\qquad\textbf{(E)}\ 110 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_6" title="2016 AMC 10A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The mean, median, and mode of the \( 7 \) data values \( 60, 100, x, 40, 50, 200, 90 \) are all equal to \( x \). What is the value of \( x \)? </p><p>\( \textbf{(A)}\ 50 \qquad\textbf{(B)}\ 60 \qquad\textbf{(C)}\ 75 \qquad\textbf{(D)}\ 90 \qquad\textbf{(E)}\ 100 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_7" title="2016 AMC 10A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Trickster Rabbit agrees with Foolish Fox to double Fox's money every time Fox crosses the bridge by Rabbit's house, as long as Fox pays \( 40 \) coins in toll to Rabbit after each crossing. The payment is made after the doubling, Fox is excited about his good fortune until he discovers that all his money is gone after crossing the bridge three times. How many coins did Fox have at the beginning? </p><p>\( \textbf{(A)}\ 20 \qquad\textbf{(B)}\ 30\qquad\textbf{(C)}\ 35\qquad\textbf{(D)}\ 40\qquad\textbf{(E)}\ 45 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_8" title="2016 AMC 10A Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>A triangular array of \( 2016 \) coins has \( 1 \) coin in the first row, \( 2 \) coins in the second row, \( 3 \) coins in the third row, and so on up to \( N \) coins in the \( N \)th row. What is the sum of the digits of \( N \)? </p><p>\( \textbf{(A)}\ 6\qquad\textbf{(B)}\ 7\qquad\textbf{(C)}\ 8\qquad\textbf{(D)}\ 9\qquad\textbf{(E)}\ 10 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_9" title="2016 AMC 10A Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>A rug is made with three different colors as shown. The areas of the three differently colored regions form an arithmetic progression. The inner rectangle is one foot wide, and each of the two shaded regions is \( 1 \) foot wide on all four sides. What is the length in feet of the inner rectangle? <img src="https://latex.artofproblemsolving.com/0/e/8/0e82b393f0623e820199f3756d84f20a00a00d4d.png" width="285" height="205"> </p><p>\[\textbf{(A) } 1 \qquad \textbf{(B) } 2 \qquad \textbf{(C) } 4 \qquad \textbf{(D) } 6 \qquad \textbf{(E) }8\] </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_10" title="2016 AMC 10A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>What is the area of the shaded region of the given \( 8 \times 5 \) rectangle? </p><p><img src="https://latex.artofproblemsolving.com/9/5/f/95f8b885091c3cb0d7a2cb9325def6a059bfb982.png" width="285" height="195"> </p><p>\( \textbf{(A)}\ 4\dfrac{3}{5} \qquad \textbf{(B)}\ 5\qquad \textbf{(C)}\ 5\dfrac{1}{4} \qquad \textbf{(D)}\ 6\dfrac{1}{2} \qquad \textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_11" title="2016 AMC 10A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Three distinct integers are selected at random between \( 1 \) and \( 2016 \), inclusive. Which of the following is a correct statement about the probability \( p \) that the product of the three integers is odd? </p><p>\( \textbf{(A)}\ p&lt;\dfrac{1}{8}\qquad\textbf{(B)}\ p=\dfrac{1}{8}\qquad\textbf{(C)}\ \dfrac{1}{8}&lt;p&lt;\dfrac{1}{3}\qquad\textbf{(D)}\ p=\dfrac{1}{3}\qquad\textbf{(E)}\ p&gt;\dfrac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_12" title="2016 AMC 10A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Five friends sat in a movie theater in a row containing \( 5 \) seats, numbered \( 1 \) to \( 5 \) from left to right. (The directions "left" and "right" are from the point of view of the people as they sit in the seats.) During the movie Ada went to the lobby to get some popcorn. When she returned, she found that Bea had moved two seats to the right, Ceci had moved one seat to the left, and Dee and Edie had switched seats, leaving an end seat for Ada. In which seat had Ada been sitting before she got up? </p><p>\( \textbf{(A) }1 \qquad \textbf{(B) } 2 \qquad \textbf{(C) } 3 \qquad \textbf{(D) } 4\qquad \textbf{(E) } 5 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_13" title="2016 AMC 10A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>How many ways are there to write \( 2016 \) as the sum of twos and threes, ignoring order? (For example, \( 1008\cdot 2 + 0\cdot 3 \) and \( 402\cdot 2 + 404\cdot 3 \) are two such ways.) </p><p>\( \textbf{(A)}\ 236\qquad\textbf{(B)}\ 336\qquad\textbf{(C)}\ 337\qquad\textbf{(D)}\ 403\qquad\textbf{(E)}\ 672 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_14" title="2016 AMC 10A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Seven cookies of radius \( 1 \) inch are cut from a circle of cookie dough, as shown. Neighboring cookies are tangent, and all except the center cookie are tangent to the edge of the dough. The leftover scrap is reshaped to form another cookie of the same thickness. What is the radius in inches of the scrap cookie? </p><p><img src="https://latex.artofproblemsolving.com/c/c/a/cca00f7535d16d5f82c2832dbebe7bf865368fed.png" width="252" height="252"> </p><p>\( \textbf{(A) } \sqrt{2} \qquad \textbf{(B) } 1.5 \qquad \textbf{(C) } \sqrt{\pi} \qquad \textbf{(D) } \sqrt{2\pi} \qquad \textbf{(E) } \pi \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_15" title="2016 AMC 10A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>A triangle with vertices \( A(0, 2) \), \( B(-3, 2) \), and \( C(-3, 0) \) is reflected about the \( x \)-axis, then the image \( \triangle A'B'C' \) is rotated counterclockwise about the origin by \( 90^{\circ} \) to produce \( \triangle A''B''C'' \). Which of the following transformations will return \( \triangle A''B''C'' \) to \( \triangle ABC \)? </p><p>\( \textbf{(A)} \) counterclockwise rotation about the origin by \( 90^{\circ} \). </p><p>\( \textbf{(B)} \) clockwise rotation about the origin by \( 90^{\circ} \). </p><p>\( \textbf{(C)} \) reflection about the \( x \)-axis </p><p>\( \textbf{(D)} \) reflection about the line \( y = x \) </p><p>\( \textbf{(E)} \) reflection about the \( y \)-axis. </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_16" title="2016 AMC 10A Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Let \( N \) be a positive multiple of \( 5 \). One red ball and \( N \) green balls are arranged in a line in random order. Let \( P(N) \) be the probability that at least \( \tfrac{3}{5} \) of the green balls are on the same side of the red ball. Observe that \( P(5)=1 \) and that \( P(N) \) approaches \( \tfrac{4}{5} \) as \( N \) grows large. What is the sum of the digits of the least value of \( N \) such that \( P(N) &lt; \tfrac{321}{400} \)? </p><p>\( \textbf{(A) } 12 \qquad \textbf{(B) } 14 \qquad \textbf{(C) }16 \qquad \textbf{(D) } 18 \qquad \textbf{(E) } 20 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_17" title="2016 AMC 10A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Each vertex of a cube is to be labeled with an integer \( 1 \) through \( 8 \), with each integer being used once, in such a way that the sum of the four numbers on the vertices of a face is the same for each face. Arrangements that can be obtained from each other through rotations of the cube are considered to be the same. How many different arrangements are possible? </p><p>\( \textbf{(A) } 1\qquad\textbf{(B) } 3\qquad\textbf{(C) }6 \qquad\textbf{(D) }12 \qquad\textbf{(E) }24 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_18" title="2016 AMC 10A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>In rectangle \( ABCD, \) \( AB=6 \) and \( BC=3 \). Point \( E \) between \( B \) and \( C \), and point \( F \) between \( E \) and \( C \) are such that \( BE=EF=FC \). Segments \( \overline{AE} \) and \( \overline{AF} \) intersect \( \overline{BD} \) at \( P \) and \( Q \), respectively. The ratio \( BP:PQ:QD \) can be written as \( r:s:t \) where the greatest common factor of \( r,s \) and \( t \) is 1. What is \( r+s+t \)? </p><p>\( \textbf{(A) } 7 \qquad \textbf{(B) } 9 \qquad \textbf{(C) } 12 \qquad \textbf{(D) } 15 \qquad \textbf{(E) } 20 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_19" title="2016 AMC 10A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>For some particular value of \( N \), when \( (a+b+c+d+1)^N \) is expanded and like terms are combined, the resulting expression contains exactly \( 1001 \) terms that include all four variables \( a, b,c, \) and \( d \), each to some positive power. What is \( N \)? </p><p>\( \textbf{(A) }9 \qquad \textbf{(B) } 14 \qquad \textbf{(C) } 16 \qquad \textbf{(D) } 17 \qquad \textbf{(E) } 19 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_20" title="2016 AMC 10A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Circles with centers \( P, Q \) and \( R \), having radii \( 1, 2 \) and \( 3 \), respectively, lie on the same side of line \( l \) and are tangent to \( l \) at \( P', Q' \) and \( R' \), respectively, with \( Q' \) between \( P' \) and \( R' \). The circle with center \( Q \) is externally tangent to each of the other two circles. What is the area of triangle \( PQR \)? </p><p>\( \textbf{(A) } 0\qquad \textbf{(B) } \sqrt{\frac{2}{3}}\qquad\textbf{(C) } 1\qquad\textbf{(D) } \sqrt{6}-\sqrt{2}\qquad\textbf{(E) }\sqrt{\frac{3}{2}} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_21" title="2016 AMC 10A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>For some positive integer \( n \), the number \( 110n^3 \) has \( 110 \) positive integer divisors, including \( 1 \) and the number \( 110n^3 \). How many positive integer divisors does the number \( 81n^4 \) have? </p><p>\( \textbf{(A) }110\qquad\textbf{(B) }191\qquad\textbf{(C) }261\qquad\textbf{(D) }325\qquad\textbf{(E) }425 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_22" title="2016 AMC 10A Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>A binary operation \( \diamondsuit \) has the properties that \( a\,\diamondsuit\, (b\,\diamondsuit \,c) = (a\,\diamondsuit \,b)\cdot c \) and that \( a\,\diamondsuit \,a=1 \) for all nonzero real numbers \( a, b, \) and \( c \). (Here \( \cdot \) represents multiplication). The solution to the equation \( 2016 \,\diamondsuit\, (6\,\diamondsuit\, x)=100 \) can be written as \( \tfrac{p}{q} \), where \( p \) and \( q \) are relatively prime positive integers. What is \( p+q? \) </p><p>\( \textbf{(A) }109\qquad\textbf{(B) }201\qquad\textbf{(C) }301\qquad\textbf{(D) }3049\qquad\textbf{(E) }33,601 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_23" title="2016 AMC 10A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A quadrilateral is inscribed in a circle of radius \( 200\sqrt{2} \). Three of the sides of this quadrilateral have length \( 200 \). What is the length of the fourth side? </p><p>\( \textbf{(A) }200\qquad \textbf{(B) }200\sqrt{2}\qquad\textbf{(C) }200\sqrt{3}\qquad\textbf{(D) }300\sqrt{2}\qquad\textbf{(E) } 500 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_24" title="2016 AMC 10A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>How many ordered triples \( (x,y,z) \) of positive integers satisfy \( \text{lcm}(x,y) = 72, \text{lcm}(x,z) = 600 \) and \( \text{lcm}(y,z)=900 \)? </p><p>\( \textbf{(A)}\ 15\qquad\textbf{(B)}\ 16\qquad\textbf{(C)}\ 24\qquad\textbf{(D)}\ 27\qquad\textbf{(E)}\ 64 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_25" title="2016 AMC 10A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","C","C","B","D","D","D","C","D","B","D","A","B","C","A","D","A","C","E","B","D","D","A","E","A"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

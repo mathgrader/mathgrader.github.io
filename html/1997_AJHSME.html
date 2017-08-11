@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1997 AJHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1997 AJHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>\( \dfrac{1}{10} + \dfrac{9}{100} + \dfrac{9}{1000} + \dfrac{7}{10000} = \) </p><p>\( \text{(A)}\ 0.0026 \qquad \text{(B)}\ 0.0197 \qquad \text{(C)}\ 0.1997 \qquad \text{(D)}\ 0.26 \qquad \text{(E)}\ 1.997 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_1" title="1997 AJHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Ahn chooses a two-digit integer, subtracts it from 200, and doubles the result. What is the largest number Ahn can get? </p><p>\( \text{(A)}\ 200 \qquad \text{(B)}\ 202 \qquad \text{(C)}\ 220 \qquad \text{(D)}\ 380 \qquad \text{(E)}\ 398 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_2" title="1997 AJHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Which of the following numbers is the largest? </p><p>\( \text{(A)}\ 0.97 \qquad \text{(B)}\ 0.979 \qquad \text{(C)}\ 0.9709 \qquad \text{(D)}\ 0.907 \qquad \text{(E)}\ 0.9089 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_3" title="1997 AJHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Julie is preparing a speech for her class. Her speech must last between one-half hour and three-quarters of an hour. The ideal rate of speech is 150 words per minute. If Julie speaks at the ideal rate, which of the following number of words would be an appropriate length for her speech? </p><p>\( \text{(A)}\ 2250 \qquad \text{(B)}\ 3000 \qquad \text{(C)}\ 4200 \qquad \text{(D)}\ 4350 \qquad \text{(E)}\ 5650 \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_4" title="1997 AJHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>There are many two-digit multiples of 7, but only two of the multiples have a digit sum of 10. The sum of these two multiples of 7 is </p><p>\( \text{(A)}\ 119 \qquad \text{(B)}\ 126 \qquad \text{(C)}\ 140 \qquad \text{(D)}\ 175 \qquad \text{(E)}\ 189 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_5" title="1997 AJHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>In the number \( 74982.1035 \) the value of the <i>place</i> occupied by the digit 9 is how many times as great as the value of the <i>place</i> occupied by the digit 3? </p><p>\( \text{(A)}\ 1,000 \qquad \text{(B)}\ 10,000 \qquad \text{(C)}\ 100,000 \qquad \text{(D)}\ 1,000,000 \qquad \text{(E)}\ 10,000,000 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_6" title="1997 AJHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The area of the smallest square that will contain a circle of radius 4 is </p><p>\( \text{(A)}\ 8 \qquad \text{(B)}\ 16 \qquad \text{(C)}\ 32 \qquad \text{(D)}\ 64 \qquad \text{(E)}\ 128 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_7" title="1997 AJHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Walter gets up at 6:30 a.m., catches the school bus at 7:30 a.m., has 6 classes that last 50 minutes each, has 30 minutes for lunch, and has 2 hours additional time at school. He takes the bus home and arrives at 4:00 p.m. How many minutes has he spent on the bus? </p><p>\( \text{(A)}\ 30 \qquad \text{(B)}\ 60 \qquad \text{(C)}\ 75 \qquad \text{(D)}\ 90 \qquad \text{(E)}\ 120 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_8" title="1997 AJHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Three students, with different names, line up single file. What is the probability that they are in alphabetical order from front-to-back? </p><p>\( \text{(A)}\ \dfrac{1}{12} \qquad \text{(B)}\ \dfrac{1}{9} \qquad \text{(C)}\ \dfrac{1}{6} \qquad \text{(D)}\ \dfrac{1}{3} \qquad \text{(E)}\ \dfrac{2}{3} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_9" title="1997 AJHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>What fraction of this square region is shaded? Stripes are equal in width, and the figure is drawn to scale. </p><p><img src="https://latex.artofproblemsolving.com/b/8/6/b86c93e913025a304bc6292d9f589f70d95dda2e.png" width="82" height="82"> </p><p>\( \text{(A)}\ \dfrac{5}{12} \qquad \text{(B)}\ \dfrac{1}{2} \qquad \text{(C)}\ \dfrac{7}{12} \qquad \text{(D)}\ \dfrac{2}{3} \qquad \text{(E)}\ \dfrac{5}{6} \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_10" title="1997 AJHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( \boxed{N} \) mean the number of whole number divisors of \( N \). For example, \( \boxed{3}=2 \) because 3 has two divisors, 1 and 3. Find the value of </p><p>\[\boxed{\boxed{11}\times\boxed{20}}.\] </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 8 \qquad \text{(C)}\ 12 \qquad \text{(D)}\ 16 \qquad \text{(E)}\ 24 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_11" title="1997 AJHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>\( \angle 1 + \angle 2 = 180^\circ \) </p><p>\( \angle 3 = \angle 4 \) </p><p>Find \( \angle 4. \) </p><p><img src="https://latex.artofproblemsolving.com/9/f/0/9f0cab5df9bf98e5c9cd3ffe8661ec2772becc8f.png" width="252" height="202"> </p><p>\( \text{(A)}\ 20^\circ \qquad \text{(B)}\ 25^\circ \qquad \text{(C)}\ 30^\circ \qquad \text{(D)}\ 35^\circ \qquad \text{(E)}\ 40^\circ \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_12" title="1997 AJHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Three bags of jelly beans contain 26, 28, and 30 beans. The ratios of yellow beans to all beans in each of these bags are \( 50\% \), \( 25\% \), and \( 20\% \), respectively. All three bags of candy are dumped into one bowl. Which of the following is closest to the ratio of yellow jelly beans to all beans in the bowl? </p><p>\( \text{(A)}\ 31\% \qquad \text{(B)}\ 32\% \qquad \text{(C)}\ 33\% \qquad \text{(D)}\ 35\% \qquad \text{(E)}\ 95\% \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_13" title="1997 AJHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>There is a set of five positive integers whose average (mean) is 5, whose median is 5, and whose only mode is 8. What is the difference between the largest and smallest integers in the set? </p><p>\( \text{(A)}\ 3 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_14" title="1997 AJHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Each side of the large square in the figure is trisected (divided into three equal parts). The corners of an inscribed square are at these trisection points, as shown. The ratio of the area of the inscribed square to the area of the large square is </p><p><img src="https://latex.artofproblemsolving.com/f/6/9/f69a1c109464f1f5fc9c655bbee9a93db750e4e6.png" width="252" height="252"> </p><p>\( \text{(A)}\ \dfrac{\sqrt{3}}{3} \qquad \text{(B)}\ \dfrac{5}{9} \qquad \text{(C)}\ \dfrac{2}{3} \qquad \text{(D)}\ \dfrac{\sqrt{5}}{3} \qquad \text{(E)}\ \dfrac{7}{9} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_15" title="1997 AJHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Penni Precisely buys $100 worth of stock in each of three companies: Alabama Almonds, Boston Beans, and California Cauliflower. After one year, AA was up 20%, BB was down 25%, and CC was unchanged. For the second year, AA was down 20% from the previous year, BB was up 25% from the previous year, and CC was unchanged. If A, B, and C are the final values of the stock, then </p><p>\( \text{(A)}\ A=B=C \qquad \text{(B)}\ A=B&lt;C \qquad \text{(C)}\ C&lt;B=A \) </p><p>\( \text{(D)}\ A&lt;B&lt;C \qquad \text{(E)}\ B&lt;A&lt;C \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_16" title="1997 AJHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A cube has eight vertices (corners) and twelve edges. A segment, such as \( x \), which joins two vertices not joined by an edge is called a diagonal. Segment \( y \) is also a diagonal. How many diagonals does a cube have? </p><p><img src="https://latex.artofproblemsolving.com/c/0/a/c0aacb382465f0de3a897e96bfd62a18e92607fe.png" width="252" height="185"> </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 8 \qquad \text{(C)}\ 12 \qquad \text{(D)}\ 14 \qquad \text{(E)}\ 16 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_17" title="1997 AJHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>At the grocery store last week, small boxes of facial tissue were priced at 4 boxes for $5. This week they are on sale at 5 boxes for $4. The percent decrease in the price per box during the sale was closest to </p><p>\( \text{(A)}\ 30\% \qquad \text{(B)}\ 35\% \qquad \text{(C)}\ 40\% \qquad \text{(D)}\ 45\% \qquad \text{(E)}\ 65\% \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_18" title="1997 AJHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>If the product \( \dfrac{3}{2}\cdot \dfrac{4}{3}\cdot \dfrac{5}{4}\cdot \dfrac{6}{5}\cdot \ldots\cdot \dfrac{a}{b} = 9 \), what is the sum of \( a \) and \( b \)? </p><p>\( \text{(A)}\ 11 \qquad \text{(B)}\ 13 \qquad \text{(C)}\ 17 \qquad \text{(D)}\ 35 \qquad \text{(E)}\ 37 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_19" title="1997 AJHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>A pair of 8-sided dice have sides numbered 1 through 8. Each side has the same probability (chance) of landing face up. The probability that the product of the two numbers that land face-up exceeds 36 is </p><p>\( \text{(A)}\ \dfrac{5}{32} \qquad \text{(B)}\ \dfrac{11}{64} \qquad \text{(C)}\ \dfrac{3}{16} \qquad \text{(D)}\ \dfrac{1}{4} \qquad \text{(E)}\ \dfrac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_20" title="1997 AJHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>Each corner cube is removed from this \( 3\text{ cm}\times 3\text{ cm}\times 3\text{ cm} \) cube. The surface area of the remaining figure is </p><p><img src="https://latex.artofproblemsolving.com/6/7/9/6796b398e26ace16bbcb7742021e113487ac93bc.png" width="252" height="192"> </p><p>\( \text{(A)}\ 19\text{ sq.cm} \qquad \text{(B)}\ 24\text{ sq.cm} \qquad \text{(C)}\ 30\text{ sq.cm} \qquad \text{(D)}\ 54\text{ sq.cm} \qquad \text{(E)}\ 72\text{ sq.cm} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_21" title="1997 AJHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A two-inch cube \( (2\times 2\times 2) \) of silver weighs 3 pounds and is worth $200. How much is a three-inch cube of silver worth? </p><p>\( \text{(A)}\ 300\text{ dollars} \qquad \text{(B)}\ 375\text{ dollars} \qquad \text{(C)}\ 450\text{ dollars} \qquad \text{(D)}\ 560\text{ dollars} \qquad \text{(E)}\ 675\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_22" title="1997 AJHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> I </p><br><h2>Problem 23</h2><p>There are positive integers that have these properties: </p><ul> 
+ <li> the sum of the squares of their digits is 50, and</li> 
+ <li> each digit is larger than the one to its left.</li> 
+</ul><p>The product of the digits of the largest integer with both properties is </p><p>\( \text{(A)}\ 7 \qquad \text{(B)}\ 25 \qquad \text{(C)}\ 36 \qquad \text{(D)}\ 48 \qquad \text{(E)}\ 60 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_23" title="1997 AJHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Diameter \( ACE \) is divided at \( C \) in the ratio \( 2:3 \). The two semicircles, \( ABC \) and \( CDE \), divide the circular region into an upper (shaded) region and a lower region. The ratio of the area of the upper region to that of the lower region is </p><p><img src="https://latex.artofproblemsolving.com/c/4/e/c4ecc539294cfbe2d303003a6f52d3bae65ada85.png" width="252" height="225"> </p><p>\( \text{(A)}\ 2:3 \qquad \text{(B)}\ 1:1 \qquad \text{(C)}\ 3:2 \qquad \text{(D)}\ 9:4 \qquad \text{(E)}\ 5:2 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_24" title="1997 AJHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>All of the even numbers from 2 to 98 inclusive, excluding those ending in 0, are multiplied together. What is the rightmost digit (the units digit) of the product? </p><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 2 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 6 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems/Problem_25" title="1997 AJHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1997_AJHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","D","B","E","A","C","D","B","C","C","A","D","A","D","B","E","E","B","D","A","D","E","C","C","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

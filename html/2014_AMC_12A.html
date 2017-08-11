@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2014 AMC 12A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2014 AMC 12A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>What is \( 10 \cdot \left(\tfrac{1}{2} + \tfrac{1}{5} + \tfrac{1}{10}\right)^{-1}? \) </p><p>\( \textbf{(A)}\ 3\qquad\textbf{(B)}\ 8\qquad\textbf{(C)}\ \frac{25}{2}\qquad\textbf{(D)}\ \frac{170}{3}\qquad\textbf{(E)}\ 170 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_1" title="2014 AMC 10A Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>At the theater children get in for half price. The price for \( 5 \) adult tickets and \( 4 \) child tickets is \( 24.50 \). How much would \( 8 \) adult tickets and \( 6 \) child tickets cost? </p><p>\( \textbf{(A) }35\qquad \textbf{(B) }38.50\qquad \textbf{(C) }40\qquad \textbf{(D) }42\qquad \textbf{(E) }42.50 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_2" title="2014 AMC 12A Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Walking down Jane Street, Ralph passed four houses in a row, each painted a different color. He passed the orange house before the red house, and he passed the blue house before the yellow house. The blue house was not next to the yellow house. How many orderings of the colored houses are possible? </p><p>\( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_4" title="2014 AMC 10A Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Suppose that \( a \) cows give \( b \) gallons of milk in \( c \) days. At this rate, how many gallons of milk will \( d \) cows give in \( e \) days? </p><p>\( \textbf{(A)}\ \frac{bde}{ac}\qquad\textbf{(B)}\ \frac{ac}{bde}\qquad\textbf{(C)}\ \frac{abde}{c}\qquad\textbf{(D)}\ \frac{bcde}{a}\qquad\textbf{(E)}\ \frac{abc}{de} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_6" title="2014 AMC 10A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>On an algebra quiz, \( 10\% \) of the students scored \( 70 \) points, \( 35\% \) scored \( 80 \) points, \( 30\% \) scored \( 90 \) points, and the rest scored \( 100 \) points. What is the difference between the mean and median score of the students' scores on this quiz? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_5" title="2014 AMC 10A Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The difference between a two-digit number and the number obtained by reversing its digits is \( 5 \) times the sum of the digits of either number. What is the sum of the two digit number and its reverse? </p><p>\( \textbf{(A) }44\qquad \textbf{(B) }55\qquad \textbf{(C) }77\qquad \textbf{(D) }99\qquad \textbf{(E) }110 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_6" title="2014 AMC 12A Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>The first three terms of a geometric progression are \( \sqrt 3 \), \( \sqrt[3]3 \), and \( \sqrt[6]3 \). What is the fourth term? </p><p>\( \textbf{(A) }1\qquad \textbf{(B) }\sqrt[7]3\qquad \textbf{(C) }\sqrt[8]3\qquad \textbf{(D) }\sqrt[9]3\qquad \textbf{(E) }\sqrt[10]3\qquad \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_7" title="2014 AMC 12A Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A customer who intends to purchase an appliance has three coupons, only one of which may be used: </p><p>Coupon 1: \( 10\% \) off the listed price if the listed price is at least \( 50 \) </p><p>Coupon 2: \( 20 \) dollars off the listed price if the listed price is at least \( 100 \) </p><p>Coupon 3: \( 18\% \) off the amount by which the listed price exceeds \( 100 \) </p><p>For which of the following listed prices will coupon \( 1 \) offer a greater price reduction than either coupon \( 2 \) or coupon \( 3 \)? </p><p>\( \textbf{(A) }179.95\qquad \textbf{(B) }199.95\qquad \textbf{(C) }219.95\qquad \textbf{(D) }239.95\qquad \textbf{(E) }259.95\qquad \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_11" title="2014 AMC 10A Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Five positive consecutive integers starting with \( a \) have average \( b \). What is the average of \( 5 \) consecutive integers that start with \( b \)? </p><p>\( \textbf{(A)}\ a+3\qquad\textbf{(B)}\ a+4\qquad\textbf{(C)}\ a+5\qquad\textbf{(D)}\ a+6\qquad\textbf{(E)}\ a+7 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_10" title="2014 AMC 10A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Three congruent isosceles triangles are constructed with their bases on the sides of an equilateral triangle of side length \( 1 \). The sum of the areas of the three isosceles triangles is the same as the area of the equilateral triangle. What is the length of one of the two congruent sides of one of the isosceles triangles? </p><p>\( \textbf{(A) }\dfrac{\sqrt3}4\qquad \textbf{(B) }\dfrac{\sqrt3}3\qquad \textbf{(C) }\dfrac23\qquad \textbf{(D) }\dfrac{\sqrt2}2\qquad \textbf{(E) }\dfrac{\sqrt3}2 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_10" title="2014 AMC 12A Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>David drives from his home to the airport to catch a flight. He drives \( 35 \) miles in the first hour, but realizes that he will be \( 1 \) hour late if he continues at this speed. He increases his speed by \( 15 \) miles per hour for the rest of the way to the airport and arrives \( 30 \) minutes early. How many miles is the airport from his home? </p><p>\( \textbf{(A) }140\qquad \textbf{(B) }175\qquad \textbf{(C) }210\qquad \textbf{(D) }245\qquad \textbf{(E) }280\qquad \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_15" title="2014 AMC 10A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Two circles intersect at points \( A \) and \( B \). The minor arcs \( AB \) measure \( 30^\circ \) on one circle and \( 60^\circ \) on the other circle. What is the ratio of the area of the larger circle to the area of the smaller circle? </p><p>\( \textbf{(A) }2\qquad \textbf{(B) }1+\sqrt3\qquad \textbf{(C) }3\qquad \textbf{(D) }2+\sqrt3\qquad \textbf{(E) }4\qquad \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_12" title="2014 AMC 12A Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>A fancy bed and breakfast inn has \( 5 \) rooms, each with a distinctive color-coded decor. One day \( 5 \) friends arrive to spend the night. There are no other guests that night. The friends can room in any combination they wish, but with no more than \( 2 \) friends per room. In how many ways can the innkeeper assign the guests to the rooms? </p><p>\( \textbf{(A) }2100\qquad \textbf{(B) }2220\qquad \textbf{(C) }3000\qquad \textbf{(D) }3120\qquad \textbf{(E) }3125\qquad \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_13" title="2014 AMC 12A Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Let \( a&lt;b&lt;c \) be three integers such that \( a,b,c \) is an arithmetic progression and \( a,c,b \) is a geometric progression. What is the smallest possible value of \( c \)? </p><p>\( \textbf{(A) }-2\qquad \textbf{(B) }1\qquad \textbf{(C) }2\qquad \textbf{(D) }4\qquad \textbf{(E) }6\qquad \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_14" title="2014 AMC 12A Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>A five-digit palindrome is a positive integer with respective digits \( abcba \), where \( a \) is non-zero. Let \( S \) be the sum of all five-digit palindromes. What is the sum of the digits of \( S \). </p><p>\( \textbf{(A) }9\qquad \textbf{(B) }18\qquad \textbf{(C) }27\qquad \textbf{(D) }36\qquad \textbf{(E) }45\qquad \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_15" title="2014 AMC 12A Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>The product \( (8)(888\ldots 8) \), where the second factor has \( k \) digits, is an integer whose digits have a sum of \( 1000 \). What is \( k \)? </p><p>\( \textbf{(A) }901\qquad \textbf{(B) }911\qquad \textbf{(C) }919\qquad \textbf{(D) }991\qquad \textbf{(E) }999\qquad \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_20" title="2014 AMC 10A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A \( 4\times 4\times h \) rectangular box contains a sphere of radius \( 2 \) and eight smaller spheres of radius \( 1 \). The smaller spheres are each tangent to three sides of the box, and the larger sphere is tangent to each of the smaller spheres. What is \( h \)? </p><center> 
+ <img src="https://latex.artofproblemsolving.com/9/d/8/9d894dbf42883508d51bf4973c78d1368570c6fa.png" width="148" height="252"> 
+</center><p>\( \textbf{(A) }2+2\sqrt 7\qquad \textbf{(B) }3+2\sqrt 5\qquad \textbf{(C) }4+2\sqrt 7\qquad \textbf{(D) }4\sqrt 5\qquad \textbf{(E) }4\sqrt 7\qquad \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_17" title="2014 AMC 12A Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The domain of the function \( f(x)=\log_{\frac12}(\log_4(\log_{\frac14}(\log_{16}(\log_{\frac1{16}}x)))) \) is an interval of length \( \tfrac mn \), where \( m \) and \( n \) are relatively prime positive integers. What is \( m+n \)? </p><p>\( \textbf{(A) }19\qquad \textbf{(B) }31\qquad \textbf{(C) }271\qquad \textbf{(D) }319\qquad \textbf{(E) }511\qquad \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_18" title="2014 AMC 12A Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>There are exactly \( N \) distinct rational numbers \( k \) such that \( |k|&lt;200 \) and \[5x^2+kx+12=0\] has at least one integer solution for \( x \). What is \( N \)? </p><p>\( \textbf{(A) }6\qquad \textbf{(B) }12\qquad \textbf{(C) }24\qquad \textbf{(D) }48\qquad \textbf{(E) }78\qquad \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_19" title="2014 AMC 12A Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>In \( \triangle BAC \), \( \angle BAC=40^\circ \), \( AB=10 \), and \( AC=6 \). Points \( D \) and \( E \) lie on \( \overline{AB} \) and \( \overline{AC} \) respectively. What is the minimum possible value of \( BE+DE+CD \)? </p><p>\( \textbf{(A) }6\sqrt 3+3\qquad \textbf{(B) }\dfrac{27}2\qquad \textbf{(C) }8\sqrt 3\qquad \textbf{(D) }14\qquad \textbf{(E) }3\sqrt 3+9\qquad \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_20" title="2014 AMC 12A Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>For every real number \( x \), let \( \lfloor x\rfloor \) denote the greatest integer not exceeding \( x \), and let \[f(x)=\lfloor x\rfloor(2014^{x-\lfloor x\rfloor}-1).\] The set of all numbers \( x \) such that \( 1\leq x&lt;2014 \) and \( f(x)\leq 1 \) is a union of disjoint intervals. What is the sum of the lengths of those intervals? </p><p>\( \textbf{(A) }1\qquad \textbf{(B) }\dfrac{\log 2015}{\log 2014}\qquad \textbf{(C) }\dfrac{\log 2014}{\log 2013}\qquad \textbf{(D) }\dfrac{2014}{2013}\qquad \textbf{(E) }2014^{\frac1{2014}}\qquad \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_21" title="2014 AMC 12A Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The number \( 5^{867} \) is between \( 2^{2013} \) and \( 2^{2014} \). How many pairs of integers \( (m,n) \) are there such that \( 1\leq m\leq 2012 \) and \[5^n&lt;2^m&lt;2^{m+2}&lt;5^{n+1}?\] \( \textbf{(A) }278\qquad \textbf{(B) }279\qquad \textbf{(C) }280\qquad \textbf{(D) }281\qquad \textbf{(E) }282\qquad \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_25" title="2014 AMC 10A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The fraction \[\dfrac1{99^2}=0.\overline{b_{n-1}b_{n-2}\ldots b_2b_1b_0},\] where \( n \) is the length of the period of the repeating decimal expansion. What is the sum \( b_0+b_1+\cdots+b_{n-1} \)? </p><p>\( \textbf{(A) }874\qquad \textbf{(B) }883\qquad \textbf{(C) }887\qquad \textbf{(D) }891\qquad \textbf{(E) }892\qquad \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_23" title="2014 AMC 12A Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Let \( f_0(x)=x+|x-100|-|x+100| \), and for \( n\geq 1 \), let \( f_n(x)=|f_{n-1}(x)|-1 \). For how many values of \( x \) is \( f_{100}(x)=0 \)? </p><p>\( \textbf{(A) }299\qquad \textbf{(B) }300\qquad \textbf{(C) }301\qquad \textbf{(D) }302\qquad \textbf{(E) }303\qquad \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_24" title="2014 AMC 12A Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>The parabola \( P \) has focus \( (0,0) \) and goes through the points \( (4,3) \) and \( (-4,-3) \). For how many points \( (x,y)\in P \) with integer coordinates is it true that \( |4x+3y|\leq 1000 \)? </p><p>\( \textbf{(A) }38\qquad \textbf{(B) }40\qquad \textbf{(C) }42\qquad \textbf{(D) }44\qquad \textbf{(E) }46\qquad \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_25" title="2014 AMC 12A Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","B","B","A","C","D","A","C","B","B","C","D","B","C","B","D","A","C","E","D","A","B","B","C","B"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

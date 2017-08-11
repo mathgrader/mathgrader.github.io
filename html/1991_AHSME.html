@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1991 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1991 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>If for any three distinct numbers \( a \), \( b \), and \( c \) we define \( f(a,b,c)=\frac{c+a}{c-b} \), then \( f(1,-2,-3) \) is </p><p>\( \textbf {(A) } -2 \qquad \textbf {(B) } -\frac{2}{5} \qquad \textbf {(C) } -\frac{1}{4} \qquad \textbf {(D) } \frac{2}{5} \qquad \textbf {(E) } 2 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_1" title="1991 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>\( |3-\pi|= \) </p><p>\( \textbf{(A)\ }\frac{1}{7}\qquad\textbf{(B)\ }0.14\qquad\textbf{(C)\ }3-\pi\qquad\textbf{(D)\ }3+\pi\qquad\textbf{(E)\ }\pi-3 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_2" title="1991 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>\( (4^{-1}-3^{-1})^{-1}= \) </p><p>(A) \( -12 \) (B) \( -1 \) (C) \( \frac{1}{12} \) (D) \( 1 \) (E) \( 12 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_3" title="1991 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Which of the following triangles cannot exist? </p><p>(A) An acute isosceles triangle (B) An isosceles right triangle (C) An obtuse right triangle (D) A scalene right triangle (E) A scalene obtuse tr iangle </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_4" title="1991 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p><img src="https://latex.artofproblemsolving.com/1/6/e/16e47222f1990bfcae4c3694e11d8a35e90507c0.png" width="252" height="205"> </p><p>In the arrow-shaped polygon [see figure], the angles at vertices \( A,C,D,E \) and \( F \) are right angles, \( BC=FG=5, CD=FE=20, DE=10 \), and \( AB=AG \). The area of the polygon is closest to \( \text{(A) } 288\quad \text{(B) } 291\quad \text{(C) } 294\quad \text{(D) } 297\quad \text{(E) } 300 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_5" title="1991 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>If \( x\geq 0 \), then \( \sqrt{x\sqrt{x\sqrt{x}}}= \) </p><p>(A) \( x\sqrt{x} \) (B) \( x \sqrt[4]{x} \) (C) \( \sqrt[8]{x} \) (D) \( \sqrt[8]{x^3} \) (E) \( \sqrt[8]{x^7} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_6" title="1991 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>If \( x=\frac{a}{b} \), \( a\neq b \) and \( b\neq 0 \), then \( \frac{a+b}{a-b}= \) </p><p>(A) \( \frac{x}{x+1} \) (B) \( \frac{x+1}{x-1} \) (C) \( 1 \) (D) \( x-\frac{1}{x} \) (E) \( x+\frac{1}{x} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_7" title="1991 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Liquid \( X \) does not mix with water. Unless obstructed, it spreads out on the surface of water to form a circular film \( 0.1 \)cm thick. A rectangular box measuring \( 6 \)cm by \( 3 \)cm by \( 12 \)cm is filled with liquid \( X \). Its contents are poured onto a large body of water. What will be the radius, in centimeters, of the resulting circular film? </p><p>(A) \( \frac{\sqrt{216}}{\pi} \) (B) \( \sqrt{\frac{216}{\pi}} \) (C) \( \sqrt{\frac{2160}{\pi}} \) (D) \( \frac{216}{\pi} \) (E) \( \frac{2160}{\pi} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_8" title="1991 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>From time \( t=0 \) to time \( t=1 \) a population increased by \( i\% \), and from time \( t=1 \) to time \( t=2 \) the population increased by \( j\% \). Therefore, from time \( t=0 \) to time \( t=2 \) the population increased by </p><p>\( \text{(A) (i+j)\%} \quad \text{(B) } ij\%\quad \text{(C) } (i+ij)\%\quad \text{(D) } \left(i+j+\frac{ij}{100}\right)\%\quad \text{(E) } \left(i+j+\frac{i+j}{100}\right)\% \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_9" title="1991 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Point \( P \) is \( 9 \) units from the center of a circle of radius \( 15 \). How many different chords of the circle contain \( P \) and have integer lengths? </p><p>(A) 11 (B) 12 (C) 13 (D) 14 (E) 29 </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_10" title="1991 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Jack and Jill run 10 km. They start at the same point, run 5 km up a hill, and reurn to the starting point by the same route. Jack has a 10 minute head start and runs at the rate of 15 km/hr uphill and 20 km/hr downhill. Jill runs 16 km/hr uphill and 22 km/hr downhill. How far from the top of the hill are they when they pass each other going in opposite directions (in km)? </p><p>\( \text{(A) } \frac{5}{4}\quad \text{(B) } \frac{35}{27}\quad \text{(C) } \frac{27}{20}\quad \text{(D) } \frac{7}{3}\quad \text{(E) } \frac{28}{49} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_11" title="1991 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The measures (in degrees) of the interior angles of a convex hexagon form an arithmetic sequence of integers. Let \( m \) be the measure of the largest interior angle of the hexagon. The largest possible value of \( m \), in degrees, is </p><p>(A) 165 (B) 167 (C) 170 (D) 175 (E) 179 </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_12" title="1991 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Horses \( X,Y \) and \( Z \) are entered in a three-horse race in which ties are not possible. The odds against \( X \) winning are \( 3:1 \) and the odds against \( Y \) winning are \( 2:3 \), what are the odds against \( Z \) winning? (By "odds against \( H \) winning are \( p:q \)" we mean the probability of \( H \) winning the race is \( \frac{q}{p+q} \).) </p><p>\( \text{(A) } 3:20\quad \text{(B) } 5:6\quad \text{(C) } 8:5\quad \text{(D) } 17:3\quad \text{(E) } 20:3 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_13" title="1991 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>If \( x \) is the cube of a positive integer and \( d \) is the number of positive integers that are divisors of \( x \), then \( d \) could be </p><p>(A) \( 200 \) (B) \( 201 \) (C) \( 202 \) (D) \( 203 \) (E) \( 204 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_14" title="1991 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>A circular table has 60 chairs around it. There are \( N \) people seated at this table in such a way that the next person seated must sit next to someone. What is the smallest possible value for \( N \)? </p><p>\( \text{(A) } 15\quad \text{(B) } 20\quad \text{(C) } 30\quad \text{(D) } 40\quad \text{(E) } 58 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_15" title="1991 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>One hundred students at Century High School participated in the AHSME last year, and their mean score was 100. The number of non-seniors taking the AHSME was \( 50\% \) more than the number of seniors, and the mean score of the seniors was \( 50\% \) higher than that of the non-seniors. What was the mean score of the seniors? </p><p>(A) \( 100 \) (B) \( 112.5 \) (C) \( 120 \) (D) \( 125 \) (E) \( 150 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_16" title="1991 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>A positive integer \( N \) is a <i>palindrome</i> if the integer obtained by reversing the sequence of digits of \( N \) is equal to \( N \). The year 1991 is the only year in the current century with the following 2 properties: </p><p>(a) It is a palindrome (b) It factors as a product of a 2-digit prime palindrome and a 3-digit prime palindrome. </p><p>How many years in the millenium between 1000 and 2000 have properties (a) and (b)? </p><p>\( \text{(A) } 1\quad \text{(B) } 2\quad \text{(C) } 3\quad \text{(D) } 4\quad \text{(E) } 5 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_17" title="1991 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>If \( S \) is the set of points \( z \) in the complex plane such that \( (3+4i)z \) is a real number, then \( S \) is a </p><p>(A) right triangle (B) circle (C) hyperbola (D) line (E) parabola </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_18" title="1991 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p><img src="https://latex.artofproblemsolving.com/2/e/f/2ef7aca957cbf3c8f375b7437b66b0db4f5e96f3.png" width="192" height="252"> </p><p>Triangle \( ABC \) has a right angle at \( C, AC=3 \) and \( BC=4 \). Triangle \( ABD \) has a right angle at \( A \) and \( AD=12 \). Points \( C \) and \( D \) are on opposite sides of \( \overline{AB} \). The line through \( D \) parallel to \( \overline{AC} \) meets \( \overline{CB} \) extended at \( E \). If \[\frac{DE}{DB}=\frac{m}{n},\] where \( m \) and \( n \) are relatively prime positive integers, then \( m+n= \) </p><p>\( \text{(A) } 25\quad \text{(B) } 128\quad \text{(C) } 153\quad \text{(D) } 243\quad \text{(E) } 256 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_19" title="1991 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The sum of all real \( x \) such that \( (2^x-4)^3+(4^x-2)^3=(4^x+2^x-6)^3 \) is </p><p>(A) 3/2 (B) 2 (C) 5/2 (D) 3 (E) 7/2 </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_20" title="1991 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>For all real numbers \( x \) except \( x=0 \) and \( x=1 \) the function \( f(x) \) is defined by \( f(x/(1-x))=1/x \). Suppose \( 0\leq t\leq \pi/2 \). What is the value of \( f(\sec^2t) \)? </p><p>\( \text{(A) } \sin^2\theta\quad \text{(B) } \cos^2\theta\quad \text{(C) } \tan^2\theta\quad \text{(D) } \cot^2\theta\quad \text{(E) } \csc^2\theta \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_21" title="1991 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p><img src="https://latex.artofproblemsolving.com/c/9/6/c96955003b9b7250ca252b97c1660969fc7f5725.png" width="158" height="252"> </p><p><br> Two circles are externally tangent. Lines \( \overline{PAB} \) and \( \overline{PA'B'} \) are common tangents with \( A \) and \( A' \) on the smaller circle \( B \) and \( B' \) on the larger circle. If \( PA=AB=4 \), then the area of the smaller circle is </p><p>\( \text{(A) } 1.44\pi\quad \text{(B) } 2\pi\quad \text{(C) } 2.56\pi\quad \text{(D) } \sqrt{8}\pi\quad \text{(E) } 4\pi \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_22" title="1991 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p><img src="https://latex.artofproblemsolving.com/f/6/0/f6005cc96a5965c69e99d6c720eed3275f6e481a.png" width="252" height="245"> </p><p><br> If \( ABCD \) is a \( 2X2 \) square, \( E \) is the midpoint of \( \overline{AB} \),\( F \) is the midpoint of \( \overline{BC} \),\( \overline{AF} \) and \( \overline{DE} \) intersect at \( I \), and \( \overline{BD} \) and \( \overline{AF} \) intersect at \( H \), then the area of quadrilateral \( BEIH \) is </p><p>\( \text{(A) } \frac{1}{3}\quad \text{(B) } \frac{2}{5}\quad \text{(C) } \frac{7}{15}\quad \text{(D) } \frac{8}{15}\quad \text{(E) } \frac{3}{5} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_23" title="1991 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>The graph, \( G \) of \( y=\log_{10}x \) is rotated \( 90^{\circ} \) counter-clockwise about the origin to obtain a new graph \( G' \). Which of the following is an equation for \( G' \)? </p><p>(A) \( y=\log_{10}\left(\frac{x+90}{9}\right) \) (B) \( y=\log_{x}10 \) (C) \( y=\frac{1}{x+1} \) (D) \( y=10^{-x} \) (E) \( y=10^x \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_24" title="1991 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>If \( T_n=1+2+3+\cdots +n \) and \[P_n=\frac{T_2}{T_2-1}\cdot\frac{T_3}{T_3-1}\cdot\frac{T_4}{T_4-1}\cdot\cdots\cdot\frac{T_n}{T_n-1}\] for \( n=2,3,4,\cdots, \) then \( P_{1991} \) is closest to which of the following numbers? </p><p>\( \text{(A) } 2.0\quad \text{(B) } 2.3\quad \text{(C) } 2.6\quad \text{(D) } 2.9\quad \text{(E) } 3.2 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_25" title="1991 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>An \( n \)-digit positive integer is cute if its \( n \) digits are an arrangement of the set \( \{1,2,...,n\} \) and its first \( k \) digits form an integer that is divisible by \( k \) , for \( k = 1,2,...,n \). For example, \( 321 \) is a cute \( 3 \)-digit integer because \( 1 \) divides \( 3 \), \( 2 \) divides \( 32 \), and \( 3 \) divides \( 321 \). Howmany cute \( 6 \)-digit integers are there? </p><p>\( \text{(A) } 0\quad \text{(B) } 1\quad \text{(C) } 2\quad \text{(D) } 3\quad \text{(E) } 4 \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_26" title="1991 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>If \( x+\sqrt{x^2-1}+\frac{1}{x-\sqrt{x^2-1}}=20 \) then \( x^2+\sqrt{x^4-1}+\frac{1}{x^2+\sqrt{x^4-1}}= \) </p><p>(A) \( 5.05 \) (B) \( 20 \) (C) \( 51.005 \) (D) \( 61.25 \) (E) \( 400 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_27" title="1991 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>Initially an urn contains 100 white and 100 black marbles. Repeatedly 3 marbles are removed (at random) from the urn and replaced with some marbles from a pile outside the urn as follows: 3 blacks are replaced with 1 black, or 2 blacks and 1 white are replaced with a white and a black, or 1 black and 2 whites are replaced with 2 whites, or 3 whites are replaced with a black and a white. Which of the following could be the contents of the urn after repeated applications of this procedure? </p><p>(A) 2 black (B) 2 white (C) 1 black (D) 1 black and 1 white (E) 1 white </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_28" title="1991 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Equilateral triangle \( ABC \) has \( P \) on \( AB \) and \( Q \) on \( AC \). The triangle is folded along \( PQ \) so that vertex \( A \) now rests at \( A' \) on side \( BC \). If \( BA'=1 \) and \( A'C=2 \) then the length of the crease \( PQ \) is </p><p>(A) \( \frac{8}{5} \) (B) \( \frac{7}{20}\sqrt{21} \) (C) \( \frac{1+\sqrt{5}}{2} \) (D) \( \frac{13}{8} \) (E) \( \sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_29" title="1991 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>For any set \( S \), let \( |S| \) denote the number of elements in \( S \), and let \( n(S) \) be the number of subsets of \( S \), including the empty set and the set \( S \) itself. If \( A \), \( B \), and \( C \) are sets for which \( n(A)+n(B)+n(C)=n(A\cup B\cup C) \) and \( |A|=|B|=100 \), then what is the minimum possible value of \( |A\cap B\cap C| \)? </p><p>(A) 96 (B) 97 (C) 98 (D) 99 (E) 100 </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems/Problem_30" title="1991 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1991_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","E","A","C","E","E","B","C","D","B","B","D","D","C","B","D","D","D","B","E","A","B","C","D","D","C","C","B","B","B"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

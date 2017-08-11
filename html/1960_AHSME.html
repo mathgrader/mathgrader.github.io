@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1960 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1960 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>If \( 2 \) is a solution (root) of \( x^3+hx+10=0 \), then \( h \) equals: </p><p>\( \textbf{(A)}10\qquad \textbf{(B )}9 \qquad \textbf{(C )}2\qquad \textbf{(D )}-2\qquad \textbf{(E )}-9 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems/Problem_1" title="1960 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>It takes \( 5 \) seconds for a clock to strike \( 6 \) o'clock beginning at \( 6:00 \) o'clock precisely. If the strikings are uniformly spaced, how long, in seconds, does it take to strike \( 12 \) o'clock? </p><p>\( \textbf{(A)}9\frac{1}{5}\qquad \textbf{(B )}10\qquad \textbf{(C )}11\qquad \textbf{(D )}14\frac{2}{5}\qquad \textbf{(E )}\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems/Problem_2" title="1960 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Applied to a bill for \( \${10,000} \) the difference between a discount of \( 40 \)% and two successive discounts of \( 36 \)% and \( 4 \)%, expressed in dollars, is: </p><p>\( \textbf{(A)}0\qquad \textbf{(B )}144\qquad \textbf{(C )}256\qquad \textbf{(D )}400\qquad \textbf{(E )}416 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_3&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 3 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Each of two angles of a triangle is \( 60^{\circ} \) and the included side is \( 4 \) inches. The area of the triangle, in square inches, is: </p><p>\( \textbf{(A)}8\sqrt{3}\qquad \textbf{(B )}8\qquad \textbf{(C )}4\sqrt{3}\qquad \textbf{(D )}4\qquad \textbf{(E )}2\sqrt{3} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_4&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 4 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The number of distinct points common to the graphs of \( x^2+y^2=9 \) and \( y^2=9 \) is: </p><p>\( \textbf{(A)}\text{infinitely many}\qquad \textbf{(B )}\text{four}\qquad \textbf{(C )}\text{two}\qquad \textbf{(D )}\text{one}\qquad \textbf{(E )}\text{none} \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_5&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 5 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The circumference of a circle is \( 100 \) inches. The side of a square inscribed in this circle, expressed in inches, is: </p><p>\( \textbf{(A)}\frac{25\sqrt{2}}{\pi}\qquad \textbf{(B )}\frac{50\sqrt{2}}{\pi}\qquad \textbf{(C )}\frac{100}{\pi}\qquad \textbf{(D )}\frac{100\sqrt{2}}{\pi}\qquad \textbf{(E )}50\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_6&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 6 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Circle \( I \) passes through the center of, and is tangent to, circle \( II \). The area of circle \( I \) is \( 4 \) square inches. Then the area of circle \( II \), in square inches, is: </p><p>\( \textbf{(A)}8\qquad \textbf{(B )}8\sqrt{2}\qquad \textbf{(C )}8\sqrt{\pi}\qquad \textbf{(D )}16\qquad \textbf{(E )}16\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_7&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 7 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The number \( 2.5252525\ldots \) can be written as a fraction. When reduced to lowest terms the sum of the numerator and denominator of this fraction is: </p><p>\( \textbf{(A)}7\qquad \textbf{(B)} 29\qquad \textbf{(C )}141\qquad \textbf{(D )}349\qquad \textbf{(E )}\text{none of these} \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_8&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 8 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The fraction \( \frac{a^2+b^2-c^2+2ab}{a^2+c^2-b^2+2ac} \) is (with suitable restrictions of the values of a, b, and c): </p><p>\( \text{(A) irreducible}\qquad \) </p><p>\( \text{(B) reducible to negative 1}\qquad \) </p><p>\( \text{(C) reducible to a polynomial of three terms}\qquad \) </p><p>\( \text{(D) reducible to} \frac{a-b+c}{a+b-c}\qquad \) </p><p>\( \text{(E) reducible to} \frac{a+b-c}{a-b+c} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_9&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 9 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Given the following six statements: \[\text{(1) All women are good drivers} \\ \text{(2) Some women are good drivers} \\ \text{(3) No men are good drivers} \\ \text{(4) All men are bad drivers} \\ \text{(5) At least one man is a bad driver} \\ \text{(6) All men are good drivers.}\] </p><p><br> The statement that negates statement \( (6) \) is: </p><p><br> \( \textbf{(A )}(1)\qquad \textbf{(B )}(2)\qquad \textbf{(C )}(3)\qquad \textbf{(D )}(4)\qquad \textbf{(E )}(5) \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_10&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 10 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>For a given value of \( k \) the product of the roots of \( x^2-3kx+2k^2-1=0 \) is \( 7 \). The roots may be characterized as: </p><p>\( \textbf{(A) }\text{integral and positive} \qquad\textbf{(B) }\text{integral and negative} \qquad \\ \textbf{(C) }\text{rational, but not integral} \qquad\textbf{(D) }\text{irrational} \qquad\textbf{(E) } \text{imaginary} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_11&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 11 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The locus of the centers of all circles of given radius \( a \), in the same plane, passing through a fixed point, is: </p><p>\( \textbf{(A)}\text{a point}\qquad \textbf{(B )}\text{ a straight line}\qquad \textbf{(C )}\text{two straight lines}\qquad \textbf{(D )}\text{a circle}\qquad \textbf{(E )}\text{two circles} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_12&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 12 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>The polygon(s) formed by \( y=3x+2, y=-3x+2 \), and \( y=-2 \), is (are): </p><p>\( \textbf{(A) }\text{An equilateral triangle}\qquad\textbf{(B) }\text{an isosceles triangle} \qquad\textbf{(C) }\text{a right triangle} \qquad \\ \textbf{(D) }\text{a triangle and a trapezoid}\qquad\textbf{(E) }\text{a quadrilateral} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_13&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 13 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>If \( a \) and \( b \) are real numbers, the equation \( 3x-5+a=bx+1 \) has a unique solution \( x \) [The symbol \( a \neq 0 \) means that \( a \) is different from zero]: </p><p>\( \text{(A) for all a and b} \qquad \text{(B) if a }\neq\text{2b}\qquad \text{(C) if a }\neq 6\qquad \\ \text{(D) if b }\neq 0\qquad \text{(E) if b }\neq 3 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_14&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 14 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Triangle \( I \) is equilateral with side \( A \), perimeter \( P \), area \( K \), and circumradius \( R \) (radius of the circumscribed circle). Triangle \( II \) is equilateral with side \( a \), perimeter \( p \), area \( k \), and circumradius \( r \). If \( A \) is different from \( a \), then: </p><p>\( \textbf{(A)}\ P:p = R:r \text{ } \text{only sometimes} \qquad \textbf{(B)}\ P:p = R:r \text{ } \text{always}\qquad \\ \textbf{(C)}\ P:p = K:k \text{ } \text{only sometimes} \qquad \textbf{(D)}\ R:r = K:k \text{ } \text{always}\qquad \textbf{(E)}\ R:r = K:k \text{ } \text{only sometimes} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_15&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 15 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>In the numeration system with base \( 5 \), counting is as follows: \( 1, 2, 3, 4, 10, 11, 12, 13, 14, 20,\ldots \). The number whose description in the decimal system is \( 69 \), when described in the base \( 5 \) system, is a number with: </p><p>\( \textbf{(A)}\ \text{two consecutive digits} \qquad\textbf{(B)}\ \text{two non-consecutive digits} \qquad \\ \textbf{(C)}\ \text{three consecutive digits} \qquad\textbf{(D)}\ \text{three non-consecutive digits} \qquad \\ \textbf{(E)}\ \text{four digits} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_16&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 16 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>The formula \( N=8 \times 10^{8} \times x^{-3/2} \) gives, for a certain group, the number of individuals whose income exceeds \( x \) dollars. The lowest income, in dollars, of the wealthiest \( 800 \) individuals is at least: </p><p>\( \textbf{(A)}\ 10^4\qquad \textbf{(B)}\ 10^6\qquad \textbf{(C)}\ 10^8\qquad \textbf{(D)}\ 10^{12} \qquad \textbf{(E)}\ 10^{16} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_17&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 17 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The pair of equations \( 3^{x+y}=81 \) and \( 81^{x-y}=3 \) has: </p><p>\( \textbf{(A)}\ \text{no common solution} \qquad \\ \textbf{(B)}\ \text{the solution} \text{ } x=2, y=2\qquad \\ \textbf{(C)}\ \text{the solution} \text{ } x=2\frac{1}{2}, y=1\frac{1}{2} \qquad \\ \textbf{(D)}\text{ a common solution in positive and negative integers} \qquad \\ \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_18&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 18 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Consider equation \( I: x+y+z=46 \) where \( x, y \), and \( z \) are positive integers, and equation \( II: x+y+z+w=46 \), where \( x, y, z \), and \( w \) are positive integers. Then </p><p>\( \textbf{(A)}\ \text{I can be solved in consecutive integers} \qquad \\ \textbf{(B)}\ \text{I can be solved in consecutive even integers} \qquad \\ \textbf{(C)}\ \text{II can be solved in consecutive integers} \qquad \\ \textbf{(D)}\ \text{II can be solved in consecutive even integers} \qquad \\ \textbf{(E)}\ \text{II can be solved in consecutive odd integers} \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_19&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 19 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The coefficient of \( x^7 \) in the expansion of \( (\frac{x^2}{2}-\frac{2}{x})^8 \) is: </p><p>\( \textbf{(A)}\ 56\qquad \textbf{(B)}\ -56\qquad \textbf{(C)}\ 14\qquad \textbf{(D)}\ -14\qquad \textbf{(E)}\ 0 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_20&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 20 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>The diagonal of square \( I \) is \( a+b \). The perimeter of square \( II \) with twice the area of \( I \) is: </p><p>\( \textbf{(A)}\ (a+b)^2\qquad \textbf{(B)}\ \sqrt{2}(a+b)^2\qquad \textbf{(C)}\ 2(a+b)\qquad \textbf{(D)}\ \sqrt{8}(a+b) \qquad \textbf{(E)}\ 4(a+b) \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_21&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 21 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The equality \( (x+m)^2-(x+n)^2=(m-n)^2 \), where \( m \) and \( n \) are unequal non-zero constants, is satisfied by \( x=am+bn \), where: </p><p>\( \textbf{(A)}\ a = 0, b \text{ } \text{has a unique non-zero value}\qquad \\ \textbf{(B)}\ a = 0, b \text{ } \text{has two non-zero values}\qquad \\ \textbf{(C)}\ b = 0, a \text{ } \text{has a unique non-zero value}\qquad \\ \textbf{(D)}\ b = 0, a \text{ } \text{has two non-zero values}\qquad \\ \textbf{(E)}\ a \text{ } \text{and} \text{ } b \text{ } \text{each have a unique non-zero value} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_22&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 22 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The radius \( R \) of a cylindrical box is \( 8 \) inches, the height \( H \) is \( 3 \) inches. The volume \( V = \pi R^2H \) is to be increased by the same fixed positive amount when \( R \) is increased by \( x \) inches as when \( H \) is increased by \( x \) inches. This condition is satisfied by: </p><p>\( \textbf{(A)}\ \text{A non-square, non-cube integer} \qquad \\ \textbf{(B)}\ \text{A non-square, non-cube, non-integral rational number} \qquad \\ \textbf{(C)}\ \text{An irrational number} \qquad \\ \textbf{(D)}\ \text{A perfect square}\qquad \\ \textbf{(E)}\ \text{A perfect cube} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_23&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 23 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>If \( \log_{2x}216 = x \), where \( x \) is real, then \( x \) is: </p><p>\( \textbf{(A)}\ \text{A non-square, non-cube integer}\qquad \) \( \textbf{(B)}\ \text{A non-square, non-cube, non-integral rational number}\qquad \) \( \textbf{(C)}\ \text{An irrational number}\qquad \) \( \textbf{(D)}\ \text{A perfect square}\qquad \) \( \textbf{(E)}\ \text{A perfect cube} \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_24&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 24 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Let \( m \) and \( n \) be any two odd numbers, with \( n \) less than \( m \). The largest integer which divides all possible numbers of the form \( m^2-n^2 \) is: </p><p>\( \textbf{(A)}\ 2\qquad \textbf{(B)}\ 4\qquad \textbf{(C)}\ 6\qquad \textbf{(D)}\ 8\qquad \textbf{(E)}\ 16 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_25&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 25 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>Find the set of \( x \)-values satisfying the inequality \( |\frac{5-x}{3}|&lt;2 \). [The symbol \( |a| \) means \( +a \) if \( a \) is positive, \( -a \) if \( a \) is negative,\( 0 \) if \( a \) is zero. The notation \( 1&lt;a&lt;2 \) means that a can have any value between \( 1 \) and \( 2 \), excluding \( 1 \) and \( 2 \). ] </p><p>\( \textbf{(A)}\ 1 &lt; x &lt; 11\qquad \textbf{(B)}\ -1 &lt; x &lt; 11\qquad \textbf{(C)}\ x&lt; 11\qquad \textbf{(D)}\ x&gt;11\qquad \textbf{(E)}\ |x| &lt; 6 \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_26&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 26 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>Let \( S \) be the sum of the interior angles of a polygon \( P \) for which each interior angle is \( 7\frac{1}{2} \) times the exterior angle at the same vertex. Then </p><p>\( \textbf{(A)}\ S=2660^{\circ} \text{ } \text{and} \text{ } P \text{ } \text{may be regular}\qquad \textbf{(B)}\ S=2660^{\circ} \text{ } \text{and} \text{ } P \text{ } \text{is not regular}\qquad \textbf{(C)}\ S=2700^{\circ} \text{ } \text{and} \text{ } P \text{ } \text{is regular}\qquad \textbf{(D)}\ S=2700^{\circ} \text{ } \text{and} \text{ } P \text{ } \text{is not regular}\qquad \textbf{(E)}\ S=2700^{\circ} \text{ } \text{and} \text{ } P \text{ } \text{may or may not be regular} \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_27&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 27 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>The equation \( x-\frac{7}{x-3}=3-\frac{7}{x-3} \) has: </p><p>\( \textbf{(A)}\ \text{infinitely many integral roots}\qquad\textbf{(B)}\ \text{no root}\qquad\textbf{(C)}\ \text{one integral root}\qquad \) \( \textbf{(D)}\ \text{two equal integral roots}\qquad\textbf{(E)}\ \text{two equal non-integral roots} \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_28&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 28 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Five times \( A \)'s money added to \( B \)'s money is more than \( $51.00 \). Three times \( A \)'s money minus \( B \)'s money is \( $21.00 \). If \( a \) represents \( A \)'s money in dollars and \( b \) represents \( B \)'s money in dollars, then: </p><p>\( \textbf{(A)}\ a&gt;9, b&gt;6 \qquad \textbf{(B)}\ a&gt;9, b&lt;6 \qquad \textbf{(C)}\ a&gt;9, b=6\qquad \textbf{(D)}\ a&gt;9, \text{but we can put no bounds on} \text{ } b\qquad \textbf{(E)}\ 2a=3b \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_29&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 29 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Given the line \( 3x+5y=15 \) and a point on this line equidistant from the coordinate axes. Such a point exists in: </p><p>\( \textbf{(A)}\ \text{none of the quadrants}\qquad\textbf{(B)}\ \text{quadrant I only}\qquad\textbf{(C)}\ \text{quadrants I, II only}\qquad \) \( \textbf{(D)}\ \text{quadrants I, II, III only}\qquad\textbf{(E)}\ \text{each of the quadrants} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_30&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 30 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 31</h2><p>For \( x^2+2x+5 \) to be a factor of \( x^4+px^2+q \), the values of \( p \) and \( q \) must be, respectively: </p><p>\( \textbf{(A)}\ -2, 5\qquad \textbf{(B)}\ 5, 25\qquad \textbf{(C)}\ 10, 20\qquad \textbf{(D)}\ 6, 25\qquad \textbf{(E)}\ 14, 25 \) </p>
+
+<p>Response: <input type="text" id="31" name="q31" maxlength="1 "size="3"><a id="response31"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_31&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 31 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 32</h2><p>In this figure the center of the circle is \( O \). \( AB \perp BC \), \( ADOE \) is a straight line, \( AP = AD \), and \( AB \) has a length twice the radius. Then: </p><p><img src="https://latex.artofproblemsolving.com/3/1/0/31001830291c125521d5551ec5ec3990ff4aa5c9.png" width="252" height="145"> </p><p>\( \textbf{(A)} AP^2 = PB \times AB\qquad \textbf{(B)}\ AP \times DO = PB \times AD\qquad \textbf{(C)}\ AB^2 = AD \times DE\qquad \textbf{(D)}\ AB \times AD = OB \times AO\qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="32" name="q32" maxlength="1 "size="3"><a id="response32"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_32&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 32 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 33</h2><p>You are given a sequence of \( 58 \) terms; each term has the form \( P+n \) where \( P \) stands for the product \( 2 \times 3 \times 5 \times\ldots \times 61 \) of all prime numbers less than or equal to \( 61 \), and \( n \) takes, successively, the values \( 2, 3, 4,\ldots, 59 \). Let \( N \) be the number of primes appearing in this sequence. Then \( N \) is: </p><p>\( \textbf{(A)}\ 0\qquad \textbf{(B)}\ 16\qquad \textbf{(C)}\ 17\qquad \textbf{(D)}\ 57\qquad \textbf{(E)}\ 58 \) </p>
+
+<p>Response: <input type="text" id="33" name="q33" maxlength="1 "size="3"><a id="response33"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_33&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 33 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 34</h2><p>Two swimmers, at opposite ends of a \( 90 \)-foot pool, start to swim the length of the pool, one at the rate of \( 3 \) feet per second, the other at \( 2 \) feet per second. They swim back and forth for \( 12 \) minutes. Allowing no loss of times at the turns, find the number of times they pass each other. </p><p>\( \textbf{(A)}\ 24\qquad \textbf{(B)}\ 21\qquad \textbf{(C)}\ 20\qquad \textbf{(D)}\ 19\qquad \textbf{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="34" name="q34" maxlength="1 "size="3"><a id="response34"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_34&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 34 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 35</h2><p>From point \( P \) outside a circle, with a circumference of \( 10 \) units, a tangent is drawn. Also from \( P \) a secant is drawn dividing the circle into unequal arcs with lengths \( m \) and \( n \). It is found that \( t_1 \), the length of the tangent, is the mean proportional between \( m \) and \( n \). If \( m \) and \( t \) are integers, then \( t \) may have the following number of values: </p><p>\( \textbf{(A)}\ \text{zero}\qquad \textbf{(B)}\ \text{one}\qquad \textbf{(C)}\ \text{two}\qquad \textbf{(D)}\ \text{three}\qquad \textbf{(E)}\ \text{infinitely many} \) </p>
+
+<p>Response: <input type="text" id="35" name="q35" maxlength="1 "size="3"><a id="response35"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_35&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 35 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 36</h2><p>Let \( s_1, s_2, s_3 \) be the respective sums of \( n, 2n, 3n \) terms of the same arithmetic progression with \( a \) as the first term and \( d \) as the common difference. Let \( R=s_3-s_2-s_1 \). Then \( R \) is dependent on: </p><p>\( \textbf{(A)}\ a\text{ }\text{and}\text{ }d\qquad \textbf{(B)}\ d\text{ }\text{and}\text{ }n\qquad \textbf{(C)}\ a\text{ }\text{and}\text{ }n\qquad \textbf{(D)}\ a, d,\text{ }\text{and}\text{ }n\qquad \textbf{(E)}\ \text{neither} \text{ } a \text{ } \text{nor} \text{ } d \text{ } \text{nor} \text{ } n \) </p>
+
+<p>Response: <input type="text" id="36" name="q36" maxlength="1 "size="3"><a id="response36"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_36&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 36 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 37</h2><p>The base of a triangle is of length \( b \), and the latitude is of length \( h \). A rectangle of height \( x \) is inscribed in the triangle with the base of the rectangle in the base of the triangle. The area of the rectangle is: </p><p>\( \textbf{(A)}\ \frac{bx}{h}(h-x)\qquad \textbf{(B)}\ \frac{hx}{b}(b-x)\qquad \textbf{(C)}\ \frac{bx}{h}(h-2x)\qquad \textbf{(D)}\ x(b-x)\qquad \textbf{(E)}\ x(h-x) \) </p>
+
+<p>Response: <input type="text" id="37" name="q37" maxlength="1 "size="3"><a id="response37"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php?title=1960_AHSME_Problems/Problem_37&amp;action=edit&amp;redlink=1" class="solutionLink" title="1960 AHSME Problems/Problem 37 (page does not exist)" target="_blank">Full Solution</a> </p><br><h2>Problem 38</h2><p>In this diagram \( AB \) and \( AC \) are the equal sides of an isosceles \( \triangle ABC \), in which is inscribed equilateral \( \triangle DEF \). Designate \( \angle BFD \) by \( a \), \( \angle ADE \) by \( b \), and \( \angle FEC \) by \( c \). Then: </p><p><img src="https://latex.artofproblemsolving.com/2/e/6/2e68e9803a692e34ec8a107038160d6ddd04d072.png" width="198" height="252"> </p><p>\( \textbf{(A)}\ b=\frac{a+c}{2}\qquad \textbf{(B)}\ b=\frac{a-c}{2}\qquad \textbf{(C)}\ a=\frac{b-c}{2} \qquad \textbf{(D)}\ a=\frac{b+c}{2}\qquad \textbf{(E)}\ \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="38" name="q38" maxlength="1 "size="3"><a id="response38"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems/Problem_38" title="1960 AHSME Problems/Problem 38" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 39</h2><p>To satisfy the equation \( \frac{a+b}{a}=\frac{b}{a+b} \), \( a \) and \( b \) must be: </p><p>\( \textbf{(A)}\ \text{both rational}\qquad\textbf{(B)}\ \text{both real but not rational}\qquad\textbf{(C)}\ \text{both not real}\qquad \) \( \textbf{(D)}\ \text{one real, one not real}\qquad\textbf{(E)}\ \text{one real, one not real or both not real} \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="39" name="q39" maxlength="1 "size="3"><a id="response39"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems/Problem_39" title="1960 AHSME Problems/Problem 39" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 40</h2><p>Given right \( \triangle ABC \) with legs \( BC=3, AC=4 \). Find the length of the shorter angle trisector from \( C \) to the hypotenuse: \( \textbf{(A)}\ \frac{32\sqrt{3}-24}{13}\qquad\textbf{(B)}\ \frac{12\sqrt{3}-9}{13}\qquad\textbf{(C)}\ 6\sqrt{3}-8\qquad\textbf{(D)}\ \frac{5\sqrt{10}}{6}\qquad\textbf{(E)}\ \frac{25}{12}\qquad \) </p>
+
+<p>Response: <input type="text" id="40" name="q40" maxlength="1 "size="3"><a id="response40"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems/Problem_40" title="1960 AHSME Problems/Problem 40" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1960_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","C","B","C","C","B","D","D","E","E","D","D","B","E","B","C","A","E","C","D","E","A","C","A","D","B","E","B","A","C","D","A","A","C","C","B","A","D","E","A"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

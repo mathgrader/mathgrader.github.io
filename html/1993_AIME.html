@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1993 AIME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1993 AIME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>How many even integers between 4000 and 7000 have four different digits? </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_1" title="1993 AIME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>During a recent campaign for office, a candidate made a tour of a country which we assume lies in a plane. On the first day of the tour he went east, on the second day he went north, on the third day west, on the fourth day south, on the fifth day east, etc. If the candidate went \( \frac{n^{2}}{2} \) miles on the \( n^{\mbox{th}}_{} \) day of this tour, how many miles was he from his starting point at the end of the \( 40^{\mbox{th}}_{} \) day? </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_2" title="1993 AIME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The table below displays some of the results of last summer's Frostbite Falls Fishing Festival, showing how many contestants caught \( n\, \) fish for various values of \( n\, \). </p><center> \( \begin{array}{|c|c|c|c|c|c|c|c|c|} \hline n &amp; 0 &amp; 1 &amp; 2 &amp; 3 &amp; \dots &amp; 13 &amp; 14 &amp; 15 \\ \hline \text{number of contestants who caught} \ n \ \text{fish} &amp; 9 &amp; 5 &amp; 7 &amp; 23 &amp; \dots &amp; 5 &amp; 2 &amp; 1 \\ \hline \end{array} \) 
+</center><p>In the newspaper story covering the event, it was reported that </p><dl> 
+ <dd>
+   (a) the winner caught 
+  <img src="//latex.artofproblemsolving.com/f/1/9/f1965fae079a9ba2c0726c307070c2355dfcb213.png" class="latex" alt="$15$" style="vertical-align: 0px" width="17" height="13"> fish; 
+ </dd> 
+ <dd>
+   (b) those who caught 
+  <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12"> or more fish averaged 
+  <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12"> fish each; 
+ </dd> 
+ <dd>
+   (c) those who caught 
+  <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12"> or fewer fish averaged 
+  <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12"> fish each. 
+ </dd> 
+</dl><p>What was the total number of fish caught during the festival? </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_3" title="1993 AIME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>How many ordered four-tuples of integers \( (a,b,c,d)\, \) with \( 0 &lt; a &lt; b &lt; c &lt; d &lt; 500\, \) satisfy \( a + d = b + c\, \) and \( bc - ad = 93\, \)? </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_4" title="1993 AIME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Let \( P_0(x) = x^3 + 313x^2 - 77x - 8\, \). For integers \( n \ge 1\, \), define \( P_n(x) = P_{n - 1}(x - n)\, \). What is the coefficient of \( x\, \) in \( P_{20}(x)\, \)? </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_5" title="1993 AIME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>What is the smallest positive integer than can be expressed as the sum of nine consecutive integers, the sum of ten consecutive integers, and the sum of eleven consecutive integers? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_6" title="1993 AIME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Three numbers, \( a_1\, \), \( a_2\, \), \( a_3\, \), are drawn randomly and without replacement from the set \( \{1, 2, 3, \dots, 1000\}\, \). Three other numbers, \( b_1\, \), \( b_2\, \), \( b_3\, \), are then drawn randomly and without replacement from the remaining set of 997 numbers. Let \( p\, \) be the probability that, after a suitable rotation, a brick of dimensions \( a_1 \times a_2 \times a_3\, \) can be enclosed in a box of dimensions \( b_1 \times b_2 \times b_3\, \), with the sides of the brick parallel to the sides of the box. If \( p\, \) is written as a fraction in lowest terms, what is the sum of the numerator and denominator? </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_7" title="1993 AIME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Let \( S\, \) be a set with six elements. In how many different ways can one select two not necessarily distinct subsets of \( S\, \) so that the union of the two subsets is \( S\, \)? The order of selection does not matter; for example, the pair of subsets \( \{a, c\}\, \), \( \{b, c, d, e, f\}\, \) represents the same selection as the pair \( \{b, c, d, e, f\}\, \), \( \{a, c\}\, \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_8" title="1993 AIME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Two thousand points are given on a circle. Label one of the points 1. From this point, count 2 points in the clockwise direction and label this point 2. From the point labeled 2, count 3 points in the clockwise direction and label this point 3. (See figure.) Continue this process until the labels \( 1,2,3\dots,1993\, \) are all used. Some of the points on the circle will have more than one label and some points will not have a label. What is the smallest integer that labels the same point as 1993? </p><p><a href="/wiki/index.php/File:AIME_1993_Problem_9.png" class="image"><img alt="AIME 1993 Problem 9.png" src="//wiki-images.artofproblemsolving.com/3/39/AIME_1993_Problem_9.png" width="230" height="30"></a> </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_9" title="1993 AIME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Euler's formula states that for a convex polyhedron with \( V\, \) vertices, \( E\, \) edges, and \( F\, \) faces, \( V-E+F=2\, \). A particular convex polyhedron has 32 faces, each of which is either a triangle or a pentagon. At each of its \( V\, \) vertices, \( T\, \) triangular faces and \( P^{}_{} \) pentagonal faces meet. What is the value of \( 100P+10T+V\, \)? </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_10" title="1993 AIME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Alfred and Bonnie play a game in which they take turns tossing a fair coin. The winner of a game is the first person to obtain a head. Alfred and Bonnie play this game several times with the stipulation that the loser of a game goes first in the next game. Suppose that Alfred goes first in the first game, and that the probability that he wins the sixth game is \( m/n\, \), where \( m\, \) and \( n\, \) are relatively prime positive integers. What are the last three digits of \( m+n\, \)? </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_11" title="1993 AIME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>The vertices of \( \triangle ABC \) are \( A = (0,0)\, \), \( B = (0,420)\, \), and \( C = (560,0)\, \). The six faces of a die are labeled with two \( A\, \)'s, two \( B\, \)'s, and two \( C\, \)'s. Point \( P_1 = (k,m)\, \) is chosen in the interior of \( \triangle ABC \), and points \( P_2\, \), \( P_3\, \), \( P_4, \dots \) are generated by rolling the die repeatedly and applying the rule: If the die shows label \( L\, \), where \( L \in \{A, B, C\} \), and \( P_n\, \) is the most recently obtained point, then \( P_{n + 1}^{} \) is the midpoint of \( \overline{P_n L} \). Given that \( P_7 = (14,92)\, \), what is \( k + m\, \)? </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_12" title="1993 AIME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Jenny and Kenny are walking in the same direction, Kenny at 3 feet per second and Jenny at 1 foot per second, on parallel paths that are 200 feet apart. A tall circular building 100 feet in diameter is centered midway between the paths. At the instant when the building first blocks the line of sight between Jenny and Kenny, they are 200 feet apart. Let \( t\, \) be the amount of time, in seconds, before Jenny and Kenny can see each other again. If \( t\, \) is written as a fraction in lowest terms, what is the sum of the numerator and denominator? </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_13" title="1993 AIME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A rectangle that is inscribed in a larger rectangle (with one vertex on each side) is called <i>unstuck</i> if it is possible to rotate (however slightly) the smaller rectangle about its center within the confines of the larger. Of all the rectangles that can be inscribed unstuck in a 6 by 8 rectangle, the smallest perimeter has the form \( \sqrt{N}\, \), for a positive integer \( N\, \). Find \( N\, \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_14" title="1993 AIME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( \overline{CH} \) be an altitude of \( \triangle ABC \). Let \( R\, \) and \( S\, \) be the points where the circles inscribed in the triangles \( ACH\, \) and \( BCH^{}_{} \) are tangent to \( \overline{CH} \). If \( AB = 1995\, \), \( AC = 1994\, \), and \( BC = 1993\, \), then \( RS\, \) can be expressed as \( m/n\, \), where \( m\, \) and \( n\, \) are relatively prime integers. Find \( m + n\, \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_15" title="1993 AIME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["728","580","943","870","763","495","005","365","118","250","093","344","163","448","997"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

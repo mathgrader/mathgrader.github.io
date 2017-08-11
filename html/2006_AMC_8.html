@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2006 AMC 8</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2006 AMC 8</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Mindy made three purchases for \( \$ 1.98 \), \( \$ 5.04 \), and \( \$ 9.89 \). What was her total, to the nearest dollar? </p><p>\( \textbf{(A)}\ 10\qquad\textbf{(B)}\ 15\qquad\textbf{(C)}\ 16\qquad\textbf{(D)}\ 17\qquad\textbf{(E)}\ 18 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_1" title="2006 AMC 8 Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>On the AMC 8 contest Billy answers 13 questions correctly, answers 7 questions incorrectly and doesn't answer the last 5. What is his score? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 6\qquad\textbf{(C)}\ 13\qquad\textbf{(D)}\ 19\qquad\textbf{(E)}\ 26 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_2" title="2006 AMC 8 Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Elisa swims laps in the pool. When she first started, she completed 10 laps in 25 minutes. Now she can finish 12 laps in 24 minutes. By how many minutes has she improved her lap time? </p><p>\( \textbf{(A)}\ \frac{1}{2}\qquad\textbf{(B)}\ \frac{3}{4}\qquad\textbf{(C)}\ 1\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ 3 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_3" title="2006 AMC 8 Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Initially, a spinner points west. Chenille moves it clockwise \( 2 \dfrac{1}{4} \) revolutions and then counterclockwise \( 3 \dfrac{3}{4} \) revolutions. In what direction does the spinner point after the two moves? </p><p><img src="https://latex.artofproblemsolving.com/3/9/f/39f6c3905c23037677847312e6fe6254d0dd9923.png" width="162" height="152"> </p><p>\( \textbf{(A)}\ \text{north} \qquad \textbf{(B)}\ \text{east} \qquad \textbf{(C)}\ \text{south} \qquad \textbf{(D)}\ \text{west} \qquad \textbf{(E)}\ \text{northwest} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_4" title="2006 AMC 8 Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Points \( A, B, C \) and \( D \) are midpoints of the sides of the larger square. If the larger square has area 60, what is the area of the smaller square? </p><p><img src="https://latex.artofproblemsolving.com/e/7/8/e7899c538a174faf9963a60d09886b7fb12ae942.png" width="168" height="162"> </p><p>\( \textbf{(A)}\ 15 \qquad \textbf{(B)}\ 20 \qquad \textbf{(C)}\ 24 \qquad \textbf{(D)}\ 30 \qquad \textbf{(E)}\ 40 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_5" title="2006 AMC 8 Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>The letter T is formed by placing two \( 2 \times 4 \) inch rectangles next to each other, as shown. What is the perimeter of the T, in inches? </p><p><img src="https://latex.artofproblemsolving.com/4/e/5/4e5ee969b5b05027d7b34dc893efcf56dfd272be.png" width="168" height="252"> </p><p>\( \textbf{(A)}\ 12\qquad\textbf{(B)}\ 16\qquad\textbf{(C)}\ 20\qquad\textbf{(D)}\ 22\qquad\textbf{(E)}\ 24 \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_6" title="2006 AMC 8 Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Circle \( X \) has a radius of \( \pi \). Circle \( Y \) has a circumference of \( 8 \pi \). Circle \( Z \) has an area of \( 9 \pi \). List the circles in order from smallest to largest radius. </p><p>\( \textbf{(A)}\ X, Y, Z\qquad\textbf{(B)}\ Z, X, Y\qquad\textbf{(C)}\ Y, X, Z\qquad\textbf{(D)}\ Z, Y, X\qquad\textbf{(E)}\ X, Z, Y \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_7" title="2006 AMC 8 Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>The table shows some of the results of a survey by radiostation KAMC. What percentage of the males surveyed listen to the station? </p><p>\( \begin{tabular}{|c|c|c|c|}\hline &amp; Listen &amp; Don't Listen &amp; Total\\ \hline Males &amp;&nbsp;? &amp; 26 &amp;&nbsp;?\\ \hline Females &amp; 58 &amp;&nbsp;? &amp; 96\\ \hline Total &amp; 136 &amp; 64 &amp; 200\\ \hline\end{tabular} \) </p><p>\( \textbf{(A)}\ 39\qquad\textbf{(B)}\ 48\qquad\textbf{(C)}\ 52\qquad\textbf{(D)}\ 55\qquad\textbf{(E)}\ 75 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_8" title="2006 AMC 8 Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>What is the product of \( \frac{3}{2}\times\frac{4}{3}\times\frac{5}{4}\times\cdots\times\frac{2006}{2005} \)&nbsp;? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 1002\qquad\textbf{(C)}\ 1003\qquad\textbf{(D)}\ 2005\qquad\textbf{(E)}\ 2006 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_9" title="2006 AMC 8 Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Jorge's teacher asks him to plot all the ordered pairs \( (w, l) \) of positive integers for which \( w \) is the width and \( l \) is the length of a rectangle with area 12. What should his graph look like? </p><p>\( \textbf{(A)} \) <img src="https://latex.artofproblemsolving.com/3/a/0/3a01c402526b29bd19717ac27a964c97c7c90256.png" width="125" height="125"> </p><p>\( \textbf{(B)} \) <img src="https://latex.artofproblemsolving.com/5/b/a/5bac0fbc6b424579dd878f2c9b6fd25e5fdc57bc.png" width="125" height="125"> </p><p>\( \textbf{(C)} \) <img src="https://latex.artofproblemsolving.com/d/1/6/d16c6eb0a4feae2b575a49deae60ef5f2dc24924.png" width="125" height="125"> </p><p>\( \textbf{(D)} \) <img src="https://latex.artofproblemsolving.com/7/8/2/7822b4158ccde67dd21fb1750f181c9088a739f2.png" width="125" height="125"> </p><p>\( \textbf{(E)} \) <img src="https://latex.artofproblemsolving.com/2/8/6/286b49157b5fb1c448956dfccefe8e5ad2ff0cce.png" width="125" height="125"> </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_10" title="2006 AMC 8 Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>How many two-digit numbers have digits whose sum is a perfect square? </p><p>\( \textbf{(A)}\ 13\qquad\textbf{(B)}\ 16\qquad\textbf{(C)}\ 17\qquad\textbf{(D)}\ 18\qquad\textbf{(E)}\ 19 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_11" title="2006 AMC 8 Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Antonette gets \( 70 \% \) on a 10-problem test, \( 80 \% \) on a 20-problem test and \( 90 \% \) on a 30-problem test. If the three tests are combined into one 60-problem test, which percent is closest to her overall score? </p><p>\( \textbf{(A)}\ 40\qquad\textbf{(B)}\ 77\qquad\textbf{(C)}\ 80\qquad\textbf{(D)}\ 83\qquad\textbf{(E)}\ 87 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_12" title="2006 AMC 8 Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Cassie leaves Escanaba at 8:30 AM heading for Marquette on her bike. She bikes at a uniform rate of 12 miles per hour. Brian leaves Marquette at 9:00 AM heading for Escanaba on his bike. He bikes at a uniform rate of 16 miles per hour. They both bike on the same 62-mile route between Escanaba and Marquette. At what time in the morning do they meet? </p><p>\( \textbf{(A)}\ 10: 00\qquad\textbf{(B)}\ 10: 15\qquad\textbf{(C)}\ 10: 30\qquad\textbf{(D)}\ 11: 00\qquad\textbf{(E)}\ 11: 30 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_13" title="2006 AMC 8 Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Problems 14, 15 and 16 involve Mrs. Reed's English assignment. </p><p>A Novel Assignment </p><p>The students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds. </p><p>If Bob and Chandra both read the whole book, Bob will spend how many more seconds reading than Chandra? </p><p>\( \textbf{(A)}\ 7,600\qquad\textbf{(B)}\ 11,400\qquad\textbf{(C)}\ 12,500\qquad\textbf{(D)}\ 15,200\qquad\textbf{(E)}\ 22,800 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_14" title="2006 AMC 8 Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Problems 14, 15 and 16 involve Mrs. Reed's English assignment. </p><p>A Novel Assignment </p><p>The students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds. </p><p>Chandra and Bob, who each have a copy of the book, decide that they can save time by "team reading" the novel. In this scheme, Chandra will read from page 1 to a certain page and Bob will read from the next page through page 760, finishing the book. When they are through they will tell each other about the part they read. What is the last page that Chandra should read so that she and Bob spend the same amount of time reading the novel? </p><p>\( \textbf{(A)}\ 425\qquad\textbf{(B)}\ 444\qquad\textbf{(C)}\ 456\qquad\textbf{(D)}\ 484\qquad\textbf{(E)}\ 506 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_15" title="2006 AMC 8 Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Problems 14, 15 and 16 involve Mrs. Reed's English assignment. </p><p>A Novel Assignment </p><p>The students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds. </p><p>Before Chandra and Bob start reading, Alice says she would like to team read with them. If they divide the book into three sections so that each reads for the same length of time, how many seconds will each have to read? </p><p>\( \textbf{(A)}\ 6400\qquad\textbf{(B)}\ 6600\qquad\textbf{(C)}\ 6800\qquad\textbf{(D)}\ 7000\qquad\textbf{(E)}\ 7200 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_16" title="2006 AMC 8 Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Jeff rotates spinners \( P \), \( Q \) and \( R \) and adds the resulting numbers. What is the probability that his sum is an odd number? </p><p><img src="https://latex.artofproblemsolving.com/8/1/e/81e89975ec9597db462f5859a5a8d77cfe1a9a3e.png" width="335" height="105"> </p><p>\( \textbf{(A)}\ \frac{1}{4}\qquad\textbf{(B)}\ \frac{1}{3}\qquad\textbf{(C)}\ \frac{1}{2}\qquad\textbf{(D)}\ \frac{2}{3}\qquad\textbf{(E)}\ \frac{3}{4} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_17" title="2006 AMC 8 Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>A cube with 3-inch edges is made using 27 cubes with 1-inch edges. Nineteen of the smaller cubes are white and eight are black. If the eight black cubes are placed at the corners of the larger cube, what fraction of the surface area of the larger cube is white? </p><p>\( \textbf{(A)}\ \frac{1}{9}\qquad\textbf{(B)}\ \frac{1}{4}\qquad\textbf{(C)}\ \frac{4}{9}\qquad\textbf{(D)}\ \frac{5}{9}\qquad\textbf{(E)}\ \frac{19}{27} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_18" title="2006 AMC 8 Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Triangle \( ABC \) is an isosceles triangle with \( \overline{AB}=\overline{BC} \). Point \( D \) is the midpoint of both \( \overline{BC} \) and \( \overline{AE} \), and \( \overline{CE} \) is 11 units long. Triangle \( ABD \) is congruent to triangle \( ECD \). What is the length of \( \overline{BD} \)? </p><p><img src="https://latex.artofproblemsolving.com/4/b/4/4b49c3097ed0eacc7cdb3ab3850b7fdf1f67d407.png" width="168" height="125"> </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 4.5\qquad\textbf{(C)}\ 5\qquad\textbf{(D)}\ 5.5\qquad\textbf{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_19" title="2006 AMC 8 Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>A singles tournament had six players. Each player played every other player only once, with no ties. If Helen won 4 games, Ines won 3 games, Janet won 2 games, Kendra won 2 games and Lara won 2 games, how many games did Monica win? </p><p>\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 3\qquad\textbf{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_20" title="2006 AMC 8 Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>An aquarium has a rectangular base that measures \( 100 \) cm by \( 40 \) cm and has a height of \( 50 \) cm. The aquarium is filled with water to a depth of \( 37 \) cm. A rock with volume \( 1000 \text{ cm}^3 \) is then placed in the aquarium and completely submerged. By how many centimeters does the water level rise? </p><p>\( \textbf{(A)}\ 0.25\qquad\textbf{(B)}\ 0.5\qquad\textbf{(C)}\ 1\qquad\textbf{(D)}\ 1.25\qquad\textbf{(E)}\ 2.5 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_21" title="2006 AMC 8 Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>Three different one-digit positive integers are placed in the bottom row of cells. Numbers in adjacent cells are added and the sum is placed in the cell above them. In the second row, continue the same process to obtain a number in the top cell. What is the difference between the largest and smallest numbers possible in the top cell? </p><p><img src="https://latex.artofproblemsolving.com/5/7/0/570b0c91c3fb3ed033703f1831719e94604f7ae9.png" width="182" height="252"> </p><p>\( \textbf{(A)}\ 16\qquad\textbf{(B)}\ 24\qquad\textbf{(C)}\ 25\qquad\textbf{(D)}\ 26\qquad\textbf{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_22" title="2006 AMC 8 Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>A box contains gold coins. If the coins are equally divided among six people, four coins are left over. If the coins are equally divided among five people, three coins are left over. If the box holds the smallest number of coins that meets these two conditions, how many coins are left when equally divided among seven people? </p><p>\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ 1\qquad\textbf{(C)}\ 2\qquad\textbf{(D)}\ 3\qquad\textbf{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_23" title="2006 AMC 8 Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>In the multiplication problem below \( A \), \( B \), \( C \), \( D \) and are different digits. What is \( A+B \)? </p><p>\[\begin{array}{cccc}&amp; A &amp; B &amp; A\\ \times &amp; &amp; C &amp; D\\ \hline C &amp; D &amp; C &amp; D\\ \end{array}\] </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 2\qquad\textbf{(C)}\ 3\qquad\textbf{(D)}\ 4\qquad\textbf{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_24" title="2006 AMC 8 Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers? </p><p><img src="https://latex.artofproblemsolving.com/9/9/d/99d5a887c5efe5e48596399d86a16a3f95fe9b35.png" width="252" height="108"> </p><p>\( \textbf{(A)}\ 13\qquad\textbf{(B)}\ 14\qquad\textbf{(C)}\ 15\qquad\textbf{(D)}\ 16\qquad\textbf{(E)}\ 17 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_25" title="2006 AMC 8 Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">0:40:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 2399; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "0:40:00";
+    timeleft = 2399;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","C","A","B","D","C","B","E","C","A","C","D","D","B","C","E","B","D","D","C","A","D","A","A","B"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

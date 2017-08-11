@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2014 AMC 12B</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2014 AMC 12B</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Leah has \( 13 \) coins, all of which are pennies and nickels. If she had one more nickel than she has now, then she would have the same number of pennies and nickels. In cents, how much are Leah's coins worth? </p><p>\( \textbf{(A)}\ 33\qquad\textbf{(B)}\ 35\qquad\textbf{(C)}\ 37\qquad\textbf{(D)}\ 39\qquad\textbf{(E)}\ 41 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_1" title="2014 AMC 12B Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Orvin went to the store with just enough money to buy \( 30 \) balloons. When he arrived he discovered that the store had a special sale on balloons: buy \( 1 \) balloon at the regular price and get a second at \( \frac{1}{3} \) off the regular price. What is the greatest number of balloons Orvin could buy? </p><p>\( \textbf{(A)}\ 33\qquad\textbf{(B)}\ 34\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 38\qquad\textbf{(E)}\ 39 \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_2" title="2014 AMC 12B Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>Randy drove the first third of his trip on a gravel road, the next \( 20 \) miles on pavement, and the remaining one-fifth on a dirt road. In miles, how long was Randy's trip? </p><p>\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ \frac{400}{11}\qquad\textbf{(C)}\ \frac{75}{2}\qquad\textbf{(D)}\ 40\qquad\textbf{(E)}\ \frac{300}{7} \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_3" title="2014 AMC 12B Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Susie pays for \( 4 \) muffins and \( 3 \) bananas. Calvin spends twice as much paying for \( 2 \) muffins and \( 16 \) bananas. A muffin is how many times as expensive as a banana? </p><p>\( \textbf{(A)}\ \frac{3}{2}\qquad\textbf{(B)}\ \frac{5}{3}\qquad\textbf{(C)}\ \frac{7}{4}\qquad\textbf{(D)}\ 2\qquad\textbf{(E)}\ \frac{13}{4} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_4" title="2014 AMC 12B Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Doug constructs a square window using \( 8 \) equal-size panes of glass, as shown. The ratio of the height to width for each pane is \( 5&nbsp;: 2 \), and the borders around and between the panes are \( 2 \) inches wide. In inches, what is the side length of the square window? <img src="https://latex.artofproblemsolving.com/4/a/4/4a4bd527ea5f7e41a6d5541d0fc5b06615b22b69.png" width="252" height="252"> \( \textbf{(A)}\ 26\qquad\textbf{(B)}\ 28\qquad\textbf{(C)}\ 30\qquad\textbf{(D)}\ 32\qquad\textbf{(E)}\ 34 \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_5" title="2014 AMC 12B Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Ed and Ann both have lemonade with their lunch. Ed orders the regular size. Ann gets the large lemonade, which is 50% more than the regular. After both consume \( \frac{3}{4} \) of their drinks, Ann gives Ed a third of what she has left, and 2 additional ounces. When they finish their lemonades they realize that they both drank the same amount. How many ounces of lemonade did they drink together? </p><p>\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ 32\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 40\qquad\textbf{(E)}\ 50 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_6" title="2014 AMC 12B Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>For how many positive integers \( n \) is \( \frac{n}{30-n} \) also a positive integer? </p><p>\( \textbf{(A)}\ 4\qquad\textbf{(B)}\ 5\qquad\textbf{(C)}\ 6\qquad\textbf{(D)}\ 7\qquad\textbf{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_7" title="2014 AMC 12B Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>In the addition shown below \( A \), \( B \), \( C \), and \( D \) are distinct digits. How many different values are possible for \( D \)? </p><p>\[\begin{tabular}{cccccc}&amp;A&amp;B&amp;B&amp;C&amp;B\\ +&amp;B&amp;C&amp;A&amp;D&amp;A\\ \hline &amp;D&amp;B&amp;D&amp;D&amp;D\end{tabular}\] </p><p>\( \textbf{(A)}\ 2\qquad\textbf{(B)}\ 4\qquad\textbf{(C)}\ 7\qquad\textbf{(D)}\ 8\qquad\textbf{(E)}\ 9 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_8" title="2014 AMC 12B Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Convex quadrilateral \( ABCD \) has \( AB=3 \), \( BC=4 \), \( CD=13 \), \( AD=12 \), and \( \angle ABC=90^{\circ} \), as shown. What is the area of the quadrilateral? </p><p><img src="https://latex.artofproblemsolving.com/e/d/6/ed685cbdb58e7beeff868e0123c51cd79633def7.png" width="252" height="148"> </p><p>\( \textbf{(A)}\ 30\qquad\textbf{(B)}\ 36\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 48\qquad\textbf{(E)}\ 58.5 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_9" title="2014 AMC 12B Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Danica drove her new car on a trip for a whole number of hours, averaging 55 miles per hour. At the beginning of the trip, \( abc \) miles was displayed on the odometer, where \( abc \) is a 3-digit number with \( a \geq{1} \) and \( a+b+c \leq{7} \). At the end of the trip, the odometer showed \( cba \) miles. What is \( a^2+b^2+c^2? \). </p><p>\( \textbf{(A)}\ 26\qquad\textbf{(B)}\ 27\qquad\textbf{(C)}\ 36\qquad\textbf{(D)}\ 37\qquad\textbf{(E)}\ 41 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_10" title="2014 AMC 12B Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>A list of 11 positive integers has a mean of 10, a median of 9, and a unique mode of 8. What is the largest possible value of an integer in the list? </p><p>\( \textbf{(A)}\ 24\qquad\textbf{(B)}\ 30\qquad\textbf{(C)}\ 31\qquad\textbf{(D)}\ 33\qquad\textbf{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_11" title="2014 AMC 12B Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A set \( S \) consists of triangles whose sides have integer lengths less than 5, and no two elements of \( S \) are congruent or similar. What is the largest number of elements that \( S \) can have? </p><p>\( \textbf{(A)}\ 8\qquad\textbf{(B)}\ 9\qquad\textbf{(C)}\ 10\qquad\textbf{(D)}\ 11\qquad\textbf{(E)}\ 12 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_12" title="2014 AMC 12B Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Real numbers \( a \) and \( b \) are chosen with \( 1&lt;a&lt;b \) such that no triangles with positive area has side lengths \( 1, a, \) and \( b \) or \( \tfrac{1}{b}, \tfrac{1}{a}, \) and \( 1 \). What is the smallest possible value of \( b \)? </p><p>\( \textbf{(A)}\ \frac{3+\sqrt{3}}{2}\qquad\textbf{(B)}\ \frac{5}{2}\qquad\textbf{(C)}\ \frac{3+\sqrt{5}}{2}\qquad\textbf{(D)}\ \frac{3+\sqrt{6}}{2}\qquad\textbf{(E)}\ 3 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_13" title="2014 AMC 12B Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>A rectangular box has a total surface area of 94 square inches. The sum of the lengths of all its edges is 48 inches. What is the sum of the lengths in inches of all of its interior diagonals? </p><p>\( \textbf{(A)}\ 8\sqrt{3}\qquad\textbf{(B)}\ 10\sqrt{2}\qquad\textbf{(C)}\ 16\sqrt{3}\qquad\textbf{(D)}\ 20\sqrt{2}\qquad\textbf{(E)}\ 40\sqrt{2} \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_14" title="2014 AMC 12B Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>When \( p = \sum\limits_{k=1}^{6} k \ln{k} \), the number \( e^p \) is an integer. What is the largest power of 2 that is a factor of \( e^p \)&nbsp;? </p><p>\( \textbf{(A)}\ 2^{12}\qquad\textbf{(B)}\ 2^{14}\qquad\textbf{(C)}\ 2^{16}\qquad\textbf{(D)}\ 2^{18}\qquad\textbf{(E)}\ 2^{20} \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_15" title="2014 AMC 12B Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>Let \( P \) be a cubic polynomial with \( P(0) = k \), \( P(1) = 2k \), and \( P(-1) = 3k \). What is \( P(2) + P(-2) \)&nbsp;? </p><p>\( \textbf{(A)}\ 0\qquad\textbf{(B)}\ k\qquad\textbf{(C)}\ 6k\qquad\textbf{(D)}\ 7k\qquad\textbf{(E)}\ 14k \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_16" title="2014 AMC 12B Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Let \( P \) be the parabola with equation \( y=x^2 \) and let \( Q = (20, 14) \). There are real numbers \( r \) and \( s \) such that the line through \( Q \) with slope \( m \) does not intersect \( P \) if and only if \( r &lt; m &lt; s \). What is \( r + s \)? </p><p>\( \textbf{(A)}\ 1\qquad\textbf{(B)}\ 26\qquad\textbf{(C)}\ 40\qquad\textbf{(D)}\ 52\qquad\textbf{(E)}\ 80 \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_17" title="2014 AMC 12B Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>The numbers \( 1 \), \( 2 \), \( 3 \), \( 4 \), \( 5 \), are to be arranged in a circle. An arrangement is \( \textit{bad} \) if it is not true that for every \( n \) from \( 1 \) to \( 15 \) one can find a subset of the numbers that appear consecutively on the circle that sum to \( n \). Arrangements that differ only by a rotation or a reflection are considered the same. How many different bad arrangements are there? </p><p>\( \textbf{(A) }1\qquad\textbf{(B) }2\qquad\textbf{(C) }3\qquad\textbf{(D) }4\qquad\textbf{(E) }5 \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_10B_Problems/Problem_24" title="2014 AMC 10B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated cone is twice that of the sphere. What is the ratio of the radius of the bottom base of the truncated cone to the radius of the top base of the truncated cone? <img src="https://latex.artofproblemsolving.com/d/0/7/d07f08e4aea2e999536cab8632cc10fb0282d034.png" width="252" height="188"> \( \text{(A) } \dfrac32 \quad \text{(B) } \dfrac{1+\sqrt5}2 \quad \text{(C) } \sqrt3 \quad \text{(D) } 2 \quad \text{(E) } \dfrac{3+\sqrt5}2 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_19" title="2014 AMC 12B Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>For how many positive integers \( x \) is \( \log_{10}(x-40) + \log_{10}(60-x) &lt; 2 \)&nbsp;? </p><p>\( \textbf{(A) }10\qquad \textbf{(B) }18\qquad \textbf{(C) }19\qquad \textbf{(D) }20\qquad \textbf{(E) }\text{infinitely many}\qquad \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_20" title="2014 AMC 12B Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>In the figure, \( ABCD \) is a square of side length \( 1 \). The rectangles \( JKHG \) and \( EBCF \) are congruent. What is \( BE \)? <img src="https://latex.artofproblemsolving.com/2/b/c/2bcdf33d78300cd05d4666fa9c8ae141650dd693.png" width="252" height="248"> \( \textbf{(A) }\frac{1}{2}(\sqrt{6}-2)\qquad\textbf{(B) }\frac{1}{4}\qquad\textbf{(C) }2-\sqrt{3}\qquad\textbf{(D) }\frac{\sqrt{3}}{6}\qquad\textbf{(E) } 1-\frac{\sqrt{2}}{2} \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_21" title="2014 AMC 12B Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>In a small pond there are eleven lily pads in a row labeled 0 through 10. A frog is sitting on pad 1. When the frog is on pad \( N \), \( 0&lt;N&lt;10 \), it will jump to pad \( N-1 \) with probability \( \frac{N}{10} \) and to pad \( N+1 \) with probability \( 1-\frac{N}{10} \). Each jump is independent of the previous jumps. If the frog reaches pad 0 it will be eaten by a patiently waiting snake. If the frog reaches pad 10 it will exit the pond, never to return. What is the probability that the frog will escape without being eaten by the snake? </p><p>\( \textbf{(A) }\frac{32}{79}\qquad \textbf{(B) }\frac{161}{384}\qquad \textbf{(C) }\frac{63}{146}\qquad \textbf{(D) }\frac{7}{16}\qquad \textbf{(E) }\frac{1}{2}\qquad \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_22" title="2014 AMC 12B Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The number 2017 is prime. Let \( S = \sum \limits_{k=0}^{62} \dbinom{2014}{k} \). What is the remainder when \( S \) is divided by 2017? </p><p>\( \textbf{(A) }32\qquad \textbf{(B) }684\qquad \textbf{(C) }1024\qquad \textbf{(D) }1576\qquad \textbf{(E) }2016\qquad \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_23" title="2014 AMC 12B Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>Let \( ABCDE \) be a pentagon inscribed in a circle such that \( AB = CD = 3 \), \( BC = DE = 10 \), and \( AE= 14 \). The sum of the lengths of all diagonals of \( ABCDE \) is equal to \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. What is \( m+n \)&nbsp;? </p><p>\( \textbf{(A) }129\qquad \textbf{(B) }247\qquad \textbf{(C) }353\qquad \textbf{(D) }391\qquad \textbf{(E) }421\qquad \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_24" title="2014 AMC 12B Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>What is the sum of all positive real solutions \( x \) to the equation \[2\cos2x \left(\cos2x - \cos{\left( \frac{2014\pi^2}{x} \right) } \right) = \cos4x - 1?\] </p><p>\( \textbf{(A)}\ \pi \qquad\textbf{(B)}\ 810\pi \qquad\textbf{(C)}\ 1008\pi \qquad\textbf{(D)}\ 1080 \pi \qquad\textbf{(E)}\ 1800\pi \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_25" title="2014 AMC 12B Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["C","C","E","B","A","D","D","C","B","D","E","B","C","D","C","E","E","B","E","B","C","C","C","D","D"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2014 AIME II</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2014 AIME II</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Abe can paint the room in 15 hours, Bea can paint 50 percent faster than Abe, and Coe can paint twice as fast as Abe. Abe begins to paint the room and works alone for the first hour and a half. Then Bea joins Abe, and they work together until half the room is painted. Then Coe joins Abe and Bea, and they work together until the entire room is painted. Find the number of minutes after Abe begins for the three of them to finish painting the room. </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_1" title="2014 AIME II Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Arnold is studying the prevalence of three health risk factors, denoted by A, B, and C, within a population of men. For each of the three factors, the probability that a randomly selected man in the population has only this risk factor (and none of the others) is 0.1. For any two of the three factors, the probability that a randomly selected man has exactly these two risk factors (but not the third) is 0.14. The probability that a randomly selected man has all three risk factors, given that he has A and B is \( \frac{1}{3} \). The probability that a man has none of the three risk factors given that he does not have risk factor A is \( \frac{p}{q} \), where \( p \) and \( q \) are relatively prime positive integers. Find \( p+q \). </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_2" title="2014 AIME II Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A rectangle has sides of length \( a \) and 36. A hinge is installed at each vertex of the rectangle, and at the midpoint of each side of length 36. The sides of length \( a \) can be pressed toward each other keeping those two sides parallel so the rectangle becomes a convex hexagon as shown. When the figure is a hexagon with the sides of length \( a \) parallel and separated by a distance of 24, the hexagon has the same area as the original rectangle. Find \( a^2 \). </p><p><br> <img src="https://latex.artofproblemsolving.com/9/5/c/95cac62aaac35028476cf23e914b63412df36f70.png" width="435" height="178"> </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_3" title="2014 AIME II Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>The repeating decimals \( 0.abab\overline{ab} \) and \( 0.abcabc\overline{abc} \) satisfy </p><p>\( 0.abab\overline{ab}+0.abcabc\overline{abc}=\frac{33}{37}, \) </p><p>where \( a \), \( b \), and \( c \) are (not necessarily distinct) digits. Find the three digit number \( abc \). </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_4" title="2014 AIME II Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Real numbers \( r \) and \( s \) are roots of \( p(x)=x^3+ax+b \), and \( r+4 \) and \( s-3 \) are roots of \( q(x)=x^3+ax+b+240 \). Find the sum of all possible values of \( |b| \). </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_5" title="2014 AIME II Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Charles has two six-sided die. One of the die is fair, and the other die is biased so that it comes up six with probability \( \frac{2}{3} \) and each of the other five sides has probability \( \frac{1}{15} \). Charles chooses one of the two dice at random and rolls it three times. Given that the first two rolls are both sixes, the probability that the third roll will also be a six is \( \frac{p}{q} \), where \( p \) and \( q \) are relatively prime positive integers. Find \( p+q \). </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_6" title="2014 AIME II Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Let \( f(x)=(x^2+3x+2)^{\cos(\pi x)} \). Find the sum of all positive integers \( n \) for which \( \left |\sum_{k=1}^n\log_{10}f(k)\right|=1. \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_7" title="2014 AIME II Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Circle \( C \) with radius 2 has diameter \( \overline{AB} \). Circle D is internally tangent to circle \( C \) at \( A \). Circle \( E \) is internally tangent to circle \( C \), externally tangent to circle \( D \), and tangent to \( \overline{AB} \). The radius of circle \( D \) is three times the radius of circle \( E \), and can be written in the form \( \sqrt{m}-n \), where \( m \) and \( n \) are positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_8" title="2014 AIME II Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Ten chairs are arranged in a circle. Find the number of subsets of this set of chairs that contain at least three adjacent chairs. </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_9" title="2014 AIME II Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Let \( z \) be a complex number with \( |z|=2014 \). Let \( P \) be the polygon in the complex plane whose vertices are \( z \) and every \( w \) such that \( \frac{1}{z+w}=\frac{1}{z}+\frac{1}{w} \). Then the area enclosed by \( P \) can be written in the form \( n\sqrt{3} \), where \( n \) is an integer. Find the remainder when \( n \) is divided by \( 1000 \). </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_10" title="2014 AIME II Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>In \( \triangle RED \), \( \measuredangle DRE=75^{\circ} \) and \( \measuredangle RED=45^{\circ} \). \( |RD|=1 \). Let \( M \) be the midpoint of segment \( \overline{RD} \). Point \( C \) lies on side \( \overline{ED} \) such that \( \overline{RC}\perp\overline{EM} \). Extend segment \( \overline{DE} \) through \( E \) to point \( A \) such that \( CA=AR \). Then \( AE=\frac{a-\sqrt{b}}{c} \), where \( a \) and \( c \) are relatively prime positive integers, and \( b \) is a positive integer. Find \( a+b+c \). </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_11" title="2014 AIME II Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>Suppose that the angles of \( \triangle ABC \) satisfy \( \cos(3A)+\cos(3B)+\cos(3C)=1 \). Two sides of the triangle have lengths 10 and 13. There is a positive integer \( m \) so that the maximum possible length for the remaining side of \( \triangle ABC \) is \( \sqrt{m} \). Find \( m \). </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_12" title="2014 AIME II Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Ten adults enter a room, remove their shoes, and toss their shoes into a pile. Later, a child randomly pairs each left shoe with a right shoe without regard to which shoes belong together. The probability that for every positive integer \( k&lt;5 \), no collection of \( k \) pairs made by the child contains the shoes from exactly \( k \) of the adults is \( \frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_13" title="2014 AIME II Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>In \( \triangle ABC \), \( AB=10 \), \( \measuredangle A=30^{\circ} \), and \( \measuredangle C=45^{\circ} \). Let \( H \), \( D \), and \( M \) be points on line \( \overline{BC} \) such that \( AH\perp BC \), \( \measuredangle BAD=\measuredangle CAD \), and \( BM=CM \). Point \( N \) is the midpoint of segment \( HM \), and point \( P \) is on ray \( AD \) such that \( PN\perp BC \). Then \( AP^2=\frac{m}{n} \), where \( m \) and \( n \) are relatively prime positive integers. Find \( m+n \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_14" title="2014 AIME II Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>For any integer \( k\geq 1 \), let \( p(k) \) be the smallest prime which does not divide \( k \). Define the integer function \( X(k) \) to be the product of all primes less than \( p(k) \) if \( p(k)&gt;2 \), and \( X(k)=1 \) if \( p(k)=2 \). Let \( \{x_n\} \) be the sequence defined by \( x_0=1 \), and \( x_{n+1}X(x_n)=x_np(x_n) \) for \( n\geq 0 \). Find the smallest positive integer \( t \) such that \( x_t=2090 \). </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_15" title="2014 AIME II Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["334","076","720","447","420","167","021","254","581","147","056","399","028","077","149"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

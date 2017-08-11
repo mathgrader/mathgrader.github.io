@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>2004 AMC 12A</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">2004 AMC 12A</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Alicia earns \( 20 \) dollars per hour, of which \( 1.45\% \) is deducted to pay local taxes. How many cents per hour of Alicia's wages are used to pay local taxes? </p><p>\( \mathrm {(A)} 0.0029 \qquad \mathrm {(B)} 0.029 \qquad \mathrm {(C)} 0.29 \qquad \mathrm {(D)} 2.9 \qquad \mathrm {(E)} 29 \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<br><h2>Problem 2</h2><p>On the AMC 12, each correct answer is worth \( 6 \) points, each incorrect answer is worth \( 0 \) points, and each problem left unanswered is worth \( 2.5 \) points. If Charlyn leaves \( 8 \) of the \( 25 \) problems unanswered, how many of the remaining problems must she answer correctly in order to score at least \( 100 \)? </p><p>\( \mathrm {(A)} 11 \qquad \mathrm {(B)} 13 \qquad \mathrm {(C)} 14 \qquad \mathrm {(D)} 16 \qquad \mathrm {(E)} 17 \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<br><h2>Problem 3</h2><p>For how many ordered pairs of positive integers \( (x,y) \) is \( x+2y=100 \)? </p><p>\( \mathrm {(A)} 33 \qquad \mathrm {(B)} 49 \qquad \mathrm {(C)} 50 \qquad \mathrm {(D)} 99 \qquad \mathrm {(E)} 100 \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<br><h2>Problem 4</h2><p>Bertha has \( 6 \) daughters and no sons. Some of her daughters have \( 6 \) daughters, and the rest have none. Bertha has a total of \( 30 \) daughters and granddaughters, and no great-granddaughters. How many of Bertha's daughters and grand-daughters have no children? </p><p>\( \mathrm {(A)} 22 \qquad \mathrm {(B)} 23 \qquad \mathrm {(C)} 24 \qquad \mathrm {(D)} 25 \qquad \mathrm {(E)} 26 \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<br><h2>Problem 5</h2><p>The graph of the line \( y=mx+b \) is shown. Which of the following is true? </p><p><a href="/wiki/index.php/File:2004_AMC_12A_Problem_5.png" class="image"><img alt="2004 AMC 12A Problem 5.png" src="//wiki-images.artofproblemsolving.com/9/9a/2004_AMC_12A_Problem_5.png" width="141" height="132"></a> </p><p>\( \mathrm {(A)} mb&lt;-1 \qquad \mathrm {(B)} -1&lt;mb&lt;0 \qquad \mathrm {(C)} mb=0 \qquad \mathrm {(D)} 0&lt;mb&lt;1 \qquad \mathrm {(E)} mb&gt;1 \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<br><h2>Problem 6</h2><p>Let \( U=2\cdot 2004^{2005} \), \( V=2004^{2005} \), \( W=2003\cdot 2004^{2004} \), \( X=2\cdot 2004^{2004} \), \( Y=2004^{2004} \) and \( Z=2004^{2003} \). Which of the following is the largest? </p><p>\( \mathrm {(A)} U-V \qquad \mathrm {(B)} V-W \qquad \mathrm {(C)} W-X \qquad \mathrm {(D)} X-Y \qquad \mathrm {(E)} Y-Z \qquad \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<br><h2>Problem 7</h2><p>A game is played with tokens according to the following rules. In each round, the player with the most tokens gives one token to each of the other players and also places one token into a discard pile. The game ends when some player runs out of tokens. Players \( A \), \( B \) and \( C \) start with \( 15 \), \( 14 \) and \( 13 \) tokens, respectively. How many rounds will there be in the game? </p><p>\( \mathrm {(A)} 36 \qquad \mathrm {(B)} 37 \qquad \mathrm {(C)} 38 \qquad \mathrm {(D)} 39 \qquad \mathrm {(E)} 40 \qquad \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<br><h2>Problem 8</h2><p>In the overlapping triangles \( \triangle{ABC} \) and \( \triangle{ABE} \) sharing common side \( AB \), \( \angle{EAB} \) and \( \angle{ABC} \) are right angles, \( AB=4 \), \( BC=6 \), \( AE=8 \), and \( \overline{AC} \) and \( \overline{BE} \) intersect at \( D \). What is the difference between the areas of \( \triangle{ADE} \) and \( \triangle{BDC} \)? </p><p>\( \mathrm {(A)} 2 \qquad \mathrm {(B)} 4 \qquad \mathrm {(C)} 5 \qquad \mathrm {(D)} 8 \qquad \mathrm {(E)} 9 \qquad \) <img src="https://latex.artofproblemsolving.com/3/7/d/37d48968371e6d998d5b4c40c47c99005f414ab9.png" width="152" height="252"> </p><p><br> </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<br><h2>Problem 9</h2><p>A company sells peanut butter in cylindrical jars. Marketing research suggests that using wider jars would increase sales. If the diameter of the jars is increased by \( 25\% \) without altering the volume, by what percent must the height be decreased? </p><p>\( \text {(A)} 10\% \qquad \text {(B)} 25\% \qquad \text {(C)} 36\% \qquad \text {(D)} 50\% \qquad \text {(E)}60\% \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<br><h2>Problem 10</h2><p>The sum of \( 49 \) consecutive integers is \( 7^5 \). What is their median? </p><p>\( \text {(A)} 7 \qquad \text {(B)} 7^2\qquad \text {(C)} 7^3\qquad \text {(D)} 7^4\qquad \text {(E)}7^5 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<br><h2>Problem 11</h2><p>The average value of all the pennies, nickels, dimes, and quarters in Paula's purse is \( 20 \) cents. If she had one more quarter, the average value would be \( 21 \) cents. How many dimes does she have in her purse? </p><p>\( \text {(A)}0 \qquad \text {(B)} 1 \qquad \text {(C)} 2 \qquad \text {(D)} 3\qquad \text {(E)}4 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<br><h2>Problem 12</h2><p>Let \( A = (0,9) \) and \( B = (0,12) \). Points \( A' \) and \( B' \) are on the line \( y = x \), and \( \overline{AA'} \) and \( \overline{BB'} \) intersect at \( C = (2,8) \). What is the length of \( \overline{A'B'} \)? </p><p>\( \text {(A)} 2 \qquad \text {(B)} 2\sqrt2 \qquad \text {(C)} 3 \qquad \text {(D)} 2 + \sqrt 2\qquad \text {(E)}3\sqrt 2 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<br><h2>Problem 13</h2><p>Let \( S \) be the set of points \( (a,b) \) in the coordinate plane, where each of \( a \) and \( b \) may be \( - 1 \), \( 0 \), or \( 1 \). How many distinct lines pass through at least two members of \( S \)? </p><p>\( \text {(A)} 8 \qquad \text {(B)} 20 \qquad \text {(C)} 24 \qquad \text {(D)} 27\qquad \text {(E)}36 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<br><h2>Problem 14</h2><p>A sequence of three real numbers forms an arithmetic progression with a first term of \( 9 \). If \( 2 \) is added to the second term and \( 20 \) is added to the third term, the three resulting numbers form a geometric progression. What is the smallest possible value for the third term in the geometric progression? </p><p>\( \text {(A)} 1 \qquad \text {(B)} 4 \qquad \text {(C)} 36 \qquad \text {(D)} 49 \qquad \text {(E)}81 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<br><h2>Problem 15</h2><p>Brenda and Sally run in opposite directions on a circular track, starting at diametrically opposite points. They first meet after Brenda has run \( 100 \) meters. They next meet after Sally has run \( 150 \) meters past their first meeting point. Each girl runs at a constant speed. What is the length of the track in meters? </p><p>\( \text {(A)}250 \qquad \text {(B)}300 \qquad \text {(C)}350 \qquad \text {(D)} 400\qquad \text {(E)}500 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<br><h2>Problem 16</h2><p>The set of all real numbers \( x \) for which </p><p>\[\log_{2004}(\log_{2003}(\log_{2002}(\log_{2001}{x})))\] </p><p>is defined is \( \{x|x &gt; c\} \). What is the value of \( c \)? </p><p>\( \text {(A)} 0\qquad \text {(B)}2001^{2002} \qquad \text {(C)}2002^{2003} \qquad \text {(D)}2003^{2004} \qquad \text {(E)}2001^{2002^{2003}} \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<br><h2>Problem 17</h2><p>Let \( f \) be a function with the following properties: </p><p>\( (i) f(1) = 1 \), and </p><p>\( (ii) f(2n) = n\times f(n) \), for any positive integer \( n \). </p><p>What is the value of \( f(2^{100}) \)? </p><p>\( \text {(A)} 1 \qquad \text {(B)} 2^{99} \qquad \text {(C)} 2^{100} \qquad \text {(D)} 2^{4950} \qquad \text {(E)}2^{9999} \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<br><h2>Problem 18</h2><p>Square \( ABCD \) has side length \( 2 \). A semicircle with diameter \( \overline{AB} \) is constructed inside the square, and the tangent to the semicircle from \( C \) intersects side \( \overline{AD} \) at \( E \). What is the length of \( \overline{CE} \)? </p><p><img src="https://latex.artofproblemsolving.com/d/a/e/daef6f3ebe3e1fc6cfacd8611db1d6d449c8d2d4.png" width="168" height="165"> </p><p><br> \( \text {(A)} \frac {2 + \sqrt5}{2} \qquad \text {(B)} \sqrt 5 \qquad \text {(C)} \sqrt 6 \qquad \text {(D)} \frac52 \qquad \text {(E)}5 - \sqrt5 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<br><h2>Problem 19</h2><p>Circles \( A, B \) and \( C \) are externally tangent to each other, and internally tangent to circle \( D \). Circles \( B \) and \( C \) are congruent. Circle \( A \) has radius \( 1 \) and passes through the center of \( D \). What is the radius of circle \( B \)? </p><p>\( \text {(A)} \frac23 \qquad \text {(B)} \frac {\sqrt3}{2} \qquad \text {(C)}\frac78 \qquad \text {(D)}\frac89 \qquad \text {(E)}\frac {1 + \sqrt3}{3} \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<br><h2>Problem 20</h2><p>Select numbers \( a \) and \( b \) between \( 0 \) and \( 1 \) independently and at random, and let \( c \) be their sum. Let \( A, B \) and \( C \) be the results when \( a, b \) and \( c \), respectively, are rounded to the nearest integer. What is the probability that \( A + B = C \)? </p><p>\( \text {(A)} \frac14 \qquad \text {(B)} \frac13 \qquad \text {(C)} \frac12 \qquad \text {(D)} \frac23 \qquad \text {(E)}\frac34 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<br><h2>Problem 21</h2><p>If \( \sum_{n = 0}^{\infty}\cos^{2n}\theta = 5 \), what is the value of \( \cos{2\theta} \)? </p><p>\( \text {(A)} \frac15 \qquad \text {(B)} \frac25 \qquad \text {(C)} \frac {\sqrt5}{5}\qquad \text {(D)} \frac35 \qquad \text {(E)}\frac45 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<br><h2>Problem 22</h2><p>Three mutually tangent spheres of radius \( 1 \) rest on a horizontal plane. A sphere of radius \( 2 \) rests on them. What is the distance from the plane to the top of the larger sphere? </p><p>\( \text {(A)} 3 + \frac {\sqrt {30}}{2} \qquad \text {(B)} 3 + \frac {\sqrt {69}}{3} \qquad \text {(C)} 3 + \frac {\sqrt {123}}{4}\qquad \text {(D)} \frac {52}{9}\qquad \text {(E)}3 + 2\sqrt2 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<br><h2>Problem 23</h2><p>A polynomial </p><p>\[P(x) = c_{2004}x^{2004} + c_{2003}x^{2003} + ... + c_1x + c_0\] </p><p>has real coefficients with \( c_{2004}\not = 0 \) and \( 2004 \) distinct complex zeroes \( z_k = a_k + b_ki \), \( 1\leq k\leq 2004 \) with \( a_k \) and \( b_k \) real, \( a_1 = b_1 = 0 \), and </p><p>\[\sum_{k = 1}^{2004}{a_k} = \sum_{k = 1}^{2004}{b_k}.\] </p><p>Which of the following quantities can be a nonzero number? </p><p>\( \text {(A)} c_0 \qquad \text {(B)} c_{2003} \qquad \text {(C)} b_2b_3...b_{2004} \qquad \text {(D)} \sum_{k = 1}^{2004}{a_k} \qquad \text {(E)}\sum_{k = 1}^{2004}{c_k} \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<br><h2>Problem 24</h2><p>A plane contains points \( A \) and \( B \) with \( AB = 1 \). Let \( S \) be the union of all disks of radius \( 1 \) in the plane that cover \( \overline{AB} \). What is the area of \( S \)? </p><p>\( \text {(A)} 2\pi + \sqrt3 \qquad \text {(B)} \frac {8\pi}{3} \qquad \text {(C)} 3\pi - \frac {\sqrt3}{2} \qquad \text {(D)} \frac {10\pi}{3} - \sqrt3 \qquad \text {(E)}4\pi - 2\sqrt3 \) </p><p><br> </p><p><br> </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<br><h2>Problem 25</h2><p>For each integer \( n\geq 4 \), let \( a_n \) denote the base-\( n \) number \( 0.\overline{133}_n \). The product \( a_4a_5...a_{99} \) can be expressed as \( \frac {m}{n!} \), where \( m \) and \( n \) are positive integers and \( n \) is as small as possible. What is the value of \( m \)? </p><p>\( \text {(A)} 98 \qquad \text {(B)} 101 \qquad \text {(C)} 132\qquad \text {(D)} 798\qquad \text {(E)}962 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/2004_AMC_12A_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/2004_AMC_12A_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["E","C","B","E","B","A","B","B","C","C","A","B","B","A","C","B","D","D","D","E","D","B","E","C","E"];
+		var type = "AMC";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

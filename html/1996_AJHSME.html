@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1996 AJHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1996 AJHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>How many positive factors of 36 are also multiples of 4? </p><p>\( \text{(A)}\ 2 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 4 \qquad \text{(D)}\ 5 \qquad \text{(E)}\ 6 \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_1" title="1996 AJHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>Jose, Thuy, and Kareem each start with the number 10. Jose subtracts 1 from the number 10, doubles his answer, and then adds 2. Thuy doubles the number 10, subtracts 1 from her answer, and then adds 2. Kareem subtracts 1 from the number 10, adds 2 to his number, and then doubles the result. Who gets the largest final answer? </p><p>\( \text{(A)}\ \text{Jose} \qquad \text{(B)}\ \text{Thuy} \qquad \text{(C)}\ \text{Kareem} \qquad \text{(D)}\ \text{Jose and Thuy} \qquad \text{(E)}\ \text{Thuy and Kareem} \) </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_2" title="1996 AJHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>The 64 whole numbers from 1 through 64 are written, one per square, on a checkerboard (an 8 by 8 array of 64 squares). The first 8 numbers are written in order across the first row, the next 8 across the second row, and so on. After all 64 numbers are written, the sum of the numbers in the four corners will be </p><p>\( \text{(A)}\ 130 \qquad \text{(B)}\ 131 \qquad \text{(C)}\ 132 \qquad \text{(D)}\ 133 \qquad \text{(E)}\ 134 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_3" title="1996 AJHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>\( \dfrac{2+4+6+\cdots + 34}{3+6+9+\cdots+51}= \) </p><p>\( \text{(A)}\ \dfrac{1}{3} \qquad \text{(B)}\ \dfrac{2}{3} \qquad \text{(C)}\ \dfrac{3}{2} \qquad \text{(D)}\ \dfrac{17}{3} \qquad \text{(E)}\ \dfrac{34}{3} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_4" title="1996 AJHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>The letters \( P \), \( Q \), \( R \), \( S \), and \( T \) represent numbers located on the number line as shown. </p><p><img src="https://latex.artofproblemsolving.com/8/9/9/8992c6d2efe4e3e9810fb5e24eeb698bbb7a86eb.png" width="482" height="72"> </p><p>Which of the following expressions represents a negative number? </p><p>\( \text{(A)}\ P-Q \qquad \text{(B)}\ P\cdot Q \qquad \text{(C)}\ \dfrac{S}{Q}\cdot P \qquad \text{(D)}\ \dfrac{R}{P\cdot Q} \qquad \text{(E)}\ \dfrac{S+T}{R} \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_5" title="1996 AJHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>What is the smallest result that can be obtained from the following process? </p><ul> 
+ <li>Choose three different numbers from the set <img src="//latex.artofproblemsolving.com/a/b/2/ab23968c72ecaf2b21ac4071bb95e48a313b85af.png" class="latex" alt="$\{3,5,7,11,13,17\}$" style="vertical-align: -4px" width="139" height="18">.</li> 
+ <li>Add two of these numbers.</li> 
+ <li>Multiply their sum by the third number.</li> 
+</ul><p>\( \text{(A)}\ 15 \qquad \text{(B)}\ 30 \qquad \text{(C)}\ 36 \qquad \text{(D)}\ 50 \qquad \text{(E)}\ 56 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_6" title="1996 AJHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Brent has goldfish that quadruple (become four times as many) every month, and Gretel has goldfish that double every month. If Brent has 4 goldfish at the same time that Gretel has 128 goldfish, then in how many months from that time will they have the same number of goldfish? </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_7" title="1996 AJHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>Points \( A \) and \( B \) are 10 units apart. Points \( B \) and \( C \) are 4 units apart. Points \( C \) and \( D \) are 3 units apart. If \( A \) and \( D \) are as close as possible, then the number of units between them is </p><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 3 \qquad \text{(C)}\ 9 \qquad \text{(D)}\ 11 \qquad \text{(E)}\ 17 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_8" title="1996 AJHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>If 5 times a number is 2, then 100 times the reciprocal of the number is </p><p>\( \text{(A)}\ 2.5 \qquad \text{(B)}\ 40 \qquad \text{(C)}\ 50 \qquad \text{(D)}\ 250 \qquad \text{(E)}\ 500 \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_9" title="1996 AJHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>When Walter drove up to the gasoline pump, he noticed that his gasoline tank was 1/8 full. He purchased 7.5 gallons of gasoline for \( $10 \). With this additional gasoline, his gasoline tank was then 5/8 full. The number of gallons of gasoline his tank holds when it is full is </p><p>\( \text{(A)}\ 8.75 \qquad \text{(B)}\ 10 \qquad \text{(C)}\ 11.5 \qquad \text{(D)}\ 15 \qquad \text{(E)}\ 22.5 \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_10" title="1996 AJHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Let \( x \) be the number \[0.\underbrace{0000...0000}_{1996\text{ zeros}}1,\] where there are 1996 zeros after the decimal point. Which of the following expressions represents the largest number? </p><p>\( \text{(A)}\ 3+x \qquad \text{(B)}\ 3-x \qquad \text{(C)}\ 3\cdot x \qquad \text{(D)}\ 3/x \qquad \text{(E)}\ x/3 \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_11" title="1996 AJHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>What number should be removed from the list \[1,2,3,4,5,6,7,8,9,10,11\] so that the average of the remaining numbers is \( 6.1 \)? </p><p>\( \text{(A)}\ 4 \qquad \text{(B)}\ 5 \qquad \text{(C)}\ 6 \qquad \text{(D)}\ 7 \qquad \text{(E)}\ 8 \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_12" title="1996 AJHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>In the fall of 1996, a total of 800 students participated in an annual school clean-up day. The organizers of the event expect that in each of the years 1997, 1998, and 1999, participation will increase by 50% over the previous year. The number of participants the organizers will expect in the fall of 1999 is </p><p>\( \text{(A)}\ 1200 \qquad \text{(B)}\ 1500 \qquad \text{(C)}\ 2000 \qquad \text{(D)}\ 2400 \qquad \text{(E)}\ 2700 \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_13" title="1996 AJHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>Six different digits from the set \[\{ 1,2,3,4,5,6,7,8,9\}\] are placed in the squares in the figure shown so that the sum of the entries in the vertical column is 23 and the sum of the entries in the horizontal row is 12. The sum of the six digits used is </p><p><img src="https://latex.artofproblemsolving.com/d/f/5/df58d3f5c6f96c4c683cc96e62e3ea5bceab26ed.png" width="152" height="115"> </p><p>\( \text{(A)}\ 27 \qquad \text{(B)}\ 29 \qquad \text{(C)}\ 31 \qquad \text{(D)}\ 33 \qquad \text{(E)}\ 35 \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_14" title="1996 AJHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>The remainder when the product \( 1492\cdot 1776\cdot 1812\cdot 1996 \) is divided by 5 is </p><p>\( \text{(A)}\ 0 \qquad \text{(B)}\ 1 \qquad \text{(C)}\ 2 \qquad \text{(D)}\ 3 \qquad \text{(E)}\ 4 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_15" title="1996 AJHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>\( 1-2-3+4+5-6-7+8+9-10-11+\cdots + 1992+1993-1994-1995+1996= \) </p><p>\( \text{(A)}\ -998 \qquad \text{(B)}\ -1 \qquad \text{(C)}\ 0 \qquad \text{(D)}\ 1 \qquad \text{(E)}\ 998 \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_16" title="1996 AJHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Figure \( OPQR \) is a square. Point \( O \) is the origin, and point \( Q \) has coordinates (2,2). What are the coordinates for \( T \) so that the area of triangle \( PQT \) equals the area of square \( OPQR \)? </p><p><img src="https://latex.artofproblemsolving.com/e/9/f/e9f1cf12b73280352cc045ff945ace2d4228d2f9.png" width="252" height="128"> </p><center>
+  NOT TO SCALE 
+</center><p>\( \text{(A)}\ (-6,0) \qquad \text{(B)}\ (-4,0) \qquad \text{(C)}\ (-2,0) \qquad \text{(D)}\ (2,0) \qquad \text{(E)}\ (4,0) \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_17" title="1996 AJHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Ana's monthly salary was $2000 in May. In June she received a 20% raise. In July she received a 20% pay cut. After the two changes in June and July, Ana's monthly salary was </p><p>\( \text{(A)}\ 1920\text{ dollars} \qquad \text{(B)}\ 1980\text{ dollars} \qquad \text{(C)}\ 2000\text{ dollars} \qquad \text{(D)}\ 2020\text{ dollars} \qquad \text{(E)}\ 2040\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_18" title="1996 AJHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>The pie charts below indicate the percent of students who prefer golf, bowling, or tennis at East Junior High School and West Middle School. The total number of students at East is 2000 and at West, 2500. In the two schools combined, the percent of students who prefer tennis is </p><p><img src="https://latex.artofproblemsolving.com/7/d/b/7db682874d3ef442628a90d799be418980d2d212.png" width="512" height="295"> </p><p>\( \text{(A)}\ 30\% \qquad \text{(B)}\ 31\% \qquad \text{(C)}\ 32\% \qquad \text{(D)}\ 33\% \qquad \text{(E)}\ 34\% \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_19" title="1996 AJHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>Suppose there is a special key on a calculator that replaces the number \( x \) currently displayed with the number given by the formula \( 1/(1-x) \). For example, if the calculator is displaying 2 and the special key is pressed, then the calculator will display -1 since \( 1/(1-2)=-1 \). Now suppose that the calculator is displaying 5. After the special key is pressed 100 times in a row, the calculator will display </p><p>\( \text{(A)}\ -0.25 \qquad \text{(B)}\ 0 \qquad \text{(C)}\ 0.8 \qquad \text{(D)}\ 1.25 \qquad \text{(E)}\ 5 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_20" title="1996 AJHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>How many subsets containing three different numbers can be selected from the set \[\{ 89,95,99,132, 166,173 \}\] so that the sum of the three numbers is even? </p><p>\( \text{(A)}\ 6 \qquad \text{(B)}\ 8 \qquad \text{(C)}\ 10 \qquad \text{(D)}\ 12 \qquad \text{(E)}\ 24 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_21" title="1996 AJHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>The horizontal and vertical distances between adjacent points equal 1 unit. The area of triangle \( ABC \) is </p><p><img src="https://latex.artofproblemsolving.com/0/a/2/0a2cf83459d20761c2310b8974893476ced70f65.png" width="252" height="198"> </p><p>\( \text{(A)}\ 1/4 \qquad \text{(B)}\ 1/2 \qquad \text{(C)}\ 3/4 \qquad \text{(D)}\ 1 \qquad \text{(E)}\ 5/4 \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_22" title="1996 AJHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>The manager of a company planned to distribute a \( $50 \) bonus to each employee from the company fund, but the fund contained \( $5 \) less than what was needed. Instead the manager gave each employee a \( $45 \) bonus and kept the remaining \( $95 \) in the company fund. The amount of money in the company fund before any bonuses were paid was </p><p>\( \text{(A)}\ 945\text{ dollars} \qquad \text{(B)}\ 950\text{ dollars} \qquad \text{(C)}\ 955\text{ dollars} \qquad \text{(D)}\ 990\text{ dollars} \qquad \text{(E)}\ 995\text{ dollars} \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_23" title="1996 AJHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>The measure of angle \( ABC \) is \( 50^\circ \), \( \overline{AD} \) bisects angle \( BAC \), and \( \overline{DC} \) bisects angle \( BCA \). The measure of angle \( ADC \) is </p><p><img src="https://latex.artofproblemsolving.com/b/8/c/b8c508ab617894b8e5319d685f1b7a1a01defa24.png" width="252" height="252"> </p><p>\( \text{(A)}\ 90^\circ \qquad \text{(B)}\ 100^\circ \qquad \text{(C)}\ 115^\circ \qquad \text{(D)}\ 122.5^\circ \qquad \text{(E)}\ 125^\circ \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_24" title="1996 AJHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>A point is chosen at random from within a circular region. What is the probability that the point is closer to the center of the region than it is to the boundary of the region? </p><p>\( \text{(A)}\ 1/4 \qquad \text{(B)}\ 1/3 \qquad \text{(C)}\ 1/2 \qquad \text{(D)}\ 2/3 \qquad \text{(E)}\ 3/4 \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems/Problem_25" title="1996 AJHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1996_AJHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["B","C","A","B","A","C","B","B","D","D","D","B","E","B","E","C","C","A","C","A","D","B","E","C","A"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

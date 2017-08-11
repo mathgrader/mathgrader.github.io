@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1968 AHSME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1968 AHSME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Let \( P \) units be the increase in circumference of a circle resulting from an increase in \( \pi \) units in the diameter. Then \( P \) equals: </p><p>\( \text{(A) } \frac{1}{\pi}\quad\text{(B) } \pi\quad\text{(C) } \frac{\pi^2}{2}\quad\text{(D) } \pi^2\quad\text{(E) } 2\pi \) </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="1 "size="3"><a id="response1"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_1" title="1968 AHSME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>The real value of \( x \) such that \( 64^{x-1} \) divided by \( 4^{x-1} \) equals \( 256^{2x} \) is: </p><p>\( \text{(A) } -\frac{2}{3}\quad\text{(B) } -\frac{1}{3}\quad\text{(C) } 0\quad\text{(D) } \frac{1}{4}\quad\text{(E) } \frac{3}{8} \) </p><p><br> </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="1 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_2" title="1968 AHSME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A straight line passing through the point \( (0,4) \) is perpendicular to the line \( x-3y-7=0 \). Its equation is: </p><p>\( \text{(A) } y+3x-4=0\quad \text{(B) } y+3x+4=0\quad \text{(C) } y-3x-4=0\quad \\ \text{(D) } 3y+x-12=0\quad \text{(E) } 3y-x-12=0 \) </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="1 "size="3"><a id="response3"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_3" title="1968 AHSME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>Define an operation \( \star \) for positive real numbers as \( a\star b=\frac{ab}{a+b} \). Then \( 4 \star (4 \star 4) \) equals: </p><p>\( \text{(A) } \frac{3}{4}\quad \text{(B) } 1\quad \text{(C) } \frac{4}{3}\quad \text{(D) } 2\quad \text{(E )} \frac{16}{3} \) </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="1 "size="3"><a id="response4"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_4" title="1968 AHSME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>If \( f(n)=\tfrac{1}{3} n(n+1)(n+2) \), then \( f(r)-f(r-1) \) equals: </p><p>\( \text{(A) } r(r+1)\quad \text{(B) } (r+1)(r+2)\quad \text{(C) } \tfrac{1}{3} r(r+1)\quad \\ \text{(D) } \tfrac{1}{3} (r+1)(r+2)\quad \text{(E )} \tfrac{1}{3} r(r+1)(2r+1) \) </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="1 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_5" title="1968 AHSME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>Let side \( AD \) of convex quadrilateral \( ABCD \) be extended through \( D \), and let side \( BC \) be extended through \( C \), to meet in point \( E. \) Let \( S \) be the degree-sum of angles \( CDE \) and \( DCE \), and let \( S' \) represent the degree-sum of angles \( BAD \) and \( ABC. \) If \( r=S/S' \), then: </p><p>\( \text{(A) } r=1 \text{ sometimes, } r&gt;1 \text{ sometimes}\quad\\ \text{(B) } r=1 \text{ sometimes, } r&lt;1 \text{ sometimes}\quad\\ \text{(C) } 0&lt;r&lt;1\quad \text{(D) } r&gt;1\quad \text{(E) } r=1 \) </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="1 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_6" title="1968 AHSME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Let \( O \) be the intersection point of medians \( AP \) and \( CQ \) of triangle \( ABC. \) if \( OQ \) is 3 inches, then \( OP \), in inches, is: </p><p>\( \text{(A) } 3\quad \text{(B) } \frac{9}{2}\quad \text{(C) } 6\quad \text{(D) } 9\quad \text{(E) } \text{undetermined} \) </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="1 "size="3"><a id="response7"></a></p>
+
+<p><br> <a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_7" title="1968 AHSME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>A positive number is mistakenly divided by \( 6 \) instead of being multiplied by \( 6. \) Based on the correct answer, the error thus committed, to the nearest percent, is&nbsp;: </p><p>\( \text{(A) } 100\quad \text{(B) } 97\quad \text{(C) } 83\quad \text{(D) } 17\quad \text{(E) } 3 \) </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="1 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_8" title="1968 AHSME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>The sum of the real values of \( x \) satisfying the equality \( |x+2|=2|x-2| \) is: </p><p>\( \text{(A) } \frac{1}{3}\quad \text{(B) } \frac{2}{3}\quad \text{(C) } 6\quad \text{(D) } 6\tfrac{1}{3}\quad \text{(E) } 6\tfrac{2}{3} \) </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="1 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_9" title="1968 AHSME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Assume that, for a certain school, it is true that </p><p>I: Some students are not honest. II: All fraternity members are honest. </p><p>A necessary conclusion is: </p><p>\( \text{(A) Some students are fraternity members.} \quad\\ \text{(B) Some fraternity member are not students.} \quad\\ \text{(C) Some students are not fraternity members.} \quad\\ \text{(D) No fraternity member is a student.} \quad\\ \text{(E) No student is a fraternity member.} \) </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="1 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_10" title="1968 AHSME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>If an arc of \( 60^{\circ} \) on circle \( I \) has the same length as an arc of \( 45^{\circ} \) on circle \( II \), the ratio of the area of circle \( I \) to that of circle \( II \) is: </p><p>\( \text{(A) } 16:9\quad \text{(B) } 9:16\quad \text{(C) } 4:3\quad \text{(D) } 3:4\quad \text{(E) } \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="1 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_11" title="1968 AHSME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>A circle passes through the vertices of a triangle with side-lengths \( 7\tfrac{1}{2},10,12\tfrac{1}{2}. \) The radius of the circle is: </p><p>\( \text{(A) } \frac{15}{4}\quad \text{(B) } 5\quad \text{(C) } \frac{25}{4}\quad \text{(D) } \frac{35}{4}\quad \text{(E) } \frac{15\sqrt{2}}{2} \) </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="1 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_12" title="1968 AHSME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>If \( m \) and \( n \) are the roots of \( x^2+mx+n=0 ,m \ne 0,n \ne 0 \), then the sum of the roots is: </p><p>\( \text{(A) } -\frac{1}{2}\quad \text{(B) } -1\quad \text{(C) } \frac{1}{2}\quad \text{(D) } 1\quad \text{(E) } \text{undetermined} \) </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="1 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_13" title="1968 AHSME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>If \( x \) and \( y \) are non-zero numbers such that \( x=1+\frac{1}{y} \) and \( y=1+\frac{1}{x} \), then \( y \) equals </p><p>\( \text{(A) } x-1\quad \text{(B) } 1-x\quad \text{(C) } 1+x\quad \text{(D) } -x\quad \text{(E) } x \) </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="1 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_14" title="1968 AHSME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Let \( P \) be the product of any three consecutive positive odd integers. The largest integer dividing all such \( P \) is: </p><p>\( \text{(A) } 15\quad \text{(B) } 6\quad \text{(C) } 5\quad \text{(D) } 3\quad \text{(E) } 1 \) </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="1 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_15" title="1968 AHSME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 16</h2><p>If \( x \) is such that \( \frac{1}{x}&lt;2 \) and \( \frac{1}{x}&gt;-3 \), then: </p><p>\( \text{(A) } -\frac{1}{3}&lt;x&lt;\frac{1}{2}\quad \text{(B) } -\frac{1}{2}&lt;x&lt;3\quad \text{(C) } x&gt;\frac{1}{2}\quad\\ \text{(D) } x&gt;\frac{1}{2} \text{ or} -\frac{1}{3}&lt;x&lt;0\quad \text{(E) } x&gt;\frac{1}{2} \text{ or } x&lt;-\frac{1}{3} \) </p>
+
+<p>Response: <input type="text" id="16" name="q16" maxlength="1 "size="3"><a id="response16"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_16" title="1968 AHSME Problems/Problem 16" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 17</h2><p>Let \( f(n)=\frac{x_1+x_2+\cdots +x_n}{n} \), where \( n \) is a positive integer. If \( x_k=(-1)^k, k=1,2,\cdots ,n \), the set of possible values of \( f(n) \) is: </p><p>\( \text{(A) } \{0\}\quad \text{(B) } \{\frac{1}{n}\}\quad \text{(C) } \{0,-\frac{1}{n}\}\quad \text{(D) } \{0,\frac{1}{n}\}\quad \text{(E) } \{1,\frac{1}{n}\} \) </p>
+
+<p>Response: <input type="text" id="17" name="q17" maxlength="1 "size="3"><a id="response17"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_17" title="1968 AHSME Problems/Problem 17" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 18</h2><p>Side \( AB \) of triangle \( ABC \) has length 8 inches. Line \( DEF \) is drawn parallel to \( AB \) so that \( D \) is on segment \( AC \), and \( E \) is on segment \( BC \). Line \( AE \) extended bisects angle \( FEC \). If \( DE \) has length \( 5 \) inches, then the length of \( CE \), in inches, is: </p><p>\( \text{(A) } \frac{51}{4}\quad \text{(B) } 13\quad \text{(C) } \frac{53}{4}\quad \text{(D) } \frac{40}{3}\quad \text{(E) } \frac{27}{2} \) </p>
+
+<p>Response: <input type="text" id="18" name="q18" maxlength="1 "size="3"><a id="response18"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_18" title="1968 AHSME Problems/Problem 18" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 19</h2><p>Let \( n \) be the number of ways \( 10 \) dollars can be changed into dimes and quarters, with at least one of each coin being used. Then \( n \) equals: </p><p>\( \text{(A) } 40\quad \text{(B) } 38\quad \text{(C) } 21\quad \text{(D) } 20\quad \text{(E) } 19 \) </p>
+
+<p>Response: <input type="text" id="19" name="q19" maxlength="1 "size="3"><a id="response19"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_19" title="1968 AHSME Problems/Problem 19" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 20</h2><p>The measures of the interior angles of a convex polygon of \( n \) sides are in arithmetic progression. If the common difference is \( 5^{\circ} \) and the largest angle is \( 160^{\circ} \), then \( n \) equals: </p><p>\( \text{(A) } 9\quad \text{(B) } 10\quad \text{(C) } 12\quad \text{(D) } 16\quad \text{(E) } 32 \) </p>
+
+<p>Response: <input type="text" id="20" name="q20" maxlength="1 "size="3"><a id="response20"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_20" title="1968 AHSME Problems/Problem 20" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 21</h2><p>If \( S=1!+2!+3!+\cdots +99! \), then the units' digit in the value of S is: </p><p>\( \text{(A) } 9\quad \text{(B) } 8\quad \text{(C) } 5\quad \text{(D) } 3\quad \text{(E) } 0 \) </p>
+
+<p>Response: <input type="text" id="21" name="q21" maxlength="1 "size="3"><a id="response21"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_21" title="1968 AHSME Problems/Problem 21" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 22</h2><p>A segment of length \( 1 \) is divided into four segments. Then there exists a quadrilateral with the four segments as sides if and only if each segment is: </p><p>\( \text{(A) equal to } \frac{1}{4}\quad\\ \text{(B) equal to or greater than } \frac{1}{8} \text{ and less than }\frac{1}{2}\quad\\ \text{(C) greater than } \frac{1}{8} \text{ and less than }\frac{1}{2}\quad\\ \text{(D) equal to or greater than } \frac{1}{8} \text{ and less than }\frac{1}{4}\quad\\ \text{(E) less than }\frac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="22" name="q22" maxlength="1 "size="3"><a id="response22"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_22" title="1968 AHSME Problems/Problem 22" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 23</h2><p>If all the logarithms are real numbers, the equality \( log(x+3)+log(x-1)=log(x^2-2x-3) \) is satisfied for: </p><p>\( \text{(A) all real values of }x \quad\\ \text{(B) no real values of } x\quad\\ \text{(C) all real values of } x \text{ except } x=0\quad\\ \text{(D) no real values of } x \text{ except } x=0\quad\\ \text{(E) all real values of } x \text{ except } x=1 \) </p>
+
+<p>Response: <input type="text" id="23" name="q23" maxlength="1 "size="3"><a id="response23"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_23" title="1968 AHSME Problems/Problem 23" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 24</h2><p>A painting \( 18 \)" X \( 24 \)" is to be placed into a wooden frame with the longer dimension vertical. The wood at the top and bottom is twice as wide as the wood on the sides. If the frame area equals that of the painting itself, the ratio of the smaller to the larger dimension of the framed painting is: </p><p>\( \text{(A) } 1:3\quad \text{(B) } 1:2\quad \text{(C) } 2:3\quad \text{(D) } 3:4\quad \text{(E) } 1:1 \) </p>
+
+<p>Response: <input type="text" id="24" name="q24" maxlength="1 "size="3"><a id="response24"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_24" title="1968 AHSME Problems/Problem 24" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 25</h2><p>Ace runs with constant speed and Flash runs \( x \) times as fast, \( x&gt;1 \). Flash gives Ace a head start of \( y \) yards, and, at a given signal, they start off in the same direction. Then the number of yards Flash must run to catch Ace is: </p><p>\( \text{(A) } xy\quad \text{(B) } \frac{y}{x+y}\quad \text{(C) } \frac{xy}{x-1}\quad \text{(D) } \frac{x+y}{x+1}\quad \text{(E) } \frac{x+y}{x-1} \) </p>
+
+<p>Response: <input type="text" id="25" name="q25" maxlength="1 "size="3"><a id="response25"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_25" title="1968 AHSME Problems/Problem 25" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 26</h2><p>Let \( S=2+4+6+\cdots +2N \), where \( N \) is the smallest positive integer such that \( S&gt;1,000,000 \). Then the sum of the digits of \( N \) is: </p><p>\( \text{(A) } 27\quad \text{(B) } 12\quad \text{(C) } 6\quad \text{(D) } 2\quad \text{(E) } 1 \) </p>
+
+<p>Response: <input type="text" id="26" name="q26" maxlength="1 "size="3"><a id="response26"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_26" title="1968 AHSME Problems/Problem 26" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 27</h2><p>Let \( S_n=1-2+3-4+\cdots +(-1)^{n-1}n \), where \( n=1,2,\cdots \). Then \( S_{17}+S_{33}+S_{50} \) equals: </p><p>\( \text{(A) } 0\quad \text{(B) } 1\quad \text{(C) } 2\quad \text{(D) } -1\quad \text{(E) } -2 \) </p>
+
+<p>Response: <input type="text" id="27" name="q27" maxlength="1 "size="3"><a id="response27"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_27" title="1968 AHSME Problems/Problem 27" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 28</h2><p>If the arithmetic mean of \( a \) and \( b \) is double their geometric mean, with \( a&gt;b&gt;0 \), then a possible value for the ratio \( a/b \), to the nearest integer, is: </p><p>\( \text{(A) } 5\quad \text{(B) } 8\quad \text{(C) } 11\quad \text{(D) } 14\quad \text{(E) none of these} \) </p>
+
+<p>Response: <input type="text" id="28" name="q28" maxlength="1 "size="3"><a id="response28"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_28" title="1968 AHSME Problems/Problem 28" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 29</h2><p>Given the three numbers \( x,y=x^x,z=x^{x^x} \) with \( .9&lt;x&lt;1.0 \). Arranged in order of increasing magnitude, they are: </p><p>\( \text{(A) } x,z,y\quad \text{(B) } x,y,z\quad \text{(C) } y,x,z\quad \text{(D) } y,z,x\quad \text{(E) } z,x,y \) </p>
+
+<p>Response: <input type="text" id="29" name="q29" maxlength="1 "size="3"><a id="response29"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_29" title="1968 AHSME Problems/Problem 29" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 30</h2><p>Convex polygons \( P_1 \) and \( P_2 \) are drawn in the same plane with \( n_1 \) and \( n_2 \) sides, respectively, \( n_1\le n_2 \). If \( P_1 \) and \( P_2 \) do not have any line segment in common, then the maximum number of intersections of \( P_1 \) and \( P_2 \) is: </p><p>\( \text{(A) } 2n_1\quad \text{(B) } 2n_2\quad \text{(C) } n_1n_2\quad \text{(D) } n_1+n_2\quad \text{(E) } \text{none of these} \) </p>
+
+<p>Response: <input type="text" id="30" name="q30" maxlength="1 "size="3"><a id="response30"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_30" title="1968 AHSME Problems/Problem 30" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 31</h2><p><img src="https://latex.artofproblemsolving.com/7/2/d/72d20f34a21f4d35e2f011ff1523d4b9e962577c.png" width="252" height="118"> </p><p>In this diagram, not drawn to scale, Figures \( I \) and \( III \) are equilateral triangular regions with respective areas of \( 32\sqrt{3} \) and \( 8\sqrt{3} \) square inches. Figure \( II \) is a square region with area \( 32 \) square inches. Let the length of segment \( AD \) be decreased by \( 12\tfrac{1}{2} \)&nbsp;% of itself, while the lengths of \( AB \) and \( CD \) remain unchanged. The percent decrease in the area of the square is: </p><p>\( \text{(A)}\ 12\tfrac{1}{2}\qquad\text{(B)}\ 25\qquad\text{(C)}\ 50\qquad\text{(D)}\ 75\qquad\text{(E)}\ 87\tfrac{1}{2} \) </p>
+
+<p>Response: <input type="text" id="31" name="q31" maxlength="1 "size="3"><a id="response31"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_31" title="1968 AHSME Problems/Problem 31" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 32</h2><p>\( A \) and \( B \) move uniformly along two straight paths intersecting at right angles in point \( O \). When \( A \) is at \( O \), \( B \) is \( 500 \) yards short of \( O \). In two minutes they are equidistant from \( O \), and in \( 8 \) minutes more they are again equidistant from \( O \). Then the ratio of \( A \)'s speed to \( B \)'s speed is: </p><p>\( \text{(A) } 4:5\quad \text{(B) } 5:6\quad \text{(C) } 2:3\quad \text{(D) } 5:8\quad \text{(E) } 1:2 \) </p>
+
+<p>Response: <input type="text" id="32" name="q32" maxlength="1 "size="3"><a id="response32"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_32" title="1968 AHSME Problems/Problem 32" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 33</h2><p>A number \( N \) has three digits when expressed in base \( 7 \). When \( N \) is expressed in base \( 9 \) the digits are reversed. Then the middle digit is: </p><p>\( \text{(A) } 0\quad \text{(B) } 1\quad \text{(C) } 3\quad \text{(D) } 4\quad \text{(E) } 5 \) </p>
+
+<p>Response: <input type="text" id="33" name="q33" maxlength="1 "size="3"><a id="response33"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_33" title="1968 AHSME Problems/Problem 33" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 34</h2><p>With \( 400 \) members voting the House of Representatives defeated a bill. A re-vote, with the same members voting, resulted in the passage of the bill by twice the margin by which it was originally defeated. The number voting for the bill on the revote was \( \frac{12}{11} \) of the number voting against it originally. How many more members voted for the bill the second time than voted for it the first time? </p><p>\( \text{(A) } 75\quad \text{(B) } 60\quad \text{(C) } 50\quad \text{(D) } 45\quad \text{(E) } 20 \) </p>
+
+<p>Response: <input type="text" id="34" name="q34" maxlength="1 "size="3"><a id="response34"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_34" title="1968 AHSME Problems/Problem 34" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 35</h2><p><img src="https://latex.artofproblemsolving.com/e/1/4/e149e4f02b02fd241a990a3a1fb9a1cc9adb2cb5.png" width="252" height="242"> </p><p>In this diagram the center of the circle is \( O \), the radius is \( a \) inches, chord \( EF \) is parallel to chord \( CD \). \( O \),\( G \),\( H \),\( J \) are collinear, and \( G \) is the midpoint of \( CD \). Let \( K \) (sq. in.) represent the area of trapezoid \( CDFE \) and let \( R \) (sq. in.) represent the area of rectangle \( ELMF. \) Then, as \( CD \) and \( EF \) are translated upward so that \( OG \) increases toward the value \( a \), while \( JH \) always equals \( HG \), the ratio \( K:R \) becomes arbitrarily close to: </p><p>\( \text{(A)} 0\quad\text{(B)} 1\quad\text{(C)} \sqrt{2}\quad\text{(D)} \frac{1}{\sqrt{2}}+\frac{1}{2}\quad\text{(E)} \frac{1}{\sqrt{2}}+1 \) </p>
+
+<p>Response: <input type="text" id="35" name="q35" maxlength="1 "size="3"><a id="response35"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems/Problem_35" title="1968 AHSME Problems/Problem 35" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1968_AHSME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">1:15:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 4499; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "1:15:00";
+    timeleft = 4499;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["D","B","A","C","A","E","E","B","E","C","B","C","B","E","D","E","C","D","E","A","D","E","B","C","C","E","B","D","A","A","D","C","A","B","D"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+

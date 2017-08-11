@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Things to replace
+TITLE
+TIMETEXT
+TIME
+PROBLEMS
+ANSWERS
+TYPE
+-->
+<meta charset="utf-8">
+<title>1992 AIME</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+div#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #568;
+    height: 50px;
+    z-index: 9999;
+}
+td {
+    color: #FFF;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+}
+td:hover {
+    background-color: #457;
+}
+div.td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+}
+td a {
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+div#content {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+div#timer {
+    position: fixed;
+    right: 0px;
+    bottom: 6px;
+    width: 200px;
+    background-color: #234;
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+span#time {
+    background-color: #FDFDFD;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+div#problems {
+    width: 1000px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 1.0em;
+}
+input.resp {
+    border: 1px solid black;
+}
+p {
+    line-height: 180%;
+}
+a.solutionLink {
+	text-decoration: none;
+	color: #3A44F6;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+a.solutionLink:hover {
+	text-decoration: underline;
+	color: #3A4466;
+	font-family: Times New Roman, serif;
+	font-size: 1.2em;
+}
+.MathJax {
+	font-size: 1.0em;
+}
+</style>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ /*['$','$'],*/ ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+<div id="header">
+<table>
+<tr>
+<td><a href="index.html"><div class="td">Home</div></a></td>
+<td><a href="about.html"><div class="td">About</div></a></td>
+<td><a href="resources.html"><div class="td">Resources</div></a></td>
+<td><a href="contact.html"><div class="td">Contact</div></a></td>
+</tr>
+</table>
+</div>
+<div id="content">
+    <h1 style="text-align: center;font-size: 3.0em;color: #346;">1992 AIME</h1>
+<div id="problems">
+<h2>Problem 1</h2><p>Find the sum of all positive rational numbers that are less than 10 and that have denominator 30 when written in lowest terms. </p>
+
+<p>Response: <input type="text" id="1" name="q1" maxlength="3 "size="3"><a id="response1"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_1" title="1992 AIME Problems/Problem 1" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 2</h2><p>A positive integer is called ascending if, in its decimal representation, there are at least two digits and each digit is less than any digit to its right. How many ascending positive integers are there? </p>
+
+<p>Response: <input type="text" id="2" name="q2" maxlength="3 "size="3"><a id="response2"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_2" title="1992 AIME Problems/Problem 2" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 3</h2><p>A tennis player computes her win ratio by dividing the number of matches she has won by the total number of matches she has played. At the start of a weekend, her win ratio is exactly \( .500 \). During the weekend, she plays four matches, winning three and losing one. At the end of the weekend, her win ratio is greater than \( .503 \). What's the largest number of matches she could've won before the weekend began? </p>
+
+<p>Response: <input type="text" id="3" name="q3" maxlength="3 "size="3"><a id="response3"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_3" title="1992 AIME Problems/Problem 3" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 4</h2><p>In Pascal's Triangle, each entry is the sum of the two entries above it. In which row of Pascal's Triangle do three consecutive entries occur that are in the ratio \( 3: 4: 5 \)? </p>
+
+<p>Response: <input type="text" id="4" name="q4" maxlength="3 "size="3"><a id="response4"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_4" title="1992 AIME Problems/Problem 4" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 5</h2><p>Let \( S^{}_{} \) be the set of all rational numbers \( r^{}_{} \), \( 0^{}_{}&lt;r&lt;1 \), that have a repeating decimal expansion in the form \( 0.abcabcabc\ldots=0.\overline{abc} \), where the digits \( a^{}_{} \), \( b^{}_{} \), and \( c^{}_{} \) are not necessarily distinct. To write the elements of \( S^{}_{} \) as fractions in lowest terms, how many different numerators are required? </p>
+
+<p>Response: <input type="text" id="5" name="q5" maxlength="3 "size="3"><a id="response5"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_5" title="1992 AIME Problems/Problem 5" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 6</h2><p>For how many pairs of consecutive integers in \( \{1000,1001,1002^{}_{},\ldots,2000\} \) is no carrying required when the two integers are added? </p>
+
+<p>Response: <input type="text" id="6" name="q6" maxlength="3 "size="3"><a id="response6"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_6" title="1992 AIME Problems/Problem 6" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 7</h2><p>Faces \( ABC^{}_{} \) and \( BCD^{}_{} \) of tetrahedron \( ABCD^{}_{} \) meet at an angle of \( 30^\circ \). The area of face \( ABC^{}_{} \) is \( 120^{}_{} \), the area of face \( BCD^{}_{} \) is \( 80^{}_{} \), and \( BC=10^{}_{} \). Find the volume of the tetrahedron. </p>
+
+<p>Response: <input type="text" id="7" name="q7" maxlength="3 "size="3"><a id="response7"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_7" title="1992 AIME Problems/Problem 7" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 8</h2><p>For any sequence of real numbers \( A=(a_1,a_2,a_3,\ldots) \), define \( \Delta A^{}_{} \) to be the sequence \( (a_2-a_1,a_3-a_2,a_4-a_3,\ldots) \), whose \( n^{th} \) term is \( a_{n+1}-a_n^{} \). Suppose that all of the terms of the sequence \( \Delta(\Delta A^{}_{}) \) are \( 1^{}_{} \), and that \( a_{19}=a_{92}^{}=0 \). Find \( a_1^{} \). </p>
+
+<p>Response: <input type="text" id="8" name="q8" maxlength="3 "size="3"><a id="response8"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_8" title="1992 AIME Problems/Problem 8" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 9</h2><p>Trapezoid \( ABCD^{}_{} \) has sides \( AB=92^{}_{} \), \( BC=50^{}_{} \), \( CD=19^{}_{} \), and \( AD=70^{}_{} \), with \( AB^{}_{} \) parallel to \( CD^{}_{} \). A circle with center \( P^{}_{} \) on \( AB^{}_{} \) is drawn tangent to \( BC^{}_{} \) and \( AD^{}_{} \). Given that \( AP^{}_{}=\frac mn \), where \( m^{}_{} \) and \( n^{}_{} \) are relatively prime positive integers, find \( m+n^{}_{} \). </p>
+
+<p>Response: <input type="text" id="9" name="q9" maxlength="3 "size="3"><a id="response9"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_9" title="1992 AIME Problems/Problem 9" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 10</h2><p>Consider the region \( A^{}_{} \) in the complex plane that consists of all points \( z^{}_{} \) such that both \( \frac{z^{}_{}}{40} \) and \( \frac{40^{}_{}}{\overline{z}} \) have real and imaginary parts between \( 0^{}_{} \) and \( 1^{}_{} \), inclusive. What is the integer that is nearest the area of \( A^{}_{} \)? </p>
+
+<p>Response: <input type="text" id="10" name="q10" maxlength="3 "size="3"><a id="response10"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_10" title="1992 AIME Problems/Problem 10" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 11</h2><p>Lines \( l_1^{} \) and \( l_2^{} \) both pass through the origin and make first-quadrant angles of \( \frac{\pi}{70} \) and \( \frac{\pi}{54} \) radians, respectively, with the positive x-axis. For any line \( l^{}_{} \), the transformation \( R(l)^{}_{} \) produces another line as follows: \( l^{}_{} \) is reflected in \( l_1^{} \), and the resulting line is reflected in \( l_2^{} \). Let \( R^{(1)}(l)=R(l)^{}_{} \) and \( R^{(n)}(l)^{}_{}=R\left(R^{(n-1)}(l)\right) \). Given that \( l^{}_{} \) is the line \( y=\frac{19}{92}x^{}_{} \), find the smallest positive integer \( m^{}_{} \) for which \( R^{(m)}(l)=l^{}_{} \). </p>
+
+<p>Response: <input type="text" id="11" name="q11" maxlength="3 "size="3"><a id="response11"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_11" title="1992 AIME Problems/Problem 11" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 12</h2><p>In a game of <i>Chomp</i>, two players alternately take bites from a 5-by-7 grid of unit squares. To take a bite, a player chooses one of the remaining squares, then removes ("eats") all squares in the quadrant defined by the left edge (extended upward) and the lower edge (extended rightward) of the chosen square. For example, the bite determined by the shaded square in the diagram would remove the shaded square and the four squares marked by \( \times. \) (The squares with two or more dotted edges have been removed form the original board in previous moves.) </p><p><a href="/wiki/index.php/File:AIME_1992_Problem_12.png" class="image"><img alt="AIME 1992 Problem 12.png" src="//wiki-images.artofproblemsolving.com/c/c6/AIME_1992_Problem_12.png" width="205" height="150"></a> </p><p>The object of the game is to make one's opponent take the last bite. The diagram shows one of the many subsets of the set of 35 unit squares that can occur during the game of Chomp. How many different subsets are there in all? Include the full board and empty board in your count. </p>
+
+<p>Response: <input type="text" id="12" name="q12" maxlength="3 "size="3"><a id="response12"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_12" title="1992 AIME Problems/Problem 12" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 13</h2><p>Triangle \( ABC^{}_{} \) has \( AB=9^{}_{} \) and \( BC: AC=40: 41^{}_{} \). What's the largest area that this triangle can have? </p>
+
+<p>Response: <input type="text" id="13" name="q13" maxlength="3 "size="3"><a id="response13"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_13" title="1992 AIME Problems/Problem 13" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 14</h2><p>In triangle \( ABC^{}_{} \), \( A' \), \( B' \), and \( C' \) are on the sides \( BC \), \( AC^{}_{} \), and \( AB^{}_{} \), respectively. Given that \( AA' \), \( BB' \), and \( CC' \) are concurrent at the point \( O^{}_{} \), and that \( \frac{AO^{}_{}}{OA'}+\frac{BO}{OB'}+\frac{CO}{OC'}=92 \), find \( \frac{AO}{OA'}\cdot \frac{BO}{OB'}\cdot \frac{CO}{OC'} \). </p>
+
+<p>Response: <input type="text" id="14" name="q14" maxlength="3 "size="3"><a id="response14"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_14" title="1992 AIME Problems/Problem 14" class="solutionLink" target="_blank">Full Solution</a> </p><br><h2>Problem 15</h2><p>Define a positive integer \( n^{}_{} \) to be a factorial tail if there is some positive integer \( m^{}_{} \) such that the decimal representation of \( m! \) ends with exactly \( n \) zeroes. How many positive integers less than \( 1992 \) are not factorial tails? </p>
+
+<p>Response: <input type="text" id="15" name="q15" maxlength="3 "size="3"><a id="response15"></a></p>
+
+<p><a href="http://www.artofproblemsolving.com/wiki/index.php/1992_AIME_Problems/Problem_15" title="1992 AIME Problems/Problem 15" class="solutionLink" target="_blank">Full Solution</a> </p><br>
+<p>SOURCE: <a class="solutionLink" href="https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems" style="text-decoration: none;">https://artofproblemsolving.com/wiki/index.php/1992_AIME_Problems</a></p>
+<br><br>
+</div>
+</div>
+<div id="timer">
+<span id="time">3:00:00</span><br>
+<input id="toggleButton" type="button" value="start" onclick="start();">
+<input type="button" value="reset" onclick="reset();">
+<br><input type="button" value="check" onclick="checkAnswers();">
+<span id="score"></span>
+</div>
+<script>
+var tog = 0;
+var colors = ["#F11", "#FDFDFD"];
+var id;
+var fl;
+var timeleft = 10799; //4499 for AMC
+var started = false;
+function start() {
+    clearInterval(fl);
+    document.getElementById("time").backgroundColor="#FDFDFD";
+    if (!started) {
+        document.getElementById("toggleButton").value="pause";
+        started = true;
+        id = setInterval(function() {
+            if (timeleft<=0) {
+                flash();
+                clearInterval(id);
+            }
+            document.getElementById('time').innerHTML = String(timeleft/3600).substring(0,1) + ":" + String("0"+(timeleft%3600)/60).split(".")[0].slice(-2) + ":" + ("0"+(timeleft%60)).slice(-2);
+            timeleft--;
+        }, 1000);
+    }
+    else {
+        document.getElementById("toggleButton").value="start";
+        clearInterval(id);
+        started = false;
+    }
+}
+function reset() {
+    clearInterval(fl);
+    document.getElementById("time").style.backgroundColor="#FDFDFD";
+    started = false;
+    clearInterval(id);
+    document.getElementById('time').innerHTML = "3:00:00";
+    timeleft = 10799;
+    document.getElementById("toggleButton").value="start";
+}
+function flash() {
+    fl = setInterval(function() {
+        document.getElementById("time").style.backgroundColor=colors[tog];
+        tog = tog==0?1:0;
+        console.log(colors[tog]);
+    }, 700);
+}
+	function checkAnswers() {
+		var ans = ["400","502","164","062","660","156","320","819","164","572","945","792","820","094","396"];
+		var type = "AIME";
+		var correct = 0;
+		var incorrect = 0;
+		var skipped = 0;
+		var resp = document.getElementById("response");
+		
+		for (var i = 1; i <= ans.length; i++) {
+			
+			var numAnswer = parseInt(ans[i-1],10);
+			var numResponse = parseInt(document.getElementById(String(i)).value,10);
+			
+			if(typeof numAnswer === "undefined" || typeof numResponse === "undefined") {
+				console.log("shit it broke");
+				console.log("numAnswer = " + numAnswer);
+				console.log("numResponse = " + numResponse);
+			    numAnswer = -55;
+			    numResponse = -66;
+			}
+			
+			if ((document.getElementById(String(i)).value.toUpperCase() === ans[i-1]) || (type == "AIME" && numResponse == numAnswer)){
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10004;</b>";
+				document.getElementById("response"+String(i)).style.color = "green";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				correct++;
+			}
+			else if (ans[i-1] === "*"){
+				document.getElementById("response"+String(i)).innerHTML = "n/a";
+				skipped++;
+			}
+			else if (document.getElementById(String(i)).value != "") {
+				document.getElementById("response"+String(i)).innerHTML = "<b>&#10005;</b>";
+				document.getElementById("response"+String(i)).style.color = "red";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				incorrect++;
+			}
+			else {
+				document.getElementById("response"+String(i)).innerHTML = "";
+				document.getElementById("response"+String(i)).style.color = "white";
+				document.getElementById("response"+String(i)).style.fontSize = "2.0em";
+				skipped++;
+			}
+		}
+		if (true) {//document.getElementById("check").checked) {
+			if (type == "AMC"){
+				document.getElementById("score").innerHTML = "<b>"+((6.0*correct)+(1.5*skipped))+"</b>";
+			}
+			if (type == "AIME"){
+				document.getElementById("score").innerHTML = "<b>"+(correct)+"</b>";
+			}
+			if (type == "UMD"){
+				document.getElementById("score").innerHTML = "<b>"+((4.0*correct)-(2.0*incorrect))+"</b>";
+			}
+		}
+		else {
+			document.getElementById("score").innerHTML = ""
+		}
+	}
+	</script>
+</body>
+</html>
+
